@@ -1,0 +1,22 @@
+{
+ "all8": {
+  "pooled_pairwise_acc": 0.59,
+  "n_pairs": 344,
+  "element_bootstrap_ci95": [
+   0.472,
+   0.693
+  ],
+  "element_permutation_p": 0.0319,
+  "n_element_names": 23
+ },
+ "chem5": {
+  "pooled_pairwise_acc": 0.623,
+  "n_pairs": 260,
+  "element_bootstrap_ci95": [
+   0.49,
+   0.735
+  ],
+  "element_permutation_p": 0.0184,
+  "n_element_names": 22
+ }
+}

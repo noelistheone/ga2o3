@@ -1,0 +1,203 @@
+{
+ "n_labs_dedup": 13,
+ "pooled_median_dex": {
+  "global": 1.28,
+  "rand2": 0.91,
+  "des2": 0.76,
+  "rand3": 0.92,
+  "des3": 0.76,
+  "floor": 0.47
+ },
+ "sign_test_p_des2_lt_rand2": 0.291,
+ "sign_test_p_des3_lt_rand3": 0.291,
+ "dropped": "nan-DOI bucket + 3 preprint/journal duplicates (kept journal version)",
+ "per_lab": [
+  {
+   "doi": "10.1021/acs.cgd.2c00290",
+   "n": 8,
+   "und": false,
+   "dopants": [
+    "Si"
+   ],
+   "global": 1.47,
+   "floor": 0.63,
+   "des2": 1.26,
+   "rand2": 0.91,
+   "des3": 1.64,
+   "rand3": 1.3
+  },
+  {
+   "doi": "10.1063/1.5034474",
+   "n": 6,
+   "und": false,
+   "dopants": [
+    "Ge",
+    "Si"
+   ],
+   "global": 1.32,
+   "floor": 0.5,
+   "des2": 0.57,
+   "rand2": 0.63,
+   "des3": 0.58,
+   "rand3": 0.61
+  },
+  {
+   "doi": "10.1063/5.0059657",
+   "n": 11,
+   "und": false,
+   "dopants": [
+    "Ge"
+   ],
+   "global": 1.37,
+   "floor": 0.67,
+   "des2": 1.83,
+   "rand2": 2.02,
+   "des3": 1.98,
+   "rand3": 1.71
+  },
+  {
+   "doi": "10.1063/5.0184850",
+   "n": 5,
+   "und": false,
+   "dopants": [
+    "Si"
+   ],
+   "global": 0.82,
+   "floor": 0.17,
+   "des2": 0.15,
+   "rand2": 0.45,
+   "des3": 0.51,
+   "rand3": 0.45
+  },
+  {
+   "doi": "10.1063/5.0230413",
+   "n": 5,
+   "und": true,
+   "dopants": [
+    "Si",
+    "undoped"
+   ],
+   "global": 2.8,
+   "floor": 0.81,
+   "des2": 0.8,
+   "rand2": 0.82,
+   "des3": 0.76,
+   "rand3": 0.81
+  },
+  {
+   "doi": "10.1088/1361-6641/ab75a6",
+   "n": 10,
+   "und": true,
+   "dopants": [
+    "Hf",
+    "undoped"
+   ],
+   "global": 0.08,
+   "floor": 0.12,
+   "des2": 0.11,
+   "rand2": 0.19,
+   "des3": 0.1,
+   "rand3": 0.12
+  },
+  {
+   "doi": "10.1116/6.0001004",
+   "n": 5,
+   "und": false,
+   "dopants": [
+    "Ge"
+   ],
+   "global": 1.72,
+   "floor": 0.32,
+   "des2": 0.76,
+   "rand2": 0.43,
+   "des3": 0.23,
+   "rand3": 0.32
+  },
+  {
+   "doi": "10.48550/arxiv.2412.00149",
+   "n": 5,
+   "und": false,
+   "dopants": [
+    "Si"
+   ],
+   "global": 0.92,
+   "floor": 0.39,
+   "des2": 0.27,
+   "rand2": 1.13,
+   "des3": 0.94,
+   "rand3": 1.44
+  },
+  {
+   "doi": "10.48550/arxiv.2606.05607",
+   "n": 7,
+   "und": false,
+   "dopants": [
+    "Si"
+   ],
+   "global": 0.92,
+   "floor": 0.44,
+   "des2": 0.76,
+   "rand2": 1.06,
+   "des3": 0.95,
+   "rand3": 0.92
+  },
+  {
+   "doi": "10.3390/coatings11050589",
+   "n": 6,
+   "und": false,
+   "dopants": [
+    "Si"
+   ],
+   "global": 0.61,
+   "floor": 0.61,
+   "des2": 1.24,
+   "rand2": 1.08,
+   "des3": 0.72,
+   "rand3": 0.95
+  },
+  {
+   "doi": "10.1063/5.0058059",
+   "n": 8,
+   "und": true,
+   "dopants": [
+    "Ge",
+    "undoped"
+   ],
+   "global": 1.92,
+   "floor": 1.31,
+   "des2": 1.32,
+   "rand2": 2.2,
+   "des3": 1.71,
+   "rand3": 2.28
+  },
+  {
+   "doi": "10.1149/2.0081702jss",
+   "n": 5,
+   "und": false,
+   "dopants": [
+    "Si",
+    "Sn"
+   ],
+   "global": 1.28,
+   "floor": 0.47,
+   "des2": 1.76,
+   "rand2": 1.31,
+   "des3": 1.45,
+   "rand3": 1.87
+  },
+  {
+   "doi": "10.1063/5.0142107",
+   "n": 18,
+   "und": false,
+   "dopants": [
+    "Si"
+   ],
+   "global": 0.41,
+   "floor": 0.44,
+   "des2": 0.62,
+   "rand2": 0.57,
+   "des3": 0.64,
+   "rand3": 0.55
+  }
+ ]
+}

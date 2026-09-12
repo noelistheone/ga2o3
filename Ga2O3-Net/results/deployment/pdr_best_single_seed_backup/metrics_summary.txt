@@ -1,0 +1,13 @@
+OOF file: /home/lawrence/Physics/Ga2O3-Net/results/phase3j_pdr_head128_substrate/oof_predictions.csv  |  rows: 220
+================================================================================
+
+### photo_dark_ratio
+  raw       N= 70  R²=+0.453 [95% CI +0.350, +0.528]  MAE=1.091  RMSE=1.368  r=+0.737  slope=1.682
+  Platt     N= 70  R²=+0.514 [95% CI +0.385, +0.606]  MAE=1.031  RMSE=1.289  r=+0.740  slope=1.328
+  nested    N= 70  R²=+0.511 [95% CI +0.310, +0.646]  MAE=1.023  RMSE=1.293  r=+0.715  slope=0.969
+[skip] vacancy_concentration: no *_true or *_pred column
+
+### Per-dopant Pearson r — photo_dark_ratio
+  Mg                    N= 20  r=+0.761
+  Sn                    N= 27  r=+0.780
+  Zn                    N= 13  r=+0.695

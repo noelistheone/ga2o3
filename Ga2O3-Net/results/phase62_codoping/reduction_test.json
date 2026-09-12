@@ -1,0 +1,12 @@
+{
+  "max_abs_diff": {
+    "bulk_logVO": 9.5367431640625e-07,
+    "E_F": 5.960464477539063e-08,
+    "r": 5.960464477539063e-08,
+    "log_sigma": 0.0,
+    "dHf": 0.0
+  },
+  "all_match": true,
+  "state_dict_missing": [],
+  "state_dict_unexpected": []
+}

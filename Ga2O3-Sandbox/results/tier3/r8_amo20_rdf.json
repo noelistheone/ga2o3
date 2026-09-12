@@ -1,0 +1,45 @@
+{
+ "quench_protocol": {
+  "cell": "80 atoms, fixed cell",
+  "engine": "MatterSim (and MACE-MP-0 for the 20-cell arm)",
+  "melt_K": 3000.0,
+  "melt_steps": 3000,
+  "quench_ladder_K": [
+   2200,
+   1400,
+   700,
+   300
+  ],
+  "quench_steps_total": 3000,
+  "timestep_fs": 2.0,
+  "thermostat": "Langevin, friction 0.02/fs",
+  "seeds": "independent per cell"
+ },
+ "cells": {
+  "amorph_cell_0": {
+   "first_shell_GaO_A": 1.932,
+   "mean_Ga_coordination_2.4A": 5.31
+  },
+  "amorph_cell_1": {
+   "first_shell_GaO_A": 1.932,
+   "mean_Ga_coordination_2.4A": 5.19
+  },
+  "amorph_cell_2": {
+   "first_shell_GaO_A": 1.932,
+   "mean_Ga_coordination_2.4A": 5.28
+  },
+  "amorph_lowrho_50": {
+   "first_shell_GaO_A": 1.886,
+   "mean_Ga_coordination_2.4A": 4.53
+  },
+  "amorph_lowrho_54": {
+   "first_shell_GaO_A": 1.886,
+   "mean_Ga_coordination_2.4A": 4.78
+  },
+  "crystal_reference": {
+   "first_shell_GaO_A": 1.945,
+   "mean_Ga_coordination_2.4A": 5.0,
+   "note": "2x2x2 supercell of the ordered primitive (mic-safe)"
+  }
+ }
+}

@@ -1,0 +1,95 @@
+# Phase 32: Phase 30 Brouwer head + atmosphere-ordinal soft-monotone VC loss.
+# Lit-backed sputter prior — orders V_O by atmosphere oxidising power:
+#   O₂_plasma < O₂ < Ar:O₂ mix < Ar+H₂ < Ar+N₂ < Ar < vacuum
+# (parse_atmosphere_ordinal in src/data/experimental_dataset.py)
+#
+# Complements Phase 30 Brouwer head's pO₂ term (which mis-handles plasma/H₂ rows
+# where atomic-O activity is ill-defined). Soft hinge — only enforces ORDERING,
+# never magnitude — so it cannot reproduce the Phase 24v2 catastrophe.
+#
+# Pair filter: same dopant cation, |ΔT_anneal|≤200°C, |Δlog10(conc)|≤0.5.
+# Use with --single-target vacancy_concentration and config/multimodal_v2_film.yaml.
+head:
+  type: brouwer
+  in_dim: 160
+  hidden_dims: [64, 32]
+  dropout: 0.30
+  output_dim: 1
+
+targets:
+  - photo_dark_ratio
+  - vacancy_concentration
+
+loss:
+  type: combined
+  mse_weight: 1.0
+  infonce_weight: 0.0
+  l2_lambda: 0.0
+  infonce_temperature: 0.3
+  init_log_var: 0.0
+  recon_weight: 0.0
+
+  # Phase 30 within-DOI conc-monotone (kept)
+  monotonic_vc_weight: 0.0
+  monotonic_vc_within_doi_weight: 2.0
+  monotonic_vc_within_doi_min_dconc: 0.05
+  monotonic_vc_target_idx: 0
+
+  # Phase 32 NEW — atmosphere-ordinal soft-monotone V_O loss
+  atmo_ordinal_vc_weight: 1.0
+  atmo_ordinal_vc_margin: 0.30          # ~0.3 log10 V_O minimum step
+  atmo_ordinal_vc_max_dT: 200.0          # match within-DOI ΔT tolerance
+  atmo_ordinal_vc_max_dconc: 0.5         # log10 units (~3× conc range)
+  atmo_ordinal_vc_within_doi_only: false # cross-DOI allowed (only 6 strict pairs vs 161 cross-DOI)
+
+training:
+  epochs: 2000
+  learning_rate: 2.0e-4
+  encoder_lr: 5.0e-6
+  encoder_unfreeze_last_n: 0
+  freeze_encoder: true
+  weight_decay: 5.0e-6
+  patience: 300
+  cv_folds: 10
+  batch_size: 16
+  mc_dropout_passes: 20
+  mixup_alpha: 0.0
+  grad_clip: 1.0
+
+pseudo_labeling:
+  enabled: false
+  std_threshold: 0.3
+  phase2_epochs: 500
+  phase2_lr_scale: 0.1
+  mc_passes: 20
+
+augmentation:
+  concentration_jitter: 0.005
+  label_noise_std: 0.0
+
+gp:
+  enabled: false
+  use_embeddings: true
+
+xgboost:
+  n_estimators: 200
+  max_depth: 5
+  learning_rate: 0.05
+  subsample: 0.8
+  colsample_bytree: 0.8
+
+data:
+  log_transform_targets: true
+  mask_noconc_labels: true
+  mask_undoped_labels: true
+  min_conc_threshold: 0.0
+  mask_carrier_vc: true
+  exclude_elements: ["N", "H", "Nb", "In"]
+  target_standardize: true
+  drop_both_nan_rows: false
+
+paths:
+  experimental_csv: data/raw/experimental/ga2o3_exp_aug3x_vcinterp_sputter.csv
+  structures_dir: data/structures
+  embeddings_cache: data/processed/stage2_embeddings.pkl
+  results_dir: results

@@ -1,0 +1,256 @@
+{
+  "device": "cuda:0",
+  "n_per_type": 3000,
+  "note": "metrics are surrogate-vs-V63-solver (ground truth). Models trained ONLY on D in {1,2}; D3/D4 are held-out cardinality (OOD). rho = trend/ranking fidelity (the user's 'trend'). Surrogate ceiling is the solver; this is LAW/trend learning, not experimental magnitude.",
+  "types": {
+    "single_donor": {
+      "split": "in-dist (D1)",
+      "models": {
+        "sum": {
+          "logVO_R2": 0.985,
+          "logVO_rho": 0.999,
+          "logVO_MAE": 0.266,
+          "EF_R2": 0.921,
+          "EF_rho": 0.906
+        },
+        "mean": {
+          "logVO_R2": 0.984,
+          "logVO_rho": 0.999,
+          "logVO_MAE": 0.281,
+          "EF_R2": 0.904,
+          "EF_rho": 0.892
+        }
+      }
+    },
+    "single_acceptor": {
+      "split": "in-dist (D1)",
+      "models": {
+        "sum": {
+          "logVO_R2": 0.996,
+          "logVO_rho": 0.998,
+          "logVO_MAE": 0.084,
+          "EF_R2": 0.896,
+          "EF_rho": 0.947
+        },
+        "mean": {
+          "logVO_R2": 0.994,
+          "logVO_rho": 0.997,
+          "logVO_MAE": 0.1,
+          "EF_R2": 0.789,
+          "EF_rho": 0.896
+        }
+      }
+    },
+    "single_isovalent": {
+      "split": "in-dist (D1)",
+      "models": {
+        "sum": {
+          "logVO_R2": 0.986,
+          "logVO_rho": 0.999,
+          "logVO_MAE": 0.247,
+          "EF_R2": -0.203,
+          "EF_rho": 0.644
+        },
+        "mean": {
+          "logVO_R2": 0.984,
+          "logVO_rho": 0.999,
+          "logVO_MAE": 0.278,
+          "EF_R2": 0.031,
+          "EF_rho": 0.759
+        }
+      }
+    },
+    "binary_donor+acceptor": {
+      "split": "in-dist (D2)",
+      "models": {
+        "sum": {
+          "logVO_R2": 0.992,
+          "logVO_rho": 0.998,
+          "logVO_MAE": 0.244,
+          "EF_R2": 0.983,
+          "EF_rho": 0.925,
+          "boundfrac_R2": 0.999
+        },
+        "mean": {
+          "logVO_R2": 0.992,
+          "logVO_rho": 0.998,
+          "logVO_MAE": 0.249,
+          "EF_R2": 0.981,
+          "EF_rho": 0.926,
+          "boundfrac_R2": 0.999
+        },
+        "slot": {
+          "logVO_R2": 0.988,
+          "logVO_rho": 0.995,
+          "logVO_MAE": 0.3,
+          "EF_R2": 0.974,
+          "EF_rho": 0.923,
+          "boundfrac_R2": 0.996
+        }
+      }
+    },
+    "binary_donor+donor": {
+      "split": "in-dist (D2)",
+      "models": {
+        "sum": {
+          "logVO_R2": 0.985,
+          "logVO_rho": 0.999,
+          "logVO_MAE": 0.287,
+          "EF_R2": 0.986,
+          "EF_rho": 0.117,
+          "boundfrac_R2": 0.998
+        },
+        "mean": {
+          "logVO_R2": 0.984,
+          "logVO_rho": 0.999,
+          "logVO_MAE": 0.294,
+          "EF_R2": 0.988,
+          "EF_rho": 0.746,
+          "boundfrac_R2": 0.999
+        },
+        "slot": {
+          "logVO_R2": 0.997,
+          "logVO_rho": 0.999,
+          "logVO_MAE": 0.124,
+          "EF_R2": 0.977,
+          "EF_rho": 0.324,
+          "boundfrac_R2": 0.998
+        }
+      }
+    },
+    "binary_acceptor+acceptor": {
+      "split": "in-dist (D2)",
+      "models": {
+        "sum": {
+          "logVO_R2": 0.994,
+          "logVO_rho": 0.994,
+          "logVO_MAE": 0.191,
+          "EF_R2": 0.992,
+          "EF_rho": 0.828,
+          "boundfrac_R2": 0.999
+        },
+        "mean": {
+          "logVO_R2": 0.988,
+          "logVO_rho": 0.994,
+          "logVO_MAE": 0.317,
+          "EF_R2": 0.99,
+          "EF_rho": 0.869,
+          "boundfrac_R2": 0.999
+        },
+        "slot": {
+          "logVO_R2": 0.993,
+          "logVO_rho": 0.994,
+          "logVO_MAE": 0.199,
+          "EF_R2": 0.986,
+          "EF_rho": 0.745,
+          "boundfrac_R2": 0.998
+        }
+      }
+    },
+    "binary_donor+isovalent": {
+      "split": "in-dist (D2)",
+      "models": {
+        "sum": {
+          "logVO_R2": 0.984,
+          "logVO_rho": 0.999,
+          "logVO_MAE": 0.291,
+          "EF_R2": 0.826,
+          "EF_rho": 0.888
+        },
+        "mean": {
+          "logVO_R2": 0.983,
+          "logVO_rho": 0.999,
+          "logVO_MAE": 0.29,
+          "EF_R2": 0.839,
+          "EF_rho": 0.851
+        },
+        "slot": {
+          "logVO_R2": 0.996,
+          "logVO_rho": 0.999,
+          "logVO_MAE": 0.145,
+          "EF_R2": 0.537,
+          "EF_rho": 0.821
+        }
+      }
+    },
+    "ternary_random": {
+      "split": "OOD (D3)",
+      "models": {
+        "sum": {
+          "logVO_R2": 0.87,
+          "logVO_rho": 0.945,
+          "logVO_MAE": 0.754,
+          "EF_R2": 0.766,
+          "EF_rho": 0.814,
+          "boundfrac_R2": 0.146
+        },
+        "mean": {
+          "logVO_R2": 0.906,
+          "logVO_rho": 0.952,
+          "logVO_MAE": 0.71,
+          "EF_R2": 0.783,
+          "EF_rho": 0.813,
+          "boundfrac_R2": 0.345
+        },
+        "slot": {
+          "logVO_R2": 0.297,
+          "logVO_rho": 0.737,
+          "logVO_MAE": 2.775,
+          "EF_R2": 0.319,
+          "EF_rho": 0.643,
+          "boundfrac_R2": 0.077
+        }
+      }
+    },
+    "ternary_donor+acceptor+x": {
+      "split": "OOD (D3)",
+      "models": {
+        "sum": {
+          "logVO_R2": 0.601,
+          "logVO_rho": 0.83,
+          "logVO_MAE": 1.588,
+          "EF_R2": 0.376,
+          "EF_rho": 0.787,
+          "boundfrac_R2": -0.961
+        },
+        "mean": {
+          "logVO_R2": 0.729,
+          "logVO_rho": 0.852,
+          "logVO_MAE": 1.418,
+          "EF_R2": 0.432,
+          "EF_rho": 0.62,
+          "boundfrac_R2": -0.569
+        }
+      }
+    },
+    "quaternary_random": {
+      "split": "OOD (D4)",
+      "models": {
+        "sum": {
+          "logVO_R2": 0.744,
+          "logVO_rho": 0.894,
+          "logVO_MAE": 1.154,
+          "EF_R2": 0.48,
+          "EF_rho": 0.77,
+          "boundfrac_R2": -0.554
+        },
+        "mean": {
+          "logVO_R2": 0.837,
+          "logVO_rho": 0.913,
+          "logVO_MAE": 0.978,
+          "EF_R2": 0.574,
+          "EF_rho": 0.62,
+          "boundfrac_R2": 0.165
+        },
+        "slot": {
+          "logVO_R2": 0.04,
+          "logVO_rho": 0.669,
+          "logVO_MAE": 2.853,
+          "EF_R2": -0.126,
+          "EF_rho": 0.443,
+          "boundfrac_R2": -0.514
+        }
+      }
+    }
+  }
+}

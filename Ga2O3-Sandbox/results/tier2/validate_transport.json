@@ -1,0 +1,62 @@
+{
+  "anchors_vs_prediction": [
+    {
+      "n": "2.3e+16",
+      "mu_exp_hall": 196,
+      "mu_pred_hall": 204.1,
+      "mu_Ma": 242.4,
+      "mu_BH_II": 178.5,
+      "mu_drift": 131.7,
+      "rH": 1.55,
+      "sigma_S/cm": 0.49,
+      "rel_err": 0.04
+    },
+    {
+      "n": "1.0e+17",
+      "mu_exp_hall": 180,
+      "mu_pred_hall": 199.6,
+      "mu_Ma": 224.3,
+      "mu_BH_II": 57.1,
+      "mu_drift": 128.8,
+      "rH": 1.55,
+      "sigma_S/cm": 2.06,
+      "rel_err": 0.11
+    },
+    {
+      "n": "1.0e+18",
+      "mu_exp_hall": 150,
+      "mu_pred_hall": 149.8,
+      "mu_Ma": 129.0,
+      "mu_BH_II": 13.5,
+      "mu_drift": 109.8,
+      "rH": 1.36,
+      "sigma_S/cm": 17.59,
+      "rel_err": 0.0
+    },
+    {
+      "n": "1.0e+19",
+      "mu_exp_hall": 90,
+      "mu_pred_hall": 90.0,
+      "mu_Ma": 35.9,
+      "mu_BH_II": 9.7,
+      "mu_drift": 76.3,
+      "rH": 1.18,
+      "sigma_S/cm": 122.18,
+      "rel_err": 0.0
+    },
+    {
+      "n": "1.2e+20",
+      "mu_exp_hall": 85,
+      "mu_pred_hall": 82.4,
+      "mu_Ma": 6.9,
+      "mu_BH_II": 46.8,
+      "mu_drift": 78.5,
+      "rH": 1.05,
+      "sigma_S/cm": 1508.42,
+      "rel_err": 0.03
+    }
+  ],
+  "note": "single-crystal N_I=n; primary mu = Ma compensation-aware closed form",
+  "max_rel_err": 0.11,
+  "PASS_within_35pct": true
+}

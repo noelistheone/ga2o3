@@ -1,0 +1,28 @@
+External validation results — results/phase6e_vc_interp_5seed/external/external_predictions.csv
+================================================================================
+N rows: 12
+Tier distribution: A=10, B=2
+
+### photo_dark_ratio
+  raw       N=  9  R²=+0.670 [95% CI -0.156, +0.819]  MAE=0.644  RMSE=0.906  r=+0.861  slope=1.197
+  Platt     N=  9  R²=+0.703 [95% CI -0.818, +0.852]  MAE=0.665  RMSE=0.859  r=+0.861  slope=0.964
+  nested    N=  9  R²=+0.365 [95% CI -3.004, +0.854]  MAE=0.805  RMSE=1.256  r=+0.638  slope=0.758
+  (internal 3J/3K reference: R²=+0.511, slope=0.969, MAE=1.023)
+
+  — by tier —
+  tier-A    N=  7  R²=+0.724 [95% CI -0.116, +0.933]  MAE=0.607  RMSE=0.937  r=+0.879  slope=1.255
+
+  — per-dopant r (N≥3) —
+    Mg                    N=  3  r=+0.806
+    Sn                    N=  3  r=-0.971
+
+### vacancy_concentration
+  raw       N=  4  R²=-2.018 [95% CI -126.916, -0.660]  MAE=9.041  RMSE=11.437  r=-0.898  slope=-12.699
+  Platt     N=  4  R²=-1.900 [95% CI -114.733, -0.518]  MAE=8.960  RMSE=11.211  r=-0.898  slope=-9.340
+  (internal 3J/3K reference: R²=+0.431, slope=0.927, MAE=1.177)
+
+  — by tier —
+  tier-A    N=  4  R²=-2.018 [95% CI -126.916, -0.660]  MAE=9.041  RMSE=11.437  r=-0.898  slope=-12.699
+
+  — per-dopant r (N≥3) —
+    Mg                    N=  3  r=-0.879

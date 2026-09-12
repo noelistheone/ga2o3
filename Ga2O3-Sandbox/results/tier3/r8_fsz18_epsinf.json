@@ -1,0 +1,10 @@
+{
+ "observed_D_shift_80to160_eV": 0.193,
+ "MP_static_diff_eV": 0.175,
+ "residual_static_eV": -0.019,
+ "MP_epsinf_diff_eV": 0.544,
+ "residual_epsinf_eV": 0.351,
+ "eps_static_avg": 11.2,
+ "eps_inf_assumed": 3.6,
+ "read": "the observed 80->160 size dependence of the vertical (q2-q0) difference matches the static-eps point-charge model (residual 0.02 eV) and is ~3x milder than the electronically screened (eps_inf) point-charge worst case (residual 0.35 eV) -- consistent with a partially delocalized PBE charge state; the check is an empirical bound on the image channel, and the relaxed thermodynamic levels use static screening, which is the correct regime for them"
+}

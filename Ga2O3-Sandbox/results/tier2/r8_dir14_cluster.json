@@ -1,0 +1,82 @@
+{
+ "n_contrasts": 37,
+ "correct": 37,
+ "n_studies": 8,
+ "p_within_study_permutation_20000": 1.0,
+ "p_exact_study_signflip_2^8": 0.00391,
+ "downward_contrast_studies": 2,
+ "per_study": [
+  {
+   "doi": "10.1063/5.0058059",
+   "n_contrasts": 6,
+   "n_correct": 6,
+   "dopants": [
+    "Ge"
+   ],
+   "n_downward_obs": 0
+  },
+  {
+   "doi": "10.1063/5.0230413",
+   "n_contrasts": 4,
+   "n_correct": 4,
+   "dopants": [
+    "Si"
+   ],
+   "n_downward_obs": 0
+  },
+  {
+   "doi": "10.1063/5.0302735",
+   "n_contrasts": 1,
+   "n_correct": 1,
+   "dopants": [
+    "Si"
+   ],
+   "n_downward_obs": 0
+  },
+  {
+   "doi": "10.1088/1361-6641/ab75a6",
+   "n_contrasts": 8,
+   "n_correct": 8,
+   "dopants": [
+    "Hf"
+   ],
+   "n_downward_obs": 0
+  },
+  {
+   "doi": "10.3390/mi16080954",
+   "n_contrasts": 3,
+   "n_correct": 3,
+   "dopants": [
+    "Zn"
+   ],
+   "n_downward_obs": 3
+  },
+  {
+   "doi": "10.48550/arxiv.2001.11187",
+   "n_contrasts": 8,
+   "n_correct": 8,
+   "dopants": [
+    "Hf"
+   ],
+   "n_downward_obs": 0
+  },
+  {
+   "doi": "10.48550/arxiv.2407.17089",
+   "n_contrasts": 5,
+   "n_correct": 5,
+   "dopants": [
+    "Si"
+   ],
+   "n_downward_obs": 0
+  },
+  {
+   "doi": "theses.hal.science/tel-0426851",
+   "n_contrasts": 2,
+   "n_correct": 2,
+   "dopants": [
+    "Zn"
+   ],
+   "n_downward_obs": 2
+  }
+ ]
+}

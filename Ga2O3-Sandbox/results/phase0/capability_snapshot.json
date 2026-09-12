@@ -1,0 +1,343 @@
+{
+  "conditions": {
+    "T_anneal_K": 1073.0,
+    "pO2_atm_placeholder": 0.0001,
+    "dopant_conc_cm3": 1e+19,
+    "quench_K": 300.0,
+    "EcT_fraction": 0.4,
+    "note": "pO2 for Ar ambient is a PLACEHOLDER nuisance parameter here; Tier 2 fits it on the lab's paired intrinsic references"
+  },
+  "nine_properties_coverage_now": {
+    "V_O": "NATIVE (this table; also per-site and complexed V_O available)",
+    "hall_n": "NATIVE (this table; quenched 300 K free-carrier density)",
+    "hall_mu": "Tier 2: Ma mu_H(N_D,T)+Brooks-Herring(N_I from this solver)+Seto GB term",
+    "sigma": "Tier 2: e*n*mu composition",
+    "Eg": "Tier 2: Burstein-Moss from degenerate n + renormalization sign",
+    "dEg": "Tier 2: doped-minus-undoped BM shift (this table already gives both n's)",
+    "tau": "Tier 2: DIRECTION-ONLY flag from deep-trap totals (quantitative refused)",
+    "dark": "Tier 2: activation energy from EF vs trap catalog + order-of-magnitude rho",
+    "PDR": "Tier 2: DIRECTION-ONLY flag (deep-acceptor hole-trap density lever)"
+  },
+  "rows": [
+    {
+      "dopant": "undoped",
+      "conc_fixed": null,
+      "solubility_limited": false,
+      "log10_incorporated": null,
+      "solver_charge_residual_rel": 1.4650498697292516e-12,
+      "EF_300K_belowEc": 2.359,
+      "log10_n_300K": 0.0,
+      "log10_p_300K": -22.04,
+      "log10_VO_anneal": 7.0,
+      "log10_VGa_free": 5.48,
+      "ionized_Na_300K": "2.50e+07",
+      "type": "insulating",
+      "dominant_defects": []
+    },
+    {
+      "dopant": "Si",
+      "conc_fixed": 1e+19,
+      "solubility_limited": false,
+      "log10_incorporated": 19.0,
+      "solver_charge_residual_rel": 2.8664181527532885e-07,
+      "EF_300K_belowEc": 0.17,
+      "log10_n_300K": 16.14,
+      "log10_p_300K": -30.0,
+      "log10_VO_anneal": 6.61,
+      "log10_VGa_free": 16.93,
+      "ionized_Na_300K": "6.74e+18",
+      "type": "n",
+      "dominant_defects": [
+        "defect#169:6.8e+18",
+        "defect#184:2.6e+18"
+      ]
+    },
+    {
+      "dopant": "H",
+      "conc_fixed": 1e+19,
+      "solubility_limited": true,
+      "log10_incorporated": 17.49,
+      "solver_charge_residual_rel": 4.372474688653504e-05,
+      "EF_300K_belowEc": 3.27,
+      "log10_n_300K": 0.0,
+      "log10_p_300K": -6.74,
+      "log10_VO_anneal": 7.79,
+      "log10_VGa_free": 4.02,
+      "ionized_Na_300K": "9.88e+16",
+      "type": "insulating",
+      "dominant_defects": [
+        "defect#46:9.9e+16",
+        "defect#63:4.9e+16"
+      ]
+    },
+    {
+      "dopant": "Fe",
+      "conc_fixed": 1e+19,
+      "solubility_limited": false,
+      "log10_incorporated": 19.0,
+      "solver_charge_residual_rel": 6.521968249570093e-10,
+      "EF_300K_belowEc": 1.442,
+      "log10_n_300K": 0.0,
+      "log10_p_300K": -30.0,
+      "log10_VO_anneal": 8.51,
+      "log10_VGa_free": 2.9,
+      "ionized_Na_300K": "8.42e+07",
+      "type": "insulating",
+      "dominant_defects": [
+        "defect#201:9.7e+18",
+        "defect#200:2.7e+17"
+      ]
+    },
+    {
+      "dopant": "Sn",
+      "conc_fixed": 1e+19,
+      "solubility_limited": false,
+      "log10_incorporated": 19.0,
+      "solver_charge_residual_rel": 1.3511354361327707e-11,
+      "EF_300K_belowEc": 0.179,
+      "log10_n_300K": 16.0,
+      "log10_p_300K": -30.0,
+      "log10_VO_anneal": 6.61,
+      "log10_VGa_free": 16.51,
+      "ionized_Na_300K": "4.03e+18",
+      "type": "n",
+      "dominant_defects": [
+        "defect#152:4.0e+18",
+        "defect#165:2.3e+18"
+      ]
+    },
+    {
+      "dopant": "Cr",
+      "conc_fixed": 1e+19,
+      "solubility_limited": false,
+      "log10_incorporated": 19.0,
+      "solver_charge_residual_rel": 1.701238829639466e-12,
+      "EF_300K_belowEc": 1.964,
+      "log10_n_300K": 0.0,
+      "log10_p_300K": -28.68,
+      "log10_VO_anneal": 7.0,
+      "log10_VGa_free": 5.49,
+      "ionized_Na_300K": "2.52e+07",
+      "type": "insulating",
+      "dominant_defects": [
+        "defect#193:1.0e+19",
+        "defect#192:3.2e+10"
+      ]
+    },
+    {
+      "dopant": "Ti",
+      "conc_fixed": 1e+19,
+      "solubility_limited": false,
+      "log10_incorporated": 19.0,
+      "solver_charge_residual_rel": 1.61123711935339e-08,
+      "EF_300K_belowEc": 1.242,
+      "log10_n_300K": 0.0,
+      "log10_p_300K": -30.0,
+      "log10_VO_anneal": 6.61,
+      "log10_VGa_free": 17.02,
+      "ionized_Na_300K": "3.12e+17",
+      "type": "insulating",
+      "dominant_defects": [
+        "defect#199:1.0e+19",
+        "defect#15:1.0e+17"
+      ]
+    },
+    {
+      "dopant": "Ir",
+      "conc_fixed": 1e+19,
+      "solubility_limited": false,
+      "log10_incorporated": 19.0,
+      "solver_charge_residual_rel": 3.79878987396859e-15,
+      "EF_300K_belowEc": 2.019,
+      "log10_n_300K": 0.0,
+      "log10_p_300K": -27.75,
+      "log10_VO_anneal": 6.61,
+      "log10_VGa_free": 11.1,
+      "ionized_Na_300K": "3.75e+11",
+      "type": "insulating",
+      "dominant_defects": [
+        "defect#222:1.0e+19",
+        "defect#15:1.2e+11"
+      ]
+    },
+    {
+      "dopant": "Mg",
+      "conc_fixed": 1e+19,
+      "solubility_limited": false,
+      "log10_incorporated": 19.0,
+      "solver_charge_residual_rel": 3.636217764659841e-05,
+      "EF_300K_belowEc": 3.741,
+      "log10_n_300K": 0.0,
+      "log10_p_300K": 1.18,
+      "log10_VO_anneal": 18.62,
+      "log10_VGa_free": 0.0,
+      "ionized_Na_300K": "8.25e+18",
+      "type": "insulating",
+      "dominant_defects": [
+        "defect#236:1.0e+19",
+        "defect#11:2.8e+18"
+      ]
+    },
+    {
+      "dopant": "Ca",
+      "conc_fixed": 1e+19,
+      "solubility_limited": false,
+      "log10_incorporated": 19.0,
+      "solver_charge_residual_rel": 3.5751418475214297e-05,
+      "EF_300K_belowEc": 3.761,
+      "log10_n_300K": 0.0,
+      "log10_p_300K": 1.52,
+      "log10_VO_anneal": 18.62,
+      "log10_VGa_free": 0.0,
+      "ionized_Na_300K": "8.25e+18",
+      "type": "insulating",
+      "dominant_defects": [
+        "defect#238:1.0e+19",
+        "defect#11:2.8e+18"
+      ]
+    },
+    {
+      "dopant": "Zn",
+      "conc_fixed": 1e+19,
+      "solubility_limited": false,
+      "log10_incorporated": 19.0,
+      "solver_charge_residual_rel": 3.435830541930776e-05,
+      "EF_300K_belowEc": 3.61,
+      "log10_n_300K": 0.0,
+      "log10_p_300K": -1.03,
+      "log10_VO_anneal": 18.61,
+      "log10_VGa_free": 0.0,
+      "ionized_Na_300K": "8.24e+18",
+      "type": "insulating",
+      "dominant_defects": [
+        "defect#240:5.5e+18",
+        "defect#239:4.5e+18"
+      ]
+    },
+    {
+      "dopant": "Co",
+      "conc_fixed": 1e+19,
+      "solubility_limited": false,
+      "log10_incorporated": 19.0,
+      "solver_charge_residual_rel": 2.152789530456066e-08,
+      "EF_300K_belowEc": 2.5,
+      "log10_n_300K": 0.0,
+      "log10_p_300K": -19.66,
+      "log10_VO_anneal": 15.6,
+      "log10_VGa_free": 0.0,
+      "ionized_Na_300K": "8.00e+15",
+      "type": "insulating",
+      "dominant_defects": [
+        "defect#243:8.2e+18",
+        "defect#244:1.8e+18"
+      ]
+    },
+    {
+      "dopant": "Zr",
+      "conc_fixed": 1e+19,
+      "solubility_limited": false,
+      "log10_incorporated": 19.0,
+      "solver_charge_residual_rel": 4.9019336697102926e-08,
+      "EF_300K_belowEc": 0.139,
+      "log10_n_300K": 16.67,
+      "log10_p_300K": -30.0,
+      "log10_VO_anneal": 6.61,
+      "log10_VGa_free": 18.52,
+      "ionized_Na_300K": "9.95e+18",
+      "type": "n",
+      "dominant_defects": [
+        "defect#247:1.0e+19",
+        "defect#15:3.3e+18"
+      ]
+    },
+    {
+      "dopant": "Hf",
+      "conc_fixed": 1e+19,
+      "solubility_limited": false,
+      "log10_incorporated": 19.0,
+      "solver_charge_residual_rel": 4.9024929946388513e-08,
+      "EF_300K_belowEc": 0.139,
+      "log10_n_300K": 16.67,
+      "log10_p_300K": -30.0,
+      "log10_VO_anneal": 6.61,
+      "log10_VGa_free": 18.52,
+      "ionized_Na_300K": "9.95e+18",
+      "type": "n",
+      "dominant_defects": [
+        "defect#249:1.0e+19",
+        "defect#15:3.3e+18"
+      ]
+    },
+    {
+      "dopant": "Ta",
+      "conc_fixed": 1e+19,
+      "solubility_limited": false,
+      "log10_incorporated": 19.0,
+      "solver_charge_residual_rel": 6.244995500927958e-11,
+      "EF_300K_belowEc": 0.915,
+      "log10_n_300K": 3.63,
+      "log10_p_300K": -30.0,
+      "log10_VO_anneal": 6.61,
+      "log10_VGa_free": 18.68,
+      "ionized_Na_300K": "1.44e+19",
+      "type": "insulating",
+      "dominant_defects": [
+        "defect#251:1.0e+19",
+        "defect#15:4.7e+18"
+      ]
+    },
+    {
+      "dopant": "Ge",
+      "conc_fixed": 1e+19,
+      "solubility_limited": false,
+      "log10_incorporated": 19.0,
+      "solver_charge_residual_rel": 4.902281334085056e-08,
+      "EF_300K_belowEc": 0.139,
+      "log10_n_300K": 16.67,
+      "log10_p_300K": -30.0,
+      "log10_VO_anneal": 6.61,
+      "log10_VGa_free": 18.52,
+      "ionized_Na_300K": "9.95e+18",
+      "type": "n",
+      "dominant_defects": [
+        "defect#253:6.1e+18",
+        "defect#252:3.9e+18"
+      ]
+    },
+    {
+      "dopant": "Pt",
+      "conc_fixed": 1e+19,
+      "solubility_limited": false,
+      "log10_incorporated": 19.0,
+      "solver_charge_residual_rel": 1.096104275346804e-09,
+      "EF_300K_belowEc": 0.992,
+      "log10_n_300K": 2.33,
+      "log10_p_300K": -30.0,
+      "log10_VO_anneal": 6.61,
+      "log10_VGa_free": 18.04,
+      "ionized_Na_300K": "3.26e+18",
+      "type": "insulating",
+      "dominant_defects": [
+        "defect#255:1.0e+19",
+        "defect#15:1.1e+18"
+      ]
+    },
+    {
+      "dopant": "Rh",
+      "conc_fixed": 1e+19,
+      "solubility_limited": false,
+      "log10_incorporated": 19.0,
+      "solver_charge_residual_rel": 7.822100299854519e-15,
+      "EF_300K_belowEc": 2.466,
+      "log10_n_300K": 0.0,
+      "log10_p_300K": -20.25,
+      "log10_VO_anneal": 6.92,
+      "log10_VGa_free": 5.71,
+      "ionized_Na_300K": "2.18e+07",
+      "type": "insulating",
+      "dominant_defects": [
+        "defect#258:1.0e+19"
+      ]
+    }
+  ]
+}

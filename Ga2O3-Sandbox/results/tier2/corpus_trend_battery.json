@@ -1,0 +1,103 @@
+{
+  "process_params": {
+    "T_anneal": 1073.0,
+    "pO2": 1e-05,
+    "EcT_fraction": 0.4,
+    "film": true,
+    "E_B_eV": 0.03,
+    "Nd_bg": 1e+17
+  },
+  "T1_cross_dopant_n_ranking": {
+    "dopants": [
+      "Cr",
+      "Ge",
+      "H",
+      "Hf",
+      "Mg",
+      "Si",
+      "Sn",
+      "Ta",
+      "Zn",
+      "Zr"
+    ],
+    "n_dopants": 10,
+    "spearman_rho": 0.255,
+    "perm_p": 0.4712,
+    "beats_floor_p05": false,
+    "chain_log10n": {
+      "Cr": 16.2,
+      "Ge": 17.4,
+      "H": 0.0,
+      "Hf": 17.4,
+      "Mg": 0.0,
+      "Si": 16.4,
+      "Sn": 16.0,
+      "Ta": 4.4,
+      "Zn": 0.0,
+      "Zr": 17.4
+    },
+    "corpus_median_log10n": {
+      "Cr": 18.0,
+      "Ge": 17.7,
+      "H": 18.7,
+      "Hf": 19.0,
+      "Mg": 14.8,
+      "Si": 18.2,
+      "Sn": 18.3,
+      "Ta": 18.0,
+      "Zn": 18.0,
+      "Zr": 18.2
+    }
+  },
+  "T2_within_paper_n_sign": {
+    "n_contrasts": 44,
+    "correct_sign": 39,
+    "frac": 0.886,
+    "perm_p": 0.0,
+    "beats_floor_p05": true
+  },
+  "T2_STRICT_true_reference": {
+    "n_contrasts": 8,
+    "n_papers": 8,
+    "correct_sign": 7,
+    "frac": 0.875,
+    "observed_up": 7,
+    "observed_down": 1,
+    "majority_class_baseline": 0.875,
+    "beats_majority": false,
+    "why": "the shipped T2 uses the paper MINIMUM as its reference, which makes a DOWN contrast arithmetically impossible (238 up / 0 down / 92 tied over this corpus) and its majority baseline 1.000. This variant scores only papers carrying a TRUE undoped or reference row and uses that row, so the baseline is measured rather than imposed."
+  },
+  "T3_within_paper_PDR_sign": {
+    "n_contrasts": 17,
+    "correct_sign": 14,
+    "frac": 0.824,
+    "perm_p_vs_coinflip": 0.0063,
+    "corpus_frac_up": 0.824,
+    "majority_class_baseline": 0.824,
+    "beats_majority_baseline": false,
+    "verdict": "PDR skill CONFOUNDED by base rate \u2014 chain accuracy \u2248 always-predict-majority; not demonstrated skill"
+  },
+  "testable_dopants_in_KROGER": [
+    "Ca",
+    "Co",
+    "Cr",
+    "Fe",
+    "Ge",
+    "H",
+    "Hf",
+    "Ir",
+    "Mg",
+    "Pt",
+    "Rh",
+    "Si",
+    "Sn",
+    "Ta",
+    "Ti",
+    "Zn",
+    "Zr"
+  ],
+  "n_dopants_dropped_solver_error": 0,
+  "dopants_dropped_solver_error": [],
+  "drop_caveat": "engine.solve_single runs with strict=True, so a validity failure RAISES. Any dopant listed above was removed from T1's ranking set and from T2/T3's contrast pool; compare n_dopants / n_contrasts against the frozen baseline before reading any statistic.",
+  "honest_frame": "within-condition contrasts only; pooled absolutes banned (lab confound). T1 (cross-dopant n ranking) is the strongest discriminating test \u2014 it probes the donor/acceptor/deep classification directly."
+}

@@ -1,0 +1,17 @@
+{
+ "Sb": {
+  "E_tet_eV": -88614.9808,
+  "E_oct_eV": -88615.4171,
+  "oct_minus_tet_eV": -0.4363,
+  "prefers": "octahedral Ga(II)",
+  "mlip_oct_minus_tet_eV": -0.841
+ },
+ "Bi": {
+  "E_tet_eV": -88372.2912,
+  "E_oct_eV": -88372.744,
+  "oct_minus_tet_eV": -0.4528,
+  "prefers": "octahedral Ga(II)",
+  "mlip_oct_minus_tet_eV": -0.397
+ },
+ "_mlip_source": "MACE cell energies: site_check.json E_M_Ga (oct) + dop_*_Ga_I_tet_mace.xyz headers (tet)"
+}

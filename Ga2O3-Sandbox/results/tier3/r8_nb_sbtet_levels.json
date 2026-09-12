@@ -1,0 +1,42 @@
+{
+ "E_VBM_HSE": 7.7191,
+ "MP2_eV": 0.847,
+ "aniso_q2_eV": 0.668,
+ "EG_conv": 4.9,
+ "Nb": {
+  "MP": {
+   "eps_2plus_plus": 3.177,
+   "eps_plus_0": 4.024,
+   "eps_2plus_0": 3.6,
+   "U_eV": 0.846,
+   "below_CBM_2plus_0": 1.3,
+   "shallowest_below_CBM": 0.876
+  },
+  "aniso": {
+   "eps_2plus_plus": 3.312,
+   "eps_plus_0": 4.068,
+   "eps_2plus_0": 3.69,
+   "U_eV": 0.757,
+   "below_CBM_2plus_0": 1.21,
+   "shallowest_below_CBM": 0.832
+  }
+ },
+ "Sbtet": {
+  "MP": {
+   "eps_2plus_plus": 2.455,
+   "eps_plus_0": 2.833,
+   "eps_2plus_0": 2.644,
+   "U_eV": 0.378,
+   "below_CBM_2plus_0": 2.256,
+   "shallowest_below_CBM": 2.067
+  },
+  "aniso": {
+   "eps_2plus_plus": 2.589,
+   "eps_plus_0": 2.877,
+   "eps_2plus_0": 2.733,
+   "U_eV": 0.289,
+   "below_CBM_2plus_0": 2.167,
+   "shallowest_below_CBM": 2.023
+  }
+ }
+}

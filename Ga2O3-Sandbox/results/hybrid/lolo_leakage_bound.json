@@ -1,0 +1,12 @@
+{
+ "mu": {
+  "n_labs": 69,
+  "max_single_lab_offset_influence_dex": 0.0206,
+  "median_influence_dex": 0.0057
+ },
+ "n": {
+  "n_labs": 68,
+  "max_single_lab_offset_influence_dex": 0.0663,
+  "median_influence_dex": 0.0023
+ }
+}

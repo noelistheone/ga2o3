@@ -1,0 +1,39 @@
+# This repository is a CURATED release. It was assembled by copying only the
+# core code, the experimental data, the result files of record, and the computed
+# structures needed to reproduce the paper's claims. The large regenerable
+# artifacts and third-party data below are deliberately NOT part of the release;
+# this file also prevents them from being re-added by accident.
+
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.ipynb_checkpoints/
+
+# --- OS / editor ---
+.DS_Store
+*.swp
+
+# --- logs / scratch ---
+*.log
+logs/
+tmp.*
+*.tmp
+
+# --- Third-party data that must NOT be redistributed (see LICENSE) ---
+# The KROGER hybrid-functional defect database (Arnab et al., PCCP 2025) is
+# consumed numerically under citation; its raw records are never shipped.
+**/external/KROGER/
+**/kroger_ga2o3_092724.npz
+**/kroger_ga2o3_092724_numeric.npz
+# QE ONCV pseudopotentials are third-party.
+**/*.upf
+**/*.UPF
+
+# --- Large regenerable artifacts (NOT part of the release) ---
+# Raw QE/HSE calculation outputs (75 GB), MP structures, LLM adapters, etc.
+**/dft/qe_cc/
+**/data/raw/
+**/data/processed/
+**/checkpoints/*.bin

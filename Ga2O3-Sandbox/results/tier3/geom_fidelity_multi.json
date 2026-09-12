@@ -1,0 +1,61 @@
+{
+  "fmax": 0.02,
+  "model": "MACE-MPA-0 (medium 9.06M)",
+  "defects": [
+    {
+      "defect": "V_O",
+      "q": 0,
+      "rmsd_A": 0.0255,
+      "max_disp_A": 0.1004,
+      "max_relax_QE_A": 0.2973,
+      "max_relax_MACE_A": 0.2244,
+      "pass_0.1A": true
+    },
+    {
+      "defect": "V_O",
+      "q": 2,
+      "rmsd_A": 0.1651,
+      "max_disp_A": 1.262,
+      "max_relax_QE_A": 1.0382,
+      "max_relax_MACE_A": 0.2244,
+      "pass_0.1A": false
+    },
+    {
+      "defect": "V_Ga",
+      "q": 0,
+      "rmsd_A": 0.0541,
+      "max_disp_A": 0.1992,
+      "max_relax_QE_A": 0.195,
+      "max_relax_MACE_A": 0.1263,
+      "pass_0.1A": true
+    },
+    {
+      "defect": "V_Ga",
+      "q": -3,
+      "rmsd_A": 0.0435,
+      "max_disp_A": 0.1845,
+      "max_relax_QE_A": 0.2739,
+      "max_relax_MACE_A": 0.1263,
+      "pass_0.1A": true
+    },
+    {
+      "defect": "Fe_Ga",
+      "q": 0,
+      "rmsd_A": 0.0173,
+      "max_disp_A": 0.0585,
+      "max_relax_QE_A": 0.0553,
+      "max_relax_MACE_A": 0.0623,
+      "pass_0.1A": true
+    },
+    {
+      "defect": "Fe_Ga",
+      "q": -1,
+      "rmsd_A": 0.0144,
+      "max_disp_A": 0.0483,
+      "max_relax_QE_A": 0.0718,
+      "max_relax_MACE_A": 0.0623,
+      "pass_0.1A": true
+    }
+  ],
+  "note": "RMSD < 0.1 A => MLIP-relax can replace QE relaxation for that defect (Tier B). Larger RMSD on a charged state => charge-geometry coupling => needs HSE final relax."
+}

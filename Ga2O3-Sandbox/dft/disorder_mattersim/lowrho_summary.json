@@ -1,0 +1,22 @@
+{
+ "protocol": "identical to tier3_mattersim_disorder.py (NVT melt 3000 K + staged quench to 300 K, 2 fs), cell isotropically scaled to the target density",
+ "reference_595": "3 cells at 5.95 g/cc: gaps 1.671/1.844/1.751 (mean 1.755), bond_std ~0.14 A",
+ "cells": [
+  {
+   "tag": "54",
+   "target_gcc": 5.4,
+   "density_gcc": 5.4,
+   "bond_mean_A": 1.956,
+   "bond_std_A": 0.11,
+   "seed": 10
+  },
+  {
+   "tag": "50",
+   "target_gcc": 5.0,
+   "density_gcc": 5.0,
+   "bond_mean_A": 1.964,
+   "bond_std_A": 0.12,
+   "seed": 11
+  }
+ ]
+}

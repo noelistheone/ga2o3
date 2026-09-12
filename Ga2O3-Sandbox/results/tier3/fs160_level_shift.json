@@ -1,0 +1,35 @@
+{
+  "quantity": "corrected elastic finite-size accounting for V_O (2+/0); alpha=0.33 level",
+  "Erelax_q2_80_eV": 2.337,
+  "Erelax_q2_160_eV": 2.049,
+  "elastic_component_eV": -0.288,
+  "direction": "80-atom cell OVER-relaxes (image-assisted); dilute E(q2,relaxed) HIGHER; E_f(2+) rises; level DROPS \u2014 away from the database band",
+  "eps_raw_a025_eV": 2.223,
+  "level_shift_eV": -0.144,
+  "eps_elastic_corrected_a025_eV": 2.079,
+  "database_sites_eV": [
+    2.625,
+    3.353,
+    3.49
+  ],
+  "residual_to_shallowest_site_eV": 0.546,
+  "cc_consistency": {
+    "lambda_eff_80_eV": 1.789,
+    "capture_barrier_80_eV": 1.087,
+    "lambda_eff_160_eV": 1.645,
+    "capture_barrier_160_fixed_dE_eV": 1.063,
+    "note": "barrier formula (lambda+dE)^2/(4 lambda), driving force held at the 80-atom value; class ranking vs V_Ga (barrier 0.89, dQ 3.4) unchanged"
+  },
+  "alpha033": {
+    "E_HSE_VO_q0_a033_eV": -83909.12,
+    "E_HSE_VO_q2_a033_eV": -83929.899,
+    "VBM_alpha033_eV": 7.3249,
+    "MP2_eV": 0.847,
+    "eps_2plus_0_above_VBM_a033_eV": 2.641,
+    "eps_elastic_corrected_a033_eV": 2.497,
+    "residual_to_shallowest_site_a033_eV": 0.128,
+    "alpha_response_eV": 0.418,
+    "Sb_alpha_response_eV": 0.455,
+    "protocol": "same 80-atom geometries (q0@R0, q2@R2), exx_fraction=0.33, gap-matched-mixing VBM reference, same MP monopole"
+  }
+}

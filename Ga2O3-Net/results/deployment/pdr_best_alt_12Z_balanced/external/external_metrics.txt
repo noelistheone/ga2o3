@@ -1,0 +1,18 @@
+External validation results — results/phase12z_pdr_5seed/external/external_predictions.csv
+================================================================================
+N rows: 12
+Tier distribution: A=10, B=2
+
+### photo_dark_ratio
+  raw       N=  9  R²=-0.051 [95% CI -3.055, +0.348]  MAE=1.136  RMSE=1.616  r=+0.547  slope=1.165
+  Platt     N=  9  R²=-0.538 [95% CI -9.072, +0.089]  MAE=1.619  RMSE=1.955  r=+0.547  slope=0.711
+  nested    N=  9  R²=-0.314 [95% CI -7.598, +0.208]  MAE=1.399  RMSE=1.807  r=+0.087  slope=0.134
+  (internal 3J/3K reference: R²=+0.511, slope=0.969, MAE=1.023)
+
+  — by tier —
+  tier-A    N=  7  R²=+0.201 [95% CI -0.925, +0.645]  MAE=1.005  RMSE=1.594  r=+0.675  slope=1.763
+
+  — per-dopant r (N≥3) —
+    Mg                    N=  3  r=+0.862
+    Sn                    N=  3  r=-0.901
+[skip] vacancy_concentration: <3 rows with valid ground-truth

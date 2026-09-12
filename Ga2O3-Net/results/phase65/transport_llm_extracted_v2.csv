@@ -1,0 +1,550 @@
+corpus,file,doi,dopant_element,co_dopants,concentration_value,concentration_unit,growth_method,carrier_type,measurement_kind,sample_label,carrier_cm3,mu_cm2Vs,rho_ohmcm,quote
+transport,023f6b4783637672.md,,Si,,,,MOCVD,electron,hall,A,1.83e+16,,,"foursamplesatroomtemperaturewere1.83×1016,8.64×1016,3.35×1017, and 6.55×1017cm−3, respectively."
+transport,023f6b4783637672.md,,Si,,,,MOCVD,electron,hall,B,8.64e+16,,,"foursamplesatroomtemperaturewere1.83×1016,8.64×1016,3.35×1017, and 6.55×1017cm−3, respectively."
+transport,023f6b4783637672.md,,Si,,,,MOCVD,electron,hall,C,3.35e+17,,,"foursamplesatroomtemperaturewere1.83×1016,8.64×1016,3.35×1017, and 6.55×1017cm−3, respectively."
+transport,023f6b4783637672.md,,Si,,,,MOCVD,electron,hall,D,6.55e+17,,,"foursamplesatroomtemperaturewere1.83×1016,8.64×1016,3.35×1017, and 6.55×1017cm−3, respectively."
+transport,0fe12bf18feb3409.md,,Si,,,,MOCVD,electron,hall,,33000000000000.0,100.0,,"A record high sheet charge density of 3.3×10¹³ cm⁻² was modulated using 100 nm fin channels, delivering a peak drain current of 410 mA/mm and a peak transconductance of 60 mS/mm."
+transport,1e86774daeb001c4.md,,,,,,,electron,hall,,3.2e+18,100.0,0.0001,Hydrogen induced a 9-order of magnitude increase of n-type conductivity with donor ionization energy of 20 meV and resistivity of 10−4 Ω.cm. The conductivity was switched to p-type with acceptor ionization energy of 42 meV by altering hydrogen incorporation in the lattice.
+transport,1e86774daeb001c4.md,,,,,,,electron,hall,,1e+16,100.0,0.0001,sheet carrier density of 1016 cm−2 with electron mobility 100 cm2 V−1 S−1 at room temperature leading to 10−4 Ω.cm resistivity.
+transport,1e86774daeb001c4.md,,,,,,,hole,hall,,1000000000000000.0,1.0,,"For p-type conductivity we report a hole density of 1015 cm−2, but with very low hole mobility less than 1 cm2 V−1 S−1, which is expected from the flat valence band of GaO."
+transport,202764d697fd33e3.md,,,,,,MOCVD,hole,hall,,1e+17,10.0,,hole conductivity in excess of 10 cm2 V−1 s−1 and (high temperature) free hole concentrations in the ~1017 cm−3 range
+transport,32f57221dc15fb1f.md,,,,,,optical float zone,electron,hall,,6e+17,,,high-purity n-type semiconductors with free carrier concentration of 6×1017cm−3 are attributed to native defects
+transport,5346dab938ae0856.md,,,,,,movpe,electron,hall,,1.8e+17,186.0,,The film exhibits remarkable crystalline quality which is evident from the measured room temperature Hall mobility of 186 cm2/Vs for the unintentionally doped films.
+transport,5346dab938ae0856.md,,Si,,2e+16,cm-3,movpe,electron,hall,,2e+16,,,N-type doping is achieved by using Si as a dopant and a controllable doping in the range of 2×1016 - 2×1019 cm−3 is studied.
+transport,5346dab938ae0856.md,,Si,,2e+17,cm-3,movpe,electron,hall,,2e+17,,,N-type doping is achieved by using Si as a dopant and a controllable doping in the range of 2×1016 - 2×1019 cm−3 is studied.
+transport,5346dab938ae0856.md,,Si,,2e+18,cm-3,movpe,electron,hall,,2e+18,,,N-type doping is achieved by using Si as a dopant and a controllable doping in the range of 2×1016 - 2×1019 cm−3 is studied.
+transport,5346dab938ae0856.md,,Si,,2e+19,cm-3,movpe,electron,hall,,2e+19,,,N-type doping is achieved by using Si as a dopant and a controllable doping in the range of 2×1016 - 2×1019 cm−3 is studied.
+transport,71ffac4851d39426.md,,Si,,,,,electron,hall,,1e+18,300.0,,Si-doped (1×1018cm−3) epitaxial layer
+transport,864666ce57c4df85.md,,Mg,,,,,hole,hall,,7e+17,24.8,,"Hall effect, a hole concentration of 7 × 1017 cm−3 and mobility of 24.8 cm2/Vs is achieved."
+transport,864666ce57c4df85.md,,,,1e+18,cm-3,metal organic chemical vapour deposition,electron,hall,,1e+18,,,The electron carrier concentration is 1 × 1018 cm−3 determined by Hall measurement.
+transport,9d06589b3651405f.md,,,,,,sputtering,electron,hall,,4.88e+19,7.83,0.0164,"The electrical results for carrier density, mobility, and resistivity were determined to be 4,88×1019 cm-3, 7,83 cm2/V.s, and 1,64×10-2 Ω.cm, respectively."
+transport,ac233c0168213cb0.md,,Sn,,3.0,at%,lpcvd,electron,cv,A,2e+16,,,Uniform net doping [N -N ] concentrations of 2 × 1016 cm−3 were measured by C–V from the samples A
+transport,ac233c0168213cb0.md,,Sn,,5.0,at%,lpcvd,electron,cv,B,8e+16,,,Uniform net doping [N -N ] concentrations of 8 × 1016 cm−3 were measured by C–V from the samples B
+transport,b8e41aabe70cbe6d.md,,Si,,1.0,wt%,pulsed laser deposition,electron,hall,,1.2e+20,,,"In Fig. 2, we have plotted σ at both B = 0 and B = 10 kG. Although the curves appear to be nearly identical on the scale of this plot, their small difference Δσ is important and is expanded and plotted vs temperature in Fig. 3. In agreement, typical E values for βGAO mentioned in the literature are "
+transport,c3ebf91236da05b8.md,,,,,,mocvd,hole,hall,S1,60000000000000.0,,,increasing the hole concentration from 6.0×1013 to 1.7×1015 cm-3 at 800 K
+transport,c3ebf91236da05b8.md,,,,,,mocvd,hole,hall,S1,1700000000000000.0,,,increasing the hole concentration from 6.0×1013 to 1.7×1015 cm-3 at 800 K
+transport,c3ebf91236da05b8.md,,,,,,mocvd,hole,hall,S1,,18.5,,the improvement in hole mobility correlates with the increasing in Ga content (up to 18.5 cm2/V·s) at higher growth rate and improved grain alignment
+transport,d9aa7236e4471c8f.md,,Si,,,,lpcvd,electron,hall,,1.51e+17,162.0,,"achieving high room temperature (RT) hall mobilities of 162 cm²/V·s and 149 cm²/V·s at carrier concentrations of 1.51  1017 cm-3 and 1.15  1017 cm-3, respectively for homoepitaxial (010) β-Ga2O3 film grown on β-Ga2O3 substrates"
+transport,d9aa7236e4471c8f.md,,Si,,,,lpcvd,electron,hall,,1.15e+17,149.0,,"achieving high room temperature (RT) hall mobilities of 162 cm²/V·s and 149 cm²/V·s at carrier concentrations of 1.51  1017 cm-3 and 1.15  1017 cm-3, respectively for homoepitaxial (010) β-Ga2O3 film grown on β-Ga2O3 substrates and heteroepitaxial ( 01) β-Ga2O3 film grown on off-axis c-sapphire su"
+transport,d9aa7236e4471c8f.md,,Si,,,,lpcvd,electron,hall,,1.19e+19,,,resulting in concentrations ranging from 1.15  1017 to 1.19  1019 cm⁻³ as confirmed by both Hall and capacitance-voltage (C-V) measurements
+transport,e3451580b5015023.md,,Si,,5e+18,cm-3,sputtering,electron,hall,,4e+18,70.0,,"activation (>80% activation, mobilities >70 cm2/Vs) with contact resistances below 0.29 Ω-mm"
+transport,e3451580b5015023.md,,Si,,5e+19,cm-3,sputtering,electron,hall,,4e+19,70.0,,"activation (>80% activation, mobilities >70 cm2/Vs) with contact resistances below 0.29 Ω-mm"
+transport,e3451580b5015023.md,,Si,,1e+20,cm-3,sputtering,electron,hall,,8e+19,70.0,,"activation (>80% activation, mobilities >70 cm2/Vs) with contact resistances below 0.29 Ω-mm"
+transport,fbbae54acfa1edc2.md,,Si,,,,mocvd,electron,hall,,3430000000000000.0,196.0,,an unintentionally doped film was grown with a Hall concentration of 3.43 x 1015 cm-3 and Hall mobility of 196 cm2/V.s
+transport,fbbae54acfa1edc2.md,,Si,,,,mocvd,electron,hall,,4380000000000000.0,194.0,,controllable Hall electron concentrations ranging from 4.38 x 1015 cm-3 to 8.30 x 1015 cm-3 and exceptional Hall mobilities ranging from 194 – 200 cm2/V.s demonstrated
+transport,fbbae54acfa1edc2.md,,Si,,,,mocvd,electron,hall,,8300000000000000.0,200.0,,controllable Hall electron concentrations ranging from 4.38 x 1015 cm-3 to 8.30 x 1015 cm-3 and exceptional Hall mobilities ranging from 194 – 200 cm2/V.s demonstrated
+v56,075174333b1ed180.md,,Cr,,,,edge-defined film-fed growth,electron,hall,,1e+18,,,The electron carrier concentration in the Ga O wafer is ~ 1.0 × 1018 cm-3 according to the Hall measurement.
+v56,13eca01428a9416f.md,,V,,5.0,at%,sputtering,electron,hall,400°C,9.3e+18,0.56,1.2,"The electrical properties of the films were measured by Hall effect measurement system (Accent model HL5500PC) and the valence states of ions were analyzed by X-ray photoelectron spectroscopy (XPS, Thermo ESCALAB250)."
+v56,13eca01428a9416f.md,,V,,5.0,at%,sputtering,electron,hall,500°C,2.1e+18,18.0,0.015,"The electrical properties of the films were measured by Hall effect measurement system (Accent model HL5500PC) and the valence states of ions were analyzed by X-ray photoelectron spectroscopy (XPS, Thermo ESCALAB250)."
+v56,13eca01428a9416f.md,,V,,5.0,at%,sputtering,electron,hall,600°C,3.5e+18,25.0,0.008,"The electrical properties of the films were measured by Hall effect measurement system (Accent model HL5500PC) and the valence states of ions were analyzed by X-ray photoelectron spectroscopy (XPS, Thermo ESCALAB250)."
+v56,13eca01428a9416f.md,,V,,5.0,at%,sputtering,electron,hall,700°C,4.8e+18,30.0,0.005,"The electrical properties of the films were measured by Hall effect measurement system (Accent model HL5500PC) and the valence states of ions were analyzed by X-ray photoelectron spectroscopy (XPS, Thermo ESCALAB250)."
+v56,146995e3bf708cd3.md,,Si,,1.0,at%,pulsed laser deposition,electron,hall,,1e+20,2.9,,"the best electrical performance is reached at a Si concentration of about 1\(\times\)1020 cm\(\textsuperscript{-3}\), using optimized deposition parameters. It is found that a high crystalline quality and a mobility of about 2.9 cm\(\textsuperscript{2}\)(Vs)\(\textsuperscript{-1}\) can be achieved b"
+v56,17beabb7c897c966.md,,Si,,,,mocvd,electron,hall,,1e+19,1.5,0.07,The electron density in most of these films was in the range of 1019 cm-3 but the mobility was limited to 1.5 cm2/V⋅s. Conductive films of Ga2O3 with resistivity in the order of 0.07 Ω.cm were successfully grown.
+v56,17beabb7c897c966.md,,Si,,,,mocvd,electron,hall,,,30.0,0.3,Higher mobility of 30 cm2/V⋅s was obtained in some films at the expense of carrier concentration by reducing Si doping level resulting in resistivity in the order of 0.3 Ω.cm.
+v56,18f2d561731f576e.md,,Si,,,,MOCVD,electron,hall,A,1.83e+16,,,"foursamplesatroomtemperaturewere1.83×1016,8.64×1016,3.35×1017, and 6.55×1017cm−3, respectively."
+v56,18f2d561731f576e.md,,Si,,,,MOCVD,electron,hall,B,8.64e+16,,,"foursamplesatroomtemperaturewere1.83×1016,8.64×1016,3.35×1017, and 6.55×1017cm−3, respectively."
+v56,18f2d561731f576e.md,,Si,,,,MOCVD,electron,hall,C,3.35e+17,,,"foursamplesatroomtemperaturewere1.83×1016,8.64×1016,3.35×1017, and 6.55×1017cm−3, respectively."
+v56,18f2d561731f576e.md,,Si,,,,MOCVD,electron,hall,D,6.55e+17,,,"foursamplesatroomtemperaturewere1.83×1016,8.64×1016,3.35×1017, and 6.55×1017cm−3, respectively."
+v56,21744457dab448b1.md,,Si,,,,LPCVD,electron,hall,,5.14e+17,2.0,,"Hall measurements conducted at room temperature reveal the carrier concentration increases from 5.14x1017 to 4.65x1019 cm-3 as TEOS flow increases from 3 to 10 sccm, while an increase in mobility is observed from ~2 cm2/V.s to ~7 cm2/V.s before decreasing slightly at higher TEOS flow rates."
+v56,21744457dab448b1.md,,Si,,,,LPCVD,electron,hall,,4.65e+19,7.0,,"Hall measurements conducted at room temperature reveal the carrier concentration increases from 5.14x1017 to 4.65x1019 cm-3 as TEOS flow increases from 3 to 10 sccm, while an increase in mobility is observed from ~2 cm2/V.s to ~7 cm2/V.s before decreasing slightly at higher TEOS flow rates."
+v56,25e6fd0f02c1771d.md,,In,Sn,,,van der Waals exfoliation,electron,hall,,1e+18,65.4,,"The field effect transistors (FET) based on the printed GaInSnO multilayers show n-type switching with on/off ratio all exceeding 105, a maximum field-effect mobility (µeff) of 65.40 cm2 V−1 s−1, and a minimum sub-threshold swing (SS) of 91.11 mV dec-1 at room temperature."
+v56,25e6fd0f02c1771d.md,,In,Sn,,,van der Waals exfoliation,electron,hall,,1e+18,65.4,,"With rinsing Ga concentration in GaInSnO multilayers, the µeff of fabricated FET decrease, while the SS increase."
+v56,2f51cf6fa4137e10.md,,,,,,mocvd,hole,,,,,50000.0,high-quality p-type β-Ga O thin films grown on r-plane sapphire substrate by metalorganic chemical vapor deposition (MOCVD) exhibit ρ = 5×104 Ω·cm resistivity at room temperature.
+v56,2f51cf6fa4137e10.md,,,,,,mocvd,hole,hall,,,,10000.0,"post-annealing in an oxygen atmosphere can result in room-temperature hole conductivity (ρ = 1×104 Ω·cm) in Ga O /c-Al O , thanks to the appearance of a shallow acceptor level with 0.17 eV activation energy."
+v56,374d4359bb092fb8.md,,,,,,pulsed electron deposition,,,,,,10000000.0,"The undoped films show a pure β-Ga2O3 phase with high crystallinity and an insulating nature, reporting resistivity values higher than 107 Ω cm."
+v56,374d4359bb092fb8.md,,Sn,,,,pulsed electron deposition,electron,,,,,100000.0,"The introduction of Sn leads to the formation of films including both κ- and β-Ga2O3, with an electrical resistivity of approximately 10⁵ Ω cm."
+v56,374d4359bb092fb8.md,,Ge,,,,pulsed electron deposition,electron,,,,,1000000.0,"The doping with Ge results in the formation of high-quality β-Ga2O3 layers, but with high resistivity (~106 Ω cm)."
+v56,374d4359bb092fb8.md,,Zr,,,,pulsed electron deposition,electron,,,,,5.0,"Zr is identified as the most effective dopant, resulting in the formation of single-phase epitaxial β-Ga2O3 films with low resistivity (~5 Ω cm)."
+v56,3f2633329692e3d4.md,,Sn,,,,pambe,electron,hall,,2e+20,,,Sndoping concentration saturated at about 2×1020cm−3 at higher Sn cell temperatures.
+v56,3f2633329692e3d4.md,,Sn,,,,mocataxy,electron,hall,,3.9e+16,136.0,,maximum room temperature Hall mobility of 136cm2/Vs at 3.9×1016cm−3.
+v56,3f2633329692e3d4.md,,Sn,,,,mocataxy,electron,hall,,2.3e+19,,,a wider range of donor concentrations from 3.9×1016cm−3 to 2.3×1019cm−3
+v56,45bed14a3f7af34c.md,,,,,,mocvd,hole,hall,O/Ga(6400),4500000000000000.0,30.0,,"the layer grown under oxygen-rich conditions (O/Ga = 6400) exhibited ... a two order of magnitude increase in hole concentration (p = 4.5×1015 cm-3 vs. 4.6×1013 cm-3 at 570 K), associated with a shallow acceptor level with an activation energy of 0.21 eV"
+v56,45bed14a3f7af34c.md,,,,,,mocvd,hole,hall,O/Ga(2700),46000000000000.0,30.0,,"the layer grown under oxygen-rich conditions (O/Ga = 6400) exhibited ... a two order of magnitude increase in hole concentration (p = 4.5×1015 cm-3 vs. 4.6×1013 cm-3 at 570 K), associated with a shallow acceptor level with an activation energy of 0.21 eV"
+v56,5d1b142c691ff669.md,,,,,,mocvd,hole,hall,,1e+17,,50000.0,high-quality p-type β-Ga2O3 thin films grown on r-plane sapphire substrate by metalorganic chemical vapor deposition (MOCVD) exhibit ρ = 5×104 Ω·cm resistivity at room temperature.
+v56,65d74fb8cf3ab918.md,,Sn,,,,mist-CVD,electron,hall,,1e+17,65.0,,"With Sn doping, mobile electron densities of n(cid:3)1017-1019/cm3 were achieved, with the highest reported electron mobility of 65cm2/Vs at n(cid:3)1:2(cid:5)1018/cm3 at room temperature."
+v56,65d74fb8cf3ab918.md,,Si,,,,mist-CVD,electron,hall,,3e+18,32.0,,For Si doping n(cid:3)1018-1019/cm3 was achieved with a room temperature mobility of l (cid:3)32cm2/Vs for n(cid:3)3(cid:5)1018/cm3.
+v56,78493e228449cb64.md,,Zn,,0.25,at%,czochralski,hole,,,1e+18,,,"measured concentrations >1×1018 atoms/cm3 and electrical measurements that show resistivity 1011–1013 Ωcm, with no p-type conduction."
+v56,905ef0de57029a43.md,,Zn,,0.25,at%,czochralski,hole,,,1e+18,,100000000000.0,"resistivity 1011–1013Ωcm, with no p-type conduction."
+v56,91c57c8f8bf8b60e.md,,Zn,,9.7,at%,ALD,electron,hall,Ga/Zn=7:1,1.2e+18,12.5,0.35,"The carrier concentration, the carrier mobility, and the conductivity of the samples were measured via the Hall-effect measurement (Ecopia, HMS-3000) at room temperature under a magnetic field of 0.58T."
+v56,91c57c8f8bf8b60e.md,,Zn,,13.3,at%,ALD,electron,hall,Ga/Zn=5:1,2.1e+18,15.3,0.28,"The carrier concentration, the carrier mobility, and the conductivity of the samples were measured via the Hall-effect measurement (Ecopia, HMS-3000) at room temperature under a magnetic field of 0.58T."
+v56,91c57c8f8bf8b60e.md,,Zn,,24.65,at%,ALD,electron,hall,Ga/Zn=3:1,3.8e+18,18.7,0.19,"The carrier concentration, the carrier mobility, and the conductivity of the samples were measured via the Hall-effect measurement (Ecopia, HMS-3000) at room temperature under a magnetic field of 0.58T."
+v56,936cb158e5f639a8.md,,Si,,0.01,at%,pulsed laser deposition,electron,hall,,4.6e+18,20.7,,0.01% 4.6×1018 20.7 18.6
+v56,936cb158e5f639a8.md,,Si,,0.03,at%,pulsed laser deposition,electron,hall,,1.5e+19,47.5,,0.03% 1.5×1019 47.5 111
+v56,936cb158e5f639a8.md,,Si,,0.1,at%,pulsed laser deposition,electron,hall,,3.8e+19,62.1,,Si 0.1% 3.8×1019 62.1 378
+v56,936cb158e5f639a8.md,,Si,,0.5,at%,pulsed laser deposition,electron,hall,,1.1e+20,75.0,,0.5% 1.1×1020 75.0 1322
+v56,936cb158e5f639a8.md,,Si,,1.0,at%,pulsed laser deposition,electron,hall,,2.6e+20,60.5,,1% 2.6×1020 60.5 2500
+v56,9ab7a4014b38c430.md,,Ge,,1.0,at%,sputtering,electron,cv,,1e+18,,,"thick RS-deposited films, using both undoped and 1at% Ge (n-type) doped sintered targets — demonstrated high net carrier concentrations (via C-V)"
+v56,9ab7a4014b38c430.md,,,,,,sputtering,electron,hall,,,,1000.0,transmission line measurements (TLM) showed very high resistivity
+v56,9f6ad2aee8cda6c8.md,,Sn,,,,mist-CVD,electron,hall,,1e+17,65.0,,Carrier concentration of Sn-doped α-Ga2O3 films is controlled in the range of 1017–1019cm-3 by changing the Sn/Ga concentration ratio in source solution.
+v56,9f6ad2aee8cda6c8.md,,Sn,,,,mist-CVD,electron,hall,,1e+18,65.0,,Carrier concentration of Sn-doped α-Ga2O3 films is controlled in the range of 1017–1019cm-3 by changing the Sn/Ga concentration ratio in source solution.
+v56,9f6ad2aee8cda6c8.md,,Sn,,,,mist-CVD,electron,hall,,1e+19,65.0,,Carrier concentration of Sn-doped α-Ga2O3 films is controlled in the range of 1017–1019cm-3 by changing the Sn/Ga concentration ratio in source solution.
+v56,9f6ad2aee8cda6c8.md,,,,,,mist-CVD,electron,hall,,1e+17,65.0,,"α-Ga2O3 films on m-plane sapphires with the thickness of 2μm show mobilities as high as 65cm2(Vs)-1, which is much higher than previously reported value of 24cm2(Vs)-1 in the films grown on c-plane sapphire."
+v56,9f6ad2aee8cda6c8.md,,,,,,mist-CVD,electron,hall,,1e+18,65.0,,"α-Ga2O3 films on m-plane sapphires with the thickness of 2μm show mobilities as high as 65cm2(Vs)-1, which is much higher than previously reported value of 24cm2(Vs)-1 in the films grown on c-plane sapphire."
+v56,9f6ad2aee8cda6c8.md,,,,,,mist-CVD,electron,hall,,1e+19,65.0,,"α-Ga2O3 films on m-plane sapphires with the thickness of 2μm show mobilities as high as 65cm2(Vs)-1, which is much higher than previously reported value of 24cm2(Vs)-1 in the films grown on c-plane sapphire."
+v56,9f8511dc226aa486.md,,Sn,,,,movpe,electron,hall,,5e+17,10.0,,"conductivity and Hall effect measurements, showing a tunable free carrier concentration, n, between 5 9 1017 and 2 9 1018 cm-3, with a maximum electron mobility, l, of *40 cm2/Vs."
+v56,9f8511dc226aa486.md,,Sn,,,,movpe,electron,hall,,2e+18,40.0,,"conductivity and Hall effect measurements, showing a tunable free carrier concentration, n, between 5 9 1017 and 2 9 1018 cm-3, with a maximum electron mobility, l, of *40 cm2/Vs."
+v56,9f8511dc226aa486.md,,Sn,,,,movpe,electron,hall,,1e+18,41.0,,"The maximum mobility of 41 cm2/Vs, measured in a sample with free carrier concentration of 1 9 1018 cm-3, represents the highest value reported for b-Ga O layers grown by MOVPE so far."
+v56,a477f8a7811bba2d.md,,Cr,,,,edge-defined film-fed growth (EFG),electron,hall,,1e+18,,,The electron carrier concentration in the Ga O wafer is ~ 1.0 × 1018 cm-3 according to the Hall measurement.
+v56,b20646bc4201a5ff.md,,Si,Ta,,,pulsed laser deposition,electron,hall,S1,1.12e+20,,,The Si and Ta co-doped Ga2O3 film on Ga2O3 substrate possessed the best crystal quality with a high carrier concentration of 1.12×1020cm−3 and a conductivity of 2.13S·cm−1 compared to the sapphire and quartz substrates.
+v56,b20646bc4201a5ff.md,,Si,Ta,,,pulsed laser deposition,electron,conductivity,S1,1.12e+20,,0.469,The Si and Ta co-doped Ga2O3 film on Ga2O3 substrate possessed the best crystal quality with a high carrier concentration of 1.12×1020cm−3 and a conductivity of 2.13S·cm−1 compared to the sapphire and quartz substrates.
+v56,b22c405bc6ab207e.md,,,,,,sputtering,electron,,,,,7000.0,The lowest electrical resistivity of 7 × 10³ Ω·cm was obtained for films deposited on sapphire at a temperature of 585 °C.
+v56,b437c7a900682ce3.md,,Mg,Te,,,mocvd,hole,hall,T1,1.78e+17,5.29,32.4,"a room-temperature resistivity of 32.4 Ω⋅cm, a Hall hole concentration of 1.78 ×101 7 cm− 3 , and mobilities up to 5.29 cm2 V− 1 s− 1 at lower carrier concentrations (5.72 ×1014 cm− 3 )."
+v56,b437c7a900682ce3.md,,Mg,Te,,,mocvd,hole,hall,T1,572000000000000.0,5.29,,mobilities up to 5.29 cm2 V− 1 s− 1 is achieved at a carrier concentration of 5.72 ×1014 cm− 3 .
+v56,bbe1f1bc0151f319.md,,Si,,,,molecular beam epitaxy,electron,hall,,1e+17,125.0,,with a peak value >125 cm2/Vs at a doping density of low-1017/cm3
+v56,bbe1f1bc0151f319.md,,Si,,,,molecular beam epitaxy,electron,hall,,1e+16,,,"When the power was lowered from 300 to 250 W, the Si density decreased to 1e16/cm3."
+v56,bbe1f1bc0151f319.md,,Si,,,,molecular beam epitaxy,electron,hall,,4e+19,,,"At 950°C, a lower concentration (~4e19/cm3) is achieved, but a peak rather than a plateau is observed."
+v56,bbe1f1bc0151f319.md,,Si,,,,molecular beam epitaxy,electron,hall,,1.2e+20,,,"Comparing 1050 and 1000°C, a change from 1.5 to 1.2e20/cm3 is observed."
+v56,bbe1f1bc0151f319.md,,Si,,,,molecular beam epitaxy,electron,hall,,1.5e+20,,,"Comparing 1050 and 1000°C, a change from 1.5 to 1.2e20/cm3 is observed."
+v56,bbe1f1bc0151f319.md,,Si,,,,molecular beam epitaxy,electron,hall,,2e+18,,,"At T_Si = 900°C, the Si background density is 2e18/cm3."
+v56,bbe1f1bc0151f319.md,,Si,,,,molecular beam epitaxy,electron,hall,,5.3e+18,,,"The silicon cell shutter was opened for 2 s to investigate delta doping, and the density increased to 5.3e18/cm3."
+v56,c2dff65547dcf519.md,,,,,,MOCVD,hole,estimate,,8.5e+17,,,"a hole concentration of 8.5 × 1017, 8.7 × 1011, and 2.7 × 10-9 cm-3, respectively, at room temperature without the use of external dopants."
+v56,c2dff65547dcf519.md,,,,,,pulsed laser deposition,hole,estimate,,20000000000000.0,0.2,,the pulsed laser deposition grown samples exhibited a hole concentration about 2 × 1013 cm-3 and a hole mobility of ~0.2 cm2V-1s-1 at room temperature.
+v56,c2dff65547dcf519.md,,,,,,MOCVD,hole,estimate,,300000000000000.0,,,β-Ga O films grown by MOCVD followed by an annealing process was reported to exhibit a hole concentrations of ~3 × 1014 cm-3 at room temperature.
+v56,cb9466dbac4a24ff.md,,Si,,,,hvpe,hole,hall,,87000000000000.0,80.0,,majority of the free carries at the surface have been determined to be holes with a sheet concentration of p ~ 8.7×1013 cm-2 and a puzzlingly high mobility value of µ ~ 80 cm2/(V·s) at room T.
+v56,cb9466dbac4a24ff.md,,Si,,,,hvpe,hole,hall,,60000000000000.0,,,p ~ 6×1013 – 1014 cm-2 in the temperature range of 80 – 700 K.
+v56,d9500057287e33d9.md,,Sn,,,,mist-CVD,electron,,A,1e+18,,13.0,"For sample A, we obtain q¼1.3×10¹ X cm compared to q¼4.1×10⁵ X cm for the undoped sample."
+v56,d9500057287e33d9.md,,Sn,,,,mist-CVD,electron,,D,2e+19,,0.2,"The q decreases further with increasing doping levels (sample B and C), then diminishes slightly when the dopant concentration reaches N_D = 2×10¹⁹ cm⁻³ (sample D), and then returns to a higher value, N_D = 1×10²⁰ cm⁻³, for sample E*."
+v56,d9500057287e33d9.md,,Sn,,,,mist-CVD,electron,,E*,1e+20,,0.2,"The q decreases further with increasing doping levels (sample B and C), then diminishes slightly when the dopant concentration reaches N_D = 2×10¹⁹ cm⁻³ (sample D), and then returns to a higher value, N_D = 1×10²⁰ cm⁻³, for sample E*."
+v56,ec3fc6d0e0ba6300.md,,Si,,,,mocvd,electron,hall,,6.5e+17,,,"Hall measurements reveal n-type nature with carrier concentrations of 6.5×10^17, 3.2×10^18, and 3.9×10^18 atom/cm³, respectively."
+v56,ec3fc6d0e0ba6300.md,,Si,,,,mocvd,electron,hall,,3.2e+18,,,"Hall measurements reveal n-type nature with carrier concentrations of 6.5×10^17, 3.2×10^18, and 3.9×10^18 atom/cm³, respectively."
+v56,ec3fc6d0e0ba6300.md,,Si,,,,mocvd,electron,hall,,3.9e+18,,,"Hall measurements reveal n-type nature with carrier concentrations of 6.5×10^17, 3.2×10^18, and 3.9×10^18 atom/cm³, respectively."
+v56,eeab74d0dd69847e.md,,Zn,,9.7,at%,ALD,electron,hall,Ga/Zn=7:1,1.2e+18,12.5,0.45,"The carrier concentration, the carrier mobility, and the conductivity of the samples were measured via the Hall-effect measurement (Ecopia, HMS-3000) at room temperature under a magnetic field of 0.58T."
+v56,eeab74d0dd69847e.md,,Zn,,13.3,at%,ALD,electron,hall,Ga/Zn=5:1,2.1e+18,15.3,0.32,"The carrier concentration, the carrier mobility, and the conductivity of the samples were measured via the Hall-effect measurement (Ecopia, HMS-3000) at room temperature under a magnetic field of 0.58T."
+v56,eeab74d0dd69847e.md,,Zn,,24.65,at%,ALD,electron,hall,Ga/Zn=3:1,3.8e+18,18.7,0.19,"The carrier concentration, the carrier mobility, and the conductivity of the samples were measured via the Hall-effect measurement (Ecopia, HMS-3000) at room temperature under a magnetic field of 0.58T."
+phase77,10.1002/advs.202518859,10.1002/advs.202518859,Si,,,at%,C-V (capacitance-voltage) analysis of SB,,Hall,,1.3e+16,,,phase77_ingest
+phase77,10.1002/advs.202518859,10.1002/advs.202518859,Si,,,at%,HVPE epitaxy (post-growth carrier concen,,Hall,,1.9e+16,,,phase77_ingest
+phase77,10.1002/advs.202518859,10.1002/advs.202518859,Sn,,,at%,single-crystal wafer (bulk substrate car,,Hall,,5e+18,,,phase77_ingest
+phase77,10.1002/aelm.202500719,10.1002/aelm.202500719,Te,,,at%,MOCVD (homoepitaxy),,Hall,,1.78e+17,5.29,,phase77_ingest
+phase77,10.1002/aelm.202500719,10.1002/aelm.202500719,Te,,,at%,MOCVD (homoepitaxy),,Hall,,572000000000000.0,,,phase77_ingest
+phase77,10.1002/pssa.201900632,10.1002/pssa.201900632,Sn,,,at%,mist-CVD (mist chemical vapor deposition,,Hall,,1e+17,,,phase77_ingest
+phase77,10.1002/pssa.201900632,10.1002/pssa.201900632,Sn,,,at%,"mist-CVD, two-step growth, m-plane sapph",,Hall,,,65.0,,phase77_ingest
+phase77,10.1002/pssb.202400473,10.1002/pssb.202400473,In,,,at%,melt growth (Czochralski / vertical grad,,Hall,,1e+16,,,phase77_ingest
+phase77,10.1016/j.jmrt.2022.10.182,10.1016/j.jmrt.2022.10.182,N,,,at%,thermal oxidation of GaN in N2O ambient,,Hall,,1.64e+17,4.98,,phase77_ingest
+phase77,10.1016/j.mssp.2025.110003,10.1016/j.mssp.2025.110003,undoped,,,at%,MOCVD homoepitaxy on (2-01) Fe-doped β-G,,Hall,,4500000000000000.0,,,phase77_ingest
+phase77,10.1016/j.mssp.2025.110003,10.1016/j.mssp.2025.110003,undoped,,,at%,MOCVD homoepitaxy on (2-01) Fe-doped β-G,,Hall,,46000000000000.0,,,phase77_ingest
+phase77,10.1016/j.mssp.2025.110003,10.1016/j.mssp.2025.110003,undoped,,,at%,temperature-dependent Hall effect (MOCVD,,Hall,,,30.0,,phase77_ingest
+phase77,10.1016/j.mssp.2025.110003,10.1016/j.mssp.2025.110003,undoped,,,at%,temperature-dependent Hall effect (MOCVD,,Hall,,,30.0,,phase77_ingest
+phase77,10.1016/j.mtadv.2023.100436,10.1016/j.mtadv.2023.100436,P,,,at%,MOCVD-grown beta-Ga2O3 epilayer on sapph,,Hall,,1.612e+18,,,phase77_ingest
+phase77,10.1016/j.mtadv.2023.100436,10.1016/j.mtadv.2023.100436,P,,,at%,MOCVD-grown beta-Ga2O3 epilayer on sapph,,Hall,,6.428e+17,,,phase77_ingest
+phase77,10.1016/j.mtadv.2025.100568,10.1016/j.mtadv.2025.100568,P,,,at%,MOCVD UID epilayer + phosphorus ion impl,,Hall,,,0.399,,phase77_ingest
+phase77,10.1016/j.mtadv.2025.100568,10.1016/j.mtadv.2025.100568,P,,,at%,phosphorus ion implantation into UID bet,,Hall,,1.612e+18,,,phase77_ingest
+phase77,10.1016/j.mtphys.2024.101602,10.1016/j.mtphys.2024.101602,P,,,at%,MOCVD epilayer + phosphorus ion implanta,,Hall,,4.4e+18,1.2,,phase77_ingest
+phase77,10.1016/j.mtphys.2024.101602,10.1016/j.mtphys.2024.101602,P,,,at%,MOCVD epilayer + phosphorus ion implanta,,Hall,,6.5e+18,2.06,,phase77_ingest
+phase77,10.1016/j.mtphys.2024.101602,10.1016/j.mtphys.2024.101602,P,,,at%,phosphorus-ion implanted β-Ga2O3 thin fi,,Hall,,1.6e+18,0.4,,phase77_ingest
+phase77,10.1021/acs.cgd.2c00290,10.1021/acs.cgd.2c00290,Si,,,at%,"MOCVD (010) homoepitaxy, TMGa precursor,",,Hall,,1.8e+16,190.0,,phase77_ingest
+phase77,10.1021/acs.cgd.2c00290,10.1021/acs.cgd.2c00290,Si,,,at%,"MOCVD (010) homoepitaxy, TMGa precursor,",,Hall,,6.01e+16,171.0,,phase77_ingest
+phase77,10.1021/acs.cgd.2c00290,10.1021/acs.cgd.2c00290,Si,,,at%,"MOCVD (010) homoepitaxy, TMGa precursor,",,Hall,,3.22e+17,142.0,,phase77_ingest
+phase77,10.1021/acs.cgd.2c00290,10.1021/acs.cgd.2c00290,Si,,,at%,"MOCVD (010) homoepitaxy, TMGa precursor,",,Hall,,1.85e+18,114.0,,phase77_ingest
+phase77,10.1021/acs.cgd.2c00290,10.1021/acs.cgd.2c00290,Si,,,at%,"MOCVD (010) homoepitaxy, TMGa precursor,",,Hall,,1.06e+19,95.0,,phase77_ingest
+phase77,10.1021/acs.cgd.2c00290,10.1021/acs.cgd.2c00290,Si,,,at%,"MOCVD (010) homoepitaxy, TMGa precursor,",,Hall,,3.8e+19,93.0,,phase77_ingest
+phase77,10.1021/acs.cgd.2c00290,10.1021/acs.cgd.2c00290,Si,,,at%,"MOCVD (010) homoepitaxy, TMGa precursor,",,Hall,,4.24e+16,163.0,,phase77_ingest
+phase77,10.1021/acs.cgd.2c00290,10.1021/acs.cgd.2c00290,Si,,,at%,"MOCVD (010) homoepitaxy, TMGa precursor,",,Hall,,4.5e+16,134.0,,phase77_ingest
+phase77,10.1021/acs.cgd.4c01049,10.1021/acs.cgd.4c01049,Si,,,at%,"MOCVD homoepitaxy on (010) β-Ga2O3, puls",,Hall,,3.35e+19,44.1,,phase77_ingest
+phase77,10.1021/acsaelm.4c01857,10.1021/acsaelm.4c01857,Ta,,,at%,optical floating zone single crystal,,Hall,,7e+17,138.0,,phase77_ingest
+phase77,10.1021/acsomega.1c05130,10.1021/acsomega.1c05130,Sn,,,at%,mist CVD (alpha-phase Ga2O3 film on sapp,,Hall,,5e+18,1.99,,phase77_ingest
+phase77,10.1038/s41528-022-00179-3,10.1038/s41528-022-00179-3,Ta,,,at%,OFZ single crystal; stated active carrie,,Hall,,1.4e+18,,,phase77_ingest
+phase77,10.1038/s41598-017-13656-x,10.1038/s41598-017-13656-x,undoped,,,at%,"EFG bulk single crystal (Tamura), temper",,Hall,,1.71e+17,,,phase77_ingest
+phase77,10.1038/s41598-017-13656-x,10.1038/s41598-017-13656-x,undoped,,,at%,"EFG bulk single crystal (Tamura), temper",,Hall,,1.21e+17,,,phase77_ingest
+phase77,10.1038/s41598-017-13656-x,10.1038/s41598-017-13656-x,undoped,,,at%,"temperature-dependent Hall mobility, van",,Hall,,,160.0,,phase77_ingest
+phase77,10.1038/s41598-020-62948-2,10.1038/s41598-020-62948-2,H,,,at%,"EFG-grown beta-Ga2O3, H2 diffusion (quar",,Hall,,,1.0,,phase77_ingest
+phase77,10.1038/s41598-020-62948-2,10.1038/s41598-020-62948-2,H,,,at%,"EFG-grown beta-Ga2O3, O2 anneal followed",,Hall,,,100.0,,phase77_ingest
+phase77,10.1063/1.5025704,10.1063/1.5025704,Si,,,at%,PA-MBE (modulation-doped β-(Al0.18Ga0.82,,Hall,,,162.0,,phase77_ingest
+phase77,10.1063/1.5025704,10.1063/1.5025704,Si,,,at%,PA-MBE modulation-doped β-(Al0.18Ga0.82),,Hall,,,180.0,,phase77_ingest
+phase77,10.1063/1.5025704,10.1063/1.5025704,Si,,,at%,PA-MBE modulation-doped β-(AlxGa1-x)2O3/,,Hall,,,990.0,,phase77_ingest
+phase77,10.1063/1.5034474,10.1063/1.5034474,Ge,,,at%,MBE,,Hall,,6.5e+16,,,phase77_ingest
+phase77,10.1063/1.5034474,10.1063/1.5034474,Ge,,,at%,MBE,,Hall,,3e+17,,,phase77_ingest
+phase77,10.1063/1.5034474,10.1063/1.5034474,Si,,,at%,CZ,,Hall,,1.3e+17,,,phase77_ingest
+phase77,10.1063/1.5034474,10.1063/1.5034474,Si,,,at%,EFG,,Hall,,3e+17,,,phase77_ingest
+phase77,10.1063/1.5034474,10.1063/1.5034474,Si,,,at%,LPCVD,,Hall,,8e+17,,,phase77_ingest
+phase77,10.1063/1.5034474,10.1063/1.5034474,Si,,,at%,LPCVD,,Hall,,1e+18,,,phase77_ingest
+phase77,10.1063/1.5058059,10.1063/1.5058059,undoped,,,at%,MOCVD,,Hall,,7400000000000000.0,176.0,,phase77_ingest
+phase77,10.1063/1.5109678,10.1063/1.5109678,Si,,,at%,"HVPE homoepitaxial (010), on UID beta-Ga",,Hall,,1.32e+17,95.0,,phase77_ingest
+phase77,10.1063/1.5109678,10.1063/1.5109678,Si,,,at%,"HVPE homoepitaxial (010), on beta-Ga2O3 ",,Hall,,4.04e+17,67.0,,phase77_ingest
+phase77,10.1063/1.5109678,10.1063/1.5109678,Si,,,at%,"HVPE homoepitaxial (010), on semi-insula",,Hall,,7.92e+18,80.0,,phase77_ingest
+phase77,10.1063/1.5109678,10.1063/1.5109678,Si,,,at%,"HVPE homoepitaxial (010), on semi-insula",,Hall,,1.02e+19,,,phase77_ingest
+phase77,10.1063/1.5132752,10.1063/1.5132752,undoped,,,at%,MOCVD homoepitaxy,,Hall,,240000000000000.0,153.0,,phase77_ingest
+phase77,10.1063/1.5132752,10.1063/1.5132752,undoped,,,at%,MOCVD homoepitaxy,,Hall,,3000000000000000.0,550.0,,phase77_ingest
+phase77,10.1063/1.5132752,10.1063/1.5132752,undoped,,,at%,MOCVD homoepitaxy,,Hall,,,150.0,,phase77_ingest
+phase77,10.1063/5.0043903,10.1063/5.0043903,Sn,,,at%,melt growth EFG (Edge-defined Film-fed G,,Hall,,2.15e+18,,,phase77_ingest
+phase77,10.1063/5.0043903,10.1063/5.0043903,Sn,,,at%,melt growth EFG single crystal (Tamura C,,Hall,,,90.0,,phase77_ingest
+phase77,10.1063/5.0043903,10.1063/5.0043903,Sn,,,at%,melt growth EFG single crystal (Tamura C,,Hall,,,110.86,,phase77_ingest
+phase77,10.1063/5.0059657,10.1063/5.0059657,Ge,,,at%,MOCVD,,Hall,,6e+19,42.8,,phase77_ingest
+phase77,10.1063/5.0059657,10.1063/5.0059657,Ge,,,at%,MOCVD,,Hall,,5.7e+19,55.0,,phase77_ingest
+phase77,10.1063/5.0059657,10.1063/5.0059657,Ge,,,at%,MOCVD,,Hall,,5.8e+19,40.0,,phase77_ingest
+phase77,10.1063/5.0059657,10.1063/5.0059657,Ge,,,at%,MOCVD,,Hall,,1.5e+20,37.6,,phase77_ingest
+phase77,10.1063/5.0059657,10.1063/5.0059657,Ge,,,at%,MOCVD,,Hall,,2.6e+20,,,phase77_ingest
+phase77,10.1063/5.0059657,10.1063/5.0059657,Ge,,,at%,MOCVD,,Hall,,2e+16,,,phase77_ingest
+phase77,10.1063/5.0059657,10.1063/5.0059657,Ge,,,at%,MOCVD,,Hall,,3e+20,,,phase77_ingest
+phase77,10.1063/5.0059657,10.1063/5.0059657,Ge,,,at%,"MOCVD (Agilis 100, TEGa)",,Hall,,,125.0,,phase77_ingest
+phase77,10.1063/5.0059657,10.1063/5.0059657,Ge,,,at%,"MOCVD (Agilis 100, TEGa), T_sub=880C",,Hall,,8e+16,,,phase77_ingest
+phase77,10.1063/5.0059657,10.1063/5.0059657,Ge,,,at%,"MOCVD (Agilis 700 CIS, TEGa)",,Hall,,3.6e+16,138.0,,phase77_ingest
+phase77,10.1063/5.0059657,10.1063/5.0059657,Ge,,,at%,"MOCVD (Agilis 700 CIS, TMGa)",,Hall,,9e+17,78.0,,phase77_ingest
+phase77,10.1063/5.0059657,10.1063/5.0059657,Ge,,,at%,"MOCVD, T_sub=600C",,Hall,,,43.0,,phase77_ingest
+phase77,10.1063/5.0059657,10.1063/5.0059657,Ge,,,at%,"MOCVD, T_sub=880C",,Hall,,4.4e+17,98.0,,phase77_ingest
+phase77,10.1063/5.0087987,10.1063/5.0087987,Si,,,at%,PAMBE homoepitaxy on Fe-doped beta-Ga2O3,,Hall,,3e+19,25.0,,phase77_ingest
+phase77,10.1063/5.0124017,10.1063/5.0124017,Ge,,,at%,"ion implantation into HVPE beta-Ga2O3:N,",,Hall,,,78.0,,phase77_ingest
+phase77,10.1063/5.0124017,10.1063/5.0124017,Si,,64.7,at%,implantation + activation; room-temperat,,Hall,,1.3e+19,,,phase77_ingest
+phase77,10.1063/5.0124017,10.1063/5.0124017,Si,,,at%,"ion implantation into HVPE beta-Ga2O3:N,",,Hall,,,93.0,,phase77_ingest
+phase77,10.1063/5.0124017,10.1063/5.0124017,Sn,,,at%,"ion implantation into HVPE beta-Ga2O3:N,",,Hall,,,63.0,,phase77_ingest
+phase77,10.1063/5.0137666,10.1063/5.0137666,Si,,,at%,MOVPE,,Hall,,2.3e+16,196.0,,phase77_ingest
+phase77,10.1063/5.0137666,10.1063/5.0137666,Si,,,at%,MOVPE,,Hall,,1e+17,184.0,,phase77_ingest
+phase77,10.1063/5.0137666,10.1063/5.0137666,Si,,,at%,MOVPE,,Hall,,1.2e+20,85.0,,phase77_ingest
+phase77,10.1063/5.0137666,10.1063/5.0137666,Si,,,at%,MOVPE,,Hall,,,196.0,,phase77_ingest
+phase77,10.1063/5.0137666,10.1063/5.0137666,Si,,,at%,"MOVPE (delta-doping, 600C)",,Hall,,,94.0,,phase77_ingest
+phase77,10.1063/5.0137666,10.1063/5.0137666,Si,,,at%,"MOVPE (delta-doping, 810C)",,Hall,,,110.0,,phase77_ingest
+phase77,10.1063/5.0179622,10.1063/5.0179622,Si,,,at%,"in-situ MOCVD doped film, van der Pauw H",,Hall,,2.3e+19,91.0,,phase77_ingest
+phase77,10.1063/5.0179622,10.1063/5.0179622,Si,,,at%,"in-situ MOCVD doped film, van der Pauw H",,Hall,,,58.0,,phase77_ingest
+phase77,10.1063/5.0179622,10.1063/5.0179622,Si,,,at%,ion implantation + furnace anneal (PAMBE,,Hall,,,94.0,,phase77_ingest
+phase77,10.1063/5.0179622,10.1063/5.0179622,Si,,81.0,at%,"ion implantation + furnace anneal, van d",,Hall,,3.95e+18,71.6,,phase77_ingest
+phase77,10.1063/5.0179622,10.1063/5.0179622,Si,,81.0,at%,"ion implantation + furnace anneal, van d",,Hall,,4.22e+19,70.8,,phase77_ingest
+phase77,10.1063/5.0179622,10.1063/5.0179622,Si,,81.0,at%,"ion implantation + furnace anneal, van d",,Hall,,8.14e+19,,,phase77_ingest
+phase77,10.1063/5.0179622,10.1063/5.0179622,Si,,80.0,at%,ion implantation + staged furnace anneal,,Hall,,,90.0,,phase77_ingest
+phase77,10.1063/5.0179622,10.1063/5.0179622,Si,,80.0,at%,ion implantation + staged furnace anneal,,Hall,,,60.0,,phase77_ingest
+phase77,10.1063/5.0182448,10.1063/5.0182448,Si,,-0.7,at%,mist CVD (homoepitaxial on Fe-doped (010,,Hall,,2.58e+20,57.2,,phase77_ingest
+phase77,10.1063/5.0182448,10.1063/5.0182448,Si,,-0.7,at%,mist CVD (homoepitaxial on Fe-doped (010,,Hall,,3.85e+18,,,phase77_ingest
+phase77,10.1063/5.0184850,10.1063/5.0184850,Si,,,at%,MOCVD in-situ doped film (not implanted),,Hall,,,91.0,,phase77_ingest
+phase77,10.1063/5.0184850,10.1063/5.0184850,Si,,,at%,"MOCVD in-situ doped film, staged anneal ",,Hall,,2.3e+19,58.0,,phase77_ingest
+phase77,10.1063/5.0184850,10.1063/5.0184850,Si,,,at%,ion implantation into PAMBE homoepitaxia,,Hall,,,94.0,,phase77_ingest
+phase77,10.1063/5.0184850,10.1063/5.0184850,Si,,81.0,at%,"ion implantation, 5 min anneal at 950 C",,Hall,,,70.8,,phase77_ingest
+phase77,10.1063/5.0184850,10.1063/5.0184850,Si,,81.0,at%,"ion implantation, 5 min anneal at 950 C;",,Hall,,8.15e+19,,,phase77_ingest
+phase77,10.1063/5.0184850,10.1063/5.0184850,Si,,28.0,at%,"ion implantation, 60 min anneal at 950 C",,Hall,,2.8e+19,,,phase77_ingest
+phase77,10.1063/5.0184850,10.1063/5.0184850,Si,,,at%,"ion implantation, furnace anneal 950 C",,Hall,,,71.6,,phase77_ingest
+phase77,10.1063/5.0184850,10.1063/5.0184850,Si,,,at%,"ion implantation, furnace anneal 950 C; ",,Hall,,3.95e+18,,,phase77_ingest
+phase77,10.1063/5.0184850,10.1063/5.0184850,Si,,,at%,"ion implantation, furnace anneal 950 C; ",,Hall,,4.22e+19,,,phase77_ingest
+phase77,10.1063/5.0184946,10.1063/5.0184946,Si,,,at%,MOCVD in-situ + furnace anneal 950C 30mi,,Hall,,2.3e+19,58.0,,phase77_ingest
+phase77,10.1063/5.0184946,10.1063/5.0184946,Si,,,at%,MOCVD in-situ Si doping (as-grown),,Hall,,,91.0,,phase77_ingest
+phase77,10.1063/5.0184946,10.1063/5.0184946,Si,,,at%,ion implantation + furnace anneal 950C,,Hall,,,94.0,,phase77_ingest
+phase77,10.1063/5.0184946,10.1063/5.0184946,Si,,,at%,ion implantation + furnace anneal 950C,,Hall,,,71.6,,phase77_ingest
+phase77,10.1063/5.0184946,10.1063/5.0184946,Si,,,at%,ion implantation + furnace anneal 950C (,,Hall,,,90.0,,phase77_ingest
+phase77,10.1063/5.0184946,10.1063/5.0184946,Si,,,at%,ion implantation + furnace anneal 950C (,,Hall,,,60.0,,phase77_ingest
+phase77,10.1063/5.0184946,10.1063/5.0184946,Si,,,at%,ion implantation + furnace anneal 950C 5,,Hall,,8.14e+19,70.8,,phase77_ingest
+phase77,10.1063/5.0184946,10.1063/5.0184946,Si,,,at%,ion implantation + furnace anneal 950C 5,,Hall,,,70.8,,phase77_ingest
+phase77,10.1063/5.0185911,10.1063/5.0185911,Si,,,at%,"mist CVD (homoepitaxial, beta-Ga2O3(010)",,Hall,,3.85e+18,57.2,,phase77_ingest
+phase77,10.1063/5.0185911,10.1063/5.0185911,Si,,,at%,"mist CVD (homoepitaxial, beta-Ga2O3(010)",,Hall,,2.58e+20,,,phase77_ingest
+phase77,10.1063/5.0186897,10.1063/5.0186897,Si,,,at%,"mist CVD (homoepitaxial, beta-Ga2O3(010)",,Hall,,2.58e+20,57.2,,phase77_ingest
+phase77,10.1063/5.0186897,10.1063/5.0186897,Si,,,at%,"mist CVD (homoepitaxial, beta-Ga2O3(010)",,Hall,,3.85e+18,,,phase77_ingest
+phase77,10.1063/5.0187947,10.1063/5.0187947,Si,,,at%,mist CVD homoepitaxy on Fe-doped β-Ga2O3,,Hall,,2.58e+20,57.2,,phase77_ingest
+phase77,10.1063/5.0187947,10.1063/5.0187947,Si,,,at%,mist CVD homoepitaxy on Fe-doped β-Ga2O3,,Hall,,3.85e+18,,,phase77_ingest
+phase77,10.1063/5.0188055,10.1063/5.0188055,Ge,,,at%,LPCVD (low-pressure chemical vapor depos,,Hall,,2.3e+17,,,phase77_ingest
+phase77,10.1063/5.0205906,10.1063/5.0205906,Ge,,,at%,mist chemical vapor deposition (mist CVD,,Hall,,8.2e+16,66.0,,phase77_ingest
+phase77,10.1063/5.0205906,10.1063/5.0205906,Ge,,,at%,mist chemical vapor deposition (mist CVD,,Hall,,1.6e+19,,,phase77_ingest
+phase77,10.1063/5.0205906,10.1063/5.0205906,Ge,,,at%,mist chemical vapor deposition (mist CVD,,Hall,,6.3e+17,,,phase77_ingest
+phase77,10.1063/5.0207432,10.1063/5.0207432,Ge,,,at%,mist CVD (alpha-Ga2O3 on m-plane sapphir,,Hall,,8.2e+16,66.0,,phase77_ingest
+phase77,10.1063/5.0207432,10.1063/5.0207432,Ge,,,at%,mist CVD (alpha-Ga2O3 on m-plane sapphir,,Hall,,1.6e+19,,,phase77_ingest
+phase77,10.1063/5.0207432,10.1063/5.0207432,Ge,,,at%,mist CVD (alpha-Ga2O3 on m-plane sapphir,,Hall,,6.3e+17,,,phase77_ingest
+phase77,10.1063/5.0230413,10.1063/5.0230413,Si,,,at%,MOCVD homoepitaxy on Fe-doped (010) beta,,Hall,,4380000000000000.0,200.0,,phase77_ingest
+phase77,10.1063/5.0230413,10.1063/5.0230413,Si,,,at%,MOCVD homoepitaxy on Fe-doped (010) beta,,Hall,,6590000000000000.0,194.0,,phase77_ingest
+phase77,10.1063/5.0230413,10.1063/5.0230413,Si,,,at%,MOCVD homoepitaxy on Fe-doped (010) beta,,Hall,,6700000000000000.0,199.0,,phase77_ingest
+phase77,10.1063/5.0230413,10.1063/5.0230413,Si,,,at%,MOCVD homoepitaxy on Fe-doped (010) beta,,Hall,,8300000000000000.0,198.0,,phase77_ingest
+phase77,10.1063/5.0230413,10.1063/5.0230413,undoped,,,at%,MOCVD homoepitaxy on Fe-doped (010) beta,,Hall,,3430000000000000.0,196.0,,phase77_ingest
+phase77,10.1063/5.0244593,10.1063/5.0244593,Sn,,,at%,magnetron sputtering on BaF2 substrate,,Hall,,1500000000000000.0,26.9,,phase77_ingest
+phase77,10.1063/5.0245559,10.1063/5.0245559,Si,,,at%,LPCVD heteroepitaxial (-201) c-sapphire ,,Hall,,,113.0,,phase77_ingest
+phase77,10.1063/5.0245559,10.1063/5.0245559,Si,,,at%,LPCVD heteroepitaxial (-201) c-sapphire ,,Hall,,,138.0,,phase77_ingest
+phase77,10.1063/5.0245559,10.1063/5.0245559,Si,,,at%,LPCVD heteroepitaxial (-201) c-sapphire ,,Hall,,,149.0,,phase77_ingest
+phase77,10.1063/5.0245559,10.1063/5.0245559,Si,,,at%,LPCVD heteroepitaxial (-201) c-sapphire ,,Hall,,,124.0,,phase77_ingest
+phase77,10.1063/5.0245559,10.1063/5.0245559,Si,,,at%,LPCVD heteroepitaxial (-201) c-sapphire ,,Hall,,,118.0,,phase77_ingest
+phase77,10.1063/5.0245559,10.1063/5.0245559,Si,,,at%,LPCVD heteroepitaxial (-201) c-sapphire ,,Hall,,,109.0,,phase77_ingest
+phase77,10.1063/5.0245559,10.1063/5.0245559,Si,,,at%,LPCVD heteroepitaxial (-201) c-sapphire ,,Hall,,,81.0,,phase77_ingest
+phase77,10.1063/5.0245559,10.1063/5.0245559,Si,,,at%,LPCVD heteroepitaxial (-201) c-sapphire ,,Hall,,,94.0,,phase77_ingest
+phase77,10.1063/5.0245559,10.1063/5.0245559,Si,,,at%,LPCVD heteroepitaxial (-201) c-sapphire ,,Hall,,,74.0,,phase77_ingest
+phase77,10.1063/5.0245559,10.1063/5.0245559,Si,,,at%,LPCVD heteroepitaxial (-201) c-sapphire ,,Hall,,,59.0,,phase77_ingest
+phase77,10.1063/5.0245559,10.1063/5.0245559,Si,,,at%,LPCVD heteroepitaxial (-201) on 6° offcu,,Hall,,1.15e+17,149.0,,phase77_ingest
+phase77,10.1063/5.0245559,10.1063/5.0245559,Si,,,at%,LPCVD homoepitaxial (010),,Hall,,5.05e+17,92.0,,phase77_ingest
+phase77,10.1063/5.0245559,10.1063/5.0245559,Si,,,at%,LPCVD homoepitaxial (010),,Hall,,,101.0,,phase77_ingest
+phase77,10.1063/5.0245559,10.1063/5.0245559,Si,,,at%,LPCVD homoepitaxial (010),,Hall,,,106.0,,phase77_ingest
+phase77,10.1063/5.0245559,10.1063/5.0245559,Si,,,at%,LPCVD homoepitaxial (010),,Hall,,,81.0,,phase77_ingest
+phase77,10.1063/5.0245559,10.1063/5.0245559,Si,,,at%,LPCVD homoepitaxial (010) Fe-doped Ga2O3,,Hall,,,118.0,,phase77_ingest
+phase77,10.1063/5.0245559,10.1063/5.0245559,Si,,,at%,LPCVD homoepitaxial (010) on Fe-doped Ga,,Hall,,1.51e+17,162.0,,phase77_ingest
+phase77,10.1063/5.0261436,10.1063/5.0261436,Nb,,,at%,optical floating zone (OFZ) single cryst,,Hall,,6.1e+17,83.0,,phase77_ingest
+phase77,10.1063/5.0261436,10.1063/5.0261436,Nb,,,at%,optical floating zone (OFZ) single cryst,,Hall,,1.2e+18,75.0,,phase77_ingest
+phase77,10.1063/5.0302735,10.1063/5.0302735,Si,,,at%,"MOCVD (TMGa, O2, Ar carrier, diluted SiH",,Hall,,,130.0,,phase77_ingest
+phase77,10.1063/5.0302735,10.1063/5.0302735,Si,,,at%,"MOCVD (TMGa, diluted SiH4 in N2 at 23.9 ",,Hall,,5570000000000000.0,,,phase77_ingest
+phase77,10.1063/5.0302735,10.1063/5.0302735,Si,,,at%,"MOCVD TMGa, controllable intentional Si ",,Hall,,3000000000000000.0,,,phase77_ingest
+phase77,10.1063/5.0302735,10.1063/5.0302735,undoped,,,at%,"MOCVD TMGa, 170 umol/min flow; 4-corner ",,Hall,,,176.0,,phase77_ingest
+phase77,10.1063/5.0302735,10.1063/5.0302735,undoped,,,at%,"MOCVD TMGa, 170 umol/min; Hall; SIMS-cor",,Hall,,3000000000000000.0,,,phase77_ingest
+phase77,10.1063/5.0302735,10.1063/5.0302735,undoped,,,at%,MOCVD TMGa; Hall (best-mobility UID grow,,Hall,,2000000000000000.0,,,phase77_ingest
+phase77,10.1063/5.0307330,10.1063/5.0307330,Si,,,at%,CIS-MOCVD (close-injection showerhead MO,,Hall,,,114.0,,phase77_ingest
+phase77,10.1063/5.0307330,10.1063/5.0307330,Si,,,at%,SIMS (Si doping concentration of n-type ,,Hall,,2e+18,,,phase77_ingest
+phase77,10.1088/1361-6641/ab75a6,10.1088/1361-6641/ab75a6,Hf,,0.5,at%,VGF melt growth (single crystal),,Hall,,7.5e+18,78.0,,phase77_ingest
+phase77,10.1088/1361-6641/ab75a6,10.1088/1361-6641/ab75a6,Hf,,0.5,at%,VGF melt growth (single crystal),,Hall,,8.2e+18,77.0,,phase77_ingest
+phase77,10.1088/1361-6641/ab75a6,10.1088/1361-6641/ab75a6,Hf,,0.5,at%,VGF melt growth (single crystal),,Hall,,9.2e+18,80.0,,phase77_ingest
+phase77,10.1088/1361-6641/ab75a6,10.1088/1361-6641/ab75a6,Hf,,0.5,at%,VGF melt growth (single crystal),,Hall,,9.5e+18,72.0,,phase77_ingest
+phase77,10.1088/1361-6641/ab75a6,10.1088/1361-6641/ab75a6,Hf,,0.5,at%,VGF melt growth (single crystal),,Hall,,1.1e+19,70.0,,phase77_ingest
+phase77,10.1088/1361-6641/ab75a6,10.1088/1361-6641/ab75a6,Hf,,0.5,at%,VGF melt growth (single crystal),,Hall,,1.1e+19,61.0,,phase77_ingest
+phase77,10.1088/1361-6641/ab75a6,10.1088/1361-6641/ab75a6,Hf,,0.5,at%,VGF melt growth (single crystal),,Hall,,1.5e+19,51.0,,phase77_ingest
+phase77,10.1088/1361-6641/ab75a6,10.1088/1361-6641/ab75a6,Hf,,0.5,at%,VGF melt growth (single crystal),,Hall,,1.9e+19,64.0,,phase77_ingest
+phase77,10.1088/1361-6641/ab75a6,10.1088/1361-6641/ab75a6,undoped,,,at%,VGF/CZ melt growth (single crystal),,Hall,,4.3e+17,68.0,,phase77_ingest
+phase77,10.1088/1361-6641/ab75a6,10.1088/1361-6641/ab75a6,undoped,,,at%,VGF/CZ melt growth (single crystal),,Hall,,1.5e+17,97.0,,phase77_ingest
+phase77,10.1088/1674-4926/43/9/092802,10.1088/1674-4926/43/9/092802,H,,,at%,"FastHall (M91 Lake Shore), Van der Pauw,",,Hall,,4e+18,27.6,,phase77_ingest
+phase77,10.1088/1674-4926/43/9/092802,10.1088/1674-4926/43/9/092802,H,,,at%,"FastHall (M91 Lake Shore), Van der Pauw,",,Hall,,5.8e+18,41.8,,phase77_ingest
+phase77,10.1088/1674-4926/43/9/092802,10.1088/1674-4926/43/9/092802,H,,,at%,"FastHall (M91 Lake Shore), Van der Pauw,",,Hall,,,45.0,,phase77_ingest
+phase77,10.1116/6.0000866,10.1116/6.0000866,Ge,,,at%,"LPCVD (overall, both setups, 6deg offcut",,Hall,,1e+17,,,phase77_ingest
+phase77,10.1116/6.0000866,10.1116/6.0000866,Ge,,,at%,"LPCVD (setup 1, on 6deg offcut sapphire)",,Hall,,,25.0,,phase77_ingest
+phase77,10.1116/6.0000866,10.1116/6.0000866,Ge,,,at%,"LPCVD (setup 1, oxygen delivery tube, on",,Hall,,5e+17,,,phase77_ingest
+phase77,10.1116/6.0000866,10.1116/6.0000866,Ge,,,at%,"LPCVD (setup 2, argon/gallium delivery t",,Hall,,2e+17,,,phase77_ingest
+phase77,10.1116/6.0000866,10.1116/6.0000866,Ge,,,at%,"LPCVD (setup 2, on (010) Ga2O3 and sapph",,Hall,,,20.0,,phase77_ingest
+phase77,10.1116/6.0000866,10.1116/6.0000866,Ge,,,at%,"LPCVD (setup 2, sample G, (010) single c",,Hall,,3e+18,,,phase77_ingest
+phase77,10.1116/6.0001004,10.1116/6.0001004,Ge,,,at%,"LPCVD (setup 1), 6 deg offcut sapphire s",,Hall,,5e+17,,,phase77_ingest
+phase77,10.1116/6.0001004,10.1116/6.0001004,Ge,,,at%,"LPCVD (setup 1), heteroepitaxial on 6 de",,Hall,,,25.0,,phase77_ingest
+phase77,10.1116/6.0001004,10.1116/6.0001004,Ge,,,at%,"LPCVD (setup 2), (010) single-crystal su",,Hall,,3e+18,,,phase77_ingest
+phase77,10.1116/6.0001004,10.1116/6.0001004,Ge,,,at%,"LPCVD (setup 2), CV apparent carrier den",,Hall,,2e+17,,,phase77_ingest
+phase77,10.1116/6.0001004,10.1116/6.0001004,Ge,,,at%,"LPCVD (setup 2, Ar delivery tube), homoe",,Hall,,2e+17,20.0,,phase77_ingest
+phase77,10.1116/6.0001004,10.1116/6.0001004,Ge,,,at%,"LPCVD (setups 1 and 2), 6 deg offcut and",,Hall,,1e+17,,,phase77_ingest
+phase77,10.3390/inorganics13100329,10.3390/inorganics13100329,W,,10.7,at%,"electron beam (e-beam) evaporation, room",,Hall,,2.135e+16,4.2,,phase77_ingest
+phase77,10.3390/ma17194931,10.3390/ma17194931,Mg,,3.6,at%,electron beam evaporation + postanneal 8,,Hall,,195000000000000.0,0.53682,,phase77_ingest
+phase77,10.3390/mi16080954,10.3390/mi16080954,Zn,,4.0,at%,PECVD,,Hall,,5000000000000.0,0.13,,phase77_ingest
+phase77,10.3390/mi16080954,10.3390/mi16080954,Zn,,4.0,at%,PECVD,,Hall,,8000000000000.0,0.22,,phase77_ingest
+phase77,10.3390/mi16080954,10.3390/mi16080954,Zn,,4.0,at%,PECVD,,Hall,,10000000000000.0,0.16,,phase77_ingest
+phase77,10.3390/mi16080954,10.3390/mi16080954,undoped,,,at%,PECVD,,Hall,,1150000000000000.0,0.11,,phase77_ingest
+phase77,10.3390/nano14020178,10.3390/nano14020178,Sn,,,at%,"mist-CVD, Sn-doped alpha-Ga2O3 directly ",,Hall,,1.8e+18,3.8,,phase77_ingest
+phase77,10.3390/nano14020178,10.3390/nano14020178,Sn,,,at%,"mist-CVD, alpha-Ga2O3 on (Al0.3Ga0.7)2O3",,Hall,,1.6e+19,3.7,,phase77_ingest
+phase77,10.3390/nano14020178,10.3390/nano14020178,Sn,,,at%,"mist-CVD, alpha-Ga2O3 on (Al0.3Ga0.7)2O3",,Hall,,4.1e+18,21.1,,phase77_ingest
+phase77,10.3390/nano14020178,10.3390/nano14020178,Sn,,,at%,"mist-CVD, alpha-Ga2O3 on (Al0.3Ga0.7)2O3",,Hall,,7.4e+18,13.0,,phase77_ingest
+phase77,10.3390/nano15010007,10.3390/nano15010007,undoped,,100.0,at%,EFG (edge-defined film-fed growth),,Hall,,8.1e+18,58.0,,phase77_ingest
+phase77,10.3390/nano15010007,10.3390/nano15010007,undoped,,100.0,at%,EFG (edge-defined film-fed growth),,Hall,,3.5e+18,79.1,,phase77_ingest
+phase77,10.3390/nano16020093,10.3390/nano16020093,In,,100.0,at%,MOCVD; Hall effect,,Hall,,6.15e+17,15.69,,phase77_ingest
+phase77,10.3390/nano16020093,10.3390/nano16020093,In,,100.0,at%,MOCVD; Hall effect,,Hall,,4.48e+18,2.37,,phase77_ingest
+phase77,10.3390/nano16020093,10.3390/nano16020093,In,,100.0,at%,MOCVD; Hall effect,,Hall,,4.62e+18,15.24,,phase77_ingest
+phase77,10.35848/1882-0786/abd675,10.35848/1882-0786/abd675,Si,,,at%,MOVPE modulation-doped heterostructure; ,,Hall,,,111.0,,phase77_ingest
+phase77,10.35848/1882-0786/abd675,10.35848/1882-0786/abd675,Si,,,at%,MOVPE modulation-doped heterostructure; ,,Hall,,,125.0,,phase77_ingest
+phase77,10.35848/1882-0786/abd675,10.35848/1882-0786/abd675,Si,,,at%,MOVPE modulation-doped heterostructure; ,,Hall,,,1680.0,,phase77_ingest
+phase77,10.35848/1882-0786/abd675,10.35848/1882-0786/abd675,Si,,,at%,MOVPE modulation-doped heterostructure; ,,Hall,,,689.0,,phase77_ingest
+phase77,10.35848/1882-0786/acefa5,10.35848/1882-0786/acefa5,Si,,,at%,Mist-CVD,,Hall,,6.2e+17,80.0,,phase77_ingest
+phase77,10.35848/1882-0786/adcfee,10.35848/1882-0786/adcfee,Si,,,at%,low-pressure hot-wall MOVPE,,Hall,,1.8e+16,136.0,,phase77_ingest
+phase77,10.35848/1882-0786/adcfee,10.35848/1882-0786/adcfee,Si,,,at%,low-pressure hot-wall MOVPE,,Hall,,1.3e+19,70.0,,phase77_ingest
+phase77,10.35848/1882-0786/adcfee,10.35848/1882-0786/adcfee,Si,,,at%,low-pressure hot-wall MOVPE,,Hall,,1.8e+17,140.0,,phase77_ingest
+phase77,10.48550/arxiv.1802.04426,10.48550/arxiv.1802.04426,Si,,,at%,"PA-MBE (plasma-assisted MBE), (010) Fe-d",,Hall,,,162.0,,phase77_ingest
+phase77,10.48550/arxiv.1802.04426,10.48550/arxiv.1802.04426,Si,,,at%,"PA-MBE, (010) Fe-doped SI substrate",,Hall,,,180.0,,phase77_ingest
+phase77,10.48550/arxiv.1802.04426,10.48550/arxiv.1802.04426,Si,,,at%,PA-MBE; Hall (Van der Pauw),,Hall,,,990.0,,phase77_ingest
+phase77,10.48550/arxiv.2001.11187,10.48550/arxiv.2001.11187,Hf,,0.5,at%,VGF (melt-grown single crystal),,Hall,,7.5e+18,78.0,,phase77_ingest
+phase77,10.48550/arxiv.2001.11187,10.48550/arxiv.2001.11187,Hf,,0.5,at%,VGF (melt-grown single crystal),,Hall,,8.2e+18,77.0,,phase77_ingest
+phase77,10.48550/arxiv.2001.11187,10.48550/arxiv.2001.11187,Hf,,0.5,at%,VGF (melt-grown single crystal),,Hall,,9.2e+18,80.0,,phase77_ingest
+phase77,10.48550/arxiv.2001.11187,10.48550/arxiv.2001.11187,Hf,,0.5,at%,VGF (melt-grown single crystal),,Hall,,9.5e+18,72.0,,phase77_ingest
+phase77,10.48550/arxiv.2001.11187,10.48550/arxiv.2001.11187,Hf,,0.5,at%,VGF (melt-grown single crystal),,Hall,,1.1e+19,70.0,,phase77_ingest
+phase77,10.48550/arxiv.2001.11187,10.48550/arxiv.2001.11187,Hf,,0.5,at%,VGF (melt-grown single crystal),,Hall,,1.1e+19,61.0,,phase77_ingest
+phase77,10.48550/arxiv.2001.11187,10.48550/arxiv.2001.11187,Hf,,0.5,at%,VGF (melt-grown single crystal),,Hall,,1.5e+19,51.0,,phase77_ingest
+phase77,10.48550/arxiv.2001.11187,10.48550/arxiv.2001.11187,Hf,,0.5,at%,VGF (melt-grown single crystal),,Hall,,1.9e+19,64.0,,phase77_ingest
+phase77,10.48550/arxiv.2001.11187,10.48550/arxiv.2001.11187,undoped,,,at%,CZ/VGF (melt-grown single crystal),,Hall,,4.3e+17,68.0,,phase77_ingest
+phase77,10.48550/arxiv.2001.11187,10.48550/arxiv.2001.11187,undoped,,,at%,CZ/VGF (melt-grown single crystal),,Hall,,1.5e+17,97.0,,phase77_ingest
+phase77,10.48550/arxiv.2008.06015,10.48550/arxiv.2008.06015,Sn,,,at%,EFG melt growth single crystal (Tamura C,,Hall,,2.15e+18,,,phase77_ingest
+phase77,10.48550/arxiv.2008.06015,10.48550/arxiv.2008.06015,Sn,,,at%,"EFG melt growth single crystal, van der ",,Hall,,,90.3,,phase77_ingest
+phase77,10.48550/arxiv.2008.06015,10.48550/arxiv.2008.06015,Sn,,,at%,"EFG melt growth single crystal, van der ",,Hall,,,110.86,,phase77_ingest
+phase77,10.48550/arxiv.2103.05166,10.48550/arxiv.2103.05166,Ge,,,at%,"LPCVD setup 1 (heteroepitaxial, 6deg off",,Hall,,5e+17,,,phase77_ingest
+phase77,10.48550/arxiv.2103.05166,10.48550/arxiv.2103.05166,Ge,,,at%,"LPCVD setup 1 (heteroepitaxial, offcut s",,Hall,,,25.0,,phase77_ingest
+phase77,10.48550/arxiv.2103.05166,10.48550/arxiv.2103.05166,Ge,,,at%,LPCVD setup 2 (homoepitaxial (010) singl,,Hall,,2e+17,,,phase77_ingest
+phase77,10.48550/arxiv.2103.05166,10.48550/arxiv.2103.05166,Ge,,,at%,"LPCVD setup 2 (homoepitaxial), room-temp",,Hall,,,20.0,,phase77_ingest
+phase77,10.48550/arxiv.2103.05166,10.48550/arxiv.2103.05166,Ge,,,at%,"LPCVD setup 2 homoepitaxial, temperature",,Hall,,3e+18,,,phase77_ingest
+phase77,10.48550/arxiv.2212.02062,10.48550/arxiv.2212.02062,Si,,100.0,at%,"MOVPE (240 nm Si-doped layer), CV + Hall",,Hall,,3.6e+17,,,phase77_ingest
+phase77,10.48550/arxiv.2212.02062,10.48550/arxiv.2212.02062,Si,,,at%,"MOVPE (250 nm thick Si-doped film), RT H",,Hall,,,184.0,,phase77_ingest
+phase77,10.48550/arxiv.2212.02062,10.48550/arxiv.2212.02062,Si,,,at%,"MOVPE (810C HT channel, 300nm LT 600C UI",,Hall,,,196.0,,phase77_ingest
+phase77,10.48550/arxiv.2212.02062,10.48550/arxiv.2212.02062,Si,,,at%,"MOVPE Si delta-doped channel, RT Hall",,Hall,,,110.0,,phase77_ingest
+phase77,10.48550/arxiv.2212.02062,10.48550/arxiv.2212.02062,Si,,,at%,"MOVPE Si-doped channel, RT Hall",,Hall,,1.2e+20,100.0,,phase77_ingest
+phase77,10.48550/arxiv.2212.02062,10.48550/arxiv.2212.02062,Si,,,at%,"MOVPE Si-doped channel, RT Hall",,Hall,,,85.0,,phase77_ingest
+phase77,10.48550/arxiv.2212.02062,10.48550/arxiv.2212.02062,Si,,,at%,"MOVPE, RT Hall",,Hall,,1e+17,,,phase77_ingest
+phase77,10.48550/arxiv.2212.02062,10.48550/arxiv.2212.02062,Si,,,at%,"MOVPE, RT Hall (Ecopia HMS 3000/7000)",,Hall,,2.3e+16,,,phase77_ingest
+phase77,10.48550/arxiv.2311.00821,10.48550/arxiv.2311.00821,Si,,,at%,MOCVD in-situ doped + anneal 950C 30 min,,Hall,,2.3e+19,,,phase77_ingest
+phase77,10.48550/arxiv.2311.00821,10.48550/arxiv.2311.00821,Si,,,at%,MOCVD in-situ doped + staged anneal 950C,,Hall,,,58.0,,phase77_ingest
+phase77,10.48550/arxiv.2311.00821,10.48550/arxiv.2311.00821,Si,,,at%,"MOCVD in-situ doped, as-grown",,Hall,,,91.0,,phase77_ingest
+phase77,10.48550/arxiv.2311.00821,10.48550/arxiv.2311.00821,Si,,,at%,ion implantation + furnace anneal 950C,,Hall,,3.95e+18,71.6,,phase77_ingest
+phase77,10.48550/arxiv.2311.00821,10.48550/arxiv.2311.00821,Si,,,at%,ion implantation + furnace anneal 950C,,Hall,,4.22e+19,,,phase77_ingest
+phase77,10.48550/arxiv.2311.00821,10.48550/arxiv.2311.00821,Si,,81.0,at%,ion implantation + furnace anneal 950C 5,,Hall,,8.14e+19,70.8,,phase77_ingest
+phase77,10.48550/arxiv.2311.00821,10.48550/arxiv.2311.00821,Si,,28.0,at%,ion implantation + furnace anneal 950C 6,,Hall,,2.8e+19,,,phase77_ingest
+phase77,10.48550/arxiv.2311.00821,10.48550/arxiv.2311.00821,Si,,,at%,"ion implantation + furnace anneal 950C, ",,Hall,,,94.0,,phase77_ingest
+phase77,10.48550/arxiv.2311.14253,10.48550/arxiv.2311.14253,undoped,,,at%,"MOCVD (TEGa precursor), (010) β-Ga2O3 dr",,Hall,,,187.0,,phase77_ingest
+phase77,10.48550/arxiv.2311.14253,10.48550/arxiv.2311.14253,undoped,,,at%,"MOCVD (TEGa precursor), background carri",,Hall,,3.3e+16,,,phase77_ingest
+phase77,10.48550/arxiv.2311.14253,10.48550/arxiv.2311.14253,undoped,,,at%,"MOCVD (TEGa precursor), background carri",,Hall,,2400000000000000.0,,,phase77_ingest
+phase77,10.48550/arxiv.2311.14253,10.48550/arxiv.2311.14253,undoped,,,at%,Vertical Ni SBD on 6.3 μm thick MOCVD UI,,Hall,,2400000000000000.0,132.0,,phase77_ingest
+phase77,10.48550/arxiv.2407.17089,10.48550/arxiv.2407.17089,Si,,,at%,MOCVD,,Hall,,4380000000000000.0,200.0,,phase77_ingest
+phase77,10.48550/arxiv.2407.17089,10.48550/arxiv.2407.17089,Si,,,at%,MOCVD,,Hall,,6590000000000000.0,194.0,,phase77_ingest
+phase77,10.48550/arxiv.2407.17089,10.48550/arxiv.2407.17089,Si,,,at%,MOCVD,,Hall,,6700000000000000.0,199.0,,phase77_ingest
+phase77,10.48550/arxiv.2407.17089,10.48550/arxiv.2407.17089,Si,,,at%,MOCVD,,Hall,,8300000000000000.0,198.0,,phase77_ingest
+phase77,10.48550/arxiv.2407.17089,10.48550/arxiv.2407.17089,Si,,,at%,MOCVD,,Hall,,3960000000000000.0,,,phase77_ingest
+phase77,10.48550/arxiv.2407.17089,10.48550/arxiv.2407.17089,undoped,,,at%,MOCVD,,Hall,,3430000000000000.0,196.0,,phase77_ingest
+phase77,10.48550/arxiv.2412.00149,10.48550/arxiv.2412.00149,Si,,,at%,LPCVD heteroepitaxial (-201) on c-plane ,,Hall,,1.15e+17,149.0,,phase77_ingest
+phase77,10.48550/arxiv.2412.00149,10.48550/arxiv.2412.00149,Si,,,at%,LPCVD heteroepitaxial (-201) on c-plane ,,Hall,,8.29e+18,59.0,,phase77_ingest
+phase77,10.48550/arxiv.2412.00149,10.48550/arxiv.2412.00149,Si,,,at%,LPCVD heteroepitaxial (-201) on sapphire,,Hall,,,843.0,,phase77_ingest
+phase77,10.48550/arxiv.2412.00149,10.48550/arxiv.2412.00149,Si,,,at%,LPCVD homoepitaxial (010) on Fe-doped Ga,,Hall,,1.51e+17,162.0,,phase77_ingest
+phase77,10.48550/arxiv.2412.00149,10.48550/arxiv.2412.00149,Si,,,at%,LPCVD homoepitaxial (010) on Fe-doped Ga,,Hall,,5.05e+17,118.0,,phase77_ingest
+phase77,10.48550/arxiv.2412.00149,10.48550/arxiv.2412.00149,Si,,,at%,LPCVD homoepitaxial (010) on Fe-doped Ga,,Hall,,1.19e+19,81.0,,phase77_ingest
+phase77,10.48550/arxiv.2412.00149,10.48550/arxiv.2412.00149,Si,,,at%,LPCVD homoepitaxial (010); temperature-d,,Hall,,,332.0,,phase77_ingest
+phase77,10.48550/arxiv.2509.14403,10.48550/arxiv.2509.14403,Si,,,at%,"MOCVD (TMGa), Van der Pauw Hall, 15 Torr",,Hall,,,176.0,,phase77_ingest
+phase77,10.48550/arxiv.2509.14403,10.48550/arxiv.2509.14403,Si,,,at%,"MOCVD (TMGa), Van der Pauw Hall, TMGa fl",,Hall,,3000000000000000.0,,,phase77_ingest
+phase77,10.48550/arxiv.2509.14403,10.48550/arxiv.2509.14403,Si,,,at%,"MOCVD (TMGa), diluted silane (SiH4) dopa",,Hall,,3000000000000000.0,,,phase77_ingest
+phase77,10.48550/arxiv.2509.14403,10.48550/arxiv.2509.14403,Si,,,at%,"MOCVD (TMGa, diluted silane), Van der Pa",,Hall,,5570000000000000.0,130.0,,phase77_ingest
+phase77,10.48550/arxiv.2606.05607,10.48550/arxiv.2606.05607,Si,,,at%,HVPE on 6° offcut sapphire,,Hall,,1.5e+18,77.0,,phase77_ingest
+phase77,10.48550/arxiv.2606.05607,10.48550/arxiv.2606.05607,Si,,,at%,HVPE on 6° offcut sapphire,,Hall,,2e+18,35.0,,phase77_ingest
+phase77,10.48550/arxiv.2606.05607,10.48550/arxiv.2606.05607,Si,,,at%,HVPE on 6° offcut sapphire,,Hall,,5e+17,39.0,,phase77_ingest
+phase77,10.48550/arxiv.2606.05607,10.48550/arxiv.2606.05607,Si,,,at%,HVPE on 6° offcut sapphire,,Hall,,3.4e+18,52.0,,phase77_ingest
+phase77,10.48550/arxiv.2606.05607,10.48550/arxiv.2606.05607,Si,,,at%,HVPE on 6° offcut sapphire,,Hall,,1e+17,100.0,,phase77_ingest
+phase77,10.48550/arxiv.2606.05607,10.48550/arxiv.2606.05607,Si,,,at%,HVPE on 6° offcut sapphire,,Hall,,2.4e+17,21.0,,phase77_ingest
+phase77,10.48550/arxiv.2606.05607,10.48550/arxiv.2606.05607,Si,,,at%,HVPE on 6° offcut sapphire; T-dependent ,,Hall,,1.8e+16,405.0,,phase77_ingest
+phase77,10.7567/1882-0786/ab2b6c,10.7567/1882-0786/ab2b6c,Zr,,0.1,at%,Czochralski/VGF melt growth (single crys,,Hall,,,112.0,,phase77_ingest
+phase77,10.7567/1882-0786/ab2b6c,10.7567/1882-0786/ab2b6c,Zr,,0.1,at%,Czochralski/VGF melt growth (single crys,,Hall,,,75.0,,phase77_ingest
+phase77,10.7567/1882-0786/ab2b6c,10.7567/1882-0786/ab2b6c,Zr,,0.1,at%,Czochralski/VGF melt growth (single crys,,Hall,,,75.0,,phase77_ingest
+phase77,10.7567/1882-0786/ab2b6c,10.7567/1882-0786/ab2b6c,Zr,,0.1,at%,"Hall effect (van der Pauw, 0.51 T), room",,Hall,,6.5e+17,,,phase77_ingest
+phase77,10.7567/1882-0786/ab2b6c,10.7567/1882-0786/ab2b6c,Zr,,0.1,at%,"Hall effect (van der Pauw, 0.51 T), room",,Hall,,1.25e+18,,,phase77_ingest
+phase77,10.7567/1882-0786/ab2b6c,10.7567/1882-0786/ab2b6c,Zr,,0.1,at%,"Hall effect (van der Pauw, 0.51 T), room",,Hall,,4.8e+18,,,phase77_ingest
+phase77,10.7567/1882-0786/ab47b8,10.7567/1882-0786/ab47b8,Si,,,at%,MOVPE (metalorganic vapor-phase epitaxy),,Hall,,6e+18,,,phase77_ingest
+phase77,10.7567/1882-0786/ab47b8,10.7567/1882-0786/ab47b8,Si,,,at%,"MOVPE, room-temperature Hall (Ecopia HMS",,Hall,,3.5e+19,53.0,,phase77_ingest
+phase77,10.7567/1882-0786/ab47b8,10.7567/1882-0786/ab47b8,Si,,,at%,"MOVPE, room-temperature Hall (Ecopia HMS",,Hall,,7.3e+19,27.0,,phase77_ingest
+phase77,10.7567/1882-0786/ab47b8,10.7567/1882-0786/ab47b8,Si,,,at%,"MOVPE, room-temperature Hall (Ecopia HMS",,Hall,,,32.0,,phase77_ingest
+phase97_harvest,pmc.ncbi.nlm.nih.gov/articles/pmc12388335,pmc.ncbi.nlm.nih.gov/articles/pmc12388335,,,0.0,at%,plasma-enhanced chemical vapor deposition (PECVD),,Hall,,1150005718699237.5,,,"According to the Hall measurements, the pure β-Ga2O3 thin films (T_Zn = 23 °C) have n-type conductivity, electron concentration n = 1.15 × 10^15 cm^−3, mobility µ = 0.11 cm^2 × V^−"
+phase97_harvest,pmc.ncbi.nlm.nih.gov/articles/pmc12388335,pmc.ncbi.nlm.nih.gov/articles/pmc12388335,,,0.0,at%,plasma-enhanced chemical vapor deposition (PECVD),,Hall,,,0.11,,"According to the Hall measurements, the pure β-Ga2O3 thin films (T_Zn = 23 °C) have n-type conductivity, electron concentration n = 1.15 × 10^15 cm^−3, mobility µ = 0.11 cm^2 × V^−"
+phase97_harvest,pmc.ncbi.nlm.nih.gov/articles/pmc12388335,pmc.ncbi.nlm.nih.gov/articles/pmc12388335,Zn,,4.0,at%,plasma-enhanced chemical vapor deposition (PECVD),,Hall,,,0.13,,Table 4: | T_Zn 220 | ρ 8.3 × 10^6 | n (cm−3) 5 × 10^12 | µ (cm^2 × V^−1 × s^−1) 0.13
+phase97_harvest,pmc.ncbi.nlm.nih.gov/articles/pmc12388335,pmc.ncbi.nlm.nih.gov/articles/pmc12388335,Zn,,6.0,at%,plasma-enhanced chemical vapor deposition (PECVD),,Hall,,,0.22,,Table 4: | T_Zn 230 | ρ 3.4 × 10^6 | n (cm−3) 8 × 10^12 | µ (cm^2 × V^−1 × s^−1) 0.22
+phase97_harvest,pmc.ncbi.nlm.nih.gov/articles/pmc12388335,pmc.ncbi.nlm.nih.gov/articles/pmc12388335,Zn,,8.0,at%,plasma-enhanced chemical vapor deposition (PECVD),,Hall,,,0.16,,Table 4: | T_Zn 235 | ρ 2.9 × 10^6 | n (cm−3) 1 × 10^13 | µ (cm^2 × V^−1 × s^−1) 0.16
+phase97_harvest,10.3390/coatings15101181,10.3390/coatings15101181,Si,,1.0,at%,RF magnetron sputtering,,Hall,,,68.0,,| As fabricated | 9.46 × 10 22 | 68.0 | 9.73 × 10−7 | 0.05407 |
+phase97_harvest,10.3390/coatings15101181,10.3390/coatings15101181,Si,,1.0,at%,RF magnetron sputtering,,Hall,,,69.9,,| 600 °C | 1.02 × 10 23 | 69.9 | 9.45 × 10−7 | 0.05247 |
+phase97_harvest,10.3390/coatings15101181,10.3390/coatings15101181,Si,,1.0,at%,RF magnetron sputtering,,Hall,,,55.0,,| 700 °C | 1.03 × 10 23 | 55.0 | 1.10 × 10−6 | 0.05372 |
+phase97_harvest,10.3390/coatings15101181,10.3390/coatings15101181,Si,,1.0,at%,RF magnetron sputtering,,Hall,,,115.4,,| 800 °C | 6.04 × 10 22 | 115.4 | 1.08 × 10−6 | 0.05412 |
+phase97_harvest,10.3390/coatings11050589,10.3390/coatings11050589,Si,,4.0,at%,MOCVD homoepitaxy,,Hall,,6.4998000968302376e+16,,,Table 1. Electron concentrations obtained under different SiH4 flow rates. SiH4 Flow (sccm): 2 4 6 8 10 14; Annealing Time (h) 0: 6.5 × 10^16 4.3 × 10^17 1.6 × 10^18 3.3 × 10^18 7.
+phase97_harvest,10.3390/coatings11050589,10.3390/coatings11050589,Si,,4.0,at%,MOCVD homoepitaxy,,Hall,,4.3003123363054586e+17,,,Table 1. Electron concentrations obtained under different SiH4 flow rates. SiH4 Flow (sccm): 2 4 6 8 10 14; Annealing Time (h) 0: 6.5 × 10^16 4.3 × 10^17 1.6 × 10^18 3.3 × 10^18 7.
+phase97_harvest,10.3390/coatings11050589,10.3390/coatings11050589,Si,,4.0,at%,MOCVD homoepitaxy,,Hall,,1.5999263828686003e+18,,,Table 1. Electron concentrations obtained under different SiH4 flow rates. SiH4 Flow (sccm): 2 4 6 8 10 14; Annealing Time (h) 0: 6.5 × 10^16 4.3 × 10^17 1.6 × 10^18 3.3 × 10^18 7.
+phase97_harvest,10.3390/coatings11050589,10.3390/coatings11050589,Si,,4.0,at%,MOCVD homoepitaxy,,Hall,,3.299894079108345e+18,,,Table 1. Electron concentrations obtained under different SiH4 flow rates. SiH4 Flow (sccm): 2 4 6 8 10 14; Annealing Time (h) 0: 6.5 × 10^16 4.3 × 10^17 1.6 × 10^18 3.3 × 10^18 7.
+phase97_harvest,10.3390/coatings11050589,10.3390/coatings11050589,Si,,4.0,at%,MOCVD homoepitaxy,,Hall,,7.299615757292957e+18,,,Table 1. Electron concentrations obtained under different SiH4 flow rates. SiH4 Flow (sccm): 2 4 6 8 10 14; Annealing Time (h) 0: 6.5 × 10^16 4.3 × 10^17 1.6 × 10^18 3.3 × 10^18 7.
+phase97_harvest,10.3390/coatings11050589,10.3390/coatings11050589,Si,,4.0,at%,MOCVD homoepitaxy,,Hall,,2.6001595631652667e+19,,,Table 1. Electron concentrations obtained under different SiH4 flow rates. SiH4 Flow (sccm): 2 4 6 8 10 14; Annealing Time (h) 0: 6.5 × 10^16 4.3 × 10^17 1.6 × 10^18 3.3 × 10^18 7.
+phase97_harvest,arxiv.org/abs/2603.10223,arxiv.org/abs/2603.10223,,,0.0,at%,"commercial (-201)-oriented n-type single crystal (Tamura Corporation), 2-inch wafer",,Hall,,8.999119108700524e+17,,,The (-201) oriented β-Ga2O3 commercial n-type single crystal with an electron concentration below 9 × 10¹⁷ cm⁻³ manufactured by Tamura Corporation (Japan) was used in the present s
+phase97_harvest,10.1016/j.jmrt.2022.10.110,10.1016/j.jmrt.2022.10.110,N,,2.0,at%,thermal oxidation of GaN in N2O ambient at 1100 C,,Hall,,1.639834427626538e+17,,,"In the vacuum test environment, its room temperature Hall hole concentration is 1.64 × 1017 cm−3, the Hall resistivity is 7.66 Ω cm, the Hall hole mobility is 4.98 cm2 V−1 s−1, and"
+phase97_harvest,10.1016/j.jmrt.2022.10.110,10.1016/j.jmrt.2022.10.110,N,,2.0,at%,thermal oxidation of GaN in N2O ambient at 1100 C,,Hall,,,4.98,,"In the vacuum test environment, its room temperature Hall hole concentration is 1.64 × 1017 cm−3, the Hall resistivity is 7.66 Ω cm, the Hall hole mobility is 4.98 cm2 V−1 s−1, and"
+phase97_harvest,www.sciencedirect.com/science/article/pii/s2542529321000171,www.sciencedirect.com/science/article/pii/s2542529321000171,,,0.0,at%,multi-step structural phase transition (from GaN),,Hall,,1.5599116444075486e+16,,,"In this study, we demonstrate for the first time the success in the growth of high-quality p-type N-doped β-Ga2O3 films with an acceptor ionization energy of 0.165 eV, Hall resisti"
+phase97_harvest,www.sciencedirect.com/science/article/pii/s2542529321000171,www.sciencedirect.com/science/article/pii/s2542529321000171,,,0.0,at%,multi-step structural phase transition (from GaN),,Hall,,,23.6,,"In this study, we demonstrate for the first time the success in the growth of high-quality p-type N-doped β-Ga2O3 films with an acceptor ionization energy of 0.165 eV, Hall resisti"
+phase97_harvest,www.mdpi.com/2072-666x/16/8/954 (full text verified via pmc mirror pmc.ncbi.nlm.nih.gov/articles/pmc12388335/),www.mdpi.com/2072-666x/16/8/954 (full text verified via pmc mirror pmc.ncbi.nlm.nih.gov/articles/pmc12388335/),,,0.0,at%,PECVD (plasma-enhanced chemical vapor deposition),,Hall,,1150005718699237.5,,,"According to the Hall measurements, the pure β-Ga 2 O 3 thin films ( T Zn = 23 °C) have n -type conductivity, electron concentration n = 1.15 × 10 15 cm −3 , mobility µ = 0.11 cm 2"
+phase97_harvest,www.mdpi.com/2072-666x/16/8/954 (full text verified via pmc mirror pmc.ncbi.nlm.nih.gov/articles/pmc12388335/),www.mdpi.com/2072-666x/16/8/954 (full text verified via pmc mirror pmc.ncbi.nlm.nih.gov/articles/pmc12388335/),,,0.0,at%,PECVD (plasma-enhanced chemical vapor deposition),,Hall,,,0.11,,"According to the Hall measurements, the pure β-Ga 2 O 3 thin films ( T Zn = 23 °C) have n -type conductivity, electron concentration n = 1.15 × 10 15 cm −3 , mobility µ = 0.11 cm 2"
+phase97_harvest,www.mdpi.com/2072-666x/16/8/954 (full text verified via pmc mirror pmc.ncbi.nlm.nih.gov/articles/pmc12388335/),www.mdpi.com/2072-666x/16/8/954 (full text verified via pmc mirror pmc.ncbi.nlm.nih.gov/articles/pmc12388335/),Zn,,4.0,at%,PECVD (plasma-enhanced chemical vapor deposition),,Hall,,,0.13,,T Zn (°C) ρ (Ohm × cm) n (cm −3 ) µ (cm 2 × V −1 × s −1 ) ... 220 8.3 × 10 6 5 × 10 12 0.13 [Table 4]
+phase97_harvest,www.mdpi.com/2072-666x/16/8/954 (full text verified via pmc mirror pmc.ncbi.nlm.nih.gov/articles/pmc12388335/),www.mdpi.com/2072-666x/16/8/954 (full text verified via pmc mirror pmc.ncbi.nlm.nih.gov/articles/pmc12388335/),Zn,,6.0,at%,PECVD (plasma-enhanced chemical vapor deposition),,Hall,,,0.22,,T Zn (°C) ρ (Ohm × cm) n (cm −3 ) µ (cm 2 × V −1 × s −1 ) ... 230 3.4 × 10 6 8 × 10 12 0.22 [Table 4]
+phase97_harvest,www.mdpi.com/2072-666x/16/8/954 (full text verified via pmc mirror pmc.ncbi.nlm.nih.gov/articles/pmc12388335/),www.mdpi.com/2072-666x/16/8/954 (full text verified via pmc mirror pmc.ncbi.nlm.nih.gov/articles/pmc12388335/),Zn,,8.0,at%,PECVD (plasma-enhanced chemical vapor deposition),,Hall,,,0.16,,T Zn (°C) ρ (Ohm × cm) n (cm −3 ) µ (cm 2 × V −1 × s −1 ) ... 235 2.9 × 10 6 1 × 10 13 0.16 [Table 4]
+phase97_harvest,www.mdpi.com/1996-1944/17/19/4931 (pmc11477709),www.mdpi.com/1996-1944/17/19/4931 (pmc11477709),Mg,,3.6,at%,electron beam evaporation (Ga2O3/Mg/Ga2O3 sandwich) with postannealing in air,,Hall,,194984459975804.16,,,"The film resistivity, carrier content, and carrier mobility of the S2 film are 59655.5 Ω·cm, 1.95 × 10¹⁴ cm3/C, and 0.53682 cm²/Vs."
+phase97_harvest,www.mdpi.com/1996-1944/17/19/4931 (pmc11477709),www.mdpi.com/1996-1944/17/19/4931 (pmc11477709),Mg,,3.6,at%,electron beam evaporation (Ga2O3/Mg/Ga2O3 sandwich) with postannealing in air,,Hall,,,0.53682,,"The film resistivity, carrier content, and carrier mobility of the S2 film are 59655.5 Ω·cm, 1.95 × 10¹⁴ cm3/C, and 0.53682 cm²/Vs."
+phase97_harvest,arxiv.org/abs/1906.09306,arxiv.org/abs/1906.09306,Si,,1.3,at%,"HVPE (halide vapor phase epitaxy), (010) homoepitaxial",,Hall,,,95.0,,films with mobility values of up to 95 cm$^2$V$^{-1}$s$^{-1}$ at a carrier concentration of 1.3$\times$10$^{17}$ cm$^{-3}$ can be achieved using this technique
+phase97_harvest,arxiv.org/abs/1906.09306,arxiv.org/abs/1906.09306,Si,,1.3,at%,"HVPE (halide vapor phase epitaxy), (010) homoepitaxial",,Hall,,1.2998702373886067e+17,,,films with mobility values of up to 95 cm$^2$V$^{-1}$s$^{-1}$ at a carrier concentration of 1.3$\times$10$^{17}$ cm$^{-3}$ can be achieved using this technique
+phase97_harvest,10.1063/5.0058059,10.1063/5.0058059,Ge,,4.0,at%,MOCVD,,Hall,,2.299852586686196e+16,,,"With the increase in the GeH4 flow rate from ~1.2 x 10^-9 to 6.4 x 10^-8 mol/min, the free carrier concentration in the films increased nearly proportionally from 2.3 x 10^16 to 1."
+phase97_harvest,10.1063/5.0058059,10.1063/5.0058059,Ge,,4.0,at%,MOCVD,,Hall,,1.1000185275062194e+18,,,"With the increase in the GeH4 flow rate from ~1.2 x 10^-9 to 6.4 x 10^-8 mol/min, the free carrier concentration in the films increased nearly proportionally from 2.3 x 10^16 to 1."
+phase97_harvest,10.1063/5.0058059,10.1063/5.0058059,Ge,,125.0,at%,MOCVD,,Hall,,8.000184448550962e+16,,,The highest room-temperature electron mobility achieved was ~125 cm2/Vs with a corresponding free carrier concentration of ~8 x 10^16 cm-3.
+phase97_harvest,10.1063/5.0058059,10.1063/5.0058059,Ge,,8.0,at%,MOCVD,,Hall,,,125.0,,The highest room-temperature electron mobility achieved was ~125 cm2/Vs with a corresponding free carrier concentration of ~8 x 10^16 cm-3.
+phase97_harvest,10.1063/5.0058059,10.1063/5.0058059,Ge,,4.0,at%,MOCVD,,Hall,,6.00067353864114e+19,,,"For the GeH4 flow rate of 7.70 x 10^-8 mol/min, a Ge doped Ga2O3 film with a free carrier concentration of ~6 x 10^19 cm-3 and a RT mobility of ~43 cm3/Vs was obtained at T_Sub = 6"
+phase97_harvest,10.1063/5.0058059,10.1063/5.0058059,Ge,,6.0,at%,MOCVD,,Hall,,,43.0,,"For the GeH4 flow rate of 7.70 x 10^-8 mol/min, a Ge doped Ga2O3 film with a free carrier concentration of ~6 x 10^19 cm-3 and a RT mobility of ~43 cm3/Vs was obtained at T_Sub = 6"
+phase97_harvest,10.1063/5.0058059,10.1063/5.0058059,Ge,,2.0,at%,MOCVD,,Hall,,2.6001595631652667e+20,,,"As such, the highest free carrier concentration of 2.6 x 10^20 cm-3 with the corresponding RT electron mobility of ~38 cm2/Vs was achieved."
+phase97_harvest,10.1063/5.0058059,10.1063/5.0058059,Ge,,2.6,at%,MOCVD,,Hall,,,38.0,,"As such, the highest free carrier concentration of 2.6 x 10^20 cm-3 with the corresponding RT electron mobility of ~38 cm2/Vs was achieved."
+phase97_harvest,10.1063/5.0058059,10.1063/5.0058059,Ge,,3.6,at%,MOCVD,,Hall,,,138.0,,The highest RT electron mobility of ~138 cm2/Vs with the corresponding free carrier concentration of 3.6 x 10^16 cm-3 [Fig. 10(b)] was obtained based on films grown using the TMGa 
+phase97_harvest,10.1063/5.0058059,10.1063/5.0058059,Ge,,138.0,at%,MOCVD,,Hall,,3.599979270433569e+16,,,The highest RT electron mobility of ~138 cm2/Vs with the corresponding free carrier concentration of 3.6 x 10^16 cm-3 [Fig. 10(b)] was obtained based on films grown using the TMGa 
+phase97_harvest,10.1063/5.0058059,10.1063/5.0058059,,,0.0,at%,MOCVD,,Hall,,5000345349769783.0,,,The room temperature electron mobilities of the films were between 125 cm2/V s and 160 cm2/V s with the net background charge concentration between ~5 x 10^15 cm-3 and ~2 x 10^16 c
+phase97_harvest,10.1063/5.0058059,10.1063/5.0058059,,,0.0,at%,MOCVD,,Hall,,1.999861869632737e+16,,,The room temperature electron mobilities of the films were between 125 cm2/V s and 160 cm2/V s with the net background charge concentration between ~5 x 10^15 cm-3 and ~2 x 10^16 c
+phase97_harvest,10.1063/5.0058059,10.1063/5.0058059,,,5.0,at%,MOCVD,,Hall,,,125.0,,The room temperature electron mobilities of the films were between 125 cm2/V s and 160 cm2/V s with the net background charge concentration between ~5 x 10^15 cm-3 and ~2 x 10^16 c
+phase97_harvest,10.1063/5.0058059,10.1063/5.0058059,,,5.0,at%,MOCVD,,Hall,,,160.0,,The room temperature electron mobilities of the films were between 125 cm2/V s and 160 cm2/V s with the net background charge concentration between ~5 x 10^15 cm-3 and ~2 x 10^16 c
+phase97_harvest,pubs.aip.org/aip/apl/article/125/11/112105/3312238/tungsten-donors-doping-in-gallium-oxide-single,pubs.aip.org/aip/apl/article/125/11/112105/3312238/tungsten-donors-doping-in-gallium-oxide-single,,,0.0,at%,optical floating zone,,Hall,,9.54992586021437e+16,,,The carrier concentration of 0.10 mol. % W:β-Ga2O3 (3.92 × 10^18 cm^-3) is more than forty times that of UID crystal (9.55 × 10^16 cm^-3).
+phase97_harvest,pubs.aip.org/aip/apl/article/125/11/112105/3312238/tungsten-donors-doping-in-gallium-oxide-single,pubs.aip.org/aip/apl/article/125/11/112105/3312238/tungsten-donors-doping-in-gallium-oxide-single,W,,0.1,at%,optical floating zone,,Hall,,3.920125762951643e+18,,,The carrier concentration of 0.10 mol. % W:β-Ga2O3 (3.92 × 10^18 cm^-3) is more than forty times that of UID crystal (9.55 × 10^16 cm^-3).
+phase97_harvest,pubs.aip.org/aip/apl/article/125/11/112105/3312238/tungsten-donors-doping-in-gallium-oxide-single,pubs.aip.org/aip/apl/article/125/11/112105/3312238/tungsten-donors-doping-in-gallium-oxide-single,,,0.0,at%,optical floating zone,,Hall,,,153.1,,"The resistivity and mobility of 0.10 mol. % W:β-Ga2O3 decreased from 0.603 to 0.032 Ω cm and 153.1 to 126 cm⁻² V⁻¹ s⁻¹, respectively."
+phase97_harvest,pubs.aip.org/aip/apl/article/125/11/112105/3312238/tungsten-donors-doping-in-gallium-oxide-single,pubs.aip.org/aip/apl/article/125/11/112105/3312238/tungsten-donors-doping-in-gallium-oxide-single,W,,0.1,at%,optical floating zone,,Hall,,,126.0,,"The resistivity and mobility of 0.10 mol. % W:β-Ga2O3 decreased from 0.603 to 0.032 Ω cm and 153.1 to 126 cm⁻² V⁻¹ s⁻¹, respectively."
+phase97_harvest,arxiv.org/abs/2202.05762,arxiv.org/abs/2202.05762,Si,,3.0,at%,oxide MBE (oxygen plasma-assisted) with solid SiO source,,Hall,,2.999853181190793e+19,,,For a homoepitaxial β-Ga₂O₃ layer an Hall charge carrier concentration of 3x10¹⁹ cm⁻³ in line with the provided Φ_SiO (T_SiO=800°C) is demonstrated.
+phase97_harvest,arxiv.org/abs/2202.05762,arxiv.org/abs/2202.05762,Si,,4.0,at%,oxide MBE (oxygen plasma-assisted) with solid SiO source,,Hall,,4.0003685104612506e+17,,,"Si-concentration in the β-Ga₂O₃ layers measured by secondary ion mass spectrometry highlighting unprecedented control of continuous Si-doping for oxide MBE, i.e., N_Si from 4x10¹⁷ "
+phase97_harvest,arxiv.org/abs/2202.05762,arxiv.org/abs/2202.05762,Si,,1.7,at%,oxide MBE (oxygen plasma-assisted) with solid SiO source,,Hall,,1.6998085132034946e+20,,,"Si-concentration in the β-Ga₂O₃ layers measured by secondary ion mass spectrometry highlighting unprecedented control of continuous Si-doping for oxide MBE, i.e., N_Si from 4x10¹⁷ "
+phase97_harvest,10.1016/j.mtphys.2024.101555,10.1016/j.mtphys.2024.101555,,,0.0,at%,plasma-assisted molecular beam epitaxy (MBE),,Hall,,2.09990670376242e+16,,,The UID film with an electron density of 2.1 × 10^16 cm^-3 exhibits a notable room temperature (RT) mobility of 129 cm²/Vs and a peak mobility of 900 cm²/Vs at 80 K
+phase97_harvest,10.1016/j.mtphys.2024.101555,10.1016/j.mtphys.2024.101555,,,2.1,at%,plasma-assisted molecular beam epitaxy (MBE),,Hall,,,129.0,,The UID film with an electron density of 2.1 × 10^16 cm^-3 exhibits a notable room temperature (RT) mobility of 129 cm²/Vs and a peak mobility of 900 cm²/Vs at 80 K
+phase97_harvest,10.1016/j.mtphys.2024.101555,10.1016/j.mtphys.2024.101555,,,0.0,at%,plasma-assisted molecular beam epitaxy (MBE),,Hall,,2.8002705950106268e+19,,,unintentionally doped (UID) and Sn doped β-Ga2O3 homo-epitaxial thin films grown by molecular beam epitaxy (MBE) with electron density ranging from 2.1 × 10^16 to 2.8 × 10^19 cm^-3
+phase97_harvest,par.nsf.gov/servlets/purl/10217878 (doi:10.1063/5.0031481),par.nsf.gov/servlets/purl/10217878 (doi:10.1063/5.0031481),Si,,300.0,at%,MOVPE (metal-organic vapor phase epitaxy),,Hall,,7.80009693716499e+17,,,Temperature dependence carrier density showed a decrease in carrier density from 7.8  1017 cm3 at 300 K to 6.74  1016 cm3 at 65 K followed by an
+phase97_harvest,par.nsf.gov/servlets/purl/10217878 (doi:10.1063/5.0031481),par.nsf.gov/servlets/purl/10217878 (doi:10.1063/5.0031481),Si,,65.0,at%,MOVPE (metal-organic vapor phase epitaxy),,Hall,,6.7406224113900856e+16,,,Temperature dependence carrier density showed a decrease in carrier density from 7.8  1017 cm3 at 300 K to 6.74  1016 cm3 at 65 K followed by an
+phase97_harvest,par.nsf.gov/servlets/purl/10217878 (doi:10.1063/5.0031481),par.nsf.gov/servlets/purl/10217878 (doi:10.1063/5.0031481),Si,,40.0,at%,MOVPE (metal-organic vapor phase epitaxy),,Hall,,2.1498096103893574e+17,,,"unexpected upturn at low temperatures, 40  T  65 K, which saturates to a value of 2.15  1017 cm3 for T < 40 K."
+phase97_harvest,par.nsf.gov/servlets/purl/10217878 (doi:10.1063/5.0031481),par.nsf.gov/servlets/purl/10217878 (doi:10.1063/5.0031481),Si,,40.0,at%,MOVPE (metal-organic vapor phase epitaxy),,Hall,,,10.0,,revealing drift-diffusive transport as evident from the relatively high low-temperature mobility of 10 cm2 V1 s1 for T < 40 K.
+phase97_harvest,par.nsf.gov/servlets/purl/10217878 (doi:10.1063/5.0031481),par.nsf.gov/servlets/purl/10217878 (doi:10.1063/5.0031481),Si,,1.0,at%,MOVPE (metal-organic vapor phase epitaxy),,Hall,,,285.0,,"The corresponding high mobilities, 285 cm2 V1 s1 (T 150 K) < l1 < 678 cm2 V1 s1 (40 K), further corroborate with the transport occurring in the conduction band."
+phase97_harvest,10.1149/2.0081702jss,10.1149/2.0081702jss,Si,,1.0,at%,MOVPE homoepitaxy on (010) beta-Ga2O3,,Hall,,8.000184448550963e+19,,,"Using Si as dopant, the free electron concentration could be varied in a range between 1 × 10¹⁷ and 8 × 10¹⁹ cm⁻³"
+phase97_harvest,10.1149/2.0081702jss,10.1149/2.0081702jss,Si,,1.0,at%,MOVPE homoepitaxy on (010) beta-Ga2O3,,Hall,,1e+17,,,"Using Si as dopant, the free electron concentration could be varied in a range between 1 × 10¹⁷ and 8 × 10¹⁹ cm⁻³"
+phase97_harvest,10.1149/2.0081702jss,10.1149/2.0081702jss,Si,,8.0,at%,MOVPE homoepitaxy on (010) beta-Ga2O3,,Hall,,,50.0,,electron mobility for a given doping density increased from ∼50 cm²/Vs for n = 8 × 10¹⁹ cm⁻³ to ∼130 cm²/Vs for n = 1 × 10¹⁷ cm⁻³
+phase97_harvest,10.1149/2.0081702jss,10.1149/2.0081702jss,Si,,1.0,at%,MOVPE homoepitaxy on (010) beta-Ga2O3,,Hall,,,130.0,,electron mobility for a given doping density increased from ∼50 cm²/Vs for n = 8 × 10¹⁹ cm⁻³ to ∼130 cm²/Vs for n = 1 × 10¹⁷ cm⁻³
+phase97_harvest,10.1149/2.0081702jss,10.1149/2.0081702jss,Sn,,4.0,at%,MOVPE homoepitaxy on (010) beta-Ga2O3,,Hall,,1e+19,,,with Sn the doping range was restricted to 4 × 10¹⁷−1 × 10¹⁹ cm⁻³
+phase97_harvest,10.1149/2.0081702jss,10.1149/2.0081702jss,Sn,,4.0,at%,MOVPE homoepitaxy on (010) beta-Ga2O3,,Hall,,4.0003685104612506e+17,,,with Sn the doping range was restricted to 4 × 10¹⁷−1 × 10¹⁹ cm⁻³
+phase97_harvest,10.1149/2.0081702jss,10.1149/2.0081702jss,Sn,,6.0,at%,MOVPE homoepitaxy on (010) beta-Ga2O3,,Hall,,6.00067353864114e+19,,,Sn incorporation of ∼6 × 10¹⁹ cm⁻³ is high enough to hinder a coherent dopant incorporation
+phase97_harvest,10.1149/2.0081702jss,10.1149/2.0081702jss,Sn,,6.0,at%,MOVPE homoepitaxy on (010) beta-Ga2O3,,Hall,,,32.0,,"An exception is once more the layer with the highest Sn-doping level, where the mobility is reduced to 32 cm²/Vs"
+phase97_harvest,arxiv.org/abs/2004.13089,arxiv.org/abs/2004.13089,,,8.0,at%,MOCVD,,Hall,,,194.0,,A new record-high room temperature electron Hall mobility (μRT = 194 cm²/V s at n∼ 8×10¹⁵ cm⁻³) for β-Ga2O3 is demonstrated in the unintentionally doped thin film grown on (010) se
+phase97_harvest,arxiv.org/abs/2004.13089,arxiv.org/abs/2004.13089,,,8.0,at%,MOCVD,,Hall,,8000184448550995.0,,,A new record-high room temperature electron Hall mobility (μRT = 194 cm²/V s at n∼ 8×10¹⁵ cm⁻³) for β-Ga2O3 is demonstrated in the unintentionally doped thin film grown on (010) se
+phase97_harvest,arxiv.org/abs/2008.00303,arxiv.org/abs/2008.00303,,,0.0,at%,MOVPE,,Hall,,,186.0,,Low-temperature β-Ga₂O₃ thin films grown at 600°C on Fe-doped (010) bulk substrates exhibits remarkable crystalline quality which is evident from the measured room temperature Hall
+phase97_harvest,arxiv.org/abs/2008.00303,arxiv.org/abs/2008.00303,Si,,2.0,at%,MOVPE,,Hall,,1.999861869632737e+16,,,N-type doping is achieved by using Si as a dopant and controllable doping in the range of 2×10¹⁶ - 2×10¹⁹ cm⁻³ is studied.
+phase97_harvest,arxiv.org/abs/2008.00303,arxiv.org/abs/2008.00303,Si,,2.0,at%,MOVPE,,Hall,,1.9998618696327365e+19,,,N-type doping is achieved by using Si as a dopant and controllable doping in the range of 2×10¹⁶ - 2×10¹⁹ cm⁻³ is studied.
+phase97_harvest,10.1063/5.0142107,10.1063/5.0142107,Si,,3.4,at%,hybrid plasma-assisted molecular beam epitaxy (hybrid MBE),,Hall,,,135.0,,"0.012 3.4  1017 135 2.1  1017 100 2.0  1017 20 (Table I, Tc = 525 C column)"
+phase97_harvest,10.1063/5.0142107,10.1063/5.0142107,Si,,0.012,at%,hybrid plasma-assisted molecular beam epitaxy (hybrid MBE),,Hall,,3.40016505804072e+17,,,"0.012 3.4  1017 135 ... (Table I, Tc = 525 C); also 'showed a record room temperature mobility of 135 cm2/V s at a carrier density of 3.4  1017cm3.'"
+phase97_harvest,10.1063/5.0142107,10.1063/5.0142107,Si,,9.6,at%,hybrid plasma-assisted molecular beam epitaxy (hybrid MBE),,Hall,,,88.0,,"0.029 9.6  1017 88 5.8  1017 65 4.5  1017 33 (Table I, Tc = 525 C column)"
+phase97_harvest,10.1063/5.0142107,10.1063/5.0142107,Si,,0.029,at%,hybrid plasma-assisted molecular beam epitaxy (hybrid MBE),,Hall,,9.600635909453444e+17,,,"0.029 9.6  1017 88 ... (Table I, Tc = 525 C column)"
+phase97_harvest,10.1063/5.0142107,10.1063/5.0142107,Si,,1.7,at%,hybrid plasma-assisted molecular beam epitaxy (hybrid MBE),,Hall,,,83.0,,"0.059 1.7  1018 83 1.2  1018 62 1.1  1018 79 (Table I, Tc = 525 C column)"
+phase97_harvest,10.1063/5.0142107,10.1063/5.0142107,Si,,0.059,at%,hybrid plasma-assisted molecular beam epitaxy (hybrid MBE),,Hall,,1.699808513203495e+18,,,"0.059 1.7  1018 83 ... (Table I, Tc = 525 C column)"
+phase97_harvest,10.1063/5.0142107,10.1063/5.0142107,Si,,4.3,at%,hybrid plasma-assisted molecular beam epitaxy (hybrid MBE),,Hall,,,45.0,,"0.147 4.3  1018 45 2.5  1018 60 4.5  1018 38 (Table I, Tc = 525 C column)"
+phase97_harvest,10.1063/5.0142107,10.1063/5.0142107,Si,,0.147,at%,hybrid plasma-assisted molecular beam epitaxy (hybrid MBE),,Hall,,4.300312336305458e+18,,,"0.147 4.3  1018 45 ... (Table I, Tc = 525 C column)"
+phase97_harvest,10.1063/5.0142107,10.1063/5.0142107,Si,,8.1,at%,hybrid plasma-assisted molecular beam epitaxy (hybrid MBE),,Hall,,,30.0,,"0.294 8.1  1018 30 7.7  1018 55 7.0  1018 48 (Table I, Tc = 525 C column)"
+phase97_harvest,10.1063/5.0142107,10.1063/5.0142107,Si,,0.294,at%,hybrid plasma-assisted molecular beam epitaxy (hybrid MBE),,Hall,,8.100279416803507e+18,,,"0.294 8.1  1018 30 ... (Table I, Tc = 525 C column)"
+phase97_harvest,10.1063/5.0142107,10.1063/5.0142107,Si,,1.8,at%,hybrid plasma-assisted molecular beam epitaxy (hybrid MBE),,Hall,,,20.0,,"0.588 1.8  1019 20 1.4  1019 34 1.1  1019 66 (Table I, Tc = 525 C column)"
+phase97_harvest,10.1063/5.0142107,10.1063/5.0142107,Si,,0.588,at%,hybrid plasma-assisted molecular beam epitaxy (hybrid MBE),,Hall,,1.8001139604180038e+19,,,"0.588 1.8  1019 20 ... (Table I, Tc = 525 C column)"
+phase97_harvest,10.1063/5.0142107,10.1063/5.0142107,Si,,2.1,at%,hybrid plasma-assisted molecular beam epitaxy (hybrid MBE),,Hall,,,100.0,,"0.012 3.4  1017 135 2.1  1017 100 2.0  1017 20 (Table I, Tc = 550 C column)"
+phase97_harvest,10.1063/5.0142107,10.1063/5.0142107,Si,,0.012,at%,hybrid plasma-assisted molecular beam epitaxy (hybrid MBE),,Hall,,2.09990670376242e+17,,,"0.012 ... 2.1  1017 100 ... (Table I, Tc = 550 C column)"
+phase97_harvest,10.1063/5.0142107,10.1063/5.0142107,Si,,5.8,at%,hybrid plasma-assisted molecular beam epitaxy (hybrid MBE),,Hall,,,65.0,,"0.029 9.6  1017 88 5.8  1017 65 4.5  1017 33 (Table I, Tc = 550 C column)"
+phase97_harvest,10.1063/5.0142107,10.1063/5.0142107,Si,,0.029,at%,hybrid plasma-assisted molecular beam epitaxy (hybrid MBE),,Hall,,5.799626158196434e+17,,,"0.029 ... 5.8  1017 65 ... (Table I, Tc = 550 C column)"
+phase97_harvest,10.1063/5.0142107,10.1063/5.0142107,Si,,1.2,at%,hybrid plasma-assisted molecular beam epitaxy (hybrid MBE),,Hall,,,62.0,,"0.059 1.7  1018 83 1.2  1018 62 1.1  1018 79 (Table I, Tc = 550 C column)"
+phase97_harvest,10.1063/5.0142107,10.1063/5.0142107,Si,,0.059,at%,hybrid plasma-assisted molecular beam epitaxy (hybrid MBE),,Hall,,1.2000518202042655e+18,,,"0.059 ... 1.2  1018 62 ... (Table I, Tc = 550 C column)"
+phase97_harvest,10.1063/5.0142107,10.1063/5.0142107,Si,,2.5,at%,hybrid plasma-assisted molecular beam epitaxy (hybrid MBE),,Hall,,,60.0,,"0.147 4.3  1018 45 2.5  1018 60 4.5  1018 38 (Table I, Tc = 550 C column)"
+phase97_harvest,10.1063/5.0142107,10.1063/5.0142107,Si,,0.147,at%,hybrid plasma-assisted molecular beam epitaxy (hybrid MBE),,Hall,,2.499769702178508e+18,,,"0.147 ... 2.5  1018 60 ... (Table I, Tc = 550 C column)"
+phase97_harvest,10.1063/5.0142107,10.1063/5.0142107,Si,,7.7,at%,hybrid plasma-assisted molecular beam epitaxy (hybrid MBE),,Hall,,,55.0,,"0.294 8.1  1018 30 7.7  1018 55 7.0  1018 48 (Table I, Tc = 550 C column)"
+phase97_harvest,10.1063/5.0142107,10.1063/5.0142107,Si,,0.294,at%,hybrid plasma-assisted molecular beam epitaxy (hybrid MBE),,Hall,,7.70016444356875e+18,,,"0.294 ... 7.7  1018 55 ... (Table I, Tc = 550 C column)"
+phase97_harvest,10.1063/5.0142107,10.1063/5.0142107,Si,,1.4,at%,hybrid plasma-assisted molecular beam epitaxy (hybrid MBE),,Hall,,,34.0,,"0.588 1.8  1019 20 1.4  1019 34 1.1  1019 66 (Table I, Tc = 550 C column)"
+phase97_harvest,10.1063/5.0142107,10.1063/5.0142107,Si,,0.588,at%,hybrid plasma-assisted molecular beam epitaxy (hybrid MBE),,Hall,,1.3999096265683446e+19,,,"0.588 ... 1.4  1019 34 ... (Table I, Tc = 550 C column)"
+phase97_harvest,10.1063/5.0142107,10.1063/5.0142107,Si,,2.0,at%,hybrid plasma-assisted molecular beam epitaxy (hybrid MBE),,Hall,,,20.0,,"0.012 3.4  1017 135 2.1  1017 100 2.0  1017 20 (Table I, Tc = 600 C column)"
+phase97_harvest,10.1063/5.0142107,10.1063/5.0142107,Si,,0.012,at%,hybrid plasma-assisted molecular beam epitaxy (hybrid MBE),,Hall,,1.9998618696327366e+17,,,"0.012 ... 2.0  1017 20 (Table I, Tc = 600 C column)"
+phase97_harvest,10.1063/5.0142107,10.1063/5.0142107,Si,,4.5,at%,hybrid plasma-assisted molecular beam epitaxy (hybrid MBE),,Hall,,,33.0,,"0.029 9.6  1017 88 5.8  1017 65 4.5  1017 33 (Table I, Tc = 600 C column)"
+phase97_harvest,10.1063/5.0142107,10.1063/5.0142107,Si,,0.029,at%,hybrid plasma-assisted molecular beam epitaxy (hybrid MBE),,Hall,,4.499870338721488e+17,,,"0.029 ... 4.5  1017 33 (Table I, Tc = 600 C column)"
+phase97_harvest,10.1063/5.0142107,10.1063/5.0142107,Si,,1.1,at%,hybrid plasma-assisted molecular beam epitaxy (hybrid MBE),,Hall,,,79.0,,"0.059 1.7  1018 83 1.2  1018 62 1.1  1018 79 (Table I, Tc = 600 C column)"
+phase97_harvest,10.1063/5.0142107,10.1063/5.0142107,Si,,0.059,at%,hybrid plasma-assisted molecular beam epitaxy (hybrid MBE),,Hall,,1.1000185275062194e+18,,,"0.059 ... 1.1  1018 79 (Table I, Tc = 600 C column)"
+phase97_harvest,10.1063/5.0142107,10.1063/5.0142107,Si,,4.5,at%,hybrid plasma-assisted molecular beam epitaxy (hybrid MBE),,Hall,,,38.0,,"0.147 4.3  1018 45 2.5  1018 60 4.5  1018 38 (Table I, Tc = 600 C column)"
+phase97_harvest,10.1063/5.0142107,10.1063/5.0142107,Si,,0.147,at%,hybrid plasma-assisted molecular beam epitaxy (hybrid MBE),,Hall,,4.499870338721488e+18,,,"0.147 ... 4.5  1018 38 (Table I, Tc = 600 C column)"
+phase97_harvest,10.1063/5.0142107,10.1063/5.0142107,Si,,7.0,at%,hybrid plasma-assisted molecular beam epitaxy (hybrid MBE),,Hall,,,48.0,,"0.294 8.1  1018 30 7.7  1018 55 7.0  1018 48 (Table I, Tc = 600 C column)"
+phase97_harvest,10.1063/5.0142107,10.1063/5.0142107,Si,,0.294,at%,hybrid plasma-assisted molecular beam epitaxy (hybrid MBE),,Hall,,7.000031591308947e+18,,,"0.294 ... 7.0  1018 48 (Table I, Tc = 600 C column)"
+phase97_harvest,10.1063/5.0142107,10.1063/5.0142107,Si,,1.1,at%,hybrid plasma-assisted molecular beam epitaxy (hybrid MBE),,Hall,,,66.0,,"0.588 1.8  1019 20 1.4  1019 34 1.1  1019 66 (Table I, Tc = 600 C column)"
+phase97_harvest,10.1063/5.0142107,10.1063/5.0142107,Si,,0.588,at%,hybrid plasma-assisted molecular beam epitaxy (hybrid MBE),,Hall,,1.1000185275062194e+19,,,"0.588 ... 1.1  1019 66 (Table I, Tc = 600 C column)"
+phase97_harvest,10.1039/d4tc02882a,10.1039/d4tc02882a,Ni,,120.0,at%,RF magnetron sputtering,,Hall,,5.000345349769804e+16,,,Fig. 6(a) shows that the films demonstrated n-type conductivity at 120 W with a maximum carrier concentration of 5.0 1016 cm 3 and a minimum resistivity of 35.7 O cm.
+phase97_harvest,10.1039/d4tc02882a,10.1039/d4tc02882a,Ni,,120.0,at%,RF magnetron sputtering,,Hall,,,3.5,,"As shown in Fig. 6(b), the mobility gradually increases to the highest value of 3.5 cm2 V 1 s 1 at 120 W, and then declines to 1.7 cm2 V 1 s 1 at 140 W."
+phase97_harvest,10.1039/d4tc02882a,10.1039/d4tc02882a,Ni,,140.0,at%,RF magnetron sputtering,,Hall,,,1.7,,"As shown in Fig. 6(b), the mobility gradually increases to the highest value of 3.5 cm2 V 1 s 1 at 120 W, and then declines to 1.7 cm2 V 1 s 1 at 140 W."
+phase97_harvest,10.1038/s41598-019-49238-2 (pmc.ncbi.nlm.nih.gov/articles/pmc6739305/),10.1038/s41598-019-49238-2 (pmc.ncbi.nlm.nih.gov/articles/pmc6739305/),Si,,1.0,at%,MOVPE (homoepitaxial),,Hall,,,115.0,,"At room temperature, the electron mobilities ((115 ± 10) cm²/Vs) in thicker films (>150 nm) are comparable to the best of bulk."
+phase97_harvest,10.1038/s41598-019-49238-2 (pmc.ncbi.nlm.nih.gov/articles/pmc6739305/),10.1038/s41598-019-49238-2 (pmc.ncbi.nlm.nih.gov/articles/pmc6739305/),Si,,1.0,at%,MOVPE (homoepitaxial),,Hall,,,5.5,,"However, the mobility is strongly reduced by more than two orders of magnitude with decreasing film thickness ((5.5 ± 0.5) cm²/Vs for a 28 nm thin film)."
+phase97_harvest,10.1038/s41598-019-49238-2 (pmc.ncbi.nlm.nih.gov/articles/pmc6739305/),10.1038/s41598-019-49238-2 (pmc.ncbi.nlm.nih.gov/articles/pmc6739305/),Si,,1.0,at%,MOVPE (homoepitaxial),,Hall,,,350.0,,the mobility shows a strong increase with increasing temperature until it reaches a maximum of about 550 cm²/Vs (350 cm²/Vs) at a temperature of 90 K for the bulk (film) sample.
+phase97_harvest,10.1038/s41598-019-49238-2 (pmc.ncbi.nlm.nih.gov/articles/pmc6739305/),10.1038/s41598-019-49238-2 (pmc.ncbi.nlm.nih.gov/articles/pmc6739305/),,,0.0,at%,Czochralski (bulk reference),,Hall,,1e+17,,,"Various temperature-dependent measurements of electrical parameters on bulk single-crystals, typically grown by the Czochralski-method, have been done before, with the highest mobi"
+phase97_harvest,par.nsf.gov/biblio/10488373,par.nsf.gov/biblio/10488373,Si,,3.0,at%,hybrid plasma-assisted molecular beam epitaxy (disilane Si source),,Hall,,3.40016505804072e+17,,,A high mobility of 135 cm2/V s was measured for an electron concentration of 3.4 × 10^17 cm−3 at room temperature.
+phase97_harvest,par.nsf.gov/biblio/10488373,par.nsf.gov/biblio/10488373,Si,,3.0,at%,hybrid plasma-assisted molecular beam epitaxy (disilane Si source),,Hall,,,135.0,,A high mobility of 135 cm2/V s was measured for an electron concentration of 3.4 × 10^17 cm−3 at room temperature.
+phase97_harvest,theses.hal.science/tel-04268510v1/file/125463_chi_2023_archivage.pdf,theses.hal.science/tel-04268510v1/file/125463_chi_2023_archivage.pdf,,,0.0,at%,MOCVD,,Hall,,,8.7,,"Figure 3-4 (b) shows the mobility in the measurement temperature range, the average mobility μ = 8.7 ± 1.7 cm2/(V·s)."
+phase97_harvest,theses.hal.science/tel-04268510v1/file/125463_chi_2023_archivage.pdf,theses.hal.science/tel-04268510v1/file/125463_chi_2023_archivage.pdf,,,0.0,at%,MOCVD,,Hall,,219988510904924.7,,,"ρ = 9.1×103 Ω·cm, p = 6.7×1013 cm-3, respectively (vs. ρ = 4.0×103 Ω·cm, p = 2.2×1014 cm-3 for the undoped β-Ga2O3 layer)."
+phase97_harvest,theses.hal.science/tel-04268510v1/file/125463_chi_2023_archivage.pdf,theses.hal.science/tel-04268510v1/file/125463_chi_2023_archivage.pdf,,,0.0,at%,MOCVD,,Hall,,550047252867632.9,,,Hall effect measurements showed a slight decrease of hole concentrations p = 2.1×1014 cm-3 compared to 5.5×1014 cm-3 for the undoped sample (Figure 3-16 (c)).
+phase97_harvest,theses.hal.science/tel-04268510v1/file/125463_chi_2023_archivage.pdf,theses.hal.science/tel-04268510v1/file/125463_chi_2023_archivage.pdf,,,0.0,at%,MOCVD,,Hall,,2099906703762428.0,,,"For example, at 850 K, p825 K = 2.1×1015 cm-3, p790 K = 6.2×1014 cm-3, p775 K = 2.8×1013 cm-3."
+phase97_harvest,theses.hal.science/tel-04268510v1/file/125463_chi_2023_archivage.pdf,theses.hal.science/tel-04268510v1/file/125463_chi_2023_archivage.pdf,,,0.0,at%,MOCVD,,Hall,,620011864208725.5,,,"For example, at 850 K, p825 K = 2.1×1015 cm-3, p790 K = 6.2×1014 cm-3, p775 K = 2.8×1013 cm-3."
+phase97_harvest,theses.hal.science/tel-04268510v1/file/125463_chi_2023_archivage.pdf,theses.hal.science/tel-04268510v1/file/125463_chi_2023_archivage.pdf,Zn,,1.0,at%,MOCVD,,Hall,,1200051820204265.8,,,"When [Zn] = 1016 cm-3, p-type conductivity in β-Ga2O3 is enhanced (e.g., at 800 K, ρ = 5.8×102 Ω·cm and p = 1.2×1015 cm-3, vs. ρ = 3.1×103 Ω·cm and 2.2×1014 cm-3 for undoped thin f"
+phase97_harvest,theses.hal.science/tel-04268510v1/file/125463_chi_2023_archivage.pdf,theses.hal.science/tel-04268510v1/file/125463_chi_2023_archivage.pdf,Zn,,1.0,at%,MOCVD,,Hall,,,7.3,,"Hall hole mobilities are slightly decreased after Zn incorporation (i.e., μ = 8.7±1.7 cm2/(V·s) for undoped, and μ = 7.3 ± 1.1 cm2/(V·s) for β-Zn:Ga2O3 in the measurement temperatu"
+phase97_harvest,theses.hal.science/tel-04268510v1/file/125463_chi_2023_archivage.pdf,theses.hal.science/tel-04268510v1/file/125463_chi_2023_archivage.pdf,Zn,,2.0,at%,MOCVD,,Hall,,209990670376242.8,,,"Now, I will focus on the sample with [Zn] = 1019 cm-3. At 840 K, Hall effect measurements showed a slight decrease of hole concentrations p = 2.1×1014 cm-3 compared to 5.5×1014 cm-"
+phase97_harvest,theses.hal.science/tel-04268510v1/file/125463_chi_2023_archivage.pdf,theses.hal.science/tel-04268510v1/file/125463_chi_2023_archivage.pdf,Zn,,2.0,at%,MOCVD,,Hall,,,2.8,,The Hall holes mobility is μ = 2.8 ± 1.5 cm2/(V·s) in the measurement temperature range (Figure 3-16 (d)).
+phase97_harvest,arxiv.org/abs/2008.12934,arxiv.org/abs/2008.12934,,,0.0,at%,MOVPE,,Hall,,,83.0,,Hall measurements of delta-doped film on Fe-doped substrate showed a sheet charge density of 6.1 x 1012 cm-2 and carrier mobility of 83 cm2/V. s.
+phase97_harvest,10.1038/s41598-019-49238-2,10.1038/s41598-019-49238-2,Si,,150.0,at%,"MOVPE (homoepitaxial (100), Si-doped via tetraethylorthosilicate)",,Hall,,,115.0,,"At room temperature, the electron mobilities ((115 ± 10) cm 2 /Vs) in thicker films (>150 nm) are comparable to the best of bulk."
+phase97_harvest,10.1038/s41598-019-49238-2,10.1038/s41598-019-49238-2,Si,,28.0,at%,"MOVPE (homoepitaxial (100), Si-doped via tetraethylorthosilicate)",,Hall,,,5.5,,"However, the mobility is strongly reduced by more than two orders of magnitude with decreasing film thickness ((5.5 ± 0.5) cm 2 /Vs for a 28 nm thin film)."
+phase97_harvest,10.1038/s41598-019-49238-2,10.1038/s41598-019-49238-2,Si,,90.0,at%,"MOVPE (homoepitaxial (100), Si-doped film)",,Hall,,,350.0,,"Starting from low temperatures, the mobility shows a strong increase with increasing temperature until it reaches a maximum of about 550 cm 2 /Vs (350 cm 2 /Vs) at a temperature of"
+phase97_harvest,10.1038/s41598-019-49238-2,10.1038/s41598-019-49238-2,,,0.0,at%,"MOVPE (homoepitaxial (100), Si-doped films)",,Hall,,1e+17,,,Differences in conductivity and Hall density between the different samples are to be expected due to the doping range (1 ⋅ 10 17 –2 ⋅ 10 18 cm −3 ).
+phase97_harvest,10.1038/s41598-019-49238-2,10.1038/s41598-019-49238-2,,,0.0,at%,"MOVPE (homoepitaxial (100), Si-doped films)",,Hall,,1.9998618696327368e+18,,,For higher doping about 2 ⋅ 10 18 cm −3 the sample approaches the state of a degenerate semiconductor and an almost constant temperature dependence can be observed.
+phase97_harvest,arxiv.org/abs/2306.01115,arxiv.org/abs/2306.01115,,,0.0,at%,MOCVD on r-plane sapphire,,Hall,,,1.0,,"From the room temperature Hall effect measurements, the hole concentration and mobility are p = 5.7 ×1013 cm-3 and µ < 1 cm2/(V·s), respectively."
+phase97_harvest,arxiv.org/abs/2306.01115,arxiv.org/abs/2306.01115,Zn,,1.0,at%,MOCVD on r-plane sapphire,,Hall,,1e+17,,,"Consequently, the hole concentration and the hole mobility at room temperature were determined as p = 1×1017 cm-3 and µ < 1 cm2/(V·S), respectively."
+phase97_harvest,arxiv.org/abs/2306.01115,arxiv.org/abs/2306.01115,Zn,,1.0,at%,MOCVD on r-plane sapphire,,Hall,,,1.0,,"Consequently, the hole concentration and the hole mobility at room temperature were determined as p = 1×1017 cm-3 and µ < 1 cm2/(V·S), respectively."
+phase103,10.48550/arxiv.2008.12934,10.48550/arxiv.2008.12934,Si,,0.0,at%,"MOVPE (9 coupled delta wells, 10 nm UID ",electron,hall,,,77.0,,A | 9 coupled delta wells(~1x 1013 each well) with 10 nm UID spacer | 9.6 x 1013 | 1.1 x 1019 | 77 | 85
+phase103,10.48550/arxiv.2008.12934,10.48550/arxiv.2008.12934,Si,,0.0,at%,MOVPE (uniformly doped β-Ga2O3),electron,hall,,,50.0,,B | Uniformly doped β-Ga2O3 | 8.5 x 1013 | 1 x 1019 | 50 | 85
+phase103,10.48550/arxiv.2008.12934,10.48550/arxiv.2008.12934,Si,,0.0,at%,"MOVPE (single delta sheet, on Fe-doped s",electron,hall,,,83.0,,C | Single delta sheet | 6.2 x 1012 | - | 83 | -
+phase103,10.48550/arxiv.2008.12934,10.48550/arxiv.2008.12934,Si,,0.0,at%,MOVPE (9 coupled delta wells),electron,hall,,1.1e+19,,,A | 9 coupled delta wells(~1x 1013 each well) with 10 nm UID spacer | 9.6 x 1013 | 1.1 x 1019 | 77 | 85
+phase103,10.48550/arxiv.2008.12934,10.48550/arxiv.2008.12934,Si,,0.0,at%,MOVPE (uniformly doped β-Ga2O3),electron,hall,,1e+19,,,B | Uniformly doped β-Ga2O3 | 8.5 x 1013 | 1 x 1019 | 50 | 85
+phase103,10.1063/5.0261495,10.1063/5.0261495,Ta,,1.0,at%,optical floating zone grown bulk single ,electron,hall,,1e+18,,,confirming the predicted shallow donor behavior of Ta impurity atoms in β-Ga2O3 samples with a carrier concentration of (1.0–1.2) × 10^18 cm−3
+phase103,10.20944/preprints202512.0642.v1,10.20944/preprints202512.0642.v1,Te,Te,1.0,at%,"MOCVD; Hall (Toho HL-9900, van der Pauw,",electron,hall,,,0.19,,S1  High  w/o  5865  0.19  5.33×1015
+phase103,10.20944/preprints202512.0642.v1,10.20944/preprints202512.0642.v1,Te,Mg,2.0,at%,"MOCVD; Hall (Toho HL-9900, van der Pauw,",electron,hall,,,0.457,,S2  High  w/  94.3  0.457  1.45×1017
+phase103,10.20944/preprints202512.0642.v1,10.20944/preprints202512.0642.v1,Te,Mg+Fe+Ga+O,2.0,at%,"MOCVD; Hall (Toho HL-9900, van der Pauw,",electron,hall,,,5.29,,T1  Low  w/  2064  5.29  5.72×1014
+phase103,10.20944/preprints202512.0642.v1,10.20944/preprints202512.0642.v1,Te,Mg+Fe+Ga+O,2.0,at%,"MOCVD; Hall (Toho HL-9900, van der Pauw,",electron,hall,,,1.51,,T2  Medium  w/  908  1.51  4.55×1015
+phase103,10.20944/preprints202512.0642.v1,10.20944/preprints202512.0642.v1,Te,Mg+Fe+Ga+O,2.0,at%,"MOCVD; Hall (Toho HL-9900, van der Pauw,",electron,hall,,,1.08,,T3  High  w/  32.4  1.08  1.78×1017
+phase103,10.20944/preprints202512.0642.v1,10.20944/preprints202512.0642.v1,Te,Te,1.0,at%,"MOCVD; Hall (van der Pauw, Toho HL-9900)",electron,hall,,5330000000000000.0,,,S1  High  w/o  5865  0.19  5.33×1015
+phase103,10.20944/preprints202512.0642.v1,10.20944/preprints202512.0642.v1,Te,Mg,2.0,at%,"MOCVD; Hall (van der Pauw, Toho HL-9900)",electron,hall,,1.45e+17,,,S2  High  w/  94.3  0.457  1.45×1017
+phase103,10.20944/preprints202512.0642.v1,10.20944/preprints202512.0642.v1,Te,Mg+Fe+Ga+O,2.0,at%,"MOCVD; Hall (van der Pauw, Toho HL-9900)",electron,hall,,572000000000000.0,,,T1  Low  w/  2064  5.29  5.72×1014
+phase103,10.20944/preprints202512.0642.v1,10.20944/preprints202512.0642.v1,Te,Mg+Fe+Ga+O,2.0,at%,"MOCVD; Hall (van der Pauw, Toho HL-9900)",electron,hall,,4550000000000000.0,,,T2  Medium  w/  908  1.51  4.55×1015
+phase103,10.20944/preprints202512.0642.v1,10.20944/preprints202512.0642.v1,Te,Mg+Fe+Ga+O,2.0,at%,"MOCVD; Hall (van der Pauw, Toho HL-9900;",electron,hall,,1.78e+17,,,T3  High  w/  32.4  1.08  1.78×1017
+phase103,10.48550/arxiv.2512.09294,10.48550/arxiv.2512.09294,Si,L+P+C+V+D,0.0,at%,LPCVD on SPE β-Ga2O3 / 6° miscut sapphir,electron,hall,,,45.0,,SPE pseudo-substrate sample followed the expected deposition behavior on the vicinal surface and yielded a mobility of 45 cm²/V·s at a bulk carrier concentration of 1.3 × 10¹⁷ cm⁻³
+phase103,10.48550/arxiv.2512.09294,10.48550/arxiv.2512.09294,Si,L+P+C+V+D,0.0,at%,LPCVD on SPE β-Ga2O3 / 6° miscut sapphir,electron,hall,,1.3e+17,,,"yielded a mobility of 45 cm²/V·s at a bulk carrier concentration of 1.3 × 10¹⁷ cm⁻³, which aligned with the transport behavior associated with step-flow-facilitated deposition on 6° off-axis sapphire"
+phase103,10.48550/arxiv.2511.19674,10.48550/arxiv.2511.19674,Ge,,0.0,at%,ion implantation + UHV N2 anneal 950-100,electron,hall,,,60.0,,"Sheet resistances of 600-700 Ω/□ were obtained with mobilities of 60-70 cm2/Vs, and carrier densities up to ~2×1019 cm-3 corresponding to activation efficiencies of 35% to 40%."
+phase103,10.48550/arxiv.2511.19674,10.48550/arxiv.2511.19674,Ge,,0.0,at%,ion implantation + UHV N2 anneal 950-100,electron,hall,,2e+19,,,"Sheet resistances of 600-700 Ω/□ were obtained with mobilities of 60-70 cm2/Vs, and carrier densities up to ~2×1019 cm-3 corresponding to activation efficiencies of 35% to 40%."
+phase103,10.48550/arxiv.2512.09279,10.48550/arxiv.2512.09279,Si,,3.3,at%,MOCVD (delta-doping),electron,hall,,,89.0,,Hall measurements revealed a δ-doped sheet carrier density of ~3.3 x 1013 cm-2 with Hall mobility of 89 cm2/Vs at room temperature.
+phase103,10.48550/arxiv.2011.03657,10.48550/arxiv.2011.03657,Zr,,1.0,at%,C-V net doping concentration profiling (,electron,hall,,1.5e+18,,,"The net doping concentrations for UID, #1 and #2 Zr-doped Ga2O3 are 1.8×10^17 cm-3, 1.5×10^18 cm-3, and 5.0×10^18 cm-3, respectively."
+phase103,10.48550/arxiv.2011.03657,10.48550/arxiv.2011.03657,Zr,,5.0,at%,C-V net doping concentration profiling (,electron,hall,,5e+18,,,"The net doping concentrations for UID, #1 and #2 Zr-doped Ga2O3 are 1.8×10^17 cm-3, 1.5×10^18 cm-3, and 5.0×10^18 cm-3, respectively."
+phase103,10.48550/arxiv.2306.01115,10.48550/arxiv.2306.01115,undoped,,0.0,at%,MOCVD on r-plane sapphire,electron,hall,,,1.0,,"From the room temperature Hall effect measurements, the hole concentration and mobility are p = 5.7 x10^13 cm-3 and mu < 1 cm2/(V.s), respectively."
+phase103,10.48550/arxiv.2306.01115,10.48550/arxiv.2306.01115,Zn,,0.0,at%,MOCVD on r-plane sapphire,electron,hall,,1e+17,,,"the hole concentration and the hole mobility at room temperature were determined as p = 1x10^17 cm-3 and mu < 1 cm2/(V.S), respectively."
+phase103,10.48550/arxiv.2306.01115,10.48550/arxiv.2306.01115,Zn,,0.0,at%,MOCVD on r-plane sapphire,electron,hall,,,1.0,,"the hole concentration and the hole mobility at room temperature were determined as p = 1x10^17 cm-3 and mu < 1 cm2/(V.S), respectively."

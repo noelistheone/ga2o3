@@ -1,0 +1,11 @@
+{
+ "prop": "mu",
+ "n_rows": 235,
+ "n_labs": 63,
+ "raw_uncorrected_median_dex": 0.21,
+ "modeA_crosslab_LOLO_median_dex": 0.23,
+ "modeB_anchored_median_dex": 0.14,
+ "within_lab_scatter_floor_dex": 0.12,
+ "modeA_factor": 1.7,
+ "modeB_factor": 1.4
+}

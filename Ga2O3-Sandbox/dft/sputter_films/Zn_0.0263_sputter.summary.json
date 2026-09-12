@@ -1,0 +1,37 @@
+{
+  "dopant": "Zn",
+  "conc": 0.0263,
+  "n_atoms": 80,
+  "n_dopant": 1,
+  "melt_K": 3000.0,
+  "device": "cuda",
+  "stages": [
+    {
+      "stage": "melt",
+      "T": 3000.0,
+      "E": -439.5314757297112
+    },
+    {
+      "stage": "quench",
+      "T": 2000.0,
+      "E": -453.5956533180049
+    },
+    {
+      "stage": "quench",
+      "T": 1000.0,
+      "E": -462.9220502857776
+    },
+    {
+      "stage": "quench",
+      "T": 300.0,
+      "E": -470.5090078613382
+    }
+  ],
+  "crystal_dopant_O_bond": 1.849,
+  "crystal_dopant_coord": 4.0,
+  "asdeposited_dopant_O_bond": 1.965,
+  "asdeposited_dopant_coord": 4.0,
+  "final_E": -474.3563793341274,
+  "final_E_per_atom": -5.929454741676592,
+  "asdeposited_GaO_coord": 5.29
+}

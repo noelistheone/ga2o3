@@ -1,0 +1,108 @@
+{
+  "references": {
+    "E_perfect_eV": -88224.43249480649,
+    "E_VBM_eV": 8.9497,
+    "makov_payne_q2_eV": 0.847
+  },
+  "note": "New dopants beyond KROGER-19 via MACE-MPA-0 structure + QE energetics (Tier B). dHo(q) drives donor/acceptor + compensation; absolute n is exp-sensitivity-limited (project rankings/trends scope). Charged geoms are short-relax from the neutral MACE geom; potential-alignment for charged cells is a refinement.",
+  "dopants": {
+    "Sb": {
+      "dopant": "Sb",
+      "referenced_to_metals": true,
+      "Ef0_neutral_GaM_rich_eV": 2.874,
+      "cs_dHo_KROGER_conv_eV": {
+        "0": 2.874,
+        "1": 1.011,
+        "2": -0.467
+      },
+      "E_tot_charges_done": [
+        0,
+        1,
+        2
+      ],
+      "classification": "deep level/weak donor (2/0 at CBM-3.23)",
+      "transition_levels": {
+        "1/0": {
+          "above_VBM": 1.863,
+          "below_CBM": 3.037
+        },
+        "2/0": {
+          "above_VBM": 1.67,
+          "below_CBM": 3.23
+        },
+        "2/1": {
+          "above_VBM": 1.477,
+          "below_CBM": 3.423
+        }
+      },
+      "process": {
+        "T_anneal": 1350.0,
+        "pO2": 0.0001,
+        "conc_frac": 0.01
+      },
+      "nine_properties": {
+        "hall_n_cm3": 9.885642712596074e+16,
+        "hall_p_cm3": 2.1668039166110886e-60,
+        "hall_mu_cm2Vs": 92.05824594246648,
+        "sigma_S_cm": 0.9406895106550197,
+        "Eg_optical_eV": 4.901360653900405,
+        "dEg_eV": -4.258844609437984e-10,
+        "V_O_cm3_quench": 59435588176.79092,
+        "dark_activation_eV": 0.11931280404400546,
+        "PDR_score": 14.608231972108905,
+        "tau_score": 14.581678273474074,
+        "EF_300K_below_Ec": 0.11931280404400546,
+        "solubility_limited": false
+      }
+    },
+    "Bi": {
+      "dopant": "Bi",
+      "referenced_to_metals": true,
+      "Ef0_neutral_GaM_rich_eV": 3.414,
+      "cs_dHo_KROGER_conv_eV": {
+        "0": 3.414,
+        "1": 2.541,
+        "2": 2.083
+      },
+      "E_tot_charges_done": [
+        0,
+        1,
+        2
+      ],
+      "classification": "deep level/weak donor (2/0 at CBM-4.24)",
+      "transition_levels": {
+        "1/0": {
+          "above_VBM": 0.873,
+          "below_CBM": 4.027
+        },
+        "2/0": {
+          "above_VBM": 0.665,
+          "below_CBM": 4.235
+        },
+        "2/1": {
+          "above_VBM": 0.457,
+          "below_CBM": 4.443
+        }
+      },
+      "process": {
+        "T_anneal": 1350.0,
+        "pO2": 0.0001,
+        "conc_frac": 0.01
+      },
+      "nine_properties": {
+        "hall_n_cm3": 9.885663434169571e+16,
+        "hall_p_cm3": 2.166799365759613e-60,
+        "hall_mu_cm2Vs": 92.05825209787277,
+        "sigma_S_cm": 0.9406915453593762,
+        "Eg_optical_eV": 4.901360654326203,
+        "dEg_eV": -8.586794469911396e-14,
+        "V_O_cm3_quench": 59435588423.30701,
+        "dark_activation_eV": 0.11931274974802886,
+        "PDR_score": 14.60815239596201,
+        "tau_score": 14.58159963670187,
+        "EF_300K_below_Ec": 0.11931274974802886,
+        "solubility_limited": false
+      }
+    }
+  }
+}

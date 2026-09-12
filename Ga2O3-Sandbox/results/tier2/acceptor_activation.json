@@ -1,0 +1,76 @@
+{
+  "hypothesis": "incomplete acceptor activation retains donor-background n",
+  "dopants": {
+    "Mg": {
+      "corpus_log_n": 14.76,
+      "sweep": [
+        {
+          "f_active": 1.0,
+          "log_n": 0.0
+        },
+        {
+          "f_active": 0.3,
+          "log_n": 0.0
+        },
+        {
+          "f_active": 0.1,
+          "log_n": 0.0
+        },
+        {
+          "f_active": 0.03,
+          "log_n": 0.0
+        },
+        {
+          "f_active": 0.01,
+          "log_n": 0.0
+        },
+        {
+          "f_active": 0.003,
+          "log_n": 0.0
+        },
+        {
+          "f_active": 0.001,
+          "log_n": 0.0
+        }
+      ],
+      "f_active_matching_corpus": 1.0,
+      "matched_log_n": 0.0
+    },
+    "Zn": {
+      "corpus_log_n": 18.0,
+      "sweep": [
+        {
+          "f_active": 1.0,
+          "log_n": 0.0
+        },
+        {
+          "f_active": 0.3,
+          "log_n": 0.0
+        },
+        {
+          "f_active": 0.1,
+          "log_n": 0.0
+        },
+        {
+          "f_active": 0.03,
+          "log_n": 0.0
+        },
+        {
+          "f_active": 0.01,
+          "log_n": 0.0
+        },
+        {
+          "f_active": 0.003,
+          "log_n": 0.0
+        },
+        {
+          "f_active": 0.001,
+          "log_n": 0.0
+        }
+      ],
+      "f_active_matching_corpus": 1.0,
+      "matched_log_n": 0.0
+    }
+  },
+  "interpretation": "if a physically-plausible f_active (~0.01-0.1, i.e. 1-10% active acceptor, consistent with deep-acceptor low activation in sputtered films) reproduces the corpus n, the acceptor gap is an ACTIVATION effect (fixable, informed by the film structure) not a chain error"
+}

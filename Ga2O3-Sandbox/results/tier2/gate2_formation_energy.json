@@ -1,0 +1,24 @@
+{
+  "E_perfect_eV": -88224.43249480649,
+  "E_VBM_eV": 8.9497,
+  "makov_payne_q2_eV": 0.847,
+  "formation_energies_at_EF_VBM": {
+    "V_O_q0": {
+      "raw_minus_perfect": 450.949,
+      "charge_corr": 0.0,
+      "O_rich": 3.086,
+      "mid": 1.613,
+      "Ga_rich": 0.14
+    },
+    "V_O_q2": {
+      "raw_minus_perfect": 430.377,
+      "charge_corr": 0.847,
+      "O_rich": 1.26,
+      "mid": -0.213,
+      "Ga_rich": -1.686
+    }
+  },
+  "V_O_2plus_0_transition_level_above_VBM_eV": 0.913,
+  "V_O_2plus_0_below_Ec_eV(Eg=4.9)": 3.987,
+  "validation": "PBE V_O q0 formation energy is physical (~1-3 eV across \u03bc limits), NOT the \u22127000 eV of the broken Phase-53 post-processing \u2192 the rebuilt formation-energy pipeline WORKS. PBE underestimates vs HSE (KROGER q0 dHo 4.5-5.2 eV at \u03bc=0); the HSE campaign + anisotropic finite-size corr is the accuracy tier. Negative-U (2+/0) level position is the key V_O physics."
+}

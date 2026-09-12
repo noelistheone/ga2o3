@@ -1,0 +1,194 @@
+{
+ "cc_VGa_q-1_relax": {
+  "total_mag_muB": 2.0,
+  "abs_mag_muB": 2.23
+ },
+ "cc_VGa_q-2_relax": {
+  "total_mag_muB": 1.0,
+  "abs_mag_muB": 1.13
+ },
+ "cc_VGa_q-3_at_R0": {
+  "total_mag_muB": 0.45,
+  "abs_mag_muB": 0.53
+ },
+ "cc_VGa_q-3_relax": {
+  "total_mag_muB": -0.0,
+  "abs_mag_muB": 0.0
+ },
+ "cc_VGa_q0_at_R-3": {
+  "total_mag_muB": 2.97,
+  "abs_mag_muB": 3.31
+ },
+ "cc_VGa_q0_relax": {
+  "total_mag_muB": 3.0,
+  "abs_mag_muB": 3.32
+ },
+ "cc_VO_q0_at_R2": {
+  "total_mag_muB": -0.0,
+  "abs_mag_muB": 0.0
+ },
+ "cc_VO_q0_relax": {
+  "total_mag_muB": -0.0,
+  "abs_mag_muB": 0.0
+ },
+ "cc_VO_q1_relax": {
+  "total_mag_muB": 1.0,
+  "abs_mag_muB": 1.09
+ },
+ "cc_VO_q2_at_R0": {
+  "total_mag_muB": 0.28,
+  "abs_mag_muB": 1.61
+ },
+ "cc_VO_q2_relax": {
+  "total_mag_muB": -0.0,
+  "abs_mag_muB": 0.0
+ },
+ "dop_Bi_Ga_II_oct_at_mace": {
+  "total_mag_muB": 0.0,
+  "abs_mag_muB": 0.0
+ },
+ "dop_Bi_Ga_I_tet_at_mace": {
+  "total_mag_muB": 0.0,
+  "abs_mag_muB": 0.0
+ },
+ "dop_Bi_q1": {
+  "total_mag_muB": 1.0,
+  "abs_mag_muB": 1.09
+ },
+ "dop_Bi_q2": {
+  "total_mag_muB": 0.0,
+  "abs_mag_muB": 0.0
+ },
+ "dop_Bi_relax": {
+  "total_mag_muB": 0.0,
+  "abs_mag_muB": 0.0
+ },
+ "dop_Sb_Ga_II_oct_at_mace": {
+  "total_mag_muB": -0.0,
+  "abs_mag_muB": 0.0
+ },
+ "dop_Sb_Ga_I_tet_at_mace": {
+  "total_mag_muB": -0.0,
+  "abs_mag_muB": 0.0
+ },
+ "dop_Sb_q1": {
+  "total_mag_muB": 0.0,
+  "abs_mag_muB": 0.0
+ },
+ "dop_Sb_q2": {
+  "total_mag_muB": 0.0,
+  "abs_mag_muB": 0.0
+ },
+ "dop_Sb_relax": {
+  "total_mag_muB": 0.0,
+  "abs_mag_muB": 0.0
+ },
+ "fs160_VO_q0": {
+  "total_mag_muB": -0.0,
+  "abs_mag_muB": 0.0
+ },
+ "fs160_VO_q2": {
+  "total_mag_muB": 0.8,
+  "abs_mag_muB": 1.1
+ },
+ "fs160_VO_q2_relax": {
+  "total_mag_muB": 0.0,
+  "abs_mag_muB": 0.0
+ },
+ "fs160_perfect": {
+  "total_mag_muB": 0.0,
+  "abs_mag_muB": 0.0
+ },
+ "hse_VO_q0": {
+  "total_mag_muB": -0.0,
+  "abs_mag_muB": 0.0
+ },
+ "hse_VO_q0_a033": {
+  "total_mag_muB": 0.0,
+  "abs_mag_muB": 0.0
+ },
+ "hse_VO_q2": {
+  "total_mag_muB": 0.0,
+  "abs_mag_muB": 0.0
+ },
+ "hse_VO_q2_a033": {
+  "total_mag_muB": -0.0,
+  "abs_mag_muB": 0.0
+ },
+ "hse_VO_q2_scan_l085": {
+  "total_mag_muB": -0.0,
+  "abs_mag_muB": 0.0
+ },
+ "hse_VO_q2_scan_l095": {
+  "total_mag_muB": 0.0,
+  "abs_mag_muB": 0.0
+ },
+ "hse_VO_q2_scan_l100": {
+  "total_mag_muB": 0.0,
+  "abs_mag_muB": 0.0
+ },
+ "hse_VO_q2_scan_l105": {
+  "total_mag_muB": 0.0,
+  "abs_mag_muB": 0.0
+ },
+ "hse_VO_q2_scan_l115": {
+  "total_mag_muB": 0.0,
+  "abs_mag_muB": 0.0
+ },
+ "hse_dop_Bi_q0": {
+  "total_mag_muB": -0.0,
+  "abs_mag_muB": 0.0
+ },
+ "hse_dop_Bi_q0_a033": {
+  "total_mag_muB": -0.0,
+  "abs_mag_muB": 0.0
+ },
+ "hse_dop_Bi_q1": {
+  "total_mag_muB": 1.0,
+  "abs_mag_muB": 1.17
+ },
+ "hse_dop_Bi_q1_a033": {
+  "total_mag_muB": 1.0,
+  "abs_mag_muB": 1.2
+ },
+ "hse_dop_Bi_q2": {
+  "total_mag_muB": -0.0,
+  "abs_mag_muB": 0.0
+ },
+ "hse_dop_Bi_q2_a033": {
+  "total_mag_muB": 0.0,
+  "abs_mag_muB": 0.0
+ },
+ "hse_dop_Sb_q0": {
+  "total_mag_muB": 0.0,
+  "abs_mag_muB": 0.0
+ },
+ "hse_dop_Sb_q0_a033": {
+  "total_mag_muB": -0.0,
+  "abs_mag_muB": 0.0
+ },
+ "hse_dop_Sb_q1": {
+  "total_mag_muB": 1.0,
+  "abs_mag_muB": 1.12
+ },
+ "hse_dop_Sb_q1_a033": {
+  "total_mag_muB": 1.0,
+  "abs_mag_muB": 1.15
+ },
+ "hse_dop_Sb_q2": {
+  "total_mag_muB": -0.0,
+  "abs_mag_muB": 0.0
+ },
+ "hse_dop_Sb_q2_a033": {
+  "total_mag_muB": 0.0,
+  "abs_mag_muB": 0.0
+ },
+ "spin_Bi_q1_pert": {
+  "total_mag_muB": 1.0,
+  "abs_mag_muB": 1.09
+ },
+ "spin_Sb_q1_pert": {
+  "total_mag_muB": 0.0,
+  "abs_mag_muB": 0.0
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "photo_dark_ratio": {
+  "rho_oracle_studyID": 0.738,
+  "rho_adopted_grouped": 0.2931,
+  "sqrt_ICC": 0.775,
+  "bound_sqrt_1_minus_ICC": 0.632
+ },
+ "dark_current_pA": {
+  "rho_oracle_studyID": 0.428,
+  "rho_adopted_grouped": 0.2866,
+  "sqrt_ICC": 0.882,
+  "bound_sqrt_1_minus_ICC": 0.472
+ },
+ "vacancy_concentration": {
+  "rho_oracle_studyID": 0.458,
+  "rho_adopted_grouped": 0.4186,
+  "sqrt_ICC": 0.833,
+  "bound_sqrt_1_minus_ICC": 0.553
+ },
+ "hall_carrier_n": {
+  "rho_oracle_studyID": 0.465,
+  "rho_adopted_grouped": 0.3437,
+  "sqrt_ICC": 0.785,
+  "bound_sqrt_1_minus_ICC": 0.619
+ },
+ "hall_mobility_mu": {
+  "rho_oracle_studyID": 0.66,
+  "rho_adopted_grouped": 0.4626,
+  "sqrt_ICC": 0.922,
+  "bound_sqrt_1_minus_ICC": 0.387
+ },
+ "optical_bandgap_Eg": {
+  "rho_oracle_studyID": 0.604,
+  "rho_adopted_grouped": 0.4686,
+  "sqrt_ICC": 0.766,
+  "bound_sqrt_1_minus_ICC": 0.643
+ },
+ "bandgap_shift_dEg": {
+  "rho_oracle_studyID": 0.807,
+  "rho_adopted_grouped": 0.6167,
+  "sqrt_ICC": 0.88,
+  "bound_sqrt_1_minus_ICC": 0.475
+ },
+ "tau_decay": {
+  "rho_oracle_studyID": 0.564,
+  "rho_adopted_grouped": 0.3736,
+  "sqrt_ICC": 0.923,
+  "bound_sqrt_1_minus_ICC": 0.385
+ }
+}

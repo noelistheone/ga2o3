@@ -1,0 +1,42 @@
+{
+  "A_port_parity": {
+    "max_abs_diff_log10_VO": 0.0,
+    "max_abs_diff_E_F": 0.0,
+    "pass": true
+  },
+  "B_anchor_consistency": {
+    "db_values": {
+      "0": 3.5,
+      "1": 1.8,
+      "2": 0.3
+    },
+    "module_default": {
+      "0": 3.5,
+      "1": 1.8,
+      "2": 0.3
+    },
+    "pass": true
+  },
+  "C_physics_gates": {
+    "G1_undoped_brouwer_slope": {
+      "slope_dlogVO_dlogpO2_at_1073K": -0.4999861525212497,
+      "pass": true
+    },
+    "G2_donors_raise_n_and_EF": {
+      "pass": true
+    },
+    "G3_acceptor_lowers_EF_raises_VO": {
+      "pass": true
+    },
+    "G4_undoped_n_rises_with_T": {
+      "pass": true
+    },
+    "G5_charge_balance_residual_unpinned": {
+      "max_relative_residual": 1.3547066275672356e-09,
+      "n_pinned_points_excluded": 4266,
+      "pass": true
+    }
+  },
+  "device": "cuda:0",
+  "all_pass": true
+}

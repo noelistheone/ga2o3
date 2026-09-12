@@ -1,0 +1,347 @@
+dopant_spec,element,method,concentration_at%,atmosphere,temperature_C,time_min,photocurrent_uA,dark_current_pA,photo_dark_ratio,sensitivity,vacancy_concentration,measurement_voltage_V,measurement_wavelength_nm,notes,doi,usable_flag
+Fe:0.026500,Fe,RF magnetron sputtering,2.65,Ar,800.0,90.0,43.76,2.1,4.0,,17.50105926221775,10.0,254.0,10V;254nm,Original CSV,ok
+Sn:0.026500,Sn,RF magnetron sputtering,2.65,Ar,800.0,90.0,18.0,1.1,4.296445794206396,,10.127104798364808,,,Sn vac~0.69%,Original CSV,ok
+Mg:0.026500,Mg,RF magnetron sputtering,2.65,Ar,800.0,90.0,17.0,13.0,3.041392685158225,,10.079181246047623,,,VO suppression,Original CSV,ok
+Zn:0.026500,Zn,RF magnetron sputtering,2.65,Ar,800.0,90.0,5.0,1340.0,1.2301933788690456,,9.973589623427255,10.0,254.0,10V;254nm,Original CSV,ok
+undoped,—,RF magnetron sputtering,0.0,Ar,700.0,90.0,24.0,4000.0,3.778151250383644,46.3,17.0,5.0,254.0,5V;254nm;R=46.3 A/W,DOI:10.3390/cryst13101434,ok
+undoped,—,RF magnetron sputtering+O₂ plasma,0.0,O2_plasma,1000.0,60.0,,0.03,7.782472624166286,3.37,16.45939248775923,10.0,,10V;Id=30fA;OPA FTF,DOI:10.1016/j.apmt.2025.102851,ok
+undoped,—,RF magnetron sputtering on Si,0.0,N2,900.0,60.0,0.000247,2.25,4.041392685158225,,,,374.0,374nm;sensitivity=1.1e4%,Mohammed ApplSurf 2022,ok
+undoped,—,RF magnetron sputtering amorphous,0.0,Ar,,,,,6.361727836017593,1021.8,,,254.0,254nm;R=1021.8 A/W,DOI:10.1016/j.jallcom.2022.168255,ok
+undoped,—,RF magnetron sputtering+O₂ anneal,0.0,O2,300.0,60.0,10.0,0.3,7.5910646070264995,,,5.0,254.0,5V;254nm;32×32 array,DOI:10.1002/advs.202101106,ok
+undoped,—,RF magnetron sputtering+O₂ plasma,0.0,O2_plasma,,,0.347,0.378,5.962842681201242,,,10.0,254.0,10V;254nm,DOI:10.3390/photonics12111074,ok
+undoped,—,RF magnetron sputtering,0.0,Ar,800.0,,8.52,0.0,8.0,,,,,Inf.PDCR at I_dark=0;Vd=10.1V,DOI:10.1007/s11432-024-4092-3,ok
+undoped,—,RF magnetron sputtering+N₂,0.0,N2,700.0,60.0,,,4.181843587944773,,,,,N₂ atm;VO↑ vs O₂,DOI:10.1016/j.matlet.2023.133506,ok
+undoped,—,RF magnetron sputtering+vacuum,0.0,vacuum,700.0,60.0,,,2.3010299956639813,,,,,Vac ann.→highest VO,DOI:10.1016/j.matlet.2023.133506,ok
+undoped,—,RF magnetron sputtering+O₂,0.0,O2,700.0,60.0,,54.0,4.181843587944773,,15.544068044350276,,254.0,O₂ best;dark↓;254nm,DOI:10.1016/j.matlet.2023.133506,ok
+undoped,—,RF magnetron sputtering,0.0,Ar+N2,800.0,,,0.4,4.0,,,,,Ga interstitial suppressed;2VGa-Gai,ε-PMC review 2025 ref,ok
+undoped,—,PLD,0.0,O2,400.0,,,,3.0,,18.30102999566398,,,400°C lowest T in 400-650°C series,DOI:10.1016/j.vacuum.2025.113564,ok
+undoped,—,PLD,0.0,O2,550.0,,,50.0,5.0,8.5,16.69897000433602,,,Best crystal 550°C;R=8.5 A/W,DOI:10.1016/j.vacuum.2025.113564,ok
+undoped,—,PLD,0.0,O2,600.0,,,,3.0,,17.0,,,600°C;intermediate quality,DOI:10.1016/j.vacuum.2025.113564,ok
+undoped,—,PLD,0.0,O2,650.0,,,,5.437750562820388,1080.0,16.477121254719663,,,R=1080 A/W;D*=1.4e16;VO eng.,DOI:10.1016/j.matlet.2023.133506,ok
+undoped,—,PLD,0.0,O2,550.0,,,45800.0,0.850033257689769,,18.69897000433602,5.0,,5V;dark 45.8nA;low O₂ press.,DOI:10.1016/j.physb.2022.413466,ok
+undoped,—,PLD,0.0,O2,550.0,,,11.0,3.3010299956639813,,16.744292983122676,5.0,,5V;dark=11pA;best O₂ press.,DOI:10.1016/j.physb.2022.413466,ok
+undoped,—,MOCVD+AlN buffer on p-Si(111),0.0,N2+O2,800.0,,,0.045,5.929418925714293,38.8,,3.0,,3V;Id=45fA;R=38.8 A/W,DOI:10.1021/acsami.3c07876,ok
+undoped,—,MOCVD homoepitaxy on Sn:Ga₂O₃,0.0,N2+O2,800.0,15.0,,100.0,4.0,0.03,,,,−0.5V;PDCR=1e4,DOI:10.1016/j.optlastec.2025.111168,ok
+undoped,—,MOCVD on p-Si,0.0,N2+O2,800.0,,,1.43,3.0,,,0.0,,0V self-powered;Id=1.43pA,DOI:10.1021/acsphotonics.8b00174,ok
+undoped,—,MOCVD,0.0,O2,700.0,,,4.0,5.0,,,5.0,,5V;Id~4pA;PDCR~1e5,DOI:10.1038/s41598-018-32412-3,ok
+undoped,—,MOCVD on GaN/sapphire,0.0,N2+O2,800.0,,,0.0086,8.0,,,0.0,,0V;Id=8.6±3.4fA;LDR=88.5dB,DOI:10.1021/acsaelm.1c00150,ok
+undoped,—,ALD amorphous,0.0,O2,500.0,,,9.43,5.437750562820388,,,10.0,,10V;decay=150ns,MDPI Coatings review,ok
+undoped,—,Electrophoretic deposition (EPD),0.0,Ar,,,,12000.0,0.850033257689769,,,,,Id<12nA;PDCR=7.08;UV lamp,DOI:10.1021/acsaom.4c00210,ok
+Si:0.023400,Si,RF magnetron sputtering,2.34,Ar,800.0,60.0,1.03,32.2,4.505149978319906,1.146,,15.0,,15V;Iph=Id×PDCR est.,DOI:10.1016/j.vacuum.2024.113564,ok
+,Si,Mist-CVD,2.0,air,,,,,6.510545010206612,323.0,,20.0,254.0,20V;254nm;EQE=1.58e5%,DOI:10.1016/j.mssp.2024.108428,exotic_skip
+Si:0.023400,Si,RF sputtering on FTO/TiO₂,2.34,Ar,800.0,,,,2.38481918395196,0.00102,,0.0,,0V;self-powered;R=1.02mA/W,DOI:10.1021/acsaelm.3c01332,ok
+Si:0.000014,Si,MOCVD,0.00141,N2+O2,800.0,,,,,,17.710963118995277,,,carrier=5.14e17;μ=2 cm²/Vs,MOCVD-TEOS series,ok
+Si:0.000027,Si,MOCVD,0.00275,N2+O2,800.0,,,,,,18.0,,,SBD Vbr=497V;BFOM=1.16 kW/cm²,MOCVD-TEOS series,ok
+Si:0.000549,Si,MOCVD,0.0549,N2+O2,800.0,,,,,,19.30102999566398,,,highest carrier;μ slightly↓,MOCVD-TEOS series,ok
+,Si,MOCVD on N:β-Ga₂O₃,,N2+O2,800.0,,,,,,,,,Normally-off phototransistor;2025,DOI:10.1016/j.apsusc.2025.162368,no_conc
+undoped,—,RF magnetron co-sputtering,0.0,Ar,800.0,,0.09,,1.591064607026499,0.67,15.69897000433602,10.0,254.0,10V;254nm;100μW/cm²,DOI:10.3390/ma17133227,ok
+Sn:0.021000,Sn,RF magnetron co-sputtering,2.1,Ar,800.0,,0.72,,1.977723605288848,5.13,16.30102999566398,10.0,254.0,10V;254nm,DOI:10.3390/ma17133227,ok
+Sn:0.036000,Sn,RF magnetron co-sputtering,3.6,Ar,800.0,,1.17,,2.008600171761917,8.3,16.69897000433602,10.0,254.0,10V;254nm,DOI:10.3390/ma17133227,ok
+Sn:0.041000,Sn,RF magnetron co-sputtering,4.1,Ar,800.0,,2.72,26900.0,2.004321373782642,19.25,17.0,10.0,,10V;Id=Iph/PDCR est.,DOI:10.3390/ma17133227,ok
+Sn:0.005000,Sn,CVD (tube furnace),0.5,N2,1250.0,,,0.04,0.6989700043360189,,15.0,50.0,,50V;R=0.2mA/W;decay=207ms,DOI:10.1016/j.apsusc.2019.144975,ok
+Sn:0.050000,Sn,CVD (tube furnace),5.0,N2,1250.0,,,2.57,1.4913616938342726,0.08,17.69897000433602,50.0,,50V;R=80mA/W;decay=22ms,DOI:10.1016/j.apsusc.2019.144975,ok
+Sn:0.020000,Sn,CVD microwire,2.0,N2,1050.0,,,1700.0,3.397940008672037,12.0,16.0,10.0,254.0,10V;254nm;R=12 A/W;EQE=5887%,DOI:10.1016/j.jmst.2022.05.027,ok
+Sn:0.020000,Sn,MOCVD on p-GaN,2.0,N2+O2,800.0,,,18.0,4.0,3.05,,,254.0,254nm;self-powered,ACS Omega 2024 review,ok
+Sn:0.030000,Sn,RF magnetron sputtering,3.0,Ar:O2=1:1,800.0,,,1.14,2.909556029241175,,,,,dark=1.14pA;Ip/Id=812,DOI:10.1016/j.jallcom.2021.162551,ok
+Sn:0.050000,Sn,Sol-gel+RTA,5.0,air,700.0,,,,2.909556029241175,,,,,Built-in field;PEC PD,DOI:10.1007/s40843-025-3757-2,ok
+Sn:0.000027,Sn,EFG melt growth,0.0027,inert,1800.0,,,,,,18.0,,,Used as substrate,Novel Crystal Technology,ok
+Sn:0.010000,Sn,RF magnetron sputtering,1.0,Ar,900.0,,,,3.03342375548695,,,,,PDCR=1.08e3;fast 0.66/1.95s,SSRN:5149855,ok
+Sn:0.050000,Sn,RF magnetron sputtering,5.0,Ar,900.0,,,,2.6989700043360187,,,,,Max Sn4+/lattice-O ratio,SSRN:5149855,ok
+Sn:0.080000,Sn,RF magnetron sputtering,8.0,Ar,900.0,,,,2.0,,,,,Excess ion bombardment,SSRN:5149855,ok
+Mg:0.050000,Mg,RF magnetron sputtering,5.0,Ar,800.0,60.0,0.036,4.1,3.939519252618618,0.0238,,10.0,,10V;sensitivity=8.7e5%,DOI:10.1016/j.matlet.2017.08.032,ok
+Mg:0.004800,Mg,RF magnetron sputtering,0.48,Ar,800.0,60.0,,,2.0,,16.69897000433602,,,Hu 2025 S1,DOI:10.1016/j.surfcoat.2025.131940,ok
+Mg:0.010100,Mg,RF magnetron sputtering,1.01,Ar,800.0,60.0,,,3.0,1.97,16.30102999566398,30.0,,30V;R=1.97 A/W;best crystal,DOI:10.1016/j.surfcoat.2025.131940,ok
+Mg:0.021800,Mg,RF magnetron sputtering,2.18,Ar,800.0,60.0,,,1.6989700043360187,,16.0,,,Highest conc;deteriorated,DOI:10.1016/j.surfcoat.2025.131940,ok
+undoped,Mg,MBE,0.0,O2_plasma,550.0,120.0,,,2.0,,17.0,,,Mg source off,DOI:10.1016/j.apsusc.2025.169433,ok
+Mg:0.025000,Mg,MBE,2.5,O2_plasma,550.0,120.0,,,4.0,,16.69897000433602,,,Mg 320°C source,DOI:10.1016/j.apsusc.2025.169433,ok
+Mg:0.055000,Mg,MBE,5.5,O2_plasma,550.0,120.0,,,5.698970004336019,,15.30102999566398,,,Mg 335°C source,DOI:10.1016/j.apsusc.2025.169433,ok
+Mg:0.078000,Mg,MBE,7.8,O2_plasma,550.0,120.0,,0.9,7.113943352306837,41.6,13.954242509439323,,254.0,254nm;rise/decay=22.9/2.9ms,DOI:10.1016/j.apsusc.2025.169433,ok
+Mg:0.030000,Mg,PLD,3.0,O2,650.0,,,,4.113943352306837,,,,,I254/Idark=1.3e4,ACS Omega 2024 review,ok
+Mg:0.020000,Mg,RF magnetron sputtering+AlN,2.0,Ar,800.0,,,120.0,3.342422680822206,2.17,,10.0,,10V;2μW/cm²;MISIM,DOI:10.3390/coatings15111312,ok
+Mg:0.015000,Mg,PLD on MgO substrate,1.5,O2,650.0,,60.3,,3.3010299956639813,,,,,Iph=6.03e-5 A;ACS AEM 2025,DOI:10.1021/acsaelm.5c02383,ok
+,Mg,Hydrothermal,,wet,180.0,,,,,,,,,PEC self-powered;Adv.Sci.2025,DOI:10.1002/advs.202413074,exotic_skip
+Zn:0.030000,Zn,RF magnetron sputtering,3.0,Ar,800.0,60.0,,,2.1760912590556813,,,,,lower dark vs pure,DOI:10.1007/s13391-017-7072-y,ok
+Zn:0.005000,Zn,RF magnetron sputtering,0.5,Ar,800.0,60.0,,,1.6989700043360187,,,,,bandgap 4.87 eV,ResearchGate Struct.Opt.Zn,ok
+Zn:0.020000,Zn,RF magnetron sputtering,2.0,Ar,800.0,60.0,,,2.4771212547196626,,,,,bandgap 4.87→4.87 eV;improved PD,ResearchGate Struct.Opt.Zn,ok
+Zn:0.082000,Zn,Spatial ALD,8.2,O2,400.0,60.0,5.25,0.00071,6.869231719730976,,,,,Iph=Id×PDCR est.,DOI:10.1016/j.surfcoat.2025.131691,ok
+Zn:0.170000,Zn,ALD,17.0,O2,,,,59.0,4.845098040014257,17.6,15.69897000433602,,,15nm film,DOI:10.1016/j.apsusc.2019.01.177,ok
+Zn:0.170000,Zn,ALD,17.0,O2,,,,0.222,6.460897842756548,0.104,15.0,,,Id=0.222pA;R=104mA/W,DOI:10.1016/j.apsusc.2019.01.177,ok
+Zn:0.020000,Zn,MOCVD,2.0,O2,600.0,60.0,,37.0,6.460897842756548,2800.0,,,,R=2800 A/W;D*=5.9e16,ref review,ok
+Zn:0.030000,Zn,MOCVD on ZnGa₂O₄,3.0,N2+O2,900.0,,,0.635,7.071882007306125,72.35,,20.0,254.0,20V;254nm;decay=8ms,DOI:10.1016/j.jallcom.2023.171596,ok
+Zn:0.600000,Zn,Spray pyrolysis,60.0,air,500.0,,,,7.071882007306125,3.93,,,,β at 60% Zn;R=3.93 A/W,DOI:10.1016/j.jallcom.2023.170169,ok
+,Zn,PLD+O₂ FTF anneal,3.0,O2,650.0,,,0.75,8.301029995663981,,,10.0,,10V;D*=1.7e16;rejection=2e8,DOI:10.1039/D3TC03599A,exotic_skip
+Zn:0.020000,Zn,MOCVD,2.0,N2+O2,800.0,,,,8.301029995663981,,,,,TiN buffer;Appl.Surf.Sci. 2025,DOI:10.1016/j.apsusc.2024.161509,ok
+N:0.053000,N,RF magnetron sputtering,5.3,Ar,900.0,120.0,,,6.662757831681574,0.27,,10.0,,EQE=132.5%;10V,DOI:10.1039/D3TC00345K,ok
+N:0.020000,N,RF magnetron sputtering,2.0,Ar,25.0,180.0,,,1.6989700043360187,,,,,RT dep+anneal,DOI:10.1016/j.apsusc.2023.157519,ok
+N:0.035000,N,RF magnetron sputtering,3.5,Ar+N2,600.0,180.0,,,2.6989700043360187,,16.193124598354462,,,600°C dep+anneal,DOI:10.1016/j.apsusc.2023.157519,ok
+,N,RF magnetron sputtering,,Ar+N2,700.0,180.0,,,6.662757831681574,0.27,,,,700°C best;PDCR=4.6e6,DOI:10.1016/j.apsusc.2023.157519,no_conc
+N:0.040000,N,RF magnetron sputtering,4.0,O2,800.0,180.0,,,7.414973347970818,,,,,PDCR=2.6e7;rejection=1e6,DOI:10.1016/j.apsusc.2022.154713,ok
+N:0.000020,N,HVPE,0.002,N2+O2,800.0,,475.0,,1.3010299956639813,,16.30102999566398,,,300-425V;CW visible;gain×20,arXiv:2601.15555,ok
+N:0.025000,N,Sol-gel,2.5,N2,700.0,,,,,,16.69897000433602,,,MSSP 2024,DOI:10.1016/j.mssp.2024.107955,ok
+undoped,H,RF magnetron sputtering,0.0,Ar,,15.0,,,2.0,,17.69897000433602,,,Baseline;no H,DOI:10.1088/2752-5724/ad19e1,ok
+H:0.005000,H,RF magnetron sputtering,0.5,Ar+H2,,15.0,1370.0,51.7,7.423245873936808,,16.0,5.0,,5V;Iph=1.37mA;flex.PEN,DOI:10.1088/2752-5724/ad19e1,ok
+H:0.010000,H,RF magnetron sputtering,1.0,Ar+H2,,15.0,,,5.698970004336019,,16.69897000433602,,,Medium H flux,DOI:10.1088/2752-5724/ad19e1,ok
+H:0.020000,H,RF magnetron sputtering,2.0,Ar+H2,,15.0,,,4.0,,17.30102999566398,,,Excess H;performance degrades,DOI:10.1088/2752-5724/ad19e1,ok
+B:0.020000,B,RF magnetron sputtering,2.0,Ar:O2=3:1,,30.0,,2730000000.0,1.0,,,5.0,,dark=2.73e-3 A@5V;bandgap 5.07-5.19eV,DOI:10.1016/j.surfcoat.2025.131891,ok
+Sb:0.020000,Sb,RF magnetron sputtering,2.0,Ar,800.0,,,,3.204119982655925,0.21,,0.0,,0V;R=210mA/W;EQE=103%,DOI:10.1016/j.optmat.2023.114431,ok
+Ta:0.005000,Ta,MOCVD,0.5,N2+O2,800.0,,,,3.0,8.67,,,222.0,222nm;rise/decay=86/50ms,ACS Omega 2024 review,ok
+Ta:0.005000,Ta,MOCVD,0.5,N2+O2,800.0,,0.01,0.1,5.0,,,,255.0,−6V;255nm;Iph=10nA,DOI:10.1007/s00339-026-09375-8,ok
+,Ta,MOCVD on SrTiO₃(100),,O2,750.0,,,,,,,,,Ta donor epi;MSSP 2021,DOI:10.1016/j.mssp.2021.105749,no_conc
+Al:0.150000,Al,PE-ALD,15.0,O2,,,,,2.6989700043360187,,,,,DUV;tunable,ResearchGate review,ok
+,Al+Ga,RF magnetron sputtering+AZO,10.0,Ar,700.0,,,,3.0,1.25,,,254.0,Flexible mica;254nm,DOI:10.1016/j.jmst.2024.08.012,exotic_skip
+,Al+Ga,ALD amorphous,20.0,O2,,,,,2.6989700043360187,,,,220.0,Deeper UV;220nm,DOI:10.1016/j.ceramint.2024.03.110,exotic_skip
+Cu:0.034000,Cu,CVD,3.4,Ar,1000.0,,,,4.424881636631106,,,10.0,254.0,Single p-type Cu microwire,DOI:10.1016/j.mssp.2025.109370,ok
+,Ge,MBE,,O2,700.0,,,,,,17.785329835010767,,,μ=111 cm²/Vs;2DEG,DOI:10.1021/acsomega.2c03345,no_conc
+,Fe,EFG melt growth,,inert,1800.0,,,,,,17.0,,,Fe-doped (010) substrate,DOI:10.1021/acsomega.2c03345,no_conc
+,Bi+Cu,RF magnetron sputtering,,Ar:O2=1:1,800.0,,,,,,,,,Bandgap 4.97→3.80 eV;weak p-type,DOI:10.1021/acsaelm.3c01332 ref,no_conc
+"Mg:0.015000,N:0.015000",Mg+N,PLD,3.0,N2O,650.0,,,,5.416640507338281,,,,,sensitivity=2.61e5;decay=20ms,DOI:10.1016/j.mssp.2024.108361,ok
+,In+Zn,CVD,25.0,Ar+air,1000.0,,,,4.643452676486188,440.42,,,,In:Ga:Zn=1:2:1;R=440.42 A/W,DOI:10.1016/j.jallcom.2023.170290,exotic_skip
+,In+Al,CVD on p-GaN,15.0,Ar,1000.0,,0.016,15.0,3.0,0.00094,14.477121254719664,0.0,265.0,0V;265nm;R=0.94mA/W,PMC11258963,exotic_skip
+,Zn+Ga,MOCVD+annealing,14.3,O2,700.0,,,1.0,7.0,86.3,,5.0,230.0,5V;230nm;R=86.3 A/W,DOI:10.1038/s41598-018-32412-3,exotic_skip
+,Zn+Ga,MOCVD,14.3,N2+O2,800.0,,,,1.0,2782.0,19.0,,,dark=0.5mA;R=2782 A/W,DOI:10.1038/s41598-018-32412-3,exotic_skip
+,Zn+Ga,PEALD,12.0,O2,,,,0.00045,7.342422680822207,34.31,,,,TFT type;gate-controlled Id,DOI:10.1016/j.apsusc.2023.158031,exotic_skip
+,Zn+Ga,ALD,17.0,O2,,,,,3.6989700043360174,,,,,Bandgap 3.9-5.0eV,DOI:10.1021/acsmaterialslett.3c00559,exotic_skip
+,In+Ga,PECVD+Pt sputtering,10.0,O2,,,,,2.0,0.353,,,,R=353mA/W;EQE=173%;D*=1e13,DOI:10.1007/s11431-024-2660-1,exotic_skip
+,Zn+Ga,RF magnetron sputtering,,Ar:O2=1:1,700.0,,,,,,,,,Combinatorial deep UV,DOI:10.1016/j.apsusc.2023.158031,exotic_skip
+,—,MOCVD+Mo buffer,0.0,N2+O2,700.0,,,,3.0,234.14,,,,ε-Ga2O3 on Si/AlN;R=234.14 A/W,ε-PMC review 2025,exotic_skip
+,—,MBE on mica,0.0,O2,680.0,,,,7.220108088040055,703.0,,,,Flexible;R=703 A/W;D*=4.08e14,DOI:10.1021/acsami.2c06550,exotic_skip
+,Sn,Mist-CVD α-phase,,air,650.0,,,,,,,,,Sn-assisted α-phase,DOI:10.1109/JSEN.2024.3497006,exotic_skip
+,—,Hydrothermal+anneal,0.0,N2,400.0,,,,3.0,,,,,Self-powered;spectrum-selective,DOI:10.1021/acsanm.9b00527,exotic_skip
+,Zr,PLD,2.0,O2,600.0,,,,7.220108088040055,,14.0,,,Sn-assisted Zr-doped ε-phase,ε-PMC review 2025,exotic_skip
+,—,Spray pyrolysis HJ,0.0,air,500.0,,,,,0.0477,,,,FTO/Ga₂O₃;R=47.72mA/W;D*=3.34e8,DOI:10.1016/j.rsc.2025.02694,exotic_skip
+undoped,—,PLD+CuPc solution,0.0,O2,650.0,,,,3.568201724066995,,,0.0,,0V;20ms response,DOI:10.1021/acsanm.2c05499,ok
+undoped,—,MOCVD+GaSe exfoliation,0.0,O2,800.0,,,,4.0,51.9,,,,0.3ms;51.9 A/W;D*=1e14,DOI:10.1021/acsphotonics.1c00015,ok
+undoped,—,MOCVD+seawater electrolyte,0.0,wet,,,6.7,,3.668665415454492,0.02347,,0.0,213.0,0V;213nm;seawater,DOI:10.1021/acsnano.3c08814,ok
+undoped,—,MOCVD on GaN/sapphire,0.0,N2+O2,800.0,,,0.0086,,,,0.0,,0V;Id=8.6fA;LDR=88.5dB,DOI:10.1021/acsaelm.1c00150,ok
+undoped,—,RF magnetron sputtering on p-Si,0.0,Ar,800.0,,,1.43,3.0,,,0.0,,0V;DUV;Id=1.43pA,DOI:10.1021/acsphotonics.8b00174,ok
+undoped,—,PE-ALD,0.0,O2_plasma,50.0,,,,2.0,22.06,17.0,,,0 at% Mg;R=22.06 A/W,DOI:10.1016/j.mssp.2021.106471,ok
+Mg:0.019100,Mg,PE-ALD,1.91,O2_plasma,50.0,,,,1.9030899869919435,10.24,16.69897000433602,,,1.91 at%;R=10.24 A/W,DOI:10.1016/j.mssp.2021.106471,ok
+Mg:0.032800,Mg,PE-ALD,3.28,O2_plasma,50.0,,,,1.6989700043360187,6.89,16.30102999566398,,,3.28 at%;R=6.89 A/W,DOI:10.1016/j.mssp.2021.106471,ok
+Mg:0.052200,Mg,PE-ALD,5.22,O2_plasma,50.0,,,,1.3010299956639813,1.67,16.0,,220.0,5.22 at%;R=1.67 A/W;cut-off 220nm,DOI:10.1016/j.mssp.2021.106471,ok
+Mg:0.049200,Mg,RF magnetron sputtering,4.92,Ar,800.0,60.0,,4.1,3.6989700043360174,,14.69897000433602,,,Id=4.1pA;Qian2017 series,DOI:10.1016/j.matlet.2017.08.032,ok
+Mg:0.068800,Mg,RF magnetron sputtering,6.88,Ar,800.0,60.0,,4.1,3.903089986991944,,14.477121254719664,,,Best quality in Qian series,DOI:10.1016/j.matlet.2017.08.032,ok
+Mg:0.085800,Mg,RF magnetron sputtering,8.58,Ar,800.0,60.0,,4.1,3.778151250383644,,14.30102999566398,,,Highest Mg in Qian series,DOI:10.1016/j.matlet.2017.08.032,ok
+Mg:0.010000,Mg,ALD,1.0,O2,,,,4.9e-06,6.986771734266245,0.0132,,,,5% MgO cycle;Id=4.9fA;rise/decay=74.7/45.7ms,DOI:10.1016/j.apsusc.2023.155000,ok
+Mg:0.007200,Mg,RF magnetron sputtering,0.72,Ar,800.0,60.0,,,,,,,,S2 series Hu 2025,DOI:10.1016/j.surfcoat.2025.131940,ok
+Mg:0.014500,Mg,RF magnetron sputtering,1.45,Ar,800.0,60.0,,,,,,,,S4 series Hu 2025,DOI:10.1016/j.surfcoat.2025.131940,ok
+,Al+Ga,MOCVD on p-GaN,38.0,N2+O2,850.0,,,,2.0,0.045,16.0,,218.0,bandgap 5.93eV;218nm det.,DOI:10.1016/j.apsusc.2024.159234,exotic_skip
+undoped,—,PECVD+O₂ plasma,0.0,O2_plasma,,,0.067,,0.7846172926328754,,,0.0,,0V;11→67nA;VO 44.5→27.3%,DOI:10.1016/j.apsusc.2022.154713,ok
+undoped,—,PLD on Nb:SrTiO₃,0.0,O2,650.0,,,,2.0,43.31,17.0,,,−10V;45μW/cm²;R=43.31 A/W,NSTO HJ review ref,ok
+undoped,—,LPCVD,0.0,N2+O2,800.0,,,,,,,,,Various substrates,PMC11396281,ok
+Zn:0.050000,Zn,RF magnetron sputtering,5.0,Ar,800.0,60.0,,,,,,,,Best % in Guo 2017 series,DOI:10.1007/s13391-017-7072-y,ok
+Si:0.000055,Si,MBE on Fe:Ga₂O₃,0.0055,O2,700.0,,,,,,18.30102999566398,,,65nm Si channel;full-wave rectifier,GOX2023,ok
+,Fe,MOCVD+Fe implantation,,N2+O2,800.0,,,,,,,,,Fe implant;minimal leakage reduction,PMC11396281,no_conc
+Mg:0.015000,Mg,PLD on Al₂O₃,1.5,O2,650.0,,1.06,,4.842609239610562,0.09,,10.0,401.0,401nm;Iph=1.06μA@10V;PDCR=6.96e4,ResearchGate 2022 Mg-doped β-Ga2O3-δ,ok
+,—,MOCVD,0.0,N2O,700.0,,,,3.0,,,,,H₂O oxygen src;PDCR=1e3;rise=0.55s,ε-PMC review 2025,exotic_skip
+undoped,—,Thermal oxidation,0.0,air,900.0,,,,3.0,3.3,,,,R=3.3 A/W;D*=4.0e12;EQE=1600%,ACS Omega 2024 review,ok
+Sn:0.020000,Sn,CVD tube furnace,2.0,N2,1250.0,,,1.0,1.0,0.04,,,,Medium Sn;dark=1pA;R~40mA/W,DOI:10.1016/j.apsusc.2019.144975,ok
+,Zn+Ga,MOCVD,14.3,N2+O2,800.0,,,1000000.0,0.0,,,,,x=0 pure Ga₂O₃;Sci.Rep.2018,DOI:10.1038/s41598-018-32412-3,exotic_skip
+undoped,—,PLD,0.0,O2,650.0,,,,,,,,,Carrier=5.55e16;best crystal,DOI:10.1016/j.physb.2022.413466,ok
+Sn:0.050000,Sn,RF magnetron sputtering,5.0,Ar,,,,,0.6989700043360189,,,,,amorphous;no anneal;high dark;low response,J.Semicond.44(6):062805 2023,ok
+Sn:0.050000,Sn,RF magnetron sputtering+N₂,5.0,N2,900.0,60.0,,,3.3010299956639813,,,,254.0,Best response to 254nm;N₂ atm anneal,J.Semicond.44(6):062805 2023,ok
+Sn:0.050000,Sn,RF magnetron sputtering+air,5.0,air,900.0,60.0,,,2.6989700043360187,,,,,Air anneal;less sharp crystallization,J.Semicond.44(6):062805 2023,ok
+Sn:0.072000,Sn,Sol-gel (spin-coat),7.2,air,600.0,,,760.0,2.0,,,,,dark=0.76nA;PL↑,chalcogen.ro Xu et al.,ok
+Sn:0.144000,Sn,Sol-gel (spin-coat),14.4,air,600.0,,,760.0,2.3010299956639813,,,,,dark=0.76nA;optimal compact,chalcogen.ro Xu et al.,ok
+Sn:0.216000,Sn,Sol-gel (spin-coat),21.6,air,600.0,,,760.0,2.6989700043360187,,,,,high ratio;PL substantial increase,chalcogen.ro Xu et al.,ok
+Sn:0.288000,Sn,Sol-gel (spin-coat),28.8,air,600.0,,,760.0,2.4771212547196626,,,,,28.8% highest conc. in series,chalcogen.ro Xu et al.,ok
+Sn:0.015000,Sn,MOCVD (e-mode phototransistor),1.5,N2+O2,800.0,,,1.84,3.0,,,,210.0,<10nm channel;VG=0;e-mode;210nm,DOI:10.3390/s24175822,ok
+undoped,—,CVD on patterned sapphire (PSS),0.0,N2+O2,800.0,,,,4.0,106.5,,,,(510) preferred;R=106.5 A/W;D*=1.36e13,DOI:10.1364/OL.551038,ok
+undoped,—,MBE on c-sapphire (Ni/Au),0.0,O2_plasma,700.0,,4.9,4000.0,3.0,1.5,15.69897000433602,20.0,236.0,20V;236nm;Iph=4.9μA;Id<4nA;no PPC,arXiv:1702.04470,ok
+undoped,—,Electrospinning+high-T phase transform,0.0,air,1000.0,,0.761,,2.16790781000148,0.0225,,20.0,254.0,20V;254nm;strain stable;Sci.Rep.2025,DOI:10.1038/s41598-025-02563-1,ok
+undoped,—,Mist-CVD,0.0,air,800.0,,,14.0,5.0,150.0,,20.0,254.0,20V;254nm;R>150 A/W;dark<14pA;EQE=7.4e4%,PMC:11489483,ok
+undoped,—,Mist-CVD,0.0,air,800.0,,,,,22000.0,,,254.0,"R=22,000 A/W;D*=1.1e16;254nm",PMC:11489483,ok
+undoped,—,PLD on n-4H-SiC,0.0,O2,700.0,,,167.0,2.584670384464349,,14.496929648073214,,,dark=0.167nA;PDCR=384.3;D*=8.23e11;rise=0.18s,DOI:10.1016/j.jallcom.2019.09.134,ok
+undoped,—,PLD+ion-cutting transfer to 4H-SiC,0.0,O2,600.0,,,,5.0,2.24,,,,R=2.24 A/W;rejection=10⁵;T-Ga₂O₃,DOI:10.1016/j.jallcom.2021.161522,ok
+undoped,—,PLD+O₂ anneal on 4H-SiC,0.0,O2,650.0,30.0,,600.0,2.6989700043360187,,,,,dark=0.6nA;fast decay=41ms after O₂ ann.,DOI:10.1016/j.jallcom.2021.161522,ok
+Al:0.050000,Al,RF magnetron sputtering on SiC,5.0,Ar,800.0,,,,3.6989700043360174,2.6,,10.0,254.0,10V;254nm;R=2.6 A/W;EQE=1265%;decay=0.26s,ACS Omega 2024 review PMC,ok
+undoped,—,MOCVD+fluorine plasma surface,0.0,Ar,800.0,,,6.0,5.0,18.43,,,,15min F-plasma;dark=6pA;R=18.43 A/W;D*=2.48e14,DOI:10.1021/acsami.1c11145,ok
+,Zr,Hydrothermal+sputtered β-Ga₂O₃,2.0,O2,700.0,,,,5.477121254719663,,,,,PDCR=3e5;Zr–O eliminates VO;ACS AMI 2024,DOI:10.1021/acsami.4c12331,exotic_skip
+undoped,—,MOCVD+ultra-thin AlN buffer (9nm),0.0,N2+O2,800.0,,,,7.139879086401237,4.55,,,,PDCR=1.38e7;R=4.55 A/W;Surf.Coat.Technol.2024,DOI:10.1016/j.surfcoat.2024.130947,ok
+undoped,—,MOCVD,0.0,N2+O2,900.0,,,,5.0,42000.0,,,,R=4.2×10⁴ A/W;D*=1.2×10¹³;EQE=2.1×10⁷%,DOI:10.1038/s41598-026-40487-6,ok
+undoped,—,MOCVD homoepitaxy on Sn:Ga₂O₃,0.0,N2+O2,800.0,15.0,,,3.0,0.59,,0.0,,0V;R=0.59 A/W;PDCR>10³;<10ms,DOI:10.1016/j.optlastec.2025.111168,ok
+undoped,—,RF magnetron sputtering+O₂ ann.+post ann.,0.0,O2,750.0,60.0,,,4.181843587944773,54.0,,,,R=54 A/W;D*=2.17e14;J.Phys.Chem.C 2022,DOI:10.1021/acs.jpcc.2c07278,ok
+undoped,—,RF magnetron sputtering,0.0,Ar,700.0,30.0,,,,,,,,S1 30min;thinner film;higher VO,DOI:10.3390/cryst13101434,ok
+undoped,—,RF magnetron sputtering,0.0,Ar,700.0,60.0,,,,,,,,S2 60min;intermediate quality,DOI:10.3390/cryst13101434,ok
+,—,RF magnetron sputtering+ann.,0.0,O2,,,,,8.0,,,,,best ε-phase PDCR reported,ε-PMC review 2025 Table 5,exotic_skip
+,—,RF magnetron sputtering+ann.,0.0,O2,,,,,3.0,0.1,,,,lower end ε-RFMS,ε-PMC review 2025 Table 5,exotic_skip
+undoped,—,PLD+O₂ annealing,0.0,O2,650.0,30.0,,,3.851258348719076,,16.744292983122676,,,carrier=5.55e16;PF emission trap=0.58eV,Surf.Coat.Technol. 2025 132609,ok
+undoped,—,RF magnetron sputtering (glancing angle),0.0,Ar,800.0,,,,0.3617278360175928,,,,,Glancing angle dep;high surface area;ACS Appl.Electron.2023,DOI:10.1021/acsaelm.3c00502,ok
+,Sn,MOCVD homoepitaxy (textured),,N2+O2,800.0,,,,,,,,,Highly textured Sn-doped epilayer;R↑;AOM 2025,DOI:10.1002/adom.202500325,no_conc
+undoped,—,RF magnetron sputtering+Ag₂O,0.0,Ar,800.0,,,,,,,,,Self-powered;Ag₂O/Ga₂O₃;ACS AMI 2022,DOI:10.1021/acsami.2c03193,ok
+undoped,—,MOCVD+thermal oxidation GaN,0.0,O2,800.0,,,,,2493.5,,,,β-Ga₂O₃ from GaN oxidation;R=2493.5 A/W;D*>10¹⁶,DOI:10.1016/j.vacuum.2023.112570,ok
+undoped,—,CVD+suspension release,0.0,N2+O2,800.0,,,,,,,,,Suspended structure;high R&speed;Research 2024,DOI:10.34133/research.0546,ok
+undoped,—,MOCVD+organic TAPC,0.0,O2,800.0,,,0.02,5.770852011642144,,,0.0,,0V;Id~20fA;D*=1.02e13;Ion/Ioff=5.9e5,J.Phys.Chem.C review 2022,ok
+undoped,—,MOCVD on GaN/sapphire,0.0,N2+O2,800.0,,,,,,,,,Ultrahigh R HEMT UV;Mater.Today Phys.2025,DOI:10.1016/j.mtphys.2025.101683,ok
+undoped,—,PLD on Al₂O₃,0.0,O2,650.0,,1.06,,4.842609239610562,0.09,,10.0,401.0,401nm PLD;Iph=1.06μA @10V;R=90mA/W,ResearchGate Ga₂O₃ thickness 2022,ok
+undoped,—,RFMS+GaN substrate,0.0,Ar,800.0,,,,,,,,800.0,Self-powered broadband 230-800nm;Ga₂O₃/GaN,DOI:10.1021/acsaelm.2c01376,ok
+undoped,—,MOCVD thick film (μm),0.0,N2+O2,800.0,,,,,,,,,Directional carrier transport;thick film μm;ACS AMI 2023,DOI:10.1021/acsami.3c00124,ok
+,Mg+Zn,ALD (Zn/Mg mixed cycle),,O2,,,,,,,,,,Micro-ALD;RTA;Nanomaterials 2025,DOI:10.3390/nano15070499,no_conc
+,Zr,RFMS+IGZO sputtering,,Ar:O2=1:1,800.0,,,,,,,,,Flexible;Zr-2DEG interfacial confinement;high R,DOI:10.1021/acsphotonics.5c00975,exotic_skip
+,N,PEALD+N plasma,,N2_plasma,,,,,,,,,,Bandgap eng.;VO activity inhibition;JPCL 2023,DOI:10.1021/acs.jpclett.3c01186,no_conc
+undoped,—,EFG melt-grown single crystal,0.0,inert,1800.0,,,,,,,,,(010) substrate;Au Schottky contact;SBD,DOI:10.1063/1.2804570,ok
+Sn:0.000004,Sn,PAMBE on (010) Ga₂O₃,0.00037,O2_plasma,700.0,,,,,136.0,15.204119982655923,,,μ=136 cm²/Vs;Sn doped MOCATAXY,PMC11396281 review,ok
+,Si,PAMBE δ-modulation doped,,O2,700.0,,,,,,,,,AlGaO/Ga₂O₃ 2DEG;μ=180 cm²/Vs,PSU thesis 2024,no_conc
+,Ta,MOCVD+flexible substrate,,N2+O2,800.0,,,,,,,,,Flexible DUV phototransistor;npj Flex.Electron.2022,DOI:10.1038/s41528-022-00181-x,no_conc
+undoped,—,Inkjet printing,0.0,air,500.0,,,,,,,,,Flexible inkjet;DUV;room-T process,Long et al. research cited,ok
+undoped,—,MOCVD+lattice epitaxy release,0.0,N2+O2,800.0,,,,,,,,,2D crystalline membrane;ACS Nano 2024,DOI:10.1021/acsnano.3c10025,ok
+undoped,—,PLD,0.0,O2,650.0,,,,,,16.744292983122676,,,295K RT;PF emission dark;R=0.70 A/W baseline,DOI:10.1016/j.surfcoat.2025.132609,ok
+undoped,—,PLD,0.0,O2,650.0,,,,,,16.744292983122676,,,250°C;R↑ to 0.74 A/W;dark↑;PDCR↓,DOI:10.1016/j.surfcoat.2025.132609,ok
+undoped,—,RF magnetron sputtering,0.0,Ar,800.0,,,,,,,,,Impact ionization gain;Opt.Express 2024,DOI:10.1364/OE.531784,ok
+N:0.020000,N,MOCVD+N₂O annealing,2.0,N2O,800.0,,,,,,16.193124598354462,,,p-type;hole conc=1.56e16;μ=23.6 cm²/Vs,DOI:10.1039/D3TC00345K ref p-type,ok
+,Al+Ga,MOCVD on p-GaN,20.0,N2+O2,850.0,,,,,,16.903089986991944,,,x=0.20;β-phase maintained,DOI:10.1016/j.apsusc.2024.159234,exotic_skip
+,Al+Ga,MOCVD on p-GaN,29.0,N2+O2,850.0,,,,,,16.69897000433602,,,x=0.29;β-phase maintained,DOI:10.1016/j.apsusc.2024.159234,exotic_skip
+undoped,—,Spatial ALD,0.0,O2,400.0,60.0,,,2.6989700043360187,,17.0,,,Baseline for Zn sALD series,DOI:10.1016/j.surfcoat.2025.131691,ok
+Zn:0.025000,Zn,Spatial ALD,2.5,O2,400.0,60.0,,,3.0,,16.69897000433602,,,2.5 at% Zn sALD,DOI:10.1016/j.surfcoat.2025.131691,ok
+Zn:0.051000,Zn,Spatial ALD,5.1,O2,400.0,60.0,,,3.4771212547196626,,16.30102999566398,,,5.1 at% Zn sALD,DOI:10.1016/j.surfcoat.2025.131691,ok
+Mg:0.010100,Mg,RF magnetron sputtering,1.01,Ar,800.0,60.0,,,,1.97,,30.0,,Hu 2025 best;R=1.97 A/W @30V,DOI:10.1016/j.surfcoat.2025.131940,ok
+undoped,—,RF magnetron sputtering,0.0,Ar,800.0,,,,,,,,,Typical undoped RFMS baseline performance,Pearton APS Review 2018,ok
+undoped,—,MOCVD+in-situ crystal,0.0,N2+O2,800.0,,,,,,,,,High-speed in situ crystal;ACS AMI 2024,DOI:10.1021/acsami.3c17534,ok
+undoped,—,RF magnetron sputtering+O₂,0.0,O2,600.0,60.0,,,,,,,,O₂ 600°C ann.;dark↓;PDCR↑;Fang et al.,Fang 2020 ApplSurf ref,ok
+undoped,—,RF magnetron sputtering,0.0,Ar,800.0,60.0,,,,,,,,Undoped comparison same conditions as Si:2.34,DOI:10.1016/j.vacuum.2024.113564,ok
+,Sn,MOCVD (d-mode phototransistor),,N2+O2,800.0,,,,,,,,210.0,Thick channel;d-mode;VT<0;210nm det.,DOI:10.3390/s24175822,no_conc
+,Sn,PE-ALD,,O2,,,,,,,,,,Sn-doped PE-ALD;rapid thermal annealing,DOI:10.3390/cryst13020301,no_conc
+,Si,Mist-CVD (α-phase),2.0,air,650.0,,,,6.510545010206612,323.0,,20.0,254.0,PDCR=3.24e6;R=323 A/W;20V;254nm;Mist-CVD,DOI:10.1016/j.mssp.2024.108428,exotic_skip
+,Mg,Hydrothermal,,wet,180.0,,,,,,,,,Mg:α-Ga₂O₃ nanorod;PEC HJ;Adv.Sci.2025,DOI:10.1002/advs.202413074,exotic_skip
+,Sn,Mist-CVD α-phase,,air,650.0,,,,,,,,,Sn-assisted α-Ga₂O₃;over 1 A/W;IEEE Sens.J.2025,DOI:10.1109/JSEN.2024.3497006,exotic_skip
+undoped,—,MOCVD+thermal GaN oxidation,0.0,N2+O2,800.0,,,,,,,,,β-Ga₂O₃ from GaN top-layer nitrogen-to-O swap,DOI:10.1016/j.surfcoat.2025.131780 ref,ok
+undoped,—,RFMS+NiO sputtering,0.0,Ar,800.0,,,,,,,,,NiO p-n junction;power+optoelectronic,PMC:11997563 review,ok
+undoped,—,Ozone-MBE (ozone-enhanced),0.0,O2,700.0,,,,,,,,,Ozone MBE;enhanced O;lower VO;PMC review,PMC11396281,ok
+undoped,—,Plasma-assisted MBE (PA-MBE),0.0,O2_plasma,700.0,,,,,,,,,PAMBE;standard β-Ga₂O₃ growth,PMC11396281,ok
+,Zn+Ga,RF magnetron sputtering,,Ar:O2=1:1,800.0,,,,,,,,,ZnGa₂O₄ by RFMS;MSM PD;Vacuum 2024,DOI:10.1016/j.vacuum.2024.113165,exotic_skip
+,B,RF magnetron sputtering,,Ar:O2=1:1,,30.0,,,,,,,,B-doped RFMS;bandgap 5.07–5.19eV;JAC 2025,DOI:10.1016/j.jallcom.2025.179343,no_conc
+undoped,—,MOCVD+AlN buffer on SiC,0.0,N2+O2,800.0,,,,,,,,,(100) orientation;JMST 2025;AlN buffer SiC,DOI:10.1016/j.jmst.2024.05.044,ok
+,N,RF magnetron sputtering+N₂,,N2,700.0,,,,,,,,,N-doped VO modulation;high-perf MSM;JMCC 2024,DOI:10.1039/D4TC02145A,no_conc
+,V,Optical floating zone,,Ar:O2=1:1,1800.0,,,,,,,,,V-doped Ga₂O₃ crystal;1300°C ann. study,Luchechko 2024 review,no_conc
+undoped,—,RFMS+InSe exfoliation,0.0,Ar,800.0,,,,,,,,,InSe p-type vdW/Ga₂O₃;low dark;JMCC 2024,DOI:10.1039/D4TC02790F,ok
+undoped,—,RF magnetron sputtering+air,0.0,air,800.0,60.0,,,,,,,,O₂ loss during air ann;VO moderate,Fang et al. 2020 ref,ok
+undoped,—,PLD,0.0,O2,450.0,,,,,,,,,450°C;between 400-550°C,DOI:10.1016/j.vacuum.2025.113564,ok
+undoped,—,EFG+cleave/exfoliate,0.0,inert,1800.0,,,,,,,,,Single crystal nanoribbons;Li et al.JPCM 2001,DOI:10.1088/0953-8984/13/5/302,ok
+,Al+Ga+Zn,RF magnetron co-sputtering,,Ar:O2=1:1,700.0,,,,,,,,,Performance vs.Al/Ga/Zn ratios;IEEE Sens.J.,Liu et al. IEEE Sens.J. ref,no_conc
+Nb:0.005000,Nb,RF magnetron sputtering,0.5,Ar:O2=1:1,800.0,,,,3.6989700043360174,,17.079181246047625,,,Nb-doped;PDCR=5e3;photo-response enhanced,DOI:10.1016/j.vacuum.2017.09.007,ok
+Sn:0.000000,Sn,Sol-gel,4e-05,air,600.0,,,,4.0,,16.17609125905568,,,Low Sn;carrier 1.5e16;Sensors Actuators A 2023,DOI:10.1016/j.sna.2023.114765,ok
+Sn:0.000001,Sn,Sol-gel,0.00014,air,600.0,,,,4.698970004336019,,16.69897000433602,,,Opt.Sn;carrier 5e16;best PDCR,DOI:10.1016/j.sna.2023.114765,ok
+Sn:0.000006,Sn,Sol-gel,0.00055,air,600.0,,,,3.0,,17.30102999566398,,,High Sn;carrier 2e17;dark↑,DOI:10.1016/j.sna.2023.114765,ok
+Sn:0.000000,Sn,CVD microbelts,3e-05,N2,1050.0,,,0.5,8.0,300.0,16.0,,,dark=0.5pA;PDCR=1e8;R=300 A/W;38.8μs response,ACS Omega 2024 review,ok
+N:0.030000,N,MOCVD via GaN phase-transition,3.0,N2O,800.0,,,,6.0,9500.0,15.456366033129044,,,p-type;hole conc=2.86e15;R=9500 A/W;EQE=4.7e6%,DOI:10.1016/j.mtphys.2020.100147,ok
+undoped,—,MOCVD,0.0,N2O,800.0,,,,3.0,,14.30102999566398,,,undoped p-type;hole conc=2e14;low baseline,DOI:10.1016/j.mtphys.2020.100147,ok
+undoped,—,MOCVD,0.0,N2+O2,800.0,,,,2.6989700043360187,,17.69897000433602,,,Low O₂/TEGa ratio;high VO;dark high,DOI:10.1007/s40843-025-3495-8,ok
+undoped,—,MOCVD,0.0,N2+O2,800.0,,,,4.0,,15.69897000433602,,,Opt.O₂/TEGa;VO↓;best SBUV+X-ray,DOI:10.1007/s40843-025-3495-8,ok
+undoped,—,MOCVD,0.0,N2+O2,800.0,,,,3.6989700043360174,,15.0,,,High O₂/TEGa;VO very low;crystal quality premium,DOI:10.1007/s40843-025-3495-8,ok
+Si:0.000000,Si,Suboxide MBE,1.4e-05,O2,525.0,,,,,,15.69897000433602,,,S-MBE;carrier=5e15;μ=185 cm²/Vs,DOI:10.1063/5.0139622,ok
+Si:0.000001,Si,Suboxide MBE,5.5e-05,O2,525.0,,,,,,16.30102999566398,,,S-MBE;carrier=2e16;μ=176 cm²/Vs,DOI:10.1063/5.0139622,ok
+Si:0.000003,Si,Suboxide MBE,0.00027,O2,525.0,,,,,,17.0,,,S-MBE;carrier=1e17;high doping,DOI:10.1063/5.0139622,ok
+Si:0.000027,Si,Suboxide MBE,0.0027,O2,525.0,,,,,,18.0,,,S-MBE;carrier=1e18;μ=627@76K,DOI:10.1063/5.0139622,ok
+Sn:0.000000,Sn,Plasma-assisted MBE,2.7e-05,O2_plasma,700.0,,,,,,16.0,,,PAMBE Sn-doped (010);low carrier,DOI:10.1063/5.0027870,ok
+Sn:0.000003,Sn,Plasma-assisted MBE,0.00027,O2_plasma,700.0,,,,,,17.0,,,PAMBE Sn-doped (010);mid carrier,DOI:10.1063/5.0027870,ok
+Sn:0.000027,Sn,Plasma-assisted MBE,0.0027,O2_plasma,700.0,,,,,,18.0,,,PAMBE Sn-doped (010);high carrier,DOI:10.1063/5.0027870,ok
+N:0.000010,N,HVPE,0.001,N2+O2,800.0,,,,,,15.204119982655923,,,HVPE;ND=1.6e15 (residual Si background),arXiv:2601.15555,ok
+N:0.000050,N,HVPE,0.005,N2+O2,800.0,,,,,,16.30102999566398,,,HVPE;N-doped semi-insulating;ND=2e16,arXiv:2601.15555,ok
+undoped,—,"MOCVD (TEGa, 0.8μm/h)",0.0,N2+O2,800.0,,,,,,16.30102999566398,,,UID MOCVD UCSB;carrier=2e16;μ=194 cm²/Vs record,PMC11396281 review,ok
+undoped,—,"MOCVD (TMGa, 3μm/h)",0.0,N2+O2,800.0,,,,,,15.69897000433602,,,OSU MOCVD TMGa;carrier=5e15;high rate growth,PMC11396281 review,ok
+undoped,—,RF magnetron sputtering on 4H-SiC,0.0,Ar:O2=1:1,800.0,,,,,,14.496929648073214,,,Hall:μ=30.16 cm²/Vs;carrier=3.14e14,DOI:10.1007/s13391-021-00297-6,ok
+Si:0.000000,Si,MOCVD,2.7e-06,N2+O2,800.0,,,,,,15.0,,,Si MOCVD channel;n=1e15;low doping for SBD,MOCVD review APL Mater. 2025,ok
+Si:0.000003,Si,MOCVD,0.00027,N2+O2,800.0,,,,,,17.0,,,Si MOCVD;n=1e17;typical device channel,MOCVD review APL Mater. 2025,ok
+Si:0.000027,Si,MOCVD,0.0027,N2+O2,800.0,,,,,,18.0,,,Si MOCVD;n=1e18;high channel doping,MOCVD review APL Mater. 2025,ok
+Si:0.000275,Si,MOCVD,0.0275,N2+O2,800.0,,,,,,19.0,,,Si MOCVD;n=1e19;n+ contact regrown,MOCVD review APL Mater. 2025,ok
+Sn:0.007140,Sn,MOCVD,0.714,N2+O2,900.0,,,,,,20.41497334797081,,,Sn heavily doped;carrier=2.6e20;TCO level;highest reported,DOI:10.1063/5.0139622 review,ok
+undoped,—,RF magnetron sputtering+AlN,0.0,Ar,800.0,,,120.0,3.342422680822206,2.17,15.69897000433602,10.0,,MISIM;AlN interlayer;10V;2μW/cm²;PDCR=2200,DOI:10.3390/coatings15111312,ok
+undoped,—,RFMS+HfZrO₂ dep.,0.0,Ar,800.0,,,,5.0,,16.30102999566398,,,HfZrO₂ ferroelectric;PDCR=1e5;self-powered,DOI:10.1021/acsami.3c02209,ok
+undoped,—,MOCVD+organic PCDTBT,0.0,N2+O2,800.0,,,,4.0,,16.0,,,Organic p-type HJ;multifunctional;InfoMat 2024,DOI:10.1002/inf2.12533,ok
+undoped,—,RFMS+TiO₂+MXene,0.0,Ar,800.0,,,,5.0,,15.69897000433602,,,Ga₂O₃/TiO₂/Ti₃C₂ HJ;PDCR=1e5;DUV comm.imaging,DOI:10.1016/j.mtcomm.2024.111065,ok
+undoped,—,RFMS+WSe₂ transfer,0.0,Ar,800.0,,,,4.0,,16.0,,,Ga₂O₃/WSe₂ gate-tunable;±photoresponse;Phot.Res.,DOI:10.1364/PRJ.480694,ok
+undoped,—,RFMS+BFMO film,0.0,Ar,800.0,,,,4.0,,15.30102999566398,,,Ga₂O₃/BFMO;dual electric fields;DUV detector;JMCC,DOI:10.1039/D3TC03218G,ok
+undoped,—,MOCVD+AlN+Si,0.0,N2+O2,800.0,,,,5.7160033436348,131.3,14.69897000433602,,,−55V;avalanche gain=2.7e4;R=131.3 A/W;D*=2.9e15,DOI:10.1016/j.mtphys.2024.101474,ok
+Mg:0.010100,Mg,RF magnetron sputtering,1.01,Ar,800.0,60.0,,,3.0,1.97,16.30102999566398,30.0,,Best S3 1.01at%;carrier=2e16;R=1.97A/W @30V,DOI:10.1016/j.surfcoat.2025.131940,ok
+undoped,—,PE-ALD (amorphous),0.0,O2,,,,,5.0,,17.0,,,a-Ga₂O₃ PE-ALD;PDCR=1e5;J.Electron.Sci.Technol.2022,DOI:10.1016/j.jest.2022.100176,ok
+In:0.050000,In,CVD,5.0,Ar,1050.0,,,,5.434568904034199,,15.69897000433602,,,In-doped nanobelts;EQE=2.72e5%;carrier~5e15;R↑,ACS Omega 2024 review,ok
+Sn:0.030000,Sn,CVD microbelts,3.0,N2,1050.0,,,0.5,8.0,300.0,16.0,,,Sn-doped MB array;dark=0.5pA;PDCR=1e8;R=300 A/W,Zhou et al. ACS Omega ref,ok
+undoped,—,EFG bulk crystal+Au Schottky,0.0,inert,1800.0,,,,4.0,,14.0,,,(010) single crystal;EFG;Schottky barrier h=1.3-1.5eV,DOI:10.1063/1.2804570,ok
+undoped,—,MOCVD,0.0,N2+O2,800.0,,,,5.0,,15.30102999566398,0.0,,0V;zero power consumption;MOCVD;high-T stable;ACS AMI 2022,DOI:10.1021/acsami.2c14978,ok
+Si:0.000008,Si,MOCVD,0.00082,N2+O2,800.0,,,,,,17.477121254719663,,,Si MOCVD FET channel;n=3e17;GOX2023 conference,GOX2023 proceedings,ok
+N:0.015000,N,MOCVD+N ion implantation,1.5,N2+O2,800.0,,,,,,14.69897000433602,,,N implant;carrier↓ 1-2 orders vs undoped,PMC11396281 review,ok
+undoped,—,RF magnetron sputtering,0.0,Ar:O2=1:1,800.0,,,,2.0,,17.0,,,Undoped ref for Nb-doping study;Vacuum 2017,DOI:10.1016/j.vacuum.2017.09.007,ok
+,Sn,Sol-gel,2e-05,air,600.0,,,,5.0,,15.903089986991944,,,Self-powered;PDCR=1e5;carrier=8e15 optimized;SA2023,DOI:10.1016/j.sna.2023.114765,exotic_skip
+,Zn+Ga,ALD,17.0,O2,,,,59.0,4.845098040014257,17.6,14.69897000433602,,,Zn:Ga=5:5;dark=59pA;PDCR=7e4;R=17.6 A/W,DOI:10.1021/acsmaterialslett.3c00559,exotic_skip
+,Zn+Ga,ALD,5.0,O2,,,,,3.6989700043360174,,16.0,,,Zn:Ga=1:9;low Zn;bandgap~5.0eV,DOI:10.1021/acsmaterialslett.3c00559,exotic_skip
+,Zn+Ga,ALD,45.0,O2,,,,,2.0,,17.69897000433602,,,Zn:Ga=9:1;high Zn;bandgap~3.9eV;n↑,DOI:10.1021/acsmaterialslett.3c00559,exotic_skip
+,—,Hydrothermal+annealing,0.0,N2,400.0,,,,3.0,,16.0,,,PEC type;self-powered;UV;α-nanorod,DOI:10.1088/1361-6528/ad470e,exotic_skip
+undoped,—,RF magnetron sputtering,0.0,Ar,800.0,,,,4.0,,16.69897000433602,,,Interdigital electrode opt.;R ultrahigh;IEEE EDL 2022,DOI:10.1109/LED.2022.3173041,ok
+undoped,—,MOCVD,0.0,N2+O2,800.0,,,,4.301029995663981,,16.477121254719663,,,800°C growth;medium oxygen def.,Sci.Rep. MOCVD T-series 2026,ok
+undoped,—,MOCVD,0.0,N2+O2,850.0,,,,4.698970004336019,,16.0,,,850°C;optimized oxygen;R increases,Sci.Rep. MOCVD T-series 2026,ok
+undoped,—,MOCVD,0.0,N2+O2,750.0,,,,3.6989700043360174,,17.0,,,750°C;lower temp;more O-def;dark↑,Sci.Rep. MOCVD T-series 2026,ok
+undoped,—,MOCVD,0.0,N2+O2,800.0,,,,,,16.30102999566398,,,Record μ=194 cm²/Vs;UID MOCVD;n=2e16,DOI:10.1063/5.0369553 APL Mater.2025,ok
+Si:0.000008,Si,MOCVD,0.00082,N2+O2,800.0,,,,,,17.477121254719663,,,Si MOCVD;μ=150 cm²/Vs;n=3e17,DOI:10.1063/5.0369553 APL Mater.2025,ok
+undoped,—,,,Ar,,,,,,,,,,,,ok
+undoped,—,,,Ar,,,,,,,,,,,,ok
+undoped,—,,,Ar,,,,,,,,,,,,ok
+undoped,—,,,Ar,,,,,,,,,,,,ok
+,—,,,Ar,,,,,,,,,,,,no_conc
+Sn:0.0210,Sn,RF magnetron sputtering,2.1,Ar:O2=9:1,25.0,300.0,,,1.978,,,10.0,254.0,"on sapphire, MSM, co-sputter SnO2 10W DC, 800C N2 anneal 2h",10.3390/ma17133227,ok
+Sn:0.0360,Sn,RF magnetron sputtering,3.6,Ar:O2=9:1,25.0,300.0,,,2.009,,,10.0,254.0,"on sapphire, MSM, co-sputter SnO2 20W DC, 800C N2 anneal 2h",10.3390/ma17133227,ok
+Sn:0.0410,Sn,RF magnetron sputtering,4.1,Ar:O2=9:1,25.0,300.0,,,2.004,,18.988,10.0,254.0,"on sapphire, MSM, co-sputter SnO2 30W DC, 800C N2 anneal 2h",10.3390/ma17133227,ok
+Mg:0.0420,Mg,RF magnetron sputtering,4.2,O2,,,,,3.415,,,30.0,254.0,"on sapphire, MSM, optimal Mg condition",10.1016/j.apsusc.S0257897225004189,ok
+Mg:0.0780,Mg,RF magnetron sputtering,7.8,O2,,,,,7.114,,,30.0,254.0,"on sapphire, MSM, Device C",10.1016/j.apsusc.S0257897225004189,ok
+Si:0.0234,Si,RF magnetron sputtering,2.34,O2,,,,32.2,4.505,,,15.0,254.0,on c-plane sapphire,10.1016/j.vacuum.S0042207X24004457,ok
+In:0.2000,In,sol-gel spin-coating,20.0,air,,,,,3.447,,,,254.0,"amorphous (InxGa1-x)2O3, x=0.4",10.3390/s24030787,ok
+Ta:0.0150,Ta,MOCVD,1.5,,,,,,3.0,,,8.0,222.0,"on SrTiO3(100), self-powered SBPD",10.1021/acs.cgd.2c00401,ok
+Mg:0.0338,Mg,RF magnetron sputtering,3.38,,,,,,2.225,,,,254.0,"epsilon-Ga2O3 phase, on MOCVD eGa2O3 buffer / sapphire",10.1016/j.vacuum.S0042207X20302621,ok
+Sn:0.0210,Sn,RF magnetron sputtering,2.1,Ar:O2=9:1,25.0,300.0,,,1.978,,,10.0,254.0,"on sapphire, MSM, co-sputter SnO2 10W DC, 800C N2 anneal 2h",10.3390/ma17133227,ok
+Sn:0.0360,Sn,RF magnetron sputtering,3.6,Ar:O2=9:1,25.0,300.0,,,2.009,,,10.0,254.0,"on sapphire, MSM, co-sputter SnO2 20W DC, 800C N2 anneal 2h",10.3390/ma17133227,ok
+Sn:0.0410,Sn,RF magnetron sputtering,4.1,Ar:O2=9:1,25.0,300.0,,,2.004,,18.988,10.0,254.0,"on sapphire, MSM, co-sputter SnO2 30W DC, 800C N2 anneal 2h",10.3390/ma17133227,ok
+Mg:0.0420,Mg,RF magnetron sputtering,4.2,O2,,,,,3.415,,,30.0,254.0,"on sapphire, MSM, optimal Mg condition",10.1016/j.apsusc.S0257897225004189,ok
+Mg:0.0780,Mg,RF magnetron sputtering,7.8,O2,,,,,7.114,,,30.0,254.0,"on sapphire, MSM, Device C",10.1016/j.apsusc.S0257897225004189,ok
+Si:0.0234,Si,RF magnetron sputtering,2.34,O2,,,,32.2,4.505,,,15.0,254.0,on c-plane sapphire,10.1016/j.vacuum.S0042207X24004457,ok
+In:0.2000,In,sol-gel spin-coating,20.0,air,,,,,3.447,,,,254.0,"amorphous (InxGa1-x)2O3, x=0.4",10.3390/s24030787,ok
+Ta:0.0150,Ta,MOCVD,1.5,,,,,,3.0,,,8.0,222.0,"on SrTiO3(100), self-powered SBPD",10.1021/acs.cgd.2c00401,ok
+Mg:0.0338,Mg,RF magnetron sputtering,3.38,,,,,,2.225,,,,254.0,"epsilon-Ga2O3 phase, on MOCVD eGa2O3 buffer / sapphire",10.1016/j.vacuum.S0042207X20302621,ok
+Sn:0.0210,Sn,RF magnetron sputtering,2.1,Ar:O2=9:1,25.0,300.0,,,1.978,,,10.0,254.0,"on sapphire, MSM, co-sputter SnO2 10W DC, 800C N2 anneal 2h",10.3390/ma17133227,ok
+Sn:0.0360,Sn,RF magnetron sputtering,3.6,Ar:O2=9:1,25.0,300.0,,,2.009,,,10.0,254.0,"on sapphire, MSM, co-sputter SnO2 20W DC, 800C N2 anneal 2h",10.3390/ma17133227,ok
+Sn:0.0410,Sn,RF magnetron sputtering,4.1,Ar:O2=9:1,25.0,300.0,,,2.004,,18.988,10.0,254.0,"on sapphire, MSM, co-sputter SnO2 30W DC, 800C N2 anneal 2h",10.3390/ma17133227,ok
+Mg:0.0420,Mg,RF magnetron sputtering,4.2,O2,,,,,3.415,,,30.0,254.0,"on sapphire, MSM, optimal Mg condition",10.1016/j.apsusc.S0257897225004189,ok
+Mg:0.0780,Mg,RF magnetron sputtering,7.8,O2,,,,,7.114,,,30.0,254.0,"on sapphire, MSM, Device C",10.1016/j.apsusc.S0257897225004189,ok
+Si:0.0234,Si,RF magnetron sputtering,2.34,O2,,,,32.2,4.505,,,15.0,254.0,on c-plane sapphire,10.1016/j.vacuum.S0042207X24004457,ok
+In:0.2000,In,sol-gel spin-coating,20.0,air,,,,,3.447,,,,254.0,"amorphous (InxGa1-x)2O3, x=0.4",10.3390/s24030787,ok
+Ta:0.0150,Ta,MOCVD,1.5,,,,,,3.0,,,8.0,222.0,"on SrTiO3(100), self-powered SBPD",10.1021/acs.cgd.2c00401,ok
+Mg:0.0338,Mg,RF magnetron sputtering,3.38,,,,,,2.225,,,,254.0,"epsilon-Ga2O3 phase, on MOCVD eGa2O3 buffer / sapphire",10.1016/j.vacuum.S0042207X20302621,ok
+Sn:0.016250,Sn,CVD (tube furnace),1.625,N2,1250.0,,,,,,16.396793690988407,50.0,,50V;R=0.2mA/W;decay=207ms [interp_phase6e],DOI:10.1016/j.apsusc.2019.144975,ok
+Sn:0.027500,Sn,CVD (tube furnace),2.75,N2,1250.0,,,,,,16.946217485962475,50.0,,50V;R=0.2mA/W;decay=207ms [interp_phase6e],DOI:10.1016/j.apsusc.2019.144975,ok
+Sn:0.038750,Sn,CVD (tube furnace),3.875,N2,1250.0,,,,,,17.437721179659803,50.0,,50V;R=80mA/W;decay=22ms [interp_phase6e],DOI:10.1016/j.apsusc.2019.144975,ok
+Mg:0.019500,Mg,MBE,1.95,O2_plasma,550.0,120.0,,,,,15.474210278789862,,,Mg 320°C source [interp_phase6e],DOI:10.1016/j.apsusc.2025.169433,ok
+Mg:0.039000,Mg,MBE,3.9,O2_plasma,550.0,120.0,,,,,15.209832141035552,,,Mg 320°C source [interp_phase6e],DOI:10.1016/j.apsusc.2025.169433,ok
+Mg:0.058500,Mg,MBE,5.85,O2_plasma,550.0,120.0,,,,,15.172197504105375,,,Mg 335°C source [interp_phase6e],DOI:10.1016/j.apsusc.2025.169433,ok
+Mg:0.058350,Mg,RF magnetron sputtering,5.835,Ar,800.0,60.0,,,,,14.588783597555642,,,Id=4.1pA;Qian2017 series [interp_phase6e],DOI:10.1016/j.matlet.2017.08.032,ok
+Mg:0.067500,Mg,RF magnetron sputtering,6.75,Ar,800.0,60.0,,,,,14.462986487391918,,,Best quality in Qian series [interp_phase6e],DOI:10.1016/j.matlet.2017.08.032,ok
+Mg:0.076650,Mg,RF magnetron sputtering,7.665,Ar,800.0,60.0,,,,,14.38755487773881,,,Best quality in Qian series [interp_phase6e],DOI:10.1016/j.matlet.2017.08.032,ok
+Mg:0.027375,Mg,PE-ALD,2.7375,O2_plasma,50.0,,,,,,16.398914839712557,,,3.28 at%;R=6.89 A/W [interp_phase6e],DOI:10.1016/j.mssp.2021.106471,ok
+Mg:0.035650,Mg,PE-ALD,3.5649999999999995,O2_plasma,50.0,,,,,,16.301625067585753,,,3.28 at%;R=6.89 A/W [interp_phase6e],DOI:10.1016/j.mssp.2021.106471,ok
+Mg:0.043925,Mg,PE-ALD,4.3925,O2_plasma,50.0,,,,,,16.151198329720113,,220.0,5.22 at%;R=1.67 A/W;cut-off 220nm [interp_phase6e],DOI:10.1016/j.mssp.2021.106471,ok
+Sn:0.000002,Sn,Sol-gel,0.0001675,air,600.0,,,,,,16.630497282587758,,,Opt.Sn;carrier 5e16;best PDCR [interp_phase6e],DOI:10.1016/j.sna.2023.114765,ok
+Sn:0.000003,Sn,Sol-gel,0.000295,air,600.0,,,,,,17.021130486719,,,Opt.Sn;carrier 5e16;best PDCR [interp_phase6e],DOI:10.1016/j.sna.2023.114765,ok
+Sn:0.000004,Sn,Sol-gel,0.0004225,air,600.0,,,,,,17.202388726698544,,,High Sn;carrier 2e17;dark↑ [interp_phase6e],DOI:10.1016/j.sna.2023.114765,ok
+Zn:0.031500,Zn,Spatial ALD,3.15,O2,400.0,60.0,,,,,16.527008081198286,,,2.5 at% Zn sALD [interp_phase6e],DOI:10.1016/j.surfcoat.2025.131691,ok
+Zn:0.038000,Zn,Spatial ALD,3.8,O2,400.0,60.0,,,,,16.48370021597164,,,2.5 at% Zn sALD [interp_phase6e],DOI:10.1016/j.surfcoat.2025.131691,ok
+Zn:0.044500,Zn,Spatial ALD,4.449999999999999,O2,400.0,60.0,,,,,16.329183404231312,,,5.1 at% Zn sALD [interp_phase6e],DOI:10.1016/j.surfcoat.2025.131691,ok
+Mg:0.009050,Mg,RF magnetron sputtering,0.905,Ar,800.0,60.0,,,,,16.4227508020932,30.0,,30V;R=1.97 A/W;best crystal [interp_phase6e],DOI:10.1016/j.surfcoat.2025.131940,ok
+Mg:0.013300,Mg,RF magnetron sputtering,1.33,Ar,800.0,60.0,,,,,16.19873853013629,30.0,,30V;R=1.97 A/W;best crystal [interp_phase6e],DOI:10.1016/j.surfcoat.2025.131940,ok
+Mg:0.017550,Mg,RF magnetron sputtering,1.7550000000000001,Ar,800.0,60.0,,,,,16.064082699310205,,,Highest conc;deteriorated [interp_phase6e],DOI:10.1016/j.surfcoat.2025.131940,ok
+Sn:0.000007,Sn,Plasma-assisted MBE,0.00069525,O2_plasma,700.0,,,,,,17.25962455287397,,,PAMBE Sn-doped (010);mid carrier [interp_phase6e],DOI:10.1063/5.0027870,ok
+Sn:0.000014,Sn,Plasma-assisted MBE,0.0013635,O2_plasma,700.0,,,,,,17.743091831844126,,,PAMBE Sn-doped (010);mid carrier [interp_phase6e],DOI:10.1063/5.0027870,ok
+Sn:0.000020,Sn,Plasma-assisted MBE,0.00203175,O2_plasma,700.0,,,,,,17.90417024270566,,,PAMBE Sn-doped (010);high carrier [interp_phase6e],DOI:10.1063/5.0027870,ok
+Si:0.000007,Si,Suboxide MBE,0.0006855,O2,525.0,,,,,,17.242335813152216,,,S-MBE;carrier=1e17;high doping [interp_phase6e],DOI:10.1063/5.0139622,ok
+Si:0.000014,Si,Suboxide MBE,0.001357,O2,525.0,,,,,,17.657580025934124,,,S-MBE;carrier=1e17;high doping [interp_phase6e],DOI:10.1063/5.0139622,ok
+Si:0.000020,Si,Suboxide MBE,0.0020285,O2,525.0,,,,,,17.944017813270616,,,S-MBE;carrier=1e18;μ=627@76K [interp_phase6e],DOI:10.1063/5.0139622,ok
+H:0.005000,H,RF magnetron sputtering,0.5,Ar+H2,,15.0,,,,,16.787784484994127,5.0,,5V;Iph=1.37mA;flex.PEN [interp_phase6e],DOI:10.1088/2752-5724/ad19e1,ok
+H:0.010000,H,RF magnetron sputtering,1.0,Ar+H2,,15.0,,,,,16.723294895795142,,,Medium H flux [interp_phase6e],DOI:10.1088/2752-5724/ad19e1,ok
+H:0.015000,H,RF magnetron sputtering,1.5,Ar+H2,,15.0,,,,,16.685092222655207,,,Medium H flux [interp_phase6e],DOI:10.1088/2752-5724/ad19e1,ok
+Sn:0.026000,Sn,RF magnetron co-sputtering,2.6,Ar,800.0,,,,,,16.593100127132118,10.0,254.0,10V;254nm [interp_phase6e],DOI:10.3390/ma17133227,ok
+Sn:0.031000,Sn,RF magnetron co-sputtering,3.0999999999999996,Ar,800.0,,,,,,16.633719863879126,10.0,254.0,10V;254nm [interp_phase6e],DOI:10.3390/ma17133227,ok
+Sn:0.036000,Sn,RF magnetron co-sputtering,3.5999999999999996,Ar,800.0,,,,,,16.77127147978433,10.0,254.0,10V;254nm [interp_phase6e],DOI:10.3390/ma17133227,ok
+Si:0.000069,Si,MOCVD,0.006877024999999999,N2+O2,800.0,,,,,,18.330102591550787,,,Si MOCVD;n=1e18;high channel doping [interp_phase6e],MOCVD review APL Mater. 2025,ok
+Si:0.000138,Si,MOCVD,0.013751349999999999,N2+O2,800.0,,,,,,18.844302648024048,,,Si MOCVD;n=1e18;high channel doping [interp_phase6e],MOCVD review APL Mater. 2025,ok
+Si:0.000206,Si,MOCVD,0.020625675,N2+O2,800.0,,,,,,19.128954028672926,,,Si MOCVD;n=1e19;n+ contact regrown [interp_phase6e],MOCVD review APL Mater. 2025,ok
+Si:0.000148,Si,MOCVD,0.014782499999999999,N2+O2,800.0,,,,,,18.725363940497243,,,SBD Vbr=497V;BFOM=1.16 kW/cm² [interp_phase6e],MOCVD-TEOS series,ok
+Si:0.000282,Si,MOCVD,0.028155,N2+O2,800.0,,,,,,18.96887802770897,,,SBD Vbr=497V;BFOM=1.16 kW/cm² [interp_phase6e],MOCVD-TEOS series,ok
+Si:0.000415,Si,MOCVD,0.0415275,N2+O2,800.0,,,,,,19.138452236580402,,,highest carrier;μ slightly↓ [interp_phase6e],MOCVD-TEOS series,ok
+N:0.000020,N,HVPE,0.002,N2+O2,800.0,,,,,,15.919879298959732,,,300-425V;CW visible;gain×20 [interp_phase6e],arXiv:2601.15555,ok
+N:0.000030,N,HVPE,0.003,N2+O2,800.0,,,,,,16.18640696126435,,,300-425V;CW visible;gain×20 [interp_phase6e],arXiv:2601.15555,ok
+N:0.000040,N,HVPE,0.004,N2+O2,800.0,,,,,,16.3622191370931,,,HVPE;N-doped semi-insulating;ND=2e16 [interp_phase6e],arXiv:2601.15555,ok

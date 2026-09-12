@@ -1,0 +1,99 @@
+{
+  "method": "FNV planar-average potential alignment (pp.x plot_num=11), V_O-validated, sign-fixed by V_O",
+  "sign_convention": 1,
+  "V_O": {
+    "C_align_eV": 0.097,
+    "plateau_spread_eV": 0.122,
+    "dV_range_eV": [
+      -1.75,
+      1.29
+    ],
+    "defect_zfrac": 0.41,
+    "dV_profile_sample": [
+      0.19,
+      -0.07,
+      -0.09,
+      -0.14,
+      -0.17,
+      -0.0,
+      1.29,
+      0.35,
+      -1.63,
+      -0.21,
+      -0.37,
+      0.31,
+      -0.02,
+      -0.32,
+      0.25,
+      0.07,
+      0.15
+    ],
+    "eps_raw": 2.223,
+    "eps_aligned": 2.32,
+    "KROGER_shallowest": 2.625
+  },
+  "Sb": {
+    "C_align_eV": 0.359,
+    "plateau_spread_eV": 0.163,
+    "dV_range_eV": [
+      -1.74,
+      0.59
+    ],
+    "defect_zfrac": 0.159,
+    "dV_profile_sample": [
+      0.01,
+      -0.58,
+      -0.79,
+      -1.66,
+      -0.23,
+      0.03,
+      0.4,
+      -0.02,
+      0.3,
+      0.56,
+      0.42,
+      0.26,
+      0.32,
+      0.1,
+      0.21,
+      0.49,
+      0.27
+    ],
+    "eps_raw_above_VBM": 3.106,
+    "eps_aligned_above_VBM": 3.465,
+    "below_CBM": 1.435
+  },
+  "Bi": {
+    "C_align_eV": 0.428,
+    "plateau_spread_eV": 0.182,
+    "dV_range_eV": [
+      -1.53,
+      0.77
+    ],
+    "defect_zfrac": 0.157,
+    "dV_profile_sample": [
+      0.15,
+      -0.7,
+      -0.45,
+      -1.5,
+      -0.19,
+      0.44,
+      0.29,
+      0.04,
+      0.43,
+      0.63,
+      0.47,
+      0.31,
+      0.37,
+      -0.1,
+      0.27,
+      0.7,
+      0.19
+    ],
+    "eps_raw_above_VBM": 1.656,
+    "eps_aligned_above_VBM": 2.084,
+    "below_CBM": 2.816
+  },
+  "VALIDATION": "FAIL: no clean plateau at 80-atom size (V_O aligned 2.32 vs 2.62, spread 0.12) -> alignment needs larger supercell/full model-charge FNV; MP-level stands",
+  "validated": false
+}

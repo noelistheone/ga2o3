@@ -1,0 +1,12 @@
+{
+ "mu": {
+  "LOLO_constant_median_dex": 0.25,
+  "factor": 1.8,
+  "n_rows": 341
+ },
+ "n": {
+  "LOLO_constant_median_dex": 1.07,
+  "factor": 11.7,
+  "n_rows": 379
+ }
+}

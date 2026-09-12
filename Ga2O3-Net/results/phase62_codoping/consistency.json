@@ -1,0 +1,52 @@
+{
+  "reduction_to_single_dopant": [
+    {
+      "case": "Sn(0.01) vs Sn+Mg(1e-12)",
+      "dEF": 0.0,
+      "dlogVO": 0.0,
+      "match": true
+    },
+    {
+      "case": "Mg(0.01) vs Mg+Sn(1e-12)",
+      "dEF": 1.755397072145115e-08,
+      "dlogVO": 1.8181005501105574e-07,
+      "match": true
+    },
+    {
+      "case": "Si(0.005) vs Si+Zn(1e-12)",
+      "dEF": 0.0,
+      "dlogVO": 0.0,
+      "match": true
+    },
+    {
+      "case": "Zn(0.02) vs Zn+Si(1e-12)",
+      "dEF": 1.2404897442586105e-08,
+      "dlogVO": 1.2848170527490765e-07,
+      "match": true
+    },
+    {
+      "case": "Sn(0.002) vs Sn+N(1e-12)",
+      "dEF": 7.141043312230977e-11,
+      "dlogVO": 0.0,
+      "match": true
+    }
+  ],
+  "all_match": true,
+  "oracle_qualitative_agreement": {
+    "reference": "Frodason et al., quantitative point-defect modeling of beta-Ga2O3 (arXiv:2501.17373, PCCP 2025)",
+    "shared_formalism": [
+      "Fermi-Dirac n(E_F)/p(E_F)",
+      "charge-neutrality root-find for E_F",
+      "multi-species (19-element) charge sum -> co-doping is native",
+      "mu_O(T,pO2) chemical potential -> Brouwer pO2 power law",
+      "V_O deep-donor / self-compensation of acceptors"
+    ],
+    "honest_gaps_vs_oracle": [
+      "E_g(T) temperature dependence (we use fixed E_g=4.85)",
+      "defect vibrational entropy",
+      "explicit Ga-rich vs O-rich mu endpoints",
+      "full 259-defect inventory (we model V_O + dopant species)"
+    ],
+    "status": "qualitative agreement on formalism + trends; quantitative oracle benchmark is future work (paper data not fetched offline; zero external API)."
+  }
+}

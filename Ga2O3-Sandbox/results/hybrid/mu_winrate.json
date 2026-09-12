@@ -1,0 +1,8 @@
+{
+ "n_labs": 68,
+ "physics_wins": 31,
+ "ties": 1,
+ "median_phys": 0.257,
+ "median_const": 0.25,
+ "sign_test_p": 0.7681
+}

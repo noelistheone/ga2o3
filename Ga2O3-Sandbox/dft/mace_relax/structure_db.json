@@ -1,0 +1,400 @@
+{
+  "n_structures": 32,
+  "undoped_energy_per_atom": -6.0340791382888685,
+  "dopants": {
+    "Al": {
+      "concentration": 0.05,
+      "n_atoms": 80,
+      "energy_per_atom": -6.1203,
+      "dopant_O_bonds_A": [
+        1.784,
+        1.788,
+        1.788,
+        1.817
+      ],
+      "mean_dopant_O_bond_A": 1.794,
+      "bond_spread_A": 0.033,
+      "lattice_abc": [
+        6.1524,
+        11.7573,
+        12.7694
+      ],
+      "max_relax_disp_A": 0.202,
+      "in_KROGER_19": false,
+      "E_sub_proxy_per_atom_eV": -0.0862
+    },
+    "B": {
+      "concentration": 0.0265,
+      "n_atoms": 120,
+      "energy_per_atom": -6.0663,
+      "dopant_O_bonds_A": [
+        1.528,
+        1.529,
+        1.532,
+        1.586
+      ],
+      "mean_dopant_O_bond_A": 1.544,
+      "bond_spread_A": 0.058,
+      "lattice_abc": [
+        9.2099,
+        11.7288,
+        12.7526
+      ],
+      "max_relax_disp_A": 0.361,
+      "in_KROGER_19": false,
+      "E_sub_proxy_per_atom_eV": -0.0322
+    },
+    "Bi": {
+      "concentration": 0.0265,
+      "n_atoms": 120,
+      "energy_per_atom": -6.0137,
+      "dopant_O_bonds_A": [
+        2.133,
+        2.149,
+        2.149,
+        2.177
+      ],
+      "mean_dopant_O_bond_A": 2.152,
+      "bond_spread_A": 0.044,
+      "lattice_abc": [
+        9.2796,
+        11.8357,
+        12.8338
+      ],
+      "max_relax_disp_A": 0.419,
+      "in_KROGER_19": false,
+      "E_sub_proxy_per_atom_eV": 0.0204
+    },
+    "Cu": {
+      "concentration": 0.1,
+      "n_atoms": 40,
+      "energy_per_atom": -5.8657,
+      "dopant_O_bonds_A": [
+        1.86,
+        1.884,
+        1.884,
+        1.929
+      ],
+      "mean_dopant_O_bond_A": 1.889,
+      "bond_spread_A": 0.069,
+      "lattice_abc": [
+        6.1727,
+        11.8149,
+        6.4022
+      ],
+      "max_relax_disp_A": 0.167,
+      "in_KROGER_19": false,
+      "E_sub_proxy_per_atom_eV": 0.1684
+    },
+    "Er": {
+      "concentration": 0.025,
+      "n_atoms": 120,
+      "energy_per_atom": -6.0715,
+      "dopant_O_bonds_A": [
+        2.062,
+        2.094,
+        2.094,
+        2.098
+      ],
+      "mean_dopant_O_bond_A": 2.087,
+      "bond_spread_A": 0.036,
+      "lattice_abc": [
+        9.2743,
+        11.8379,
+        12.8239
+      ],
+      "max_relax_disp_A": 0.389,
+      "in_KROGER_19": false,
+      "E_sub_proxy_per_atom_eV": -0.0374
+    },
+    "Eu": {
+      "concentration": 0.002,
+      "n_atoms": 10,
+      "energy_per_atom": -6.8753,
+      "dopant_O_bonds_A": [
+        2.304,
+        2.304,
+        2.308,
+        2.308,
+        2.335,
+        2.496
+      ],
+      "mean_dopant_O_bond_A": 2.343,
+      "bond_spread_A": 0.192,
+      "lattice_abc": [
+        3.2617,
+        7.2639,
+        6.2402
+      ],
+      "max_relax_disp_A": 1.826,
+      "in_KROGER_19": false,
+      "E_sub_proxy_per_atom_eV": -0.8412
+    },
+    "F": {
+      "concentration": 0.0125,
+      "n_atoms": 120,
+      "energy_per_atom": -5.9604,
+      "dopant_O_bonds_A": [
+        1.476,
+        2.453,
+        2.5,
+        2.527
+      ],
+      "mean_dopant_O_bond_A": 2.239,
+      "bond_spread_A": 1.051,
+      "lattice_abc": [
+        9.248,
+        11.7854,
+        12.8071
+      ],
+      "max_relax_disp_A": 0.827,
+      "in_KROGER_19": false,
+      "E_sub_proxy_per_atom_eV": 0.0737
+    },
+    "Fe": {
+      "concentration": 0.0265,
+      "n_atoms": 120,
+      "energy_per_atom": -6.0452,
+      "dopant_O_bonds_A": [
+        1.889,
+        1.901,
+        1.901,
+        1.933
+      ],
+      "mean_dopant_O_bond_A": 1.906,
+      "bond_spread_A": 0.044,
+      "lattice_abc": [
+        9.2469,
+        11.7862,
+        12.7937
+      ],
+      "max_relax_disp_A": 0.174,
+      "in_KROGER_19": true,
+      "E_sub_proxy_per_atom_eV": -0.0111
+    },
+    "Ge": {
+      "concentration": 0.0265,
+      "n_atoms": 120,
+      "energy_per_atom": -6.043,
+      "dopant_O_bonds_A": [
+        1.908,
+        1.908,
+        1.92,
+        1.963,
+        2.023,
+        2.023
+      ],
+      "mean_dopant_O_bond_A": 1.957,
+      "bond_spread_A": 0.115,
+      "lattice_abc": [
+        9.2432,
+        11.7863,
+        12.7889
+      ],
+      "max_relax_disp_A": 0.207,
+      "in_KROGER_19": true,
+      "E_sub_proxy_per_atom_eV": -0.0089
+    },
+    "Mg": {
+      "concentration": 0.0072,
+      "n_atoms": 180,
+      "energy_per_atom": -6.0295,
+      "dopant_O_bonds_A": [
+        1.943,
+        1.944,
+        1.944,
+        1.978
+      ],
+      "mean_dopant_O_bond_A": 1.952,
+      "bond_spread_A": 0.035,
+      "lattice_abc": [
+        9.2444,
+        17.6739,
+        12.791
+      ],
+      "max_relax_disp_A": 0.216,
+      "in_KROGER_19": true,
+      "E_sub_proxy_per_atom_eV": 0.0045
+    },
+    "Sb": {
+      "concentration": 0.02,
+      "n_atoms": 120,
+      "energy_per_atom": -6.0295,
+      "dopant_O_bonds_A": [
+        2.021,
+        2.021,
+        2.031,
+        2.038,
+        2.086,
+        2.086
+      ],
+      "mean_dopant_O_bond_A": 2.047,
+      "bond_spread_A": 0.065,
+      "lattice_abc": [
+        9.272,
+        11.8159,
+        12.8188
+      ],
+      "max_relax_disp_A": 0.24,
+      "in_KROGER_19": false,
+      "E_sub_proxy_per_atom_eV": 0.0045
+    },
+    "Si": {
+      "concentration": 1.4e-05,
+      "n_atoms": 180,
+      "energy_per_atom": -6.0581,
+      "dopant_O_bonds_A": [
+        1.806,
+        1.807,
+        1.815,
+        1.867,
+        1.907,
+        1.908
+      ],
+      "mean_dopant_O_bond_A": 1.852,
+      "bond_spread_A": 0.102,
+      "lattice_abc": [
+        9.2316,
+        17.661,
+        12.7758
+      ],
+      "max_relax_disp_A": 0.282,
+      "in_KROGER_19": true,
+      "E_sub_proxy_per_atom_eV": -0.024
+    },
+    "Sn": {
+      "concentration": 1.4e-05,
+      "n_atoms": 180,
+      "energy_per_atom": -6.0362,
+      "dopant_O_bonds_A": [
+        2.059,
+        2.061,
+        2.061,
+        2.105,
+        2.149,
+        2.149
+      ],
+      "mean_dopant_O_bond_A": 2.097,
+      "bond_spread_A": 0.09,
+      "lattice_abc": [
+        9.2585,
+        17.696,
+        12.8075
+      ],
+      "max_relax_disp_A": 0.291,
+      "in_KROGER_19": true,
+      "E_sub_proxy_per_atom_eV": -0.0021
+    },
+    "Ta": {
+      "concentration": 0.005,
+      "n_atoms": 10,
+      "energy_per_atom": -6.9887,
+      "dopant_O_bonds_A": [
+        1.93,
+        1.93,
+        1.959,
+        2.124,
+        2.124,
+        2.143
+      ],
+      "mean_dopant_O_bond_A": 2.035,
+      "bond_spread_A": 0.213,
+      "lattice_abc": [
+        3.1161,
+        6.7197,
+        6.7091
+      ],
+      "max_relax_disp_A": 1.114,
+      "in_KROGER_19": true,
+      "E_sub_proxy_per_atom_eV": -0.9546
+    },
+    "Ti": {
+      "concentration": 0.01,
+      "n_atoms": 180,
+      "energy_per_atom": -6.0802,
+      "dopant_O_bonds_A": [
+        1.913,
+        1.914,
+        1.954,
+        2.026,
+        2.116,
+        2.116
+      ],
+      "mean_dopant_O_bond_A": 2.006,
+      "bond_spread_A": 0.203,
+      "lattice_abc": [
+        9.2477,
+        17.6819,
+        12.7954
+      ],
+      "max_relax_disp_A": 0.243,
+      "in_KROGER_19": true,
+      "E_sub_proxy_per_atom_eV": -0.0461
+    },
+    "V": {
+      "concentration": 0.05,
+      "n_atoms": 80,
+      "energy_per_atom": -6.1473,
+      "dopant_O_bonds_A": [
+        1.887,
+        1.927,
+        1.935,
+        1.935
+      ],
+      "mean_dopant_O_bond_A": 1.921,
+      "bond_spread_A": 0.048,
+      "lattice_abc": [
+        6.1735,
+        11.8359,
+        12.8132
+      ],
+      "max_relax_disp_A": 0.188,
+      "in_KROGER_19": false,
+      "E_sub_proxy_per_atom_eV": -0.1132
+    },
+    "W": {
+      "concentration": 0.11,
+      "n_atoms": 40,
+      "energy_per_atom": -6.2165,
+      "dopant_O_bonds_A": [
+        2.137,
+        2.153,
+        2.156,
+        2.187,
+        2.221,
+        2.222
+      ],
+      "mean_dopant_O_bond_A": 2.179,
+      "bond_spread_A": 0.085,
+      "lattice_abc": [
+        6.2978,
+        11.9879,
+        6.4957
+      ],
+      "max_relax_disp_A": 0.386,
+      "in_KROGER_19": false,
+      "E_sub_proxy_per_atom_eV": -0.1824
+    },
+    "Zn": {
+      "concentration": 0.005,
+      "n_atoms": 10,
+      "energy_per_atom": -5.5829,
+      "dopant_O_bonds_A": [
+        1.925,
+        1.932,
+        1.932,
+        2.011
+      ],
+      "mean_dopant_O_bond_A": 1.95,
+      "bond_spread_A": 0.086,
+      "lattice_abc": [
+        3.0988,
+        5.9253,
+        6.4725
+      ],
+      "max_relax_disp_A": 0.129,
+      "in_KROGER_19": true,
+      "E_sub_proxy_per_atom_eV": 0.4512
+    }
+  }
+}

@@ -1,0 +1,59 @@
+# Stage 2: Multi-modal feature extraction dimensions
+structure_stream:
+  embedding_dim: 64       # Output of frozen CGCNNEncoder (must match pretrain model)
+  pretrained_ckpt: checkpoints/pretrained_encoder.pt
+
+composition_stream:
+  xenonpy_raw_dim: 290    # XenonPy Compositions output dimension
+  hidden_dim: 128
+  out_dim: 64
+  dropout: 0.1
+  cache_file: data/processed/xenonpy_cache.pkl
+
+process_stream:
+  in_dim: 18              # Phase 5C: +1 log10_concentration at index 11
+                          # (Phase 2E was 17; Phase 2C was 16)
+  continuous_dim: 12      # dims 0-11 are continuous → StandardScaler
+                          #   0: temperature_C    1: time_min    2: o2_fraction
+                          #   3: is_plasma_enhanced (atmosphere) 4: has_nitrogen_species
+                          #   5: has_plasma_dep    6: has_anneal
+                          #   7: has_buffer        8: on_foreign_substrate
+                          #   9: measurement_voltage_V  10: measurement_wavelength_nm
+                          #  11: log10_concentration  (Phase 5C: total dopant frac,
+                          #      floor 1e-4 so undoped → −4)
+                          # o2_fraction: 0.0=pure Ar, 0.21=air, 1.0=pure O2
+                          # mixed gas "Ar:O2=3:1" → o2_fraction=0.25
+  method_embed_dim: 3     # learnable embedding dim for fabrication method
+                          # rule of thumb: min(50, ceil(n_methods/2)) = 3
+                          # captures physical proximity: sputtering ≈ PLD (vacuum)
+                          #   >> wet chemistry; one-hot cannot represent this
+  n_methods: 6            # 5 named methods + 1 unknown/other (indices 12-16 → argmax)
+                          #   0=sputtering  1=PLD  2=CVD/ALD  3=wet  4=evaporation
+                          #   5=other (all method bits=0)
+  substrate_embed_dim: 3  # Phase 2E: learnable embedding dim for substrate category
+  n_substrates: 7         # Phase 2E: substrate categories (index 17 of process tensor)
+                          # Priority order: first keyword match wins (direct β-Ga2O3
+                          # interface, not the ultimate base wafer).
+                          #   0=native_bulk (microwire/nanowire/EFG/Czochralski)
+                          #   1=GaN  2=MgO
+                          #   3=oxide_template (ZnGa2O4/SrTiO3/TiN-buffer/…)
+                          #   4=Si  5=sapphire  6=other
+  hidden_dim: 64
+  out_dim: 32
+  dropout: 0.2
+
+fusion:
+  # total = structure(64) + composition(64) + process(32) = 160
+  total_dim: 160
+  mode: concat            # "concat" or "attention"
+                          # attention DISABLED: SelfAttentionFusion with N≈40 training samples
+                          # adds too many degrees of freedom and destabilises training.
+                          # Re-enable when N > 200.
+  structure_scale: 1.0    # [0.0, 1.0] multiplier on structure embedding before fusion.
+                          # Set to 0.0 to ablate the CGCNN stream (test if it helps/hurts).
+  attention_heads: 4      # only used when mode=attention
+  attention_dim: 64       # dim per modality token for attention
+
+scalers:
+  process_scaler: data/processed/process_scaler.pkl
+  composition_scaler: data/processed/composition_scaler.pkl

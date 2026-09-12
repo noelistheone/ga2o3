@@ -1,0 +1,21 @@
+{
+  "mu_O_MACE": -4.691,
+  "mu_Ga_Orich": -8.039,
+  "mu_Ga_metal": -3.01,
+  "dopants": {
+    "Sb": {
+      "E_M_Ga": -480.839,
+      "E_M_O": -472.898,
+      "Ef(Ga)-Ef(O)_Orich_eV": -11.29,
+      "Ef(Ga)-Ef(O)_Garich_eV": -6.26,
+      "prefers": "Ga(cation) site"
+    },
+    "Bi": {
+      "E_M_Ga": -479.496,
+      "E_M_O": -472.043,
+      "Ef(Ga)-Ef(O)_Orich_eV": -10.801,
+      "Ef(Ga)-Ef(O)_Garich_eV": -5.772,
+      "prefers": "Ga(cation) site"
+    }
+  }
+}

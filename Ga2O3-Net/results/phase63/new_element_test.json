@@ -1,0 +1,59 @@
+{
+  "device": "cuda:0",
+  "note": "leave-one-ELEMENT-out on the surrogate (vs V63 solver). Token carries the held element's physical descriptor + carrier sign + transition level; measures whether phys-encoding lets the model place a never-seen element. Compare to REAL-data cross_element_trend.json (Phase 62).",
+  "held": {
+    "Sn": {
+      "carrier": "donor",
+      "n_train": 122554,
+      "logVO_R2": 0.985,
+      "logVO_rho": 0.999,
+      "EF_R2": 0.982,
+      "EF_rho": 0.631
+    },
+    "Mg": {
+      "carrier": "acceptor",
+      "n_train": 115044,
+      "logVO_R2": 0.969,
+      "logVO_rho": 0.989,
+      "EF_R2": 0.848,
+      "EF_rho": 0.853
+    },
+    "Ge": {
+      "carrier": "donor",
+      "n_train": 122412,
+      "logVO_R2": 0.986,
+      "logVO_rho": 0.999,
+      "EF_R2": 0.99,
+      "EF_rho": 0.667
+    },
+    "Zn": {
+      "carrier": "acceptor",
+      "n_train": 115027,
+      "logVO_R2": 0.961,
+      "logVO_rho": 0.994,
+      "EF_R2": 0.959,
+      "EF_rho": 0.876
+    },
+    "Ti": {
+      "carrier": "donor",
+      "n_train": 122412,
+      "logVO_R2": 0.984,
+      "logVO_rho": 0.999,
+      "EF_R2": 0.982,
+      "EF_rho": 0.612
+    },
+    "In": {
+      "carrier": "isovalent",
+      "n_train": 127350,
+      "logVO_R2": 0.962,
+      "logVO_rho": 0.989,
+      "EF_R2": 0.983,
+      "EF_rho": 0.776
+    }
+  },
+  "summary": {
+    "mean_logVO_rho": 0.995,
+    "mean_logVO_R2": 0.974,
+    "mean_EF_rho": 0.736
+  }
+}

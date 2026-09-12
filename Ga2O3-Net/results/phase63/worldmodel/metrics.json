@@ -1,0 +1,234 @@
+{
+  "device": "cuda:0",
+  "n_train": 120000,
+  "targets": [
+    "E_F",
+    "log10_VO",
+    "bound_frac"
+  ],
+  "results": {
+    "sum": {
+      "in_distribution_D12": {
+        "E_F": {
+          "R2": 0.9963,
+          "spearman": 0.9612,
+          "MAE": 0.0349
+        },
+        "log10_VO": {
+          "R2": 0.9922,
+          "spearman": 0.9981,
+          "MAE": 0.2923
+        },
+        "bound_frac": {
+          "R2": 0.9991,
+          "spearman": 0.6967,
+          "MAE": 0.0032
+        }
+      },
+      "extrapolation_D34": {
+        "E_F": {
+          "R2": 0.6889,
+          "spearman": 0.8019,
+          "MAE": 0.3966
+        },
+        "log10_VO": {
+          "R2": 0.864,
+          "spearman": 0.9398,
+          "MAE": 0.9559
+        },
+        "bound_frac": {
+          "R2": -0.4214,
+          "spearman": 0.8612,
+          "MAE": 0.1318
+        }
+      },
+      "train_s": 3.1
+    },
+    "mean": {
+      "in_distribution_D12": {
+        "E_F": {
+          "R2": 0.9961,
+          "spearman": 0.9681,
+          "MAE": 0.0343
+        },
+        "log10_VO": {
+          "R2": 0.9925,
+          "spearman": 0.9982,
+          "MAE": 0.2917
+        },
+        "bound_frac": {
+          "R2": 0.999,
+          "spearman": 0.6977,
+          "MAE": 0.0033
+        }
+      },
+      "extrapolation_D34": {
+        "E_F": {
+          "R2": 0.7349,
+          "spearman": 0.7795,
+          "MAE": 0.3275
+        },
+        "log10_VO": {
+          "R2": 0.9055,
+          "spearman": 0.9531,
+          "MAE": 0.8522
+        },
+        "bound_frac": {
+          "R2": 0.3047,
+          "spearman": 0.8179,
+          "MAE": 0.0927
+        }
+      },
+      "train_s": 2.3
+    },
+    "attn": {
+      "in_distribution_D12": {
+        "E_F": {
+          "R2": 0.9987,
+          "spearman": 0.9815,
+          "MAE": 0.0253
+        },
+        "log10_VO": {
+          "R2": 0.993,
+          "spearman": 0.9983,
+          "MAE": 0.2854
+        },
+        "bound_frac": {
+          "R2": 0.9992,
+          "spearman": 0.6984,
+          "MAE": 0.0032
+        }
+      },
+      "extrapolation_D34": {
+        "E_F": {
+          "R2": 0.6751,
+          "spearman": 0.781,
+          "MAE": 0.7622
+        },
+        "log10_VO": {
+          "R2": 0.8921,
+          "spearman": 0.9643,
+          "MAE": 1.0592
+        },
+        "bound_frac": {
+          "R2": -0.2446,
+          "spearman": 0.8781,
+          "MAE": 0.1562
+        }
+      },
+      "train_s": 11.0
+    },
+    "slot": {
+      "in_distribution_D12": {
+        "E_F": {
+          "R2": 0.9941,
+          "spearman": 0.9539,
+          "MAE": 0.0464
+        },
+        "log10_VO": {
+          "R2": 0.997,
+          "spearman": 0.9977,
+          "MAE": 0.1803
+        },
+        "bound_frac": {
+          "R2": 0.9976,
+          "spearman": 0.6895,
+          "MAE": 0.0047
+        }
+      },
+      "extrapolation_D34": {
+        "E_F": {
+          "R2": 0.1409,
+          "spearman": 0.5218,
+          "MAE": 0.8428
+        },
+        "log10_VO": {
+          "R2": 0.4095,
+          "spearman": 0.7546,
+          "MAE": 2.6833
+        },
+        "bound_frac": {
+          "R2": -0.1665,
+          "spearman": 0.3243,
+          "MAE": 0.1309
+        }
+      },
+      "train_s": 2.1
+    },
+    "sum_gated": {
+      "in_distribution_D12": {
+        "E_F": {
+          "R2": 0.9974,
+          "spearman": 0.9734,
+          "MAE": 0.0282
+        },
+        "log10_VO": {
+          "R2": 0.9924,
+          "spearman": 0.9981,
+          "MAE": 0.2935
+        },
+        "bound_frac": {
+          "R2": 0.9991,
+          "spearman": 0.6991,
+          "MAE": 0.0035
+        }
+      },
+      "extrapolation_D34": {
+        "E_F": {
+          "R2": 0.5646,
+          "spearman": 0.5882,
+          "MAE": 0.5012
+        },
+        "log10_VO": {
+          "R2": 0.8504,
+          "spearman": 0.9404,
+          "MAE": 1.2261
+        },
+        "bound_frac": {
+          "R2": -0.5553,
+          "spearman": 0.7234,
+          "MAE": 0.1484
+        }
+      },
+      "train_s": 2.5
+    },
+    "rf": {
+      "in_distribution_D12": {
+        "E_F": {
+          "R2": 0.7414,
+          "spearman": 0.841,
+          "MAE": 0.3881
+        },
+        "log10_VO": {
+          "R2": 0.8946,
+          "spearman": 0.9428,
+          "MAE": 0.6718
+        },
+        "bound_frac": {
+          "R2": 0.6292,
+          "spearman": 0.9909,
+          "MAE": 0.043
+        }
+      },
+      "extrapolation_D34": {
+        "E_F": {
+          "R2": 0.3476,
+          "spearman": 0.5428,
+          "MAE": 0.7911
+        },
+        "log10_VO": {
+          "R2": 0.6845,
+          "spearman": 0.8366,
+          "MAE": 1.3108
+        },
+        "bound_frac": {
+          "R2": -1.3222,
+          "spearman": 0.3809,
+          "MAE": 0.2108
+        }
+      }
+    },
+    "latent_probe_EF_R2_on_D34": 0.6844
+  },
+  "note": "OOD = cardinality extrapolation (train D in {1,2} -> test D in {3,4}). Labels are the V63 self-consistent complex solver oracle; this tests LAW learning, not experimental magnitude (research: oracle uncorrelated with cross-paper absolute [V_O])."
+}

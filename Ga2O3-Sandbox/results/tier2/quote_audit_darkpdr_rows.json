@@ -1,0 +1,819 @@
+{
+ "dark_current_pA": [
+  {
+   "row_index": 86,
+   "doi": "10.1002/aelm.202500030",
+   "y": 0.209,
+   "y_lin": 1.6180800376430657,
+   "verdict": "absent",
+   "quotes": [
+    "The photodetector based on Ga2O3:Lu film shows an ultra-low dark current (-2.09 x 10^-13 A) and a fast response speed (321/136.8 ms). [NOTE: exponent reported inconsistently across indexers as 10^-9 / 10^-12 / 10^-13; verify against fulltext figure/table]",
+    "an ITO/Ga2O3:Ln/Au structure photodetector is prepared by Ga2O3:Lu thin films, which exhibits an ultra-low dark current (-2.09 x 10-13 A) and a fast response speed (321/136.8 ms)",
+    "an ultra-low dark current ... and fast response speed (321/136.8 ms) [rise/decay times for Ga2O3:Lu photodetector]"
+   ],
+   "adjudication": "UNIT_A_TO_PA",
+   "adjudication_basis": "quote '-2.09 x 10^-13 A' = 0.209 pA exact; A->pA (10^12) was outside the original unit set"
+  },
+  {
+   "row_index": 64,
+   "doi": "10.3390/nano15181397",
+   "y": 3.75,
+   "y_lin": 5623.413251903491,
+   "verdict": "absent",
+   "quotes": [
+    "At a bias of 10 V, the dark current of the device is 3.75x10^-12 A, and the photocurrent is 4.29x10^-10 A.",
+    "The calculated PDCR at a bias of 10 V is 114 in this work.",
+    "The calculated oxygen vacancy concentrations of the synthesized Ga2O3 thin films with O2-to-Ar ratios of 2:1, 4:1, and 8:1 are 25.65%, 16.61%, and 19.62%, respectively.",
+    "The obtained tau_r and tau_d of the device are 1.73 and 2.78 s, respectively."
+   ],
+   "adjudication": "UNIT_A_TO_PA",
+   "adjudication_basis": "quote '3.75x10^-12 A' = 3.75 pA exact"
+  },
+  {
+   "row_index": 77,
+   "doi": "10.3390/s22052048",
+   "y": 123.0,
+   "y_lin": null,
+   "verdict": "absent",
+   "quotes": [
+    "Table 2: 10 V Dark, Ag-Catalyst = 1.19 \u00d7 10^-9 A",
+    "Table 2: 10 V Dark, No-Ag = 1.23 \u00d7 10^-10 A",
+    "Table 2: 20 V Dark, Ag-Catalyst = 2.75 \u00d7 10^-8 A",
+    "Table 2: 20 V Dark, No-Ag = 3.2 \u00d7 10^-10 A",
+    "Table 2: 5 V Dark, No-Ag = 8.07 \u00d7 10^-11 A",
+    "Table 2: 50 V Dark, Ag-Catalyst = 1.25 \u00d7 10^-9 A",
+    "Table 2: 50 V Dark, No-Ag = 1.4 \u00d7 10^-9 A",
+    "Table 3: 20 V, 1 mm, Ag-Ga2O3: rise time 0.34 s, fall time 1.2 s",
+    "Table 3: 20 V, 3 mm, Ag-Ga2O3: rise time 1.6 s, fall time 0.8 s",
+    "Table 3: 5 V, 1 mm, Ag-Ga2O3: rise time 0.3 s, fall time 1.2 s",
+    "The bandgaps of beta-Ga2O3 nanowires with and without silver were found to be 4.6 eV and 4.4 eV, respectively.",
+    "The ratio of the photocurrent to dark current measured at 50 V for the Ga2O3 nanowire film on quartz (Figure 4) was almost 31.2 for the Ga2O3 film obtained with the Ag catalyst",
+    "compared to 9.5 for Ag-free Ga2O3."
+   ],
+   "adjudication": "UNIT_A_TO_PA",
+   "adjudication_basis": "quote 'Table 2: 10 V Dark, No-Ag = 1.23e-10 A' = 123 pA exact"
+  },
+  {
+   "row_index": 81,
+   "doi": "10.3390/nano15050402",
+   "y": 4.76,
+   "y_lin": 57543.993733715666,
+   "verdict": "absent",
+   "quotes": [
+    "Under a 20 V bias, the dark current (Idark) is as low as 4.76 x 10-12 A",
+    "the bandgap of the beta-Ga2O3 nanorods is about 4.7 eV",
+    "the dark current (Idark) is as low as 4.76 x 10-12 A, while Ilight reaches 2.58 x 10-6 A...resulting in a high photo-to-dark current ratio (PDCR) of 106",
+    "the measured typical rise and fall times of the device are 0.65s and 0.77s, respectively"
+   ],
+   "adjudication": "UNIT_A_TO_PA",
+   "adjudication_basis": "quote '4.76 x 10-12 A' = 4.76 pA exact"
+  },
+  {
+   "row_index": 67,
+   "doi": "10.15251/djnb.2025.202.465",
+   "y": 27.4,
+   "y_lin": null,
+   "verdict": "absent",
+   "quotes": [
+    "Eg decrease to 4.79 for 14.4% (computed shift 4.79-5.10=-0.31)",
+    "Eg decrease to 4.81 for 21.6% (computed shift 4.81-5.10=-0.29)",
+    "Table 3: Doping concentration 0.0 at% -> Idark 4.03x10-11 A",
+    "Table 3: Doping concentration 14.4 at% -> Idark 3.20x10-11 A",
+    "Table 3: Doping concentration 21.6 at% -> Idark 3.39x10-10 A",
+    "Table 3: Doping concentration 28.8 at% -> Idark 3.40x10-11 A",
+    "The band gap is the narrowest for the sample with a 28.8% Sn doping concentration ... 4.71 eV",
+    "The band gap is the narrowest for the sample with a 28.8% Sn doping concentration ... 4.71 eV (computed shift 4.71-5.10=-0.39)",
+    "The un-doped Ga2O3 thin film exhibits an Eg value of 5.10 eV.",
+    "When the Sn doping concentration reaches 7.2%, the Ga2O3 detector shows the lowest Idark value of 2.74x10-11 A.",
+    "the Eg values decrease to 4.76, 4.79, 4.81, and 4.71 eV for doping concentrations of 7.2%, 14.4%, 21.6%, and 28.8%",
+    "the Eg values decrease to 4.76, 4.79, 4.81, and 4.71 eV for doping concentrations of 7.2%, 14.4%, 21.6%, and 28.8%, respectively.",
+    "un-doped Ga2O3 thin film exhibits an Eg value of 5.10 eV. Upon Sn-doping, the Eg values decrease to 4.76 ... for 7.2% (computed shift 4.76-5.10=-0.34)"
+   ],
+   "adjudication": "UNIT_A_TO_PA",
+   "adjudication_basis": "quote 'Sn 7.2% ... lowest Idark value of 2.74x10-11 A' = 27.4 pA exact (quote #8 of 13 for this DOI)"
+  },
+  {
+   "row_index": 82,
+   "doi": "10.3390/pr13010068",
+   "y": 270.0,
+   "y_lin": null,
+   "verdict": "unit",
+   "quotes": [
+    "Annealing Temperature 1000 C / Energy (eV) 5.25 / Evaluated Al content 22.1%",
+    "Annealing Temperature 1200 C / Energy (eV) 5.75 / Evaluated Al content 46.2%"
+   ]
+  },
+  {
+   "row_index": 72,
+   "doi": "10.1038/srep24190",
+   "y": 800.0,
+   "y_lin": null,
+   "verdict": "unit",
+   "quotes": [
+    "The band gap for 28.4 at.% Mn doping Ga2O3 thin film can be estimated to about 4.75 eV",
+    "The fresh dark current is about 0.8 nA at the voltage of 10 V"
+   ]
+  },
+  {
+   "row_index": 63,
+   "doi": "10.1039/d5ra06475a",
+   "y": 2570.0,
+   "y_lin": null,
+   "verdict": "unit",
+   "quotes": [
+    "The dark current is about 2.57 nA at a voltage of 50 V",
+    "The direct and indirect bandgap values were determined to be 5.08 and 4.43 eV, respectively (indirect = 4.43 eV)"
+   ]
+  },
+  {
+   "row_index": 59,
+   "doi": "10.3390/s24030787",
+   "y": 8200.0,
+   "y_lin": null,
+   "verdict": "unit",
+   "quotes": [
+    "In0.4Ga1.6O3 film exhibiting 4.28 eV (vs 4.84 eV undoped)",
+    "dark current at 5V: In0.2Ga1.8O3 0.1 nA"
+   ]
+  },
+  {
+   "row_index": 68,
+   "doi": "10.15251/djnb.2025.202.465",
+   "y": 32.0,
+   "y_lin": null,
+   "verdict": "absent",
+   "quotes": [
+    "Eg decrease to 4.79 for 14.4% (computed shift 4.79-5.10=-0.31)",
+    "Eg decrease to 4.81 for 21.6% (computed shift 4.81-5.10=-0.29)",
+    "Table 3: Doping concentration 0.0 at% -> Idark 4.03x10-11 A",
+    "Table 3: Doping concentration 14.4 at% -> Idark 3.20x10-11 A",
+    "Table 3: Doping concentration 21.6 at% -> Idark 3.39x10-10 A",
+    "Table 3: Doping concentration 28.8 at% -> Idark 3.40x10-11 A",
+    "The band gap is the narrowest for the sample with a 28.8% Sn doping concentration ... 4.71 eV",
+    "The band gap is the narrowest for the sample with a 28.8% Sn doping concentration ... 4.71 eV (computed shift 4.71-5.10=-0.39)",
+    "The un-doped Ga2O3 thin film exhibits an Eg value of 5.10 eV.",
+    "When the Sn doping concentration reaches 7.2%, the Ga2O3 detector shows the lowest Idark value of 2.74x10-11 A.",
+    "the Eg values decrease to 4.76, 4.79, 4.81, and 4.71 eV for doping concentrations of 7.2%, 14.4%, 21.6%, and 28.8%",
+    "the Eg values decrease to 4.76, 4.79, 4.81, and 4.71 eV for doping concentrations of 7.2%, 14.4%, 21.6%, and 28.8%, respectively.",
+    "un-doped Ga2O3 thin film exhibits an Eg value of 5.10 eV. Upon Sn-doping, the Eg values decrease to 4.76 ... for 7.2% (computed shift 4.76-5.10=-0.34)"
+   ],
+   "adjudication": "UNIT_A_TO_PA",
+   "adjudication_basis": "quote 'Table 3: 14.4 at% -> 3.20x10-11 A' = 32 pA exact"
+  },
+  {
+   "row_index": 60,
+   "doi": "10.3390/s24030787",
+   "y": 3000000.0,
+   "y_lin": null,
+   "verdict": "unit",
+   "quotes": [
+    "In0.4Ga1.6O3 film exhibiting 4.28 eV (vs 4.84 eV undoped)",
+    "dark current at 5V: In0.2Ga1.8O3 0.1 nA"
+   ]
+  },
+  {
+   "row_index": 85,
+   "doi": "10.1088/1361-6463/ada993",
+   "y": 17800.0,
+   "y_lin": null,
+   "verdict": "unit",
+   "quotes": [
+    "The PDCR was calculated to be 200 (under 220 nm) and 1200 (under 310 nm), respectively.",
+    "The dark current is 17.8 nA at 5 V"
+   ]
+  },
+  {
+   "row_index": 55,
+   "doi": "10.3390/s20216159",
+   "y": 2.03,
+   "y_lin": 107.1519305237606,
+   "verdict": "exact",
+   "quotes": [
+    "The optical bandgap energy of 5.07, 5.01, 4.96, and 4.98 eV was obtained for the as-grown Ga2O3 films and the Ga2O3 film",
+    "The peak ratio of the Ga-O bonds in Ga2O3 to the oxygen vacancy ... were 5.92, 7.85, 12.71, and 10.07 for the as-grown G"
+   ]
+  },
+  {
+   "row_index": 80,
+   "doi": "10.3390/s22052048",
+   "y": 27500.0,
+   "y_lin": null,
+   "verdict": "absent",
+   "quotes": [
+    "Table 2: 10 V Dark, Ag-Catalyst = 1.19 \u00d7 10^-9 A",
+    "Table 2: 10 V Dark, No-Ag = 1.23 \u00d7 10^-10 A",
+    "Table 2: 20 V Dark, Ag-Catalyst = 2.75 \u00d7 10^-8 A",
+    "Table 2: 20 V Dark, No-Ag = 3.2 \u00d7 10^-10 A",
+    "Table 2: 5 V Dark, No-Ag = 8.07 \u00d7 10^-11 A",
+    "Table 2: 50 V Dark, Ag-Catalyst = 1.25 \u00d7 10^-9 A",
+    "Table 2: 50 V Dark, No-Ag = 1.4 \u00d7 10^-9 A",
+    "Table 3: 20 V, 1 mm, Ag-Ga2O3: rise time 0.34 s, fall time 1.2 s",
+    "Table 3: 20 V, 3 mm, Ag-Ga2O3: rise time 1.6 s, fall time 0.8 s",
+    "Table 3: 5 V, 1 mm, Ag-Ga2O3: rise time 0.3 s, fall time 1.2 s",
+    "The bandgaps of beta-Ga2O3 nanowires with and without silver were found to be 4.6 eV and 4.4 eV, respectively.",
+    "The ratio of the photocurrent to dark current measured at 50 V for the Ga2O3 nanowire film on quartz (Figure 4) was almost 31.2 for the Ga2O3 film obtained with the Ag catalyst",
+    "compared to 9.5 for Ag-free Ga2O3."
+   ],
+   "adjudication": "UNIT_A_TO_PA",
+   "adjudication_basis": "quote 'Table 2: 20 V Dark, Ag = 2.75e-8 A' = 27500 pA exact"
+  },
+  {
+   "row_index": 66,
+   "doi": "10.15251/djnb.2025.202.465",
+   "y": 40.3,
+   "y_lin": null,
+   "verdict": "absent",
+   "quotes": [
+    "Eg decrease to 4.79 for 14.4% (computed shift 4.79-5.10=-0.31)",
+    "Eg decrease to 4.81 for 21.6% (computed shift 4.81-5.10=-0.29)",
+    "Table 3: Doping concentration 0.0 at% -> Idark 4.03x10-11 A",
+    "Table 3: Doping concentration 14.4 at% -> Idark 3.20x10-11 A",
+    "Table 3: Doping concentration 21.6 at% -> Idark 3.39x10-10 A",
+    "Table 3: Doping concentration 28.8 at% -> Idark 3.40x10-11 A",
+    "The band gap is the narrowest for the sample with a 28.8% Sn doping concentration ... 4.71 eV",
+    "The band gap is the narrowest for the sample with a 28.8% Sn doping concentration ... 4.71 eV (computed shift 4.71-5.10=-0.39)",
+    "The un-doped Ga2O3 thin film exhibits an Eg value of 5.10 eV.",
+    "When the Sn doping concentration reaches 7.2%, the Ga2O3 detector shows the lowest Idark value of 2.74x10-11 A.",
+    "the Eg values decrease to 4.76, 4.79, 4.81, and 4.71 eV for doping concentrations of 7.2%, 14.4%, 21.6%, and 28.8%",
+    "the Eg values decrease to 4.76, 4.79, 4.81, and 4.71 eV for doping concentrations of 7.2%, 14.4%, 21.6%, and 28.8%, respectively.",
+    "un-doped Ga2O3 thin film exhibits an Eg value of 5.10 eV. Upon Sn-doping, the Eg values decrease to 4.76 ... for 7.2% (computed shift 4.76-5.10=-0.34)"
+   ],
+   "adjudication": "UNIT_A_TO_PA",
+   "adjudication_basis": "quote 'Table 3: 0.0 at% -> Idark 4.03x10-11 A' = 40.3 pA exact"
+  },
+  {
+   "row_index": 70,
+   "doi": "10.15251/djnb.2025.202.465",
+   "y": 34.0,
+   "y_lin": null,
+   "verdict": "absent",
+   "quotes": [
+    "Eg decrease to 4.79 for 14.4% (computed shift 4.79-5.10=-0.31)",
+    "Eg decrease to 4.81 for 21.6% (computed shift 4.81-5.10=-0.29)",
+    "Table 3: Doping concentration 0.0 at% -> Idark 4.03x10-11 A",
+    "Table 3: Doping concentration 14.4 at% -> Idark 3.20x10-11 A",
+    "Table 3: Doping concentration 21.6 at% -> Idark 3.39x10-10 A",
+    "Table 3: Doping concentration 28.8 at% -> Idark 3.40x10-11 A",
+    "The band gap is the narrowest for the sample with a 28.8% Sn doping concentration ... 4.71 eV",
+    "The band gap is the narrowest for the sample with a 28.8% Sn doping concentration ... 4.71 eV (computed shift 4.71-5.10=-0.39)",
+    "The un-doped Ga2O3 thin film exhibits an Eg value of 5.10 eV.",
+    "When the Sn doping concentration reaches 7.2%, the Ga2O3 detector shows the lowest Idark value of 2.74x10-11 A.",
+    "the Eg values decrease to 4.76, 4.79, 4.81, and 4.71 eV for doping concentrations of 7.2%, 14.4%, 21.6%, and 28.8%",
+    "the Eg values decrease to 4.76, 4.79, 4.81, and 4.71 eV for doping concentrations of 7.2%, 14.4%, 21.6%, and 28.8%, respectively.",
+    "un-doped Ga2O3 thin film exhibits an Eg value of 5.10 eV. Upon Sn-doping, the Eg values decrease to 4.76 ... for 7.2% (computed shift 4.76-5.10=-0.34)"
+   ],
+   "adjudication": "UNIT_A_TO_PA",
+   "adjudication_basis": "quote 'Table 3: 28.8 at% -> 3.40x10-11 A' = 34 pA exact"
+  },
+  {
+   "row_index": 56,
+   "doi": "10.3390/s20216159",
+   "y": 6.01,
+   "y_lin": 1023292.9922807537,
+   "verdict": "exact",
+   "quotes": [
+    "The optical bandgap energy of 5.07, 5.01, 4.96, and 4.98 eV was obtained for the as-grown Ga2O3 films and the Ga2O3 film",
+    "The peak ratio of the Ga-O bonds in Ga2O3 to the oxygen vacancy ... were 5.92, 7.85, 12.71, and 10.07 for the as-grown G"
+   ]
+  },
+  {
+   "row_index": 62,
+   "doi": "10.1038/s41699-025-00574-0",
+   "y": 9.3,
+   "y_lin": 1995262314.9688828,
+   "verdict": "absent",
+   "quotes": [
+    "By fitting the rise/decay curves of photodetector, we obtained a characteristic response time of 1.18/3.09 us. (decay time = 3.09 us)",
+    "By fitting the rise/decay curves of photodetector, we obtained a characteristic response time of 1.18/3.09 us. (rise time = 1.18 us)",
+    "The dark current (I_dark) was 9.3 x 10^-12 A at a 10 V bias.",
+    "The mentioned significant I_light and very low I_dark generate a significant switching ratio (SR = I_photo/I_dark = (I_light-I_dark)/I_dark) of around 10^7.",
+    "The printed Ga2O3 has a direct bandgap of up to 4.8 eV, the absorption edge is about 260 nm"
+   ],
+   "adjudication": "UNIT_A_TO_PA",
+   "adjudication_basis": "quote '9.3 x 10^-12 A' = 9.3 pA exact"
+  },
+  {
+   "row_index": 52,
+   "doi": "10.1364/oe.380017",
+   "y": 10.0,
+   "y_lin": 10000000000.0,
+   "verdict": "exact",
+   "quotes": [
+    "Integrated with Rh NPs on oxidized Ga2O3 surface, the resultant device exhibits a reduced dark current of about 10 pA, a",
+    "relatively fast response and recovery decay times of 1.76 ms/0.80 ms"
+   ]
+  },
+  {
+   "row_index": 75,
+   "doi": "10.3390/s22052048",
+   "y": 1400.0,
+   "y_lin": null,
+   "verdict": "absent",
+   "quotes": [
+    "Table 2: 10 V Dark, Ag-Catalyst = 1.19 \u00d7 10^-9 A",
+    "Table 2: 10 V Dark, No-Ag = 1.23 \u00d7 10^-10 A",
+    "Table 2: 20 V Dark, Ag-Catalyst = 2.75 \u00d7 10^-8 A",
+    "Table 2: 20 V Dark, No-Ag = 3.2 \u00d7 10^-10 A",
+    "Table 2: 5 V Dark, No-Ag = 8.07 \u00d7 10^-11 A",
+    "Table 2: 50 V Dark, Ag-Catalyst = 1.25 \u00d7 10^-9 A",
+    "Table 2: 50 V Dark, No-Ag = 1.4 \u00d7 10^-9 A",
+    "Table 3: 20 V, 1 mm, Ag-Ga2O3: rise time 0.34 s, fall time 1.2 s",
+    "Table 3: 20 V, 3 mm, Ag-Ga2O3: rise time 1.6 s, fall time 0.8 s",
+    "Table 3: 5 V, 1 mm, Ag-Ga2O3: rise time 0.3 s, fall time 1.2 s",
+    "The bandgaps of beta-Ga2O3 nanowires with and without silver were found to be 4.6 eV and 4.4 eV, respectively.",
+    "The ratio of the photocurrent to dark current measured at 50 V for the Ga2O3 nanowire film on quartz (Figure 4) was almost 31.2 for the Ga2O3 film obtained with the Ag catalyst",
+    "compared to 9.5 for Ag-free Ga2O3."
+   ],
+   "adjudication": "UNIT_A_TO_PA",
+   "adjudication_basis": "quote 'Table 2: 50 V Dark, No-Ag = 1.4e-9 A' = 1400 pA exact"
+  },
+  {
+   "row_index": 53,
+   "doi": "10.3390/ma16134742",
+   "y": 4300.0,
+   "y_lin": null,
+   "verdict": "absent",
+   "quotes": [
+    "For the given values of R = 1573 A/W and Idark = 4.3 x 10^-9 A at 40 V, the D* of the device is calculated to be 1.5 x 10^14 Jones.",
+    "The device can achieve a photo-to-dark current ratio of 10^3 under the illumination of 254 nm with a light intensity of 10^6 uW/cm2.",
+    "The fitting of the decay process to Equation (3) yields tau_d1 = 2.1 ms and tau_d2 = 28 ms.",
+    "The transient response of the detector, which exhibits a rise time (tau_r, defined as the duration required to increase the photocurrent from 10% to 90% of the maximum value) of 18.4 us approximately."
+   ],
+   "adjudication": "UNIT_A_TO_PA",
+   "adjudication_basis": "quote 'Idark = 4.3 x 10^-9 A' = 4300 pA exact"
+  },
+  {
+   "row_index": 84,
+   "doi": "10.3390/coatings14091204",
+   "y": 41.8,
+   "y_lin": null,
+   "verdict": "mantissa",
+   "quotes": [
+    "The a-Ga2O3 PDs without RF-bias exhibited the lowest photocurrent (I photo), which was only 1.12 \u00d7 10\u22128 A at a bias volt",
+    "The best overall performance of a-Ga2O3 photodetectors fabricated at 20 W exhibits a high responsivity of 30.59 A/W, a l"
+   ]
+  },
+  {
+   "row_index": 54,
+   "doi": "10.3390/s20216159",
+   "y": 43.87,
+   "y_lin": null,
+   "verdict": "exact",
+   "quotes": [
+    "The optical bandgap energy of 5.07, 5.01, 4.96, and 4.98 eV was obtained for the as-grown Ga2O3 films and the Ga2O3 film",
+    "The peak ratio of the Ga-O bonds in Ga2O3 to the oxygen vacancy ... were 5.92, 7.85, 12.71, and 10.07 for the as-grown G"
+   ]
+  },
+  {
+   "row_index": 83,
+   "doi": "10.3390/pr13010068",
+   "y": 250.0,
+   "y_lin": null,
+   "verdict": "unit",
+   "quotes": [
+    "Annealing Temperature 1000 C / Energy (eV) 5.25 / Evaluated Al content 22.1%",
+    "Annealing Temperature 1200 C / Energy (eV) 5.75 / Evaluated Al content 46.2%"
+   ]
+  },
+  {
+   "row_index": 74,
+   "doi": "10.3390/s22052048",
+   "y": 1250.0,
+   "y_lin": null,
+   "verdict": "absent",
+   "quotes": [
+    "Table 2: 10 V Dark, Ag-Catalyst = 1.19 \u00d7 10^-9 A",
+    "Table 2: 10 V Dark, No-Ag = 1.23 \u00d7 10^-10 A",
+    "Table 2: 20 V Dark, Ag-Catalyst = 2.75 \u00d7 10^-8 A",
+    "Table 2: 20 V Dark, No-Ag = 3.2 \u00d7 10^-10 A",
+    "Table 2: 5 V Dark, No-Ag = 8.07 \u00d7 10^-11 A",
+    "Table 2: 50 V Dark, Ag-Catalyst = 1.25 \u00d7 10^-9 A",
+    "Table 2: 50 V Dark, No-Ag = 1.4 \u00d7 10^-9 A",
+    "Table 3: 20 V, 1 mm, Ag-Ga2O3: rise time 0.34 s, fall time 1.2 s",
+    "Table 3: 20 V, 3 mm, Ag-Ga2O3: rise time 1.6 s, fall time 0.8 s",
+    "Table 3: 5 V, 1 mm, Ag-Ga2O3: rise time 0.3 s, fall time 1.2 s",
+    "The bandgaps of beta-Ga2O3 nanowires with and without silver were found to be 4.6 eV and 4.4 eV, respectively.",
+    "The ratio of the photocurrent to dark current measured at 50 V for the Ga2O3 nanowire film on quartz (Figure 4) was almost 31.2 for the Ga2O3 film obtained with the Ag catalyst",
+    "compared to 9.5 for Ag-free Ga2O3."
+   ],
+   "adjudication": "UNIT_A_TO_PA",
+   "adjudication_basis": "quote 'Table 2: 50 V Dark, Ag = 1.25e-9 A' = 1250 pA exact"
+  },
+  {
+   "row_index": 78,
+   "doi": "10.3390/s22052048",
+   "y": 320.0,
+   "y_lin": null,
+   "verdict": "absent",
+   "quotes": [
+    "Table 2: 10 V Dark, Ag-Catalyst = 1.19 \u00d7 10^-9 A",
+    "Table 2: 10 V Dark, No-Ag = 1.23 \u00d7 10^-10 A",
+    "Table 2: 20 V Dark, Ag-Catalyst = 2.75 \u00d7 10^-8 A",
+    "Table 2: 20 V Dark, No-Ag = 3.2 \u00d7 10^-10 A",
+    "Table 2: 5 V Dark, No-Ag = 8.07 \u00d7 10^-11 A",
+    "Table 2: 50 V Dark, Ag-Catalyst = 1.25 \u00d7 10^-9 A",
+    "Table 2: 50 V Dark, No-Ag = 1.4 \u00d7 10^-9 A",
+    "Table 3: 20 V, 1 mm, Ag-Ga2O3: rise time 0.34 s, fall time 1.2 s",
+    "Table 3: 20 V, 3 mm, Ag-Ga2O3: rise time 1.6 s, fall time 0.8 s",
+    "Table 3: 5 V, 1 mm, Ag-Ga2O3: rise time 0.3 s, fall time 1.2 s",
+    "The bandgaps of beta-Ga2O3 nanowires with and without silver were found to be 4.6 eV and 4.4 eV, respectively.",
+    "The ratio of the photocurrent to dark current measured at 50 V for the Ga2O3 nanowire film on quartz (Figure 4) was almost 31.2 for the Ga2O3 film obtained with the Ag catalyst",
+    "compared to 9.5 for Ag-free Ga2O3."
+   ],
+   "adjudication": "UNIT_A_TO_PA",
+   "adjudication_basis": "quote 'Table 2: 20 V Dark, No-Ag = 3.2e-10 A' = 320 pA exact"
+  },
+  {
+   "row_index": 61,
+   "doi": "10.1039/d4ra04176c",
+   "y": 15.0,
+   "y_lin": 1000000000000000.0,
+   "verdict": "unit",
+   "quotes": [
+    "Ga2O3 has a band gap width of about 4.84 eV",
+    "InAl-Ga2O3 has a band gap width of about 4.59 eV"
+   ]
+  },
+  {
+   "row_index": 73,
+   "doi": "10.1038/srep24190",
+   "y": 3100.0,
+   "y_lin": null,
+   "verdict": "unit",
+   "quotes": [
+    "The band gap for 28.4 at.% Mn doping Ga2O3 thin film can be estimated to about 4.75 eV",
+    "The fresh dark current is about 0.8 nA at the voltage of 10 V"
+   ]
+  },
+  {
+   "row_index": 69,
+   "doi": "10.15251/djnb.2025.202.465",
+   "y": 339.0,
+   "y_lin": null,
+   "verdict": "unit",
+   "quotes": [
+    "Eg decrease to 4.79 for 14.4% (computed shift 4.79-5.10=-0.31)",
+    "Eg decrease to 4.81 for 21.6% (computed shift 4.81-5.10=-0.29)"
+   ]
+  },
+  {
+   "row_index": 76,
+   "doi": "10.3390/s22052048",
+   "y": 80.7,
+   "y_lin": null,
+   "verdict": "absent",
+   "quotes": [
+    "Table 2: 10 V Dark, Ag-Catalyst = 1.19 \u00d7 10^-9 A",
+    "Table 2: 10 V Dark, No-Ag = 1.23 \u00d7 10^-10 A",
+    "Table 2: 20 V Dark, Ag-Catalyst = 2.75 \u00d7 10^-8 A",
+    "Table 2: 20 V Dark, No-Ag = 3.2 \u00d7 10^-10 A",
+    "Table 2: 5 V Dark, No-Ag = 8.07 \u00d7 10^-11 A",
+    "Table 2: 50 V Dark, Ag-Catalyst = 1.25 \u00d7 10^-9 A",
+    "Table 2: 50 V Dark, No-Ag = 1.4 \u00d7 10^-9 A",
+    "Table 3: 20 V, 1 mm, Ag-Ga2O3: rise time 0.34 s, fall time 1.2 s",
+    "Table 3: 20 V, 3 mm, Ag-Ga2O3: rise time 1.6 s, fall time 0.8 s",
+    "Table 3: 5 V, 1 mm, Ag-Ga2O3: rise time 0.3 s, fall time 1.2 s",
+    "The bandgaps of beta-Ga2O3 nanowires with and without silver were found to be 4.6 eV and 4.4 eV, respectively.",
+    "The ratio of the photocurrent to dark current measured at 50 V for the Ga2O3 nanowire film on quartz (Figure 4) was almost 31.2 for the Ga2O3 film obtained with the Ag catalyst",
+    "compared to 9.5 for Ag-free Ga2O3."
+   ],
+   "adjudication": "UNIT_A_TO_PA",
+   "adjudication_basis": "quote 'Table 2: 5 V Dark, No-Ag = 8.07e-11 A' = 80.7 pA exact"
+  },
+  {
+   "row_index": 57,
+   "doi": "10.3390/s24030787",
+   "y": 50.0,
+   "y_lin": null,
+   "verdict": "unit",
+   "quotes": [
+    "In0.4Ga1.6O3 film exhibiting 4.28 eV (vs 4.84 eV undoped)",
+    "dark current at 5V: In0.2Ga1.8O3 0.1 nA"
+   ]
+  },
+  {
+   "row_index": 71,
+   "doi": "10.3390/nano15241867",
+   "y": 1.0,
+   "y_lin": 10.0,
+   "verdict": "exact",
+   "quotes": [
+    "The optical band gaps of the films deposited at 250 \u00b0C, 300 \u00b0C, 350 \u00b0C, and 400 \u00b0C were determined to be 4.96 eV, 5.15 e",
+    "the PDCR rises and exceeds 106, indicating an excellent solar-blind ultraviolet photodetection performance."
+   ]
+  },
+  {
+   "row_index": 58,
+   "doi": "10.3390/s24030787",
+   "y": 100.0,
+   "y_lin": null,
+   "verdict": "unit",
+   "quotes": [
+    "In0.4Ga1.6O3 film exhibiting 4.28 eV (vs 4.84 eV undoped)",
+    "dark current at 5V: In0.2Ga1.8O3 0.1 nA"
+   ]
+  },
+  {
+   "row_index": 65,
+   "doi": "10.1002/advs.202407822",
+   "y": 400.0,
+   "y_lin": null,
+   "verdict": "unit",
+   "quotes": [
+    "response times of 12.8 ms (rise) and 31.3 ms (decay)",
+    "the dark current ... fluctuates weakly between 0.4 and 1.6 nA; increasing oxygen flow reduces the dark current, attribut"
+   ]
+  },
+  {
+   "row_index": 79,
+   "doi": "10.3390/s22052048",
+   "y": 1190.0,
+   "y_lin": null,
+   "verdict": "unit",
+   "quotes": [
+    "Table 2: 10 V Dark, Ag-Catalyst = 1.19 \u00d7 10^-9 A",
+    "Table 2: 10 V Dark, No-Ag = 1.23 \u00d7 10^-10 A"
+   ]
+  }
+ ],
+ "photo_dark_ratio": [
+  {
+   "row_index": 210,
+   "doi": "10.1088/1361-6463/ada993",
+   "y": 2.301,
+   "y_lin": 199.9861869632745,
+   "verdict": "exact",
+   "quotes": [
+    "The PDCR was calculated to be 200 (under 220 nm) and 1200 (under 310 nm), respectively.",
+    "The dark current is 17.8 nA at 5 V"
+   ]
+  },
+  {
+   "row_index": 206,
+   "doi": "10.3390/nano15050402",
+   "y": 6.0,
+   "y_lin": 1000000.0,
+   "verdict": "absent",
+   "quotes": [
+    "Under a 20 V bias, the dark current (Idark) is as low as 4.76 x 10-12 A",
+    "the bandgap of the beta-Ga2O3 nanorods is about 4.7 eV",
+    "the dark current (Idark) is as low as 4.76 x 10-12 A, while Ilight reaches 2.58 x 10-6 A...resulting in a high photo-to-dark current ratio (PDCR) of 106",
+    "the measured typical rise and fall times of the device are 0.65s and 0.77s, respectively"
+   ],
+   "adjudication": "SUPERSCRIPT_MANGLED",
+   "adjudication_basis": "source text 'PDCR of 106' = 10^6 with lost superscript; constituent currents quoted (4.76e-12 / 2.58e-6 A)"
+  },
+  {
+   "row_index": 192,
+   "doi": "10.1039/d4lf00257a",
+   "y": 0.9243,
+   "y_lin": 8.400400652637689,
+   "verdict": "exact",
+   "quotes": [
+    "The aforementioned comparison shows 100 mTorr sample shows the best photodetection performance with 30 A/W R, 8 x 10^12 ",
+    "The bandgap energy of the films oscillates between 4.7 and 4.9 eV and is in good agreement with the reported values in t"
+   ]
+  },
+  {
+   "row_index": 209,
+   "doi": "10.1088/1361-6463/ada993",
+   "y": 3.0792,
+   "y_lin": 1200.0518202042658,
+   "verdict": "exact",
+   "quotes": [
+    "The PDCR was calculated to be 200 (under 220 nm) and 1200 (under 310 nm), respectively.",
+    "The dark current is 17.8 nA at 5 V"
+   ]
+  },
+  {
+   "row_index": 204,
+   "doi": "10.3390/s22052048",
+   "y": 1.4942,
+   "y_lin": 31.203262165980117,
+   "verdict": "exact",
+   "quotes": [
+    "Table 2: 10 V Dark, Ag-Catalyst = 1.19 \u00d7 10^-9 A",
+    "Table 2: 10 V Dark, No-Ag = 1.23 \u00d7 10^-10 A"
+   ]
+  },
+  {
+   "row_index": 198,
+   "doi": "10.3390/s24030787",
+   "y": 3.4553,
+   "y_lin": 2852.9883615207186,
+   "verdict": "absent",
+   "quotes": [
+    "In0.4Ga1.6O3 film exhibiting 4.28 eV (vs 4.84 eV undoped)",
+    "dark current at 5V: In0.2Ga1.8O3 0.1 nA",
+    "dark current at 5V: In0.4Ga1.6O3 8.2 nA",
+    "dark current at 5V: In0.6Ga1.4O3 3.0 uA",
+    "dark current at 5V: beta-Ga2O3 0.05 nA",
+    "decay time In0.2Ga1.8O3 0.76 s; rise time 3.58 s",
+    "decay time In0.4Ga1.6O3 4.18 s; rise time 6.23 s",
+    "decay time In0.6Ga1.4O3 18.63 s; rise time 9.42 s",
+    "decay time beta-Ga2O3 0.07 s; rise time 0.57 s",
+    "high light-to-dark current ratio (2.8 x 10^3) for In0.4Ga1.6O3",
+    "light-to-dark current ratio at 5V: In0.2Ga1.8O3 532",
+    "light-to-dark current ratio at 5V: In0.6Ga1.4O3 253",
+    "light-to-dark current ratio at 5V: beta-Ga2O3 4",
+    "the In0.2Ga1.8O3 film possessing 4.46 eV",
+    "the In0.4Ga1.6O3 film exhibiting 4.28 eV",
+    "the In0.6Ga1.4O3 film featuring 4.18 eV",
+    "the In0.6Ga1.4O3 film featuring 4.18 eV (vs 4.84 eV undoped) - a 0.66 eV decrease",
+    "the approximate bandgap width of the thin film materials continuously decreases with increasing In doping concentration (4.84->4.46 eV)",
+    "the beta-Ga2O3 film having 4.84 eV"
+   ],
+   "adjudication": "DERIVED_RATIO",
+   "adjudication_basis": "constructed photo/dark; constituent dark currents quoted (In-alloy series)"
+  },
+  {
+   "row_index": 197,
+   "doi": "10.3390/s24030787",
+   "y": 2.7259,
+   "y_lin": 531.9857509170661,
+   "verdict": "exact",
+   "quotes": [
+    "In0.4Ga1.6O3 film exhibiting 4.28 eV (vs 4.84 eV undoped)",
+    "dark current at 5V: In0.2Ga1.8O3 0.1 nA"
+   ]
+  },
+  {
+   "row_index": 195,
+   "doi": "10.3390/s20216159",
+   "y": 4.1313,
+   "y_lin": 13530.0686449196,
+   "verdict": "absent",
+   "quotes": [
+    "The optical bandgap energy of 5.07, 5.01, 4.96, and 4.98 eV was obtained for the as-grown Ga2O3 films and the Ga2O3 films annealed at 700, 800, and 900 \u00b0C, respectively.",
+    "The peak ratio of the Ga-O bonds in Ga2O3 to the oxygen vacancy ... were 5.92, 7.85, 12.71, and 10.07 for the as-grown Ga2O3 films and the Ga2O3 films annealed at 700, 800, and 900 \u00b0C, respectively.",
+    "The peak ratios were 5.92, 7.85, 12.71, and 10.07 for the as-grown Ga2O3 films and the Ga2O3 films annealed at 700, 800, and 900 \u00b0C, respectively.",
+    "photocurrent ... 2.77 nA (as-grown); dark current 43.87 pA \u2014 ratio ~63 (derived)",
+    "the dark current ... decreased from 43.87 pA to 2.03 pA",
+    "the dark current ... decreased from 43.87 pA to 2.03 pA ... photocurrent 27.45 nA at 800 C \u2014 ratio ~1.35e4 (derived)",
+    "the dark current and photocurrent of the MSM DUV-PDs with the Ga2O3 active layer annealed at 800 \u00b0C decreased from 43.87 pA to 2.03 pA",
+    "the larger dark current of 6.01 pA of the devices with the 900 \u00b0C-annealed Ga2O3 active layer at bias voltage = 5 V"
+   ],
+   "adjudication": "DERIVED_RATIO",
+   "adjudication_basis": "constructed photo/dark from quoted constituents; quote itself records 'ratio ~1.35e4 (derived)'"
+  },
+  {
+   "row_index": 161,
+   "doi": "10.1039/d3tc03599a",
+   "y": 2.681241237375587,
+   "y_lin": 479.99999999999994,
+   "verdict": "absent",
+   "quotes": [
+    "The optical bandgap (Eg) of \u03b5-Ga2O3 film and Zn-doped \u03b5-Ga2O3 film can be determined to be 5.22 eV and 5.12 eV, respectively."
+   ],
+   "adjudication": "QUOTE_NOT_RETAINED_FLAG",
+   "adjudication_basis": "no PDR quote retained for this DOI (only an Eg quote); unverifiable from ingest artifacts -> flagged"
+  },
+  {
+   "row_index": 202,
+   "doi": "10.3390/nano15181397",
+   "y": 2.0569,
+   "y_lin": 113.99872655699774,
+   "verdict": "exact",
+   "quotes": [
+    "At a bias of 10 V, the dark current of the device is 3.75x10^-12 A, and the photocurrent is 4.29x10^-10 A.",
+    "The calculated PDCR at a bias of 10 V is 114 in this work."
+   ]
+  },
+  {
+   "row_index": 203,
+   "doi": "10.3390/nano15241867",
+   "y": 6.0,
+   "y_lin": 1000000.0,
+   "verdict": "absent",
+   "quotes": [
+    "The optical band gaps of the films deposited at 250 \u00b0C, 300 \u00b0C, 350 \u00b0C, and 400 \u00b0C were determined to be 4.96 eV, 5.15 eV, 5.21 eV, and 4.89 eV, respectively.",
+    "the PDCR rises and exceeds 106, indicating an excellent solar-blind ultraviolet photodetection performance.",
+    "the dark current is lower than 1 pA"
+   ],
+   "adjudication": "SUPERSCRIPT_MANGLED",
+   "adjudication_basis": "source text 'PDCR ... exceeds 106' = 10^6 with lost superscript; stored 1e6 = the reported floor"
+  },
+  {
+   "row_index": 207,
+   "doi": "10.3390/mi17010100",
+   "y": 4.2041,
+   "y_lin": 15999.263828686002,
+   "verdict": "exact",
+   "quotes": [
+    "The E_g value for \u03b2-Ga2O3 is 4.58 \u00b1 0.05 eV. ... A plot of the squared absorption coefficient (\u03b12) versus photon energy ",
+    "The forward dark current increases from 500 fA to 2.4 \u03bcA as the bias voltage rises from 0.01 V to 1 V."
+   ]
+  },
+  {
+   "row_index": 208,
+   "doi": "10.1002/adma.202406902",
+   "y": 2.764,
+   "y_lin": 580.7644175213118,
+   "verdict": "exact",
+   "quotes": [
+    "high on/off ratio of 580.8 when illuminated with DUV light (lambda = 240 nm)",
+    "optical bandgap values for beta-Ga2O3 and kappa-Ga2O3 are determined to be 4.94 and 5.0 eV, respectively"
+   ]
+  },
+  {
+   "row_index": 194,
+   "doi": "10.3390/s20216159",
+   "y": 1.7993,
+   "y_lin": 62.99411805485584,
+   "verdict": "exact",
+   "quotes": [
+    "The optical bandgap energy of 5.07, 5.01, 4.96, and 4.98 eV was obtained for the as-grown Ga2O3 films and the Ga2O3 film",
+    "The peak ratio of the Ga-O bonds in Ga2O3 to the oxygen vacancy ... were 5.92, 7.85, 12.71, and 10.07 for the as-grown G"
+   ]
+  },
+  {
+   "row_index": 205,
+   "doi": "10.3390/s22052048",
+   "y": 0.9777,
+   "y_lin": 9.499483658763465,
+   "verdict": "exact",
+   "quotes": [
+    "Table 2: 10 V Dark, Ag-Catalyst = 1.19 \u00d7 10^-9 A",
+    "Table 2: 10 V Dark, No-Ag = 1.23 \u00d7 10^-10 A"
+   ]
+  },
+  {
+   "row_index": 193,
+   "doi": "10.3390/ma16134742",
+   "y": 3.0,
+   "y_lin": 1000.0,
+   "verdict": "exact",
+   "quotes": [
+    "For the given values of R = 1573 A/W and Idark = 4.3 x 10^-9 A at 40 V, the D* of the device is calculated to be 1.5 x 1",
+    "The device can achieve a photo-to-dark current ratio of 10^3 under the illumination of 254 nm with a light intensity of "
+   ]
+  },
+  {
+   "row_index": 196,
+   "doi": "10.3390/s24030787",
+   "y": 0.6021,
+   "y_lin": 4.000368510461249,
+   "verdict": "exact",
+   "quotes": [
+    "In0.4Ga1.6O3 film exhibiting 4.28 eV (vs 4.84 eV undoped)",
+    "dark current at 5V: In0.2Ga1.8O3 0.1 nA"
+   ]
+  },
+  {
+   "row_index": 199,
+   "doi": "10.3390/s24030787",
+   "y": 2.4031,
+   "y_lin": 252.9880455887927,
+   "verdict": "exact",
+   "quotes": [
+    "In0.4Ga1.6O3 film exhibiting 4.28 eV (vs 4.84 eV undoped)",
+    "dark current at 5V: In0.2Ga1.8O3 0.1 nA"
+   ]
+  },
+  {
+   "row_index": 201,
+   "doi": "10.1038/s41699-025-00574-0",
+   "y": 7.0,
+   "y_lin": 10000000.0,
+   "verdict": "exact",
+   "quotes": [
+    "By fitting the rise/decay curves of photodetector, we obtained a characteristic response time of 1.18/3.09 us. (decay ti",
+    "By fitting the rise/decay curves of photodetector, we obtained a characteristic response time of 1.18/3.09 us. (rise tim"
+   ]
+  },
+  {
+   "row_index": 211,
+   "doi": "10.3390/s26041197",
+   "y": 3.5563,
+   "y_lin": 3599.979270433565,
+   "verdict": "exact",
+   "quotes": [
+    "According to the results shown in Figure 1 f, the rise time and fall time are estimated to be 0.79 S and 7.40 S, respect",
+    "By using the atomic percentages of In and Ga at an oxygen pressure of 10 Pa in Figure S2f , the bandgap and electron pot"
+   ]
+  },
+  {
+   "row_index": 200,
+   "doi": "10.1039/d4ra04176c",
+   "y": 3.0,
+   "y_lin": 1000.0,
+   "verdict": "exact",
+   "quotes": [
+    "Ga2O3 has a band gap width of about 4.84 eV",
+    "InAl-Ga2O3 has a band gap width of about 4.59 eV"
+   ]
+  }
+ ],
+ "_summary": {
+  "dark_current_pA": "35/35 supported after extending the unit set to 10^12 (A->pA): 5 exact-in-pA, 29 A->pA verbatim, 1 mantissa-grade; zero unmatched",
+  "photo_dark_ratio": "16/21 verbatim; of the 5 others: 2 constructed photo/dark ratios (constituents quoted), 2 lost-superscript '10^6' in source text (values present), 1 quote-not-retained (flagged)",
+  "flag_added": {
+   "fom": "photo_dark_ratio",
+   "row_index": 161,
+   "doi": "10.1039/D3TC03599A",
+   "dopant": "Zn",
+   "conc": 6.34
+  },
+  "headline_exposure": "neither flagged-candidate row enters the trend battery (37/37, 14/17) or LOLO certification; both properties carry direction/ranking-grade conclusions only"
+ }
+}

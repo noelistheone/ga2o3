@@ -1,0 +1,33 @@
+{
+  "metadata": {
+    "source": "compute_chemical_potentials.py",
+    "phase": "Phase 53 Stage 2/3",
+    "reference_calcs": [
+      "bulk_Ga2O3",
+      "Ga_metal",
+      "O2_mol"
+    ]
+  },
+  "e_bulk_Ga2O3_eV": -88224.43387469587,
+  "n_atoms_bulk": 80,
+  "e_per_FU_eV": -5514.027117168492,
+  "mu_Ga_eV": -2083.0090403735117,
+  "mu_O_eV": -449.33634547382275,
+  "eVBM_eV": 0.0,
+  "eCBM_eV": 4.85,
+  "Eg_eV": 4.85,
+  "limits": {
+    "Ga_rich": {
+      "mu_Ga": -2080.7993676246606,
+      "mu_O": -450.8094606397235
+    },
+    "O_rich": {
+      "mu_Ga": -2085.2187131223627,
+      "mu_O": -447.863230307922
+    },
+    "mid": {
+      "mu_Ga": -2083.0090403735117,
+      "mu_O": -449.33634547382275
+    }
+  }
+}

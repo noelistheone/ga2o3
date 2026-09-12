@@ -1,0 +1,28 @@
+{
+  "Tf_global": 1500,
+  "properties": {
+    "n": {
+      "prop": "n",
+      "n_rows": 292,
+      "n_labs": 68,
+      "raw_uncorrected_median_dex": 1.09,
+      "modeA_crosslab_LOLO_median_dex": 1.1,
+      "modeB_anchored_median_dex": 0.82,
+      "within_lab_scatter_floor_dex": 0.62,
+      "modeA_factor": 12.7,
+      "modeB_factor": 6.6
+    },
+    "mu": {
+      "prop": "mu",
+      "n_rows": 269,
+      "n_labs": 69,
+      "raw_uncorrected_median_dex": 0.21,
+      "modeA_crosslab_LOLO_median_dex": 0.23,
+      "modeB_anchored_median_dex": 0.16,
+      "within_lab_scatter_floor_dex": 0.12,
+      "modeA_factor": 1.7,
+      "modeB_factor": 1.5
+    }
+  },
+  "verdict": "Mode B (anchored on the target lab) reaches the within-lab scatter floor = LAB-USABLE; Mode A (cross-lab transport) is order-of-magnitude, ceiling-limited by unrecorded/confounded activation state. Every value is the sandbox forward pass; the per-lab offset is one scalar for that bench."
+}

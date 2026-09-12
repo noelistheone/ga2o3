@@ -1,0 +1,37 @@
+{
+ "Ks": [
+  1,
+  2,
+  3,
+  4,
+  5
+ ],
+ "per_K": {
+  "1": {
+   "designed": 0.749,
+   "random": 0.896,
+   "n_labs": 13
+  },
+  "2": {
+   "designed": 0.715,
+   "random": 0.655,
+   "n_labs": 13
+  },
+  "3": {
+   "designed": 0.715,
+   "random": 0.79,
+   "n_labs": 9
+  },
+  "4": {
+   "designed": 1.01,
+   "random": 1.01,
+   "n_labs": 5
+  },
+  "5": {
+   "designed": 1.534,
+   "random": 1.49,
+   "n_labs": 4
+  }
+ },
+ "protocol": "fixed held-out test (alternating doped rows); anchors from remainder only"
+}

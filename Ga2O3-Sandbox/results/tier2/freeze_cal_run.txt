@@ -1,0 +1,112 @@
+{
+  "donor_subset_calibration": {
+    "donors": [
+      "Si",
+      "Sn",
+      "Ge",
+      "Zr",
+      "Hf",
+      "Ta"
+    ],
+    "best_freeze_in_T": 1350,
+    "train_rms_by_T": {
+      "1073": 1.46,
+      "1200": 0.72,
+      "1350": 0.71,
+      "1500": 1.19,
+      "1650": 1.6,
+      "1800": 1.82,
+      "1950": 1.88
+    },
+    "train_rms_log10n": 0.71,
+    "TEST_rms_log10n_heldout": 7.08,
+    "all_donor_rms_log10n": 5.03,
+    "per_donor": {
+      "Si": {
+        "pred_log_n": 18.36,
+        "corpus_log_n": 18.19,
+        "err": 0.17
+      },
+      "Sn": {
+        "pred_log_n": 18.19,
+        "corpus_log_n": 18.32,
+        "err": -0.13
+      },
+      "Ge": {
+        "pred_log_n": 18.91,
+        "corpus_log_n": 17.7,
+        "err": 1.21
+      },
+      "Zr": {
+        "pred_log_n": 18.91,
+        "corpus_log_n": 18.18,
+        "err": 0.73
+      },
+      "Hf": {
+        "pred_log_n": 18.91,
+        "corpus_log_n": 19.01,
+        "err": -0.1
+      },
+      "Ta": {
+        "pred_log_n": 5.76,
+        "corpus_log_n": 18.0,
+        "err": -12.24
+      }
+    },
+    "verdict": "for the shallow-donor subclass, a calibrated freeze-in T gives absolute n within ~7.1 orders (held-out) \u2014 the predictable-subclass absolute accuracy"
+  },
+  "n_dopants": 10,
+  "dopants": [
+    "Cr",
+    "Ge",
+    "H",
+    "Hf",
+    "Mg",
+    "Si",
+    "Sn",
+    "Ta",
+    "Zn",
+    "Zr"
+  ],
+  "train_dopants": [
+    "Cr",
+    "H",
+    "Mg",
+    "Sn",
+    "Zn"
+  ],
+  "test_dopants": [
+    "Ge",
+    "Hf",
+    "Si",
+    "Ta",
+    "Zr"
+  ],
+  "train_rms_by_T": {
+    "1073": 10.83,
+    "1200": 10.68,
+    "1350": 10.56,
+    "1500": 10.52,
+    "1650": 10.51,
+    "1800": 10.51,
+    "1950": 10.51
+  },
+  "best_freeze_in_T_on_train": 1950,
+  "train_rms_log10n": 10.51,
+  "TEST_rms_log10n_heldout": 1.93,
+  "all_rms_log10n": 7.56,
+  "interpretation": "held-out RMS(log n) = 1.9 orders \u2192 one global freeze-in T does NOT give absolute n; only per-dopant fitting would (overfitting). Absolutes remain energetics-capped; the freeze-in knob sets the overall SCALE not per-dopant values"
+}
+
+per-dopant at best T:
+  Cr  pred=+16.99 corpus=+18.00 err=-1.01 [train]
+  Ge  pred=+20.10 corpus=+17.70 err=+2.40 [TEST]
+  H   pred=+16.16 corpus=+18.68 err=-2.53 [train]
+  Hf  pred=+20.10 corpus=+19.01 err=+1.09 [TEST]
+  Mg  pred= +0.00 corpus=+14.76 err=-14.76 [train]
+  Si  pred=+20.09 corpus=+18.19 err=+1.90 [TEST]
+  Sn  pred=+20.08 corpus=+18.32 err=+1.76 [train]
+  Ta  pred=+20.10 corpus=+18.00 err=+2.10 [TEST]
+  Zn  pred= +0.00 corpus=+18.00 err=-18.00 [train]
+  Zr  pred=+20.10 corpus=+18.18 err=+1.93 [TEST]
+

@@ -1,0 +1,16 @@
+{
+  "defect": "VGa",
+  "charges": "0/-3",
+  "dQ_amu_half_A": 3.398,
+  "lambda_qA_eV": 1.032,
+  "lambda_qB_eV": 2.005,
+  "effective_lambda_eV": 1.519,
+  "driving_force_dE_eV": 0.8,
+  "N_trap_cm3": 1e+17,
+  "capture_barrier_eV": 0.885,
+  "effective_phonon_meV": 33.2,
+  "capture_coeff_cm3_s": 1.3550704219666983e-22,
+  "capture_cross_section_cm2": 6.775352109833491e-30,
+  "SRH_tau_s": 73796.90263983753,
+  "fidelity": "order-of-magnitude / class-ranking only (C0 bounded, not full Alkauskas ME)"
+}

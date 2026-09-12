@@ -1,0 +1,168 @@
+{
+  "melt_K": 3000.0,
+  "n_cells": 20,
+  "cells": [
+    {
+      "seed": 0,
+      "E_per_atom": -5.8667,
+      "GaO_bond_mean_A": 1.958,
+      "GaO_bond_std_A": 0.109,
+      "n_GaO_bonds": 161,
+      "volume_A3": 845.9
+    },
+    {
+      "seed": 1,
+      "E_per_atom": -6.0301,
+      "GaO_bond_mean_A": 1.943,
+      "GaO_bond_std_A": 0.089,
+      "n_GaO_bonds": 160,
+      "volume_A3": 845.9
+    },
+    {
+      "seed": 2,
+      "E_per_atom": -6.0301,
+      "GaO_bond_mean_A": 1.943,
+      "GaO_bond_std_A": 0.089,
+      "n_GaO_bonds": 160,
+      "volume_A3": 845.9
+    },
+    {
+      "seed": 3,
+      "E_per_atom": -5.9688,
+      "GaO_bond_mean_A": 1.968,
+      "GaO_bond_std_A": 0.096,
+      "n_GaO_bonds": 168,
+      "volume_A3": 845.9
+    },
+    {
+      "seed": 4,
+      "E_per_atom": -5.9665,
+      "GaO_bond_mean_A": 1.963,
+      "GaO_bond_std_A": 0.11,
+      "n_GaO_bonds": 164,
+      "volume_A3": 845.9
+    },
+    {
+      "seed": 5,
+      "E_per_atom": -6.0301,
+      "GaO_bond_mean_A": 1.943,
+      "GaO_bond_std_A": 0.089,
+      "n_GaO_bonds": 160,
+      "volume_A3": 845.9
+    },
+    {
+      "seed": 6,
+      "E_per_atom": -5.9732,
+      "GaO_bond_mean_A": 1.967,
+      "GaO_bond_std_A": 0.108,
+      "n_GaO_bonds": 166,
+      "volume_A3": 845.9
+    },
+    {
+      "seed": 7,
+      "E_per_atom": -5.9888,
+      "GaO_bond_mean_A": 1.98,
+      "GaO_bond_std_A": 0.091,
+      "n_GaO_bonds": 172,
+      "volume_A3": 845.9
+    },
+    {
+      "seed": 8,
+      "E_per_atom": -6.0301,
+      "GaO_bond_mean_A": 1.943,
+      "GaO_bond_std_A": 0.089,
+      "n_GaO_bonds": 160,
+      "volume_A3": 845.9
+    },
+    {
+      "seed": 9,
+      "E_per_atom": -5.8953,
+      "GaO_bond_mean_A": 1.935,
+      "GaO_bond_std_A": 0.109,
+      "n_GaO_bonds": 154,
+      "volume_A3": 845.9
+    },
+    {
+      "seed": 10,
+      "E_per_atom": -6.0301,
+      "GaO_bond_mean_A": 1.943,
+      "GaO_bond_std_A": 0.089,
+      "n_GaO_bonds": 160,
+      "volume_A3": 845.9
+    },
+    {
+      "seed": 11,
+      "E_per_atom": -6.0301,
+      "GaO_bond_mean_A": 1.943,
+      "GaO_bond_std_A": 0.089,
+      "n_GaO_bonds": 160,
+      "volume_A3": 845.9
+    },
+    {
+      "seed": 12,
+      "E_per_atom": -5.9787,
+      "GaO_bond_mean_A": 1.967,
+      "GaO_bond_std_A": 0.1,
+      "n_GaO_bonds": 166,
+      "volume_A3": 845.9
+    },
+    {
+      "seed": 13,
+      "E_per_atom": -6.03,
+      "GaO_bond_mean_A": 1.943,
+      "GaO_bond_std_A": 0.089,
+      "n_GaO_bonds": 160,
+      "volume_A3": 845.9
+    },
+    {
+      "seed": 14,
+      "E_per_atom": -6.0071,
+      "GaO_bond_mean_A": 1.954,
+      "GaO_bond_std_A": 0.086,
+      "n_GaO_bonds": 160,
+      "volume_A3": 845.9
+    },
+    {
+      "seed": 15,
+      "E_per_atom": -6.03,
+      "GaO_bond_mean_A": 1.943,
+      "GaO_bond_std_A": 0.089,
+      "n_GaO_bonds": 160,
+      "volume_A3": 845.9
+    },
+    {
+      "seed": 16,
+      "E_per_atom": -6.03,
+      "GaO_bond_mean_A": 1.943,
+      "GaO_bond_std_A": 0.089,
+      "n_GaO_bonds": 160,
+      "volume_A3": 845.9
+    },
+    {
+      "seed": 17,
+      "E_per_atom": -5.9495,
+      "GaO_bond_mean_A": 1.981,
+      "GaO_bond_std_A": 0.119,
+      "n_GaO_bonds": 166,
+      "volume_A3": 845.9
+    },
+    {
+      "seed": 18,
+      "E_per_atom": -6.0071,
+      "GaO_bond_mean_A": 1.954,
+      "GaO_bond_std_A": 0.086,
+      "n_GaO_bonds": 160,
+      "volume_A3": 845.9
+    },
+    {
+      "seed": 19,
+      "E_per_atom": -6.03,
+      "GaO_bond_mean_A": 1.943,
+      "GaO_bond_std_A": 0.089,
+      "n_GaO_bonds": 160,
+      "volume_A3": 845.9
+    }
+  ],
+  "GaO_std_ensemble_mean": 0.0952,
+  "GaO_std_ensemble_sem": 0.0022
+}

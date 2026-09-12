@@ -1,0 +1,70 @@
+{
+ "10.1021/acs.cgd.2c00290": [
+  "MOCVD (010) homoepitaxy, TMGa precursor,"
+ ],
+ "10.1063/1.5034474": [
+  "CZ",
+  "EFG",
+  "LPCVD",
+  "MBE"
+ ],
+ "10.1063/5.0059657": [
+  "MOCVD",
+  "MOCVD (Agilis 100, TEGa)",
+  "MOCVD (Agilis 100, TEGa), T_sub=880C",
+  "MOCVD (Agilis 700 CIS, TEGa)",
+  "MOCVD (Agilis 700 CIS, TMGa)",
+  "MOCVD, T_sub=600C",
+  "MOCVD, T_sub=880C"
+ ],
+ "10.1063/5.0184850": [
+  "MOCVD in-situ doped film (not implanted)",
+  "MOCVD in-situ doped film, staged anneal ",
+  "ion implantation into PAMBE homoepitaxia",
+  "ion implantation, 5 min anneal at 950 C",
+  "ion implantation, 5 min anneal at 950 C;",
+  "ion implantation, 60 min anneal at 950 C",
+  "ion implantation, furnace anneal 950 C",
+  "ion implantation, furnace anneal 950 C; "
+ ],
+ "10.1063/5.0230413": [
+  "MOCVD homoepitaxy on Fe-doped (010) beta"
+ ],
+ "10.1088/1361-6641/ab75a6": [
+  "VGF melt growth (single crystal)",
+  "VGF/CZ melt growth (single crystal)"
+ ],
+ "10.1116/6.0001004": [
+  "LPCVD (setup 1), 6 deg offcut sapphire s",
+  "LPCVD (setup 1), heteroepitaxial on 6 de",
+  "LPCVD (setup 2), (010) single-crystal su",
+  "LPCVD (setup 2), CV apparent carrier den",
+  "LPCVD (setup 2, Ar delivery tube), homoe",
+  "LPCVD (setups 1 and 2), 6 deg offcut and"
+ ],
+ "10.48550/arxiv.2412.00149": [
+  "LPCVD heteroepitaxial (-201) on c-plane ",
+  "LPCVD heteroepitaxial (-201) on sapphire",
+  "LPCVD homoepitaxial (010) on Fe-doped Ga",
+  "LPCVD homoepitaxial (010); temperature-d"
+ ],
+ "10.48550/arxiv.2606.05607": [
+  "HVPE on 6\u00b0 offcut sapphire",
+  "HVPE on 6\u00b0 offcut sapphire; T-dependent "
+ ],
+ "10.3390/coatings11050589": [
+  "MOCVD homoepitaxy"
+ ],
+ "10.1063/5.0058059": [
+  "MOCVD"
+ ],
+ "10.1149/2.0081702jss": [
+  "MOVPE homoepitaxy on (010) beta-Ga2O3"
+ ],
+ "10.1063/5.0142107": [
+  "hybrid plasma-assisted molecular beam epitaxy (hybrid MBE)"
+ ],
+ "theses.hal.science/tel-04268510v1/file/1": [
+  "MOCVD"
+ ]
+}

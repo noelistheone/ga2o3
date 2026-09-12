@@ -1,0 +1,44 @@
+{
+  "films": {
+    "Mg": {
+      "dopant_mean_O_bond_A": 1.924,
+      "dopant_coordination": 4,
+      "dopant_site_character": "tetrahedral-like(4)",
+      "GaO_bond_mean_A": 1.945,
+      "GaO_bond_std_A": 0.09,
+      "n_GaO_bonds": 156
+    },
+    "Si": {
+      "dopant_mean_O_bond_A": 1.647,
+      "dopant_coordination": 4,
+      "dopant_site_character": "tetrahedral-like(4)",
+      "GaO_bond_mean_A": 2.006,
+      "GaO_bond_std_A": 0.14,
+      "n_GaO_bonds": 170
+    },
+    "Sn": {
+      "dopant_mean_O_bond_A": 2.069,
+      "dopant_coordination": 6,
+      "dopant_site_character": "octahedral-like(6)",
+      "GaO_bond_mean_A": 2.002,
+      "GaO_bond_std_A": 0.144,
+      "n_GaO_bonds": 171
+    },
+    "Zn": {
+      "dopant_mean_O_bond_A": 1.965,
+      "dopant_coordination": 4,
+      "dopant_site_character": "tetrahedral-like(4)",
+      "GaO_bond_mean_A": 1.976,
+      "GaO_bond_std_A": 0.138,
+      "n_GaO_bonds": 165
+    }
+  },
+  "structural_findings": {
+    "Si": "tetrahedral (4-coord), bond CONTRACTS to ~1.65 A (SiO2-like) \u2014 strong shallow donor",
+    "Sn": "OCTAHEDRAL (6-coord) in the amorphous film, bond EXPANDS to ~2.07 A (SnO2-rutile-like) \u2014 site change vs crystal; a genuine structural prediction",
+    "Mg": "tetrahedral (4-coord) substitutional acceptor, bond ~1.92 A",
+    "Zn": "tetrahedral (4-coord) substitutional acceptor, bond ~1.97 A (ZnO-like)"
+  },
+  "acceptor_conclusion": "Mg & Zn sit as 4-coordinate SUBSTITUTIONAL acceptors in the film (not interstitial) \u2192 the chain's full-compensation prediction is structurally correct \u2192 corpus 'conductive' Mg/Zn samples are donor-excess (Si/V_O), NOT low acceptor activation. Confirms the honest acceptor finding.",
+  "disorder_dEg_mechanism": "amorphous films show Ga-O bond-length spread (std ~0.09-0.14 A) = an Urbach band-tail source that NARROWS the Tauc gap \u2014 the mechanism the forward BM model omits (why predicted dEg anti-correlates with corpus). A disorder-narrowing term ~ f(bond_std) is the principled optical fix."
+}

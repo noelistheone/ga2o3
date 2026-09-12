@@ -1,0 +1,13 @@
+{
+  "q0_done": true,
+  "q2_done": true,
+  "dQ_amu_half_A": 12.26,
+  "max_atomic_disp_A": 1.333,
+  "E_q0_at_R0_eV": -87773.483,
+  "E_q2_at_R2_eV": -87794.055,
+  "note": "cross single-points (q0@R2, q2@R0) generate the CC parabolas; barrier + NMP capture follow",
+  "cross_singlepoints_generated": [
+    "cc_VO_q0_at_R2",
+    "cc_VO_q2_at_R0"
+  ]
+}

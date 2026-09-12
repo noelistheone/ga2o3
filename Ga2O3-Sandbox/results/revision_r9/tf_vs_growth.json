@@ -1,0 +1,783 @@
+{
+ "grid": "design_validate.TF_GRID = np.log10(np.linspace(1100,1950,9))  (paper-identical)",
+ "n_labs": 13,
+ "n_labs_with_recorded_T": 7,
+ "labs_from_load_labs_not_among_the_13": [
+  "theses.hal.science/tel-04268510v1/file/125463_chi_2023_archivage.pdf"
+ ],
+ "per_lab": [
+  {
+   "doi": "10.1021/acs.cgd.2c00290",
+   "family": "MOCVD/MOVPE",
+   "n_points": 8,
+   "method_strings": [
+    "MOCVD (010) homoepitaxy, TMGa precursor,"
+   ],
+   "actual_T_C_recorded": [
+    950
+   ],
+   "actual_T_kind": "MOCVD growth line (O2/torr)",
+   "actual_T_source": "/home/lawrence/Physics/Ga2O3-Net/results/phase77_new_data_sweep/FINAL_extracted_rows.csv :: col \"atmosphere\" = \"O2 800 SCCM, 950 C, 60 torr\" (0-based row 733)",
+   "actual_T_K_mid": 1223.2,
+   "Tf_fit_K": 1100.0,
+   "fit_objective_dex": 0.626,
+   "objective_span_over_grid_dex": 2.461,
+   "rails_at_grid_edge": true,
+   "objective_curve_dex": [
+    0.626,
+    0.82,
+    1.4,
+    1.587,
+    2.071,
+    2.462,
+    2.76,
+    2.969,
+    3.088
+   ]
+  },
+  {
+   "doi": "10.1063/1.5034474",
+   "family": "melt+film(mixed)",
+   "n_points": 6,
+   "method_strings": [
+    "CZ",
+    "EFG",
+    "LPCVD",
+    "MBE"
+   ],
+   "actual_T_C_recorded": null,
+   "actual_T_kind": "CZ/EFG melt + LPCVD + MBE (mixed)",
+   "actual_T_source": "NO FILE OF RECORD",
+   "actual_T_K_mid": null,
+   "Tf_fit_K": 1206.2,
+   "fit_objective_dex": 0.497,
+   "objective_span_over_grid_dex": 2.277,
+   "rails_at_grid_edge": false,
+   "objective_curve_dex": [
+    0.787,
+    0.497,
+    0.851,
+    1.435,
+    1.919,
+    2.286,
+    2.536,
+    2.696,
+    2.774
+   ]
+  },
+  {
+   "doi": "10.1063/5.0059657",
+   "family": "MOCVD/MOVPE",
+   "n_points": 11,
+   "method_strings": [
+    "MOCVD",
+    "MOCVD (Agilis 100, TEGa)",
+    "MOCVD (Agilis 100, TEGa), T_sub=880C",
+    "MOCVD (Agilis 700 CIS, TEGa)",
+    "MOCVD (Agilis 700 CIS, TMGa)",
+    "MOCVD, T_sub=600C",
+    "MOCVD, T_sub=880C"
+   ],
+   "actual_T_C_recorded": [
+    600,
+    750,
+    880
+   ],
+   "actual_T_kind": "MOCVD substrate temperature T_sub",
+   "actual_T_source": "/home/lawrence/Physics/Ga2O3-Net/results/phase77_new_data_sweep/FINAL_extracted_rows.csv :: cols \"method\"/\"concentration\": \"MOCVD, T_sub=600C\" / \"T_sub=750C\" / \"MOCVD, T_sub=880C\" (row 312 etc.)",
+   "actual_T_K_mid": 1016.5,
+   "Tf_fit_K": 1737.5,
+   "fit_objective_dex": 0.366,
+   "objective_span_over_grid_dex": 1.85,
+   "rails_at_grid_edge": false,
+   "objective_curve_dex": [
+    2.215,
+    1.557,
+    1.387,
+    1.22,
+    0.843,
+    0.556,
+    0.366,
+    0.478,
+    0.516
+   ]
+  },
+  {
+   "doi": "10.1063/5.0184850",
+   "family": "implantation",
+   "n_points": 5,
+   "method_strings": [
+    "MOCVD in-situ doped film (not implanted)",
+    "MOCVD in-situ doped film, staged anneal ",
+    "ion implantation into PAMBE homoepitaxia",
+    "ion implantation, 5 min anneal at 950 C",
+    "ion implantation, 5 min anneal at 950 C;",
+    "ion implantation, 60 min anneal at 950 C",
+    "ion implantation, furnace anneal 950 C",
+    "ion implantation, furnace anneal 950 C; "
+   ],
+   "actual_T_C_recorded": [
+    950
+   ],
+   "actual_T_kind": "post-implant / post-growth furnace anneal",
+   "actual_T_source": "/home/lawrence/Physics/Ga2O3-Net/results/phase77_new_data_sweep/FINAL_extracted_rows.csv :: col \"method\" = \"ion implantation, furnace anneal 950 C\" (0-based row 776)",
+   "actual_T_K_mid": 1223.2,
+   "Tf_fit_K": 1631.3,
+   "fit_objective_dex": 0.244,
+   "objective_span_over_grid_dex": 2.573,
+   "rails_at_grid_edge": false,
+   "objective_curve_dex": [
+    2.816,
+    1.992,
+    1.297,
+    0.707,
+    0.411,
+    0.244,
+    0.542,
+    0.751,
+    0.869
+   ]
+  },
+  {
+   "doi": "10.1063/5.0230413",
+   "family": "MOCVD/MOVPE",
+   "n_points": 5,
+   "method_strings": [
+    "MOCVD homoepitaxy on Fe-doped (010) beta"
+   ],
+   "actual_T_C_recorded": null,
+   "actual_T_kind": "MOCVD homoepitaxy",
+   "actual_T_source": "NO FILE OF RECORD",
+   "actual_T_K_mid": null,
+   "Tf_fit_K": 1100.0,
+   "fit_objective_dex": 0.804,
+   "objective_span_over_grid_dex": 3.601,
+   "rails_at_grid_edge": true,
+   "objective_curve_dex": [
+    0.804,
+    1.628,
+    2.32,
+    2.904,
+    3.388,
+    3.779,
+    4.078,
+    4.286,
+    4.405
+   ]
+  },
+  {
+   "doi": "10.1088/1361-6641/ab75a6",
+   "family": "melt",
+   "n_points": 10,
+   "method_strings": [
+    "VGF melt growth (single crystal)",
+    "VGF/CZ melt growth (single crystal)"
+   ],
+   "actual_T_C_recorded": null,
+   "actual_T_kind": "VGF/CZ melt growth",
+   "actual_T_source": "NO FILE OF RECORD",
+   "actual_T_K_mid": null,
+   "Tf_fit_K": 1312.5,
+   "fit_objective_dex": 0.221,
+   "objective_span_over_grid_dex": 1.21,
+   "rails_at_grid_edge": false,
+   "objective_curve_dex": [
+    1.43,
+    0.749,
+    0.221,
+    0.247,
+    0.613,
+    0.88,
+    1.08,
+    1.192,
+    1.23
+   ]
+  },
+  {
+   "doi": "10.1116/6.0001004",
+   "family": "LPCVD",
+   "n_points": 5,
+   "method_strings": [
+    "LPCVD (setup 1), 6 deg offcut sapphire s",
+    "LPCVD (setup 1), heteroepitaxial on 6 de",
+    "LPCVD (setup 2), (010) single-crystal su",
+    "LPCVD (setup 2), CV apparent carrier den",
+    "LPCVD (setup 2, Ar delivery tube), homoe",
+    "LPCVD (setups 1 and 2), 6 deg offcut and"
+   ],
+   "actual_T_C_recorded": [
+    800,
+    900
+   ],
+   "actual_T_kind": "LPCVD growth window",
+   "actual_T_source": "/home/lawrence/Physics/Ga2O3-Net/results/phase77_new_data_sweep/FINAL_extracted_rows.csv :: col \"atmosphere\" = \"O2 3-5 sccm + Ar 70-140 sccm, 0.5-2 Torr, 800-900 C\" (0-based row 40)",
+   "actual_T_K_mid": 1123.2,
+   "Tf_fit_K": 1100.0,
+   "fit_objective_dex": 0.239,
+   "objective_span_over_grid_dex": 2.731,
+   "rails_at_grid_edge": true,
+   "objective_curve_dex": [
+    0.239,
+    0.921,
+    1.488,
+    1.956,
+    2.333,
+    2.62,
+    2.821,
+    2.933,
+    2.971
+   ]
+  },
+  {
+   "doi": "10.48550/arxiv.2412.00149",
+   "family": "LPCVD",
+   "n_points": 5,
+   "method_strings": [
+    "LPCVD heteroepitaxial (-201) on c-plane ",
+    "LPCVD heteroepitaxial (-201) on sapphire",
+    "LPCVD homoepitaxial (010) on Fe-doped Ga",
+    "LPCVD homoepitaxial (010); temperature-d"
+   ],
+   "actual_T_C_recorded": [
+    1000
+   ],
+   "actual_T_kind": "LPCVD growth temperature",
+   "actual_T_source": "/home/lawrence/Physics/Ga2O3-Net/results/phase77_new_data_sweep/FINAL_extracted_rows.csv :: col \"method\" = \"LPCVD homoepitaxial (010) on Fe-doped Ga2O3 substrate, 1000C\" (0-based row 126)",
+   "actual_T_K_mid": 1273.2,
+   "Tf_fit_K": 1206.2,
+   "fit_objective_dex": 0.393,
+   "objective_span_over_grid_dex": 2.134,
+   "rails_at_grid_edge": false,
+   "objective_curve_dex": [
+    1.073,
+    0.393,
+    0.929,
+    1.027,
+    1.511,
+    1.902,
+    2.2,
+    2.409,
+    2.528
+   ]
+  },
+  {
+   "doi": "10.48550/arxiv.2606.05607",
+   "family": "HVPE",
+   "n_points": 7,
+   "method_strings": [
+    "HVPE on 6\u00b0 offcut sapphire",
+    "HVPE on 6\u00b0 offcut sapphire; T-dependent "
+   ],
+   "actual_T_C_recorded": null,
+   "actual_T_kind": "HVPE on offcut sapphire",
+   "actual_T_source": "NO FILE OF RECORD",
+   "actual_T_K_mid": null,
+   "Tf_fit_K": 1312.5,
+   "fit_objective_dex": 0.448,
+   "objective_span_over_grid_dex": 2.084,
+   "rails_at_grid_edge": false,
+   "objective_curve_dex": [
+    1.069,
+    0.722,
+    0.448,
+    1.031,
+    1.515,
+    1.906,
+    2.205,
+    2.414,
+    2.532
+   ]
+  },
+  {
+   "doi": "10.3390/coatings11050589",
+   "family": "MOCVD/MOVPE",
+   "n_points": 6,
+   "method_strings": [
+    "MOCVD homoepitaxy"
+   ],
+   "actual_T_C_recorded": null,
+   "actual_T_kind": "MOCVD homoepitaxy",
+   "actual_T_source": "NO FILE OF RECORD",
+   "actual_T_K_mid": null,
+   "Tf_fit_K": 1418.8,
+   "fit_objective_dex": 0.605,
+   "objective_span_over_grid_dex": 1.502,
+   "rails_at_grid_edge": false,
+   "objective_curve_dex": [
+    1.731,
+    0.906,
+    0.615,
+    0.605,
+    0.875,
+    1.29,
+    1.628,
+    1.896,
+    2.107
+   ]
+  },
+  {
+   "doi": "10.1063/5.0058059",
+   "family": "MOCVD/MOVPE",
+   "n_points": 8,
+   "method_strings": [
+    "MOCVD"
+   ],
+   "actual_T_C_recorded": [
+    600
+   ],
+   "actual_T_kind": "MOCVD substrate temperature T_sub",
+   "actual_T_source": "/home/lawrence/Physics/Ga2O3-Net/results/phase97/harvest_rows.json :: [1107][\"concentration\"] = \"GeH4 flow 7.70e-8 mol/min, Tsub = 600 C\"",
+   "actual_T_K_mid": 873.1,
+   "Tf_fit_K": 1100.0,
+   "fit_objective_dex": 1.217,
+   "objective_span_over_grid_dex": 0.615,
+   "rails_at_grid_edge": true,
+   "objective_curve_dex": [
+    1.217,
+    1.49,
+    1.235,
+    1.233,
+    1.23,
+    1.291,
+    1.515,
+    1.691,
+    1.832
+   ]
+  },
+  {
+   "doi": "10.1149/2.0081702jss",
+   "family": "MOCVD/MOVPE",
+   "n_points": 5,
+   "method_strings": [
+    "MOVPE homoepitaxy on (010) beta-Ga2O3"
+   ],
+   "actual_T_C_recorded": null,
+   "actual_T_kind": "MOVPE homoepitaxy",
+   "actual_T_source": "NO FILE OF RECORD",
+   "actual_T_K_mid": null,
+   "Tf_fit_K": 1631.3,
+   "fit_objective_dex": 0.492,
+   "objective_span_over_grid_dex": 2.264,
+   "rails_at_grid_edge": false,
+   "objective_curve_dex": [
+    2.757,
+    1.844,
+    1.149,
+    1.168,
+    0.703,
+    0.492,
+    0.813,
+    1.048,
+    1.204
+   ]
+  },
+  {
+   "doi": "10.1063/5.0142107",
+   "family": "MBE",
+   "n_points": 18,
+   "method_strings": [
+    "hybrid plasma-assisted molecular beam epitaxy (hybrid MBE)"
+   ],
+   "actual_T_C_recorded": [
+    525,
+    550,
+    600
+   ],
+   "actual_T_kind": "hybrid-MBE growth temperature Tc",
+   "actual_T_source": "/home/lawrence/Physics/Ga2O3-Net/results/phase97/harvest_rows.json :: [1171]/[1183]/[1195][\"concentration\"] = \"Tc=525 C\"/\"Tc=550 C\"/\"Tc=600 C\"",
+   "actual_T_K_mid": 831.5,
+   "Tf_fit_K": 1418.8,
+   "fit_objective_dex": 0.48,
+   "objective_span_over_grid_dex": 1.205,
+   "rails_at_grid_edge": false,
+   "objective_curve_dex": [
+    1.685,
+    0.866,
+    0.512,
+    0.48,
+    0.802,
+    1.059,
+    1.092,
+    1.131,
+    1.175
+   ]
+  }
+ ],
+ "spearman_Tf_vs_recorded_growthT": {
+  "rho": -0.075,
+  "n": 7,
+  "exact_perm_p_two_sided": 0.8881,
+  "n_perms": 5040,
+  "pairs_recordedT_K_vs_fittedTf_K": [
+   [
+    1223.2,
+    1100.0
+   ],
+   [
+    1016.5,
+    1737.5
+   ],
+   [
+    1223.2,
+    1631.3
+   ],
+   [
+    1123.2,
+    1100.0
+   ],
+   [
+    1273.2,
+    1206.2
+   ],
+   [
+    873.1,
+    1100.0
+   ],
+   [
+    831.5,
+    1418.8
+   ]
+  ]
+ },
+ "spearman_loendpoint_rho": -0.17,
+ "spearman_hiendpoint_rho": -0.019,
+ "pearson_rho": -0.083,
+ "melt_vs_film": {
+  "melt_labs": [
+   "10.1063/1.5034474",
+   "10.1088/1361-6641/ab75a6"
+  ],
+  "melt_Tf_K": [
+   1206.2,
+   1312.5
+  ],
+  "film_Tf_K_median": 1312.5,
+  "film_Tf_K_range": [
+   1100.0,
+   1737.5
+  ],
+  "median_diff_melt_minus_film_K": -53.2,
+  "exact_perm_p_two_sided": 0.8462,
+  "n_perms": 78,
+  "note": "The fit grid tops out at 1950 K (design_validate.TF_GRID). Melt growth happens above the melting point, which is above that ceiling, so a physically-read Tf for a melt lab could only rail high. NO melt lab rails high: 10.1088/1361-6641/ab75a6 sits at an INTERIOR minimum of 1312.5 K (objective 0.221 dex, curve minimum well inside the grid). Melting-point value itself: NO FILE OF RECORD in this repo."
+ },
+ "fitted_Tf_spread": {
+  "min_K": 1100.0,
+  "max_K": 1737.5,
+  "median_K": 1312.5,
+  "n_railing_low_1100K": 4,
+  "n_railing_high_1950K": 0
+ },
+ "B_control_does_Tf_track_the_lab_carrier_level": {
+  "n_labs": 13,
+  "per_lab": [
+   {
+    "doi": "10.1021/acs.cgd.2c00290",
+    "Tf_fit_K": 1100.0,
+    "median_log10n_all": 17.143,
+    "median_log10n_doped": 17.143,
+    "recorded_growth_T_K": 1223.2
+   },
+   {
+    "doi": "10.1063/1.5034474",
+    "Tf_fit_K": 1206.2,
+    "median_log10n_all": 17.477,
+    "median_log10n_doped": 17.477,
+    "recorded_growth_T_K": null
+   },
+   {
+    "doi": "10.1063/5.0059657",
+    "Tf_fit_K": 1737.5,
+    "median_log10n_all": 19.756,
+    "median_log10n_doped": 19.756,
+    "recorded_growth_T_K": 1016.5
+   },
+   {
+    "doi": "10.1063/5.0184850",
+    "Tf_fit_K": 1631.3,
+    "median_log10n_all": 19.447,
+    "median_log10n_doped": 19.447,
+    "recorded_growth_T_K": 1223.2
+   },
+   {
+    "doi": "10.1063/5.0230413",
+    "Tf_fit_K": 1100.0,
+    "median_log10n_all": 15.819,
+    "median_log10n_doped": 15.822,
+    "recorded_growth_T_K": null
+   },
+   {
+    "doi": "10.1088/1361-6641/ab75a6",
+    "Tf_fit_K": 1312.5,
+    "median_log10n_all": 18.971,
+    "median_log10n_doped": 19.01,
+    "recorded_growth_T_K": null
+   },
+   {
+    "doi": "10.1116/6.0001004",
+    "Tf_fit_K": 1100.0,
+    "median_log10n_all": 17.301,
+    "median_log10n_doped": 17.301,
+    "recorded_growth_T_K": 1123.2
+   },
+   {
+    "doi": "10.48550/arxiv.2412.00149",
+    "Tf_fit_K": 1206.2,
+    "median_log10n_all": 17.703,
+    "median_log10n_doped": 17.703,
+    "recorded_growth_T_K": 1273.2
+   },
+   {
+    "doi": "10.48550/arxiv.2606.05607",
+    "Tf_fit_K": 1312.5,
+    "median_log10n_all": 17.699,
+    "median_log10n_doped": 17.699,
+    "recorded_growth_T_K": null
+   },
+   {
+    "doi": "10.3390/coatings11050589",
+    "Tf_fit_K": 1418.8,
+    "median_log10n_all": 18.361,
+    "median_log10n_doped": 18.361,
+    "recorded_growth_T_K": null
+   },
+   {
+    "doi": "10.1063/5.0058059",
+    "Tf_fit_K": 1100.0,
+    "median_log10n_all": 16.73,
+    "median_log10n_doped": 17.472,
+    "recorded_growth_T_K": 873.1
+   },
+   {
+    "doi": "10.1149/2.0081702jss",
+    "Tf_fit_K": 1631.3,
+    "median_log10n_all": 19.0,
+    "median_log10n_doped": 19.0,
+    "recorded_growth_T_K": null
+   },
+   {
+    "doi": "10.1063/5.0142107",
+    "Tf_fit_K": 1418.8,
+    "median_log10n_all": 18.314,
+    "median_log10n_doped": 18.314,
+    "recorded_growth_T_K": 831.5
+   }
+  ],
+  "spearman_Tf_vs_median_log10n_all": {
+   "rho": 0.947,
+   "n": 13,
+   "perm_p_two_sided": 1e-05
+  },
+  "spearman_Tf_vs_median_log10n_doped": {
+   "rho": 0.925,
+   "n": 13,
+   "perm_p_two_sided": 2e-05
+  },
+  "spearman_Tf_vs_median_log10n_doped_ON_THE_SAME_7_LABS": {
+   "rho": 0.964,
+   "n": 7,
+   "exact_perm_p_two_sided": 0.0024
+  },
+  "reads": [
+   "If Tf tracks the lab median carrier level but not the lab growth temperature, the fitted Tf is a per-laboratory intercept absorbing model bias, not a recovered process temperature."
+  ]
+ },
+ "C_robustness_variants": {
+  "all7": {
+   "n": 7,
+   "rho": -0.075,
+   "exact_perm_p": 0.8881,
+   "labs": [
+    "10.1021/acs.cgd.2c00290",
+    "10.1063/5.0059657",
+    "10.1063/5.0184850",
+    "10.1116/6.0001004",
+    "10.48550/arxiv.2412.00149",
+    "10.1063/5.0058059",
+    "10.1063/5.0142107"
+   ]
+  },
+  "growth_only_drop_anneal_5.0184850": {
+   "n": 6,
+   "rho": -0.273,
+   "exact_perm_p": 0.6167,
+   "labs": [
+    "10.1021/acs.cgd.2c00290",
+    "10.1063/5.0059657",
+    "10.1116/6.0001004",
+    "10.48550/arxiv.2412.00149",
+    "10.1063/5.0058059",
+    "10.1063/5.0142107"
+   ]
+  },
+  "drop_the_two_grid_railed": {
+   "n": 4,
+   "rho": -0.4,
+   "exact_perm_p": 0.75,
+   "labs": [
+    "10.1063/5.0059657",
+    "10.1063/5.0184850",
+    "10.48550/arxiv.2412.00149",
+    "10.1063/5.0142107"
+   ]
+  }
+ },
+ "D_cost_of_holding_Tf_at_the_recorded_process_T": {
+  "10.1021/acs.cgd.2c00290": {
+   "recorded_T_K": 1223.2,
+   "fitted_Tf_K": 1100.0,
+   "median_abs_dlog10n_at_RECORDED_T_dex": 0.932,
+   "median_abs_dlog10n_at_FITTED_Tf_dex": 0.626,
+   "penalty_of_using_the_physical_T_dex": 0.306
+  },
+  "10.1063/5.0059657": {
+   "recorded_T_K": 1016.5,
+   "fitted_Tf_K": 1737.5,
+   "median_abs_dlog10n_at_RECORDED_T_dex": 2.847,
+   "median_abs_dlog10n_at_FITTED_Tf_dex": 0.366,
+   "penalty_of_using_the_physical_T_dex": 2.481
+  },
+  "10.1063/5.0184850": {
+   "recorded_T_K": 1223.2,
+   "fitted_Tf_K": 1631.3,
+   "median_abs_dlog10n_at_RECORDED_T_dex": 1.873,
+   "median_abs_dlog10n_at_FITTED_Tf_dex": 0.244,
+   "penalty_of_using_the_physical_T_dex": 1.629
+  },
+  "10.1116/6.0001004": {
+   "recorded_T_K": 1123.2,
+   "fitted_Tf_K": 1100.0,
+   "median_abs_dlog10n_at_RECORDED_T_dex": 0.399,
+   "median_abs_dlog10n_at_FITTED_Tf_dex": 0.239,
+   "penalty_of_using_the_physical_T_dex": 0.16
+  },
+  "10.48550/arxiv.2412.00149": {
+   "recorded_T_K": 1273.2,
+   "fitted_Tf_K": 1206.2,
+   "median_abs_dlog10n_at_RECORDED_T_dex": 0.843,
+   "median_abs_dlog10n_at_FITTED_Tf_dex": 0.393,
+   "penalty_of_using_the_physical_T_dex": 0.45
+  },
+  "10.1063/5.0058059": {
+   "recorded_T_K": 873.1,
+   "fitted_Tf_K": 1100.0,
+   "median_abs_dlog10n_at_RECORDED_T_dex": 1.555,
+   "median_abs_dlog10n_at_FITTED_Tf_dex": 1.217,
+   "penalty_of_using_the_physical_T_dex": 0.338
+  },
+  "10.1063/5.0142107": {
+   "recorded_T_K": 831.5,
+   "fitted_Tf_K": 1418.8,
+   "median_abs_dlog10n_at_RECORDED_T_dex": 4.684,
+   "median_abs_dlog10n_at_FITTED_Tf_dex": 0.48,
+   "penalty_of_using_the_physical_T_dex": 4.204
+  },
+  "_summary": {
+   "n_labs": 7,
+   "median_penalty_dex": 0.45,
+   "min_penalty_dex": 0.16,
+   "max_penalty_dex": 4.204,
+   "read": "dex the fit must give up if Tf is held at the laboratory-reported growth/anneal temperature"
+  }
+ },
+ "VERDICT": "Fitted Tf does NOT track the laboratory growth/anneal temperature (Spearman rho=-0.075, exact p=0.888, n=7) and melt-grown laboratories do not separate from film laboratories (median diff -53 K, exact p=0.846, n=13). On the same 7 laboratories the fitted Tf tracks the laboratory carrier level almost perfectly (rho=0.964, exact p=0.0024; rho=0.925, p=2e-5 over all 13). Tf is an effective per-laboratory state coordinate that absorbs residual energetics bias, not a recovered process temperature.",
+ "F_within_lab_test_10.1063_5.0142107": {
+  "doi": "10.1063/5.0142107",
+  "provenance": {
+   "points": "/home/lawrence/Physics/Ga2O3-Net/results/phase65/transport_llm_extracted_v2.csv rows 461-495 via scripts/design_validate.py::load_labs",
+   "Tc_labels": "/home/lawrence/Physics/Ga2O3-Net/results/phase97/harvest_rows.json \"concentration\" field, e.g. [1171] Tc=525 C, [1183] Tc=550 C, [1195] Tc=600 C",
+   "block_mapping": "carrier values matched one-to-one between the CSV rows and the harvest blocks"
+  },
+  "blocks": {
+   "525": {
+    "growth_T_C": 525,
+    "growth_T_K": 798.1,
+    "carrier_values_match_harvest_block": true,
+    "median_measured_log10n": 18.432,
+    "Tf_fit_K_nativegrid": 1418.8,
+    "Tf_fit_K_finegrid": 1390.1,
+    "fit_objective_dex": 0.417
+   },
+   "550": {
+    "growth_T_C": 550,
+    "growth_T_K": 823.1,
+    "carrier_values_match_harvest_block": true,
+    "median_measured_log10n": 18.239,
+    "Tf_fit_K_nativegrid": 1418.8,
+    "Tf_fit_K_finegrid": 1292.6,
+    "fit_objective_dex": 0.496
+   },
+   "600": {
+    "growth_T_C": 600,
+    "growth_T_K": 873.1,
+    "carrier_values_match_harvest_block": true,
+    "median_measured_log10n": 18.347,
+    "Tf_fit_K_nativegrid": 1418.8,
+    "Tf_fit_K_finegrid": 1438.9,
+    "fit_objective_dex": 0.462
+   }
+  },
+  "read": {
+   "growth_T_K_increasing": [
+    798.1,
+    823.1,
+    873.1
+   ],
+   "fitted_Tf_K_finegrid_in_the_same_order": [
+    1390.1,
+    1292.6,
+    1438.9
+   ],
+   "fitted_Tf_K_nativegrid_in_the_same_order": [
+    1418.8,
+    1418.8,
+    1418.8
+   ],
+   "monotone_increasing_fine": false,
+   "monotone_decreasing_fine": false,
+   "real_growth_T_spread_K": 75.0,
+   "fitted_Tf_spread_K_fine": 48.8,
+   "note": "Same laboratory, same dopant, same six Si contents, same instrument: the ONLY thing that changes between blocks is the real growth temperature."
+  }
+ },
+ "G_prior_box_vs_real_growth_T": {
+  "design_validate_TF_GRID_K": [
+   1100.0,
+   1950.0
+  ],
+  "design_theta_fit_clip_K": [
+   1073.0,
+   2000.0
+  ],
+  "recorded_T_midpoints_K": {
+   "10.1021/acs.cgd.2c00290": 1223.2,
+   "10.1063/5.0059657": 1016.5,
+   "10.1063/5.0184850": 1223.2,
+   "10.1116/6.0001004": 1123.2,
+   "10.48550/arxiv.2412.00149": 1273.2,
+   "10.1063/5.0058059": 873.1,
+   "10.1063/5.0142107": 831.5
+  },
+  "recorded_T_upper_endpoints_K": {
+   "10.1021/acs.cgd.2c00290": 1223.15,
+   "10.1063/5.0059657": 1153.15,
+   "10.1063/5.0184850": 1223.15,
+   "10.1116/6.0001004": 1173.15,
+   "10.48550/arxiv.2412.00149": 1273.15,
+   "10.1063/5.0058059": 873.15,
+   "10.1063/5.0142107": 873.15
+  },
+  "n_below_grid_floor_1100K_using_midpoint": 3,
+  "labs_below_grid_floor_using_midpoint": [
+   "10.1063/5.0059657",
+   "10.1063/5.0058059",
+   "10.1063/5.0142107"
+  ],
+  "n_below_grid_floor_1100K_using_upper_endpoint": 2,
+  "labs_below_grid_floor_using_upper_endpoint": [
+   "10.1063/5.0058059",
+   "10.1063/5.0142107"
+  ],
+  "n_below_theta_fit_clip_1073K_using_midpoint": 3
+ }
+}

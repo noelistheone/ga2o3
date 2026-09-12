@@ -1,0 +1,31 @@
+{
+ "cell": "160-atom (2x1x1)",
+ "C_align_eV": -0.053,
+ "plateau_spread_eV": 0.05,
+ "dV_range_eV": [
+  -0.26,
+  0.34
+ ],
+ "profile": [
+  -0.09,
+  0.01,
+  0.23,
+  -0.22,
+  -0.09,
+  -0.08,
+  0.27,
+  -0.18,
+  0.08,
+  -0.17,
+  0.06,
+  -0.03,
+  -0.1,
+  -0.18,
+  0.32,
+  0.0,
+  -0.11
+ ],
+ "eps_raw_80": 2.223,
+ "eps_aligned_160": 2.17,
+ "note": "alignment constant from the 160-atom pair applied to the 80-atom raw level (monopole part shown converged to 0.019 eV by the D+MP scaling check)."
+}

@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "source": "KROGER Ga2O3_Varley_all_defects_new_092724.mat (Arnab et al., PCCP 2025, DOI 10.1039/D4CP04817B; github.com/mikescarpulla/KROGER, UNLICENSED)",
+  "verified_counts": {
+    "charge_states": 873,
+    "defects": 259,
+    "elements": 19
+  },
+  "element_order_0indexed": [
+    "Ga",
+    "O",
+    "Si",
+    "H",
+    "Fe",
+    "Sn",
+    "Cr",
+    "Ti",
+    "Ir",
+    "Mg",
+    "Ca",
+    "Zn",
+    "Co",
+    "Zr",
+    "Hf",
+    "Ta",
+    "Ge",
+    "Pt",
+    "Rh"
+  ],
+  "element_order_provenance": "KROGER_Set_Ga2O3_Thermo_Conditions.m line 177 + Ga2O3_stoich.m line 56 (host Ga,O then 17 dopants incl Pt,Rh)",
+  "formation_energy_convention": "dG = cs_dHo + q*EF - 3 kBT s_vib(T) sum(dm) - dm.mu; N = prefactor * exp(-dG/kBT); EF from VBM=0.",
+  "lab_dopant_columns": {
+    "Si": 2,
+    "Sn": 5,
+    "Mg": 9,
+    "Zn": 11
+  },
+  "verified": true,
+  "clean_room_SI_rebuild": "PENDING \u2014 numeric arrays used as citable published data; authoritative from-SI/paper rebuild deferred (unlicensed repo)."
+}

@@ -1,0 +1,83 @@
+{
+ "photo_dark_ratio": {
+  "icc": 0.7951,
+  "icc_conditional_oof": 0.757,
+  "icc_dopant_fe_mixedlm": 0.6884,
+  "delta_conditional_pp": 3.8
+ },
+ "dark_current_pA": {
+  "icc": 0.8379,
+  "icc_conditional_oof": 0.7958,
+  "icc_dopant_fe_mixedlm": 0.6954,
+  "delta_conditional_pp": 4.2
+ },
+ "vacancy_concentration": {
+  "icc": 0.7854,
+  "icc_conditional_oof": 0.8471,
+  "icc_dopant_fe_mixedlm": 0.5668,
+  "delta_conditional_pp": -6.2
+ },
+ "hall_carrier_n": {
+  "icc": 0.6044,
+  "icc_conditional_oof": 0.5807,
+  "icc_dopant_fe_mixedlm": null,
+  "delta_conditional_pp": 2.4
+ },
+ "hall_mobility_mu": {
+  "icc": 0.8501,
+  "icc_conditional_oof": 0.7142,
+  "icc_dopant_fe_mixedlm": null,
+  "delta_conditional_pp": 13.6
+ },
+ "optical_bandgap_Eg": {
+  "icc": 0.6157,
+  "icc_conditional_oof": 0.5805,
+  "icc_dopant_fe_mixedlm": null,
+  "delta_conditional_pp": 3.5
+ },
+ "bandgap_shift_dEg": {
+  "icc": 0.7877,
+  "icc_conditional_oof": 0.7506,
+  "icc_dopant_fe_mixedlm": 0.7365,
+  "delta_conditional_pp": 3.7
+ },
+ "tau_decay": {
+  "icc": 0.7886,
+  "icc_conditional_oof": 0.8533,
+  "icc_dopant_fe_mixedlm": null,
+  "delta_conditional_pp": -6.5
+ },
+ "_median_conditional_removal_pp": 3.6,
+ "_dopant_fe_range": [
+  0.567,
+  0.737
+ ],
+ "pcv29_protocol_conditioning": {
+  "dark_current_pA": {
+   "protocol_covariates": [
+    "bias_V",
+    "wavelength_nm"
+   ],
+   "coverage": {
+    "bias_V": 0.547,
+    "wavelength_nm": 0.221
+   },
+   "n_covered": 6,
+   "icc_covered_rows": null,
+   "icc_after_process_plus_protocol_oof": null
+  },
+  "photo_dark_ratio": {
+   "protocol_covariates": [
+    "bias_V",
+    "wavelength_nm"
+   ],
+   "coverage": {
+    "bias_V": 0.5,
+    "wavelength_nm": 0.418
+   },
+   "n_covered": 55,
+   "icc_covered_rows": 0.9973,
+   "icc_after_process_plus_protocol_oof": 0.694
+  }
+ }
+}

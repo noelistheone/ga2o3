@@ -1,0 +1,370 @@
+{
+ "N_cat_cm3": 1.2733333333333334e+22,
+ "protocol": {
+  "bulk_crystal": "film=False (no grain-boundary term), Nd_bg=1e16 (UID melt crystal), Tf=1500 K (certified engine global; 1350 K sensitivity)",
+  "cliff_map": "grid over cation fraction x pO2, film=True as in the paper's Fig. mech c"
+ },
+ "OFZ_air_Tf1500": [
+  {
+   "frac": 1e-06,
+   "Ta_cm3": 1.27e+16,
+   "n_cm3": 2.25e+16,
+   "mu_cm2Vs": 204.1,
+   "activation": 1.77
+  },
+  {
+   "frac": 3e-06,
+   "Ta_cm3": 3.82e+16,
+   "n_cm3": 4.59e+16,
+   "mu_cm2Vs": 202.7,
+   "activation": 1.2
+  },
+  {
+   "frac": 1e-05,
+   "Ta_cm3": 1.27e+17,
+   "n_cm3": 9.8e+16,
+   "mu_cm2Vs": 194.5,
+   "activation": 0.77
+  },
+  {
+   "frac": 3e-05,
+   "Ta_cm3": 3.82e+17,
+   "n_cm3": 1e+17,
+   "mu_cm2Vs": 163.7,
+   "activation": 0.263
+  },
+  {
+   "frac": 0.0001,
+   "Ta_cm3": 1.27e+18,
+   "n_cm3": 16600.0,
+   "mu_cm2Vs": 111.3,
+   "activation": 1.31e-14
+  },
+  {
+   "frac": 0.0003,
+   "Ta_cm3": 3.82e+18,
+   "n_cm3": 6030.0,
+   "mu_cm2Vs": 89.6,
+   "activation": 1.58e-15
+  },
+  {
+   "frac": 0.001,
+   "Ta_cm3": 1.27e+19,
+   "n_cm3": 4780.0,
+   "mu_cm2Vs": 83.7,
+   "activation": 3.75e-16
+  },
+  {
+   "frac": 0.002,
+   "Ta_cm3": 2.55e+19,
+   "n_cm3": 4960.0,
+   "mu_cm2Vs": 82.7,
+   "activation": 1.95e-16
+  },
+  {
+   "frac": 0.005,
+   "Ta_cm3": 6.37e+19,
+   "n_cm3": 5780.0,
+   "mu_cm2Vs": 82.2,
+   "activation": 9.07e-17
+  }
+ ],
+ "OFZ_air_Tf1350": [
+  {
+   "frac": 1e-06,
+   "Ta_cm3": 1.27e+16,
+   "n_cm3": 1.53e+16,
+   "mu_cm2Vs": 203.8,
+   "activation": 1.2
+  },
+  {
+   "frac": 3e-06,
+   "Ta_cm3": 3.82e+16,
+   "n_cm3": 1.14e+16,
+   "mu_cm2Vs": 200.6,
+   "activation": 0.299
+  },
+  {
+   "frac": 1e-05,
+   "Ta_cm3": 1.27e+17,
+   "n_cm3": 8890.0,
+   "mu_cm2Vs": 183.3,
+   "activation": 6.98e-14
+  },
+  {
+   "frac": 3e-05,
+   "Ta_cm3": 3.82e+17,
+   "n_cm3": 2930.0,
+   "mu_cm2Vs": 143.1,
+   "activation": 7.68e-15
+  },
+  {
+   "frac": 0.0001,
+   "Ta_cm3": 1.27e+18,
+   "n_cm3": 1890.0,
+   "mu_cm2Vs": 102.9,
+   "activation": 1.49e-15
+  },
+  {
+   "frac": 0.0003,
+   "Ta_cm3": 3.82e+18,
+   "n_cm3": 1850.0,
+   "mu_cm2Vs": 88.1,
+   "activation": 4.85e-16
+  },
+  {
+   "frac": 0.001,
+   "Ta_cm3": 1.27e+19,
+   "n_cm3": 2280.0,
+   "mu_cm2Vs": 83.5,
+   "activation": 1.79e-16
+  },
+  {
+   "frac": 0.002,
+   "Ta_cm3": 2.55e+19,
+   "n_cm3": 2700.0,
+   "mu_cm2Vs": 82.6,
+   "activation": 1.06e-16
+  },
+  {
+   "frac": 0.005,
+   "Ta_cm3": 6.37e+19,
+   "n_cm3": 3490.0,
+   "mu_cm2Vs": 82.2,
+   "activation": 5.47e-17
+  }
+ ],
+ "OFZ_O2poor_Tf1500": [
+  {
+   "frac": 1e-06,
+   "Ta_cm3": 1.27e+16,
+   "n_cm3": 2.27e+16,
+   "mu_cm2Vs": 204.1,
+   "activation": 1.79
+  },
+  {
+   "frac": 3e-06,
+   "Ta_cm3": 3.82e+16,
+   "n_cm3": 4.82e+16,
+   "mu_cm2Vs": 202.8,
+   "activation": 1.26
+  },
+  {
+   "frac": 1e-05,
+   "Ta_cm3": 1.27e+17,
+   "n_cm3": 1.37e+17,
+   "mu_cm2Vs": 197.2,
+   "activation": 1.08
+  },
+  {
+   "frac": 3e-05,
+   "Ta_cm3": 3.82e+17,
+   "n_cm3": 3.88e+17,
+   "mu_cm2Vs": 180.0,
+   "activation": 1.02
+  },
+  {
+   "frac": 0.0001,
+   "Ta_cm3": 1.27e+18,
+   "n_cm3": 1.2e+18,
+   "mu_cm2Vs": 137.8,
+   "activation": 0.94
+  },
+  {
+   "frac": 0.0003,
+   "Ta_cm3": 3.82e+18,
+   "n_cm3": 2.87e+18,
+   "mu_cm2Vs": 100.2,
+   "activation": 0.752
+  },
+  {
+   "frac": 0.001,
+   "Ta_cm3": 1.27e+19,
+   "n_cm3": 5.48e+18,
+   "mu_cm2Vs": 85.5,
+   "activation": 0.43
+  },
+  {
+   "frac": 0.002,
+   "Ta_cm3": 2.55e+19,
+   "n_cm3": 6.95e+18,
+   "mu_cm2Vs": 83.3,
+   "activation": 0.273
+  },
+  {
+   "frac": 0.005,
+   "Ta_cm3": 6.37e+19,
+   "n_cm3": 8.35e+18,
+   "mu_cm2Vs": 82.4,
+   "activation": 0.131
+  }
+ ],
+ "cliff_map_Tf1350_film": {
+  "fracs": [
+   1e-05,
+   0.0001,
+   0.0003,
+   0.001,
+   0.002,
+   0.005
+  ],
+  "log_pO2": [
+   -1,
+   -2,
+   -3,
+   -4,
+   -5,
+   -6,
+   -7,
+   -8
+  ],
+  "log_n": [
+   [
+    4.82,
+    16.8,
+    17.15,
+    17.3,
+    17.34,
+    17.35,
+    17.36,
+    17.36
+   ],
+   [
+    3.38,
+    3.79,
+    4.83,
+    17.61,
+    17.95,
+    18.09,
+    18.13,
+    18.14
+   ],
+   [
+    3.36,
+    3.68,
+    4.16,
+    17.44,
+    18.15,
+    18.42,
+    18.54,
+    18.58
+   ],
+   [
+    3.44,
+    3.72,
+    4.07,
+    4.83,
+    18.26,
+    18.67,
+    18.9,
+    19.03
+   ],
+   [
+    3.51,
+    3.78,
+    4.09,
+    4.63,
+    18.25,
+    18.78,
+    19.05,
+    19.23
+   ],
+   [
+    3.62,
+    3.87,
+    4.16,
+    4.57,
+    17.98,
+    18.88,
+    19.2,
+    19.43
+   ]
+  ]
+ },
+ "cliff_location": [
+  {
+   "frac": 1e-05,
+   "max_jump_decades": 11.98,
+   "between_log_pO2": [
+    -1,
+    -2
+   ]
+  },
+  {
+   "frac": 0.0001,
+   "max_jump_decades": 12.78,
+   "between_log_pO2": [
+    -3,
+    -4
+   ]
+  },
+  {
+   "frac": 0.0003,
+   "max_jump_decades": 13.280000000000001,
+   "between_log_pO2": [
+    -3,
+    -4
+   ]
+  },
+  {
+   "frac": 0.001,
+   "max_jump_decades": 13.430000000000001,
+   "between_log_pO2": [
+    -4,
+    -5
+   ]
+  },
+  {
+   "frac": 0.002,
+   "max_jump_decades": 13.620000000000001,
+   "between_log_pO2": [
+    -4,
+    -5
+   ]
+  },
+  {
+   "frac": 0.005,
+   "max_jump_decades": 13.41,
+   "between_log_pO2": [
+    -4,
+    -5
+   ]
+  }
+ ],
+ "Si_control": {
+  "Si_air_Tf1500": [
+   {
+    "frac": 0.0001,
+    "n_cm3": 5.26e+17,
+    "activation": 0.413
+   },
+   {
+    "frac": 0.001,
+    "n_cm3": 9.62e+17,
+    "activation": 0.0755
+   },
+   {
+    "frac": 0.005,
+    "n_cm3": 1.12e+18,
+    "activation": 0.0175
+   }
+  ],
+  "Si_O2poor_Tf1500": [
+   {
+    "frac": 0.0001,
+    "n_cm3": 1.25e+18,
+    "activation": 0.981
+   },
+   {
+    "frac": 0.001,
+    "n_cm3": 5.33e+18,
+    "activation": 0.419
+   },
+   {
+    "frac": 0.005,
+    "n_cm3": 7.02e+18,
+    "activation": 0.11
+   }
+  ]
+ }
+}

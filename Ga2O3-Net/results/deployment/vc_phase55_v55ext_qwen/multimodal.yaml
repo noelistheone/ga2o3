@@ -1,0 +1,63 @@
+# Phase 54 V54-A1 — SINCERE multi-positive InfoNCE + hard-neg + PDR-anchor +
+# self-distill from V53-ζ pseudo-targets.
+#
+# Inherits V53-ζ architecture (multimodal_v53z_contrastive.yaml) and adds:
+#   - physics.sincere_enabled: flag (consumed by trainer via sincere_mode)
+#   - physics.self_distill_enabled: wires aux_self_distill_head into Ga2O3Net
+#
+# Loss-side keys live in fusion_v54a1_sincere_vc_*.yaml.
+#
+# Rules from V53 verdict:
+#   Rule 1 (soft only): no projection, no architectural sign-locks. SINCERE is
+#     a loss-only change on the InfoNCE projector head already present in V53-ζ.
+#   Rule 2 (preserve closed-form physics): BrouwerHeadVC + alpha_method
+#     unchanged.
+structure_stream:
+  embedding_dim: 64
+  pretrained_ckpt: checkpoints/pretrained_encoder_v2.pt
+
+composition_stream:
+  xenonpy_raw_dim: 290
+  hidden_dim: 128
+  out_dim: 64
+  dropout: 0.1
+  cache_file: data/processed/xenonpy_cache.pkl
+
+process_stream:
+  in_dim: 18
+  continuous_dim: 12
+  method_embed_dim: 3
+  n_methods: 6
+  substrate_embed_dim: 3
+  n_substrates: 7
+  hidden_dim: 64
+  out_dim: 32
+  dropout: 0.2
+
+fusion:
+  total_dim: 160
+  mode: film
+  structure_scale: 1.0
+  attention_heads: 4
+  attention_dim: 64
+
+scalers:
+  process_scaler: data/processed/process_scaler.pkl
+  composition_scaler: data/processed/composition_scaler.pkl
+
+physics:
+  brouwer_use_method_offset: true
+  brouwer_n_methods: 6
+  brouwer_use_class_offset: false
+  brouwer_use_hypernet: true
+  hypernet_hidden: 16
+  hypernet_mid: 8
+  hypernet_final_init: small_random
+  pretrain_distill_aux: true
+  pretrain_distill_dim: 2
+  # V53-ζ infrastructure retained
+  contrastive_enabled: true
+  contrastive_dim: 32
+  contrastive_hidden: 64
+  # V54-A1: enable aux_self_distill_head (loss weight from fusion config)
+  self_distill_enabled: true

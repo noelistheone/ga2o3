@@ -1,0 +1,44 @@
+# Core runtime for the Ga2O3 defect-thermodynamics simulator + ceiling analysis.
+# Primary environment (conda env `ga2o3`), Python 3.11, CUDA 12.8 (cu128) for GPU.
+# Pinned to the exact versions the paper's results were produced with.
+# A complete `pip freeze` of the working environment is in requirements-ga2o3-full.txt.
+#
+# Install (recommended): create a fresh conda env, then
+#   conda create -n ga2o3 python=3.11 && conda activate ga2o3
+#   pip install -r requirements.txt
+# For GPU PyTorch, install the cu128 wheel per https://pytorch.org (see torch pin below).
+
+# --- numerics / data ---
+numpy==2.3.5
+scipy==1.17.1
+pandas==2.3.3
+sympy==1.14.0
+
+# --- classical ML + statistics (Net ceiling analysis: floors, gates, REML/ICC) ---
+scikit-learn==1.8.0
+xgboost==3.2.0
+lightgbm==4.6.0
+statsmodels==0.14.6
+
+# --- materials / structure engine ---
+pymatgen==2026.3.23
+ase==3.28.0
+
+# --- machine-learned interatomic potentials (geometry engine; Tier-3 structures) ---
+# MACE-MPA-0 is loaded via mace-torch; CHGNet is used for a descriptor cross-check.
+mace-torch==0.3.15
+chgnet==0.4.2
+
+# --- deep learning (Net fusion predictor; GPU) ---
+# Install the CUDA 12.8 build: pip install torch==2.11.0 --index-url https://download.pytorch.org/whl/cu128
+torch==2.11.0
+
+# --- plotting (paper figures) ---
+matplotlib==3.10.8
+
+# --- NOTE: MatterSim (finite-T melt-quench cross-check) needs its OWN environment ---
+# It pins different torch/ase/pymatgen versions and must not share the ga2o3 env:
+#   conda create -n mattersim python=3.11 && conda activate mattersim
+#   pip install mattersim==1.2.3        # pulls torch==2.13.0, ase==3.29.0, pymatgen==2026.5.4
+# Only needed to REGENERATE the MatterSim disorder ensemble; the outputs are already
+# shipped in Ga2O3-Sandbox/dft/disorder_mattersim/.

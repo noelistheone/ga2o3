@@ -1,0 +1,20 @@
+{
+ "crystal_gap_eV": 2.339,
+ "reference_595_narrowing_eV": -0.584,
+ "cells": [
+  {
+   "cell": "lr54",
+   "density_gcc": 5.4,
+   "gap_eV": 1.245,
+   "narrowing_eV": -1.094
+  },
+  {
+   "cell": "lr50",
+   "density_gcc": 5.0,
+   "gap_eV": 1.023,
+   "narrowing_eV": -1.316
+  }
+ ],
+ "monotonic_within_0.1eV": true,
+ "read": "lower density disorders further (narrowing >= the 5.95 g/cc value) => the fixed near-crystalline-density ensembles are a conservative lower bound"
+}

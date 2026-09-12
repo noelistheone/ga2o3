@@ -1,0 +1,102 @@
+{
+  "n_pairs": 100,
+  "sign_match": "48/100",
+  "frac_correct": 0.48,
+  "corpus_frac_up": 0.48,
+  "majority_baseline": 0.52,
+  "beats_majority": false,
+  "spearman_pred_vs_obs": -0.413,
+  "note": "predicted dEg is BM widening for degenerate donors (~+0.006..+0.028 eV); most corpus dEg contrasts also positive \u2192 check beats_majority for real skill",
+  "examples": [
+    {
+      "doi": "031cfe84cd36d770.md",
+      "el": "Ti",
+      "obs_dEg": -0.16,
+      "pred_dEg": 0.0017
+    },
+    {
+      "doi": "031cfe84cd36d770.md",
+      "el": "Ti",
+      "obs_dEg": -0.27,
+      "pred_dEg": 0.0017
+    },
+    {
+      "doi": "031cfe84cd36d770.md",
+      "el": "Ti",
+      "obs_dEg": -0.26,
+      "pred_dEg": 0.0017
+    },
+    {
+      "doi": "031cfe84cd36d770.md",
+      "el": "Ti",
+      "obs_dEg": -0.41,
+      "pred_dEg": 0.0017
+    },
+    {
+      "doi": "031cfe84cd36d770.md",
+      "el": "Ti",
+      "obs_dEg": -1.13,
+      "pred_dEg": 0.0017
+    },
+    {
+      "doi": "0a363d4b584e098f.md",
+      "el": "Sn",
+      "obs_dEg": 0.35,
+      "pred_dEg": 0.0061
+    },
+    {
+      "doi": "1-s2.0-S0042207X15300014-mai",
+      "el": "Mg",
+      "obs_dEg": 0.04,
+      "pred_dEg": 0.0017
+    },
+    {
+      "doi": "1-s2.0-S0042207X15300014-mai",
+      "el": "Mg",
+      "obs_dEg": 0.14,
+      "pred_dEg": 0.0017
+    },
+    {
+      "doi": "1-s2.0-S0042207X15300014-mai",
+      "el": "Mg",
+      "obs_dEg": 0.24,
+      "pred_dEg": 0.0017
+    },
+    {
+      "doi": "1-s2.0-S0042207X15300014-mai",
+      "el": "Mg",
+      "obs_dEg": 0.34,
+      "pred_dEg": 0.0017
+    },
+    {
+      "doi": "1-s2.0-S0042207X15300014-mai",
+      "el": "Mg",
+      "obs_dEg": 0.44,
+      "pred_dEg": 0.0017
+    },
+    {
+      "doi": "1-s2.0-S0042207X15300014-mai",
+      "el": "Mg",
+      "obs_dEg": 0.4,
+      "pred_dEg": 0.0017
+    },
+    {
+      "doi": "1-s2.0-S0042207X15300014-mai",
+      "el": "Mg",
+      "obs_dEg": 0.4,
+      "pred_dEg": 0.0017
+    },
+    {
+      "doi": "1-s2.0-S0042207X15300014-mai",
+      "el": "Mg",
+      "obs_dEg": 0.4,
+      "pred_dEg": 0.0017
+    },
+    {
+      "doi": "1-s2.0-S0042207X15300014-mai",
+      "el": "Mg",
+      "obs_dEg": 0.4,
+      "pred_dEg": 0.0017
+    }
+  ]
+}

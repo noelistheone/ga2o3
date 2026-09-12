@@ -1,0 +1,67 @@
+{
+ "protocol": {
+  "state": {
+   "T_anneal": 1500.0,
+   "pO2": 0.2,
+   "film": false,
+   "Nd_bg": 1e+16
+  },
+  "N_cat_cm3": 1.2733333333333334e+22
+ },
+ "nb_positive_control": {
+  "status": "runs through the full new-dopant chain (MLIP relax -> PBE charge states -> HSE single points); Nb is outside the 19-element database, so no database shortcut exists -- exactly the same footing as Sb/Bi",
+  "record": "OFZ Nb: n=6.1e17 (0.05 mol%), 1.2e18 (0.1 mol%), shallow 0.03 eV donor (Sai et al., AIP Adv. 14, 045244 (2024))"
+ },
+ "ta_at_ofz_state": [
+  {
+   "frac": 1e-05,
+   "loading_cm3": 1.2733333333333334e+17,
+   "Ta_n_cm3": 9.799410346147592e+16
+  },
+  {
+   "frac": 3e-05,
+   "loading_cm3": 3.82e+17,
+   "Ta_n_cm3": 1.0037851101212902e+17
+  },
+  {
+   "frac": 0.0001,
+   "loading_cm3": 1.2733333333333335e+18,
+   "Ta_n_cm3": 16645.696019852196
+  },
+  {
+   "frac": 0.0003,
+   "loading_cm3": 3.82e+18,
+   "Ta_n_cm3": 6030.701046506045
+  }
+ ],
+ "shallow_sb_at_anneal_vs_ofz": "the required-level scan of sb_ofz_confrontation.json evaluated a hypothetical shallow Sb at the CALIBRATED ANNEAL state (1350 K, effective ambient), where each 0.03 eV of E_F rise doubles [V_Ga]; at the OFZ growth state above, a shallow double donor activates exactly as Ta does -- the asymmetry is the state, not the element, and the confrontation statement is conditional on the anneal-state scan as published",
+ "si_contamination_scenario": {
+  "series": [
+   {
+    "Nd_bg_cm3": 9.55e+16,
+    "label": "UID baseline",
+    "n_cm3": 9.226858365932371e+16,
+    "mu_cm2Vs": 199.7
+   },
+   {
+    "Nd_bg_cm3": 5.4e+17,
+    "label": "matches series low",
+    "n_cm3": 3.5582794743983424e+17,
+    "mu_cm2Vs": 161.7
+   },
+   {
+    "Nd_bg_cm3": 1.54e+18,
+    "label": "matches series mid",
+    "n_cm3": 6.102716080629102e+17,
+    "mu_cm2Vs": 117.0
+   },
+   {
+    "Nd_bg_cm3": 8.1e+18,
+    "label": "matches series high",
+    "n_cm3": 1.1898770448046953e+18,
+    "mu_cm2Vs": 86.9
+   }
+  ],
+  "read": "a shallow background rising with nominal Sb2O5 load reproduces the measured n series trivially; discriminating measurements (T-dependent Hall, Sb-valence XPS, Si survey) are named in the text"
+ }
+}

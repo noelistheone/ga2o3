@@ -1,0 +1,30 @@
+{
+  "engine": "MatterSim-v1 NVT melt-quench at EXPERIMENTAL amorphous density (5.95 g/cc)",
+  "n_cells": 3,
+  "crystal_density_gcc": 5.888,
+  "amorph_density_gcc": 5.95,
+  "crystal_bond_std_A": 0.088,
+  "amorph_bond_std_A_mean": 0.14,
+  "round1_bond_std_A": 0.095,
+  "cells": [
+    {
+      "seed": 0,
+      "density_gcc": 5.95,
+      "bond_mean_A": 2.005,
+      "bond_std_A": 0.139
+    },
+    {
+      "seed": 1,
+      "density_gcc": 5.95,
+      "bond_mean_A": 1.983,
+      "bond_std_A": 0.139
+    },
+    {
+      "seed": 2,
+      "density_gcc": 5.95,
+      "bond_mean_A": 1.995,
+      "bond_std_A": 0.142
+    }
+  ],
+  "verdict": "At the correct amorphous density (5.95 vs crystal 5.89 g/cc), MatterSim melt-quench gives GaO bond disorder 0.140 A vs round-1's crystal-density 0.095 A -> disorder is LARGER at the physical density (independent MLIP + correct density = the round-1 density-caveat cross-check). Cells ready for QE DOS to refine the narrowing."
+}

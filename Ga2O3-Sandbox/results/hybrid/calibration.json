@@ -1,0 +1,45 @@
+{
+  "Tf_grid_median_log10n_err": {
+    "1073": 2.227,
+    "1200": 1.488,
+    "1350": 1.286,
+    "1500": 1.256,
+    "1650": 1.56,
+    "1800": 1.76
+  },
+  "Tf_best_global": 1500,
+  "n_err_by_dopant_at_Tf_best": {
+    "Cr": 1.0,
+    "Ge": 1.49,
+    "Mg": 61.28,
+    "Si": 0.99,
+    "Sn": 1.03,
+    "Zn": 59.21
+  },
+  "modeC_subclass_n_err (Si/Sn/Hf)": {
+    "Si": 0.99,
+    "Sn": 1.03
+  },
+  "cliff_donors_n_err (Ge/Ta/Zr...)": {
+    "Cr": 1.0,
+    "Ge": 1.49,
+    "Mg": 61.28,
+    "Zn": 59.21
+  },
+  "mu_single_crystal_median_abs_log10_err": 0.384,
+  "mu_single_crystal_factor": 2.42,
+  "conformal90_n_subclass_dex": 3.02,
+  "abstention_gate_B_n_dex": 0.3,
+  "modeC_PASS (<=B_n)": {},
+  "ABSTAIN (>B_n, order-of-mag only)": {
+    "Cr": 1.0,
+    "Ge": 1.49,
+    "Mg": 61.28,
+    "Si": 0.99,
+    "Sn": 1.03,
+    "Zn": 59.21
+  },
+  "n_transport_rows": 77,
+  "n_mu_singlecrystal_rows": 37,
+  "verdict": "Global Tf=1500: Mode-C subclass reaches median 1.01 dex (target <=0.3), mu single-crystal factor 2.4x (target <=1.4). Abstention gate correctly flags ['Cr', 'Ge', 'Mg', 'Si', 'Sn', 'Zn'] as order-of-mag only."
+}

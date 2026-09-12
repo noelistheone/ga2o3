@@ -1,0 +1,109 @@
+# Stage 3: Fusion & prediction head configuration
+head:
+  type: mlp               # "mlp" or "xgboost"
+  in_dim: 160
+  hidden_dims: [128, 64]  # Phase 3G: further capacity test. ~29k params, ~2.4:1 sample-to-param
+                          # for N=69 PDR. Relies on weight_decay + early stop to control overfit.
+  dropout: 0.05           # low dropout: regularisation handled by weight_decay
+  output_dim: 1
+
+targets:
+  - photo_dark_ratio
+  - vacancy_concentration
+
+loss:
+  type: combined                # "combined" = flat MSE+InfoNCE+L2. "uncertainty_weighted"
+                                # adds learnable log_var per task — unnecessary extra DOF
+                                # when infonce_weight=0 and N is tiny.
+  mse_weight: 1.0               # pure MSE regression (infonce disabled)
+  infonce_weight: 0.0           # DISABLED: InfoNCE competes with regression for N=67.
+                                # Temperature (r=−0.35) and method are the key features;
+                                # contrastive pressure over dopant classes distorts that.
+  l2_lambda: 0.0               # DISABLED: replaced by Adam weight_decay below (see training).
+                                # Explicit sum(p.norm(2)) caused loss spikes at epoch ~270-300
+                                # as weights grew; Adam weight_decay decouples this cleanly.
+  infonce_temperature: 0.3
+  init_log_var: 0.0             # initial log σ² per task (type=uncertainty_weighted)
+  recon_weight: 0.0             # composition reconstruction auxiliary loss (semi-supervised)
+                                # DISABLED: with N=67 regression samples vs 218*290 recon targets,
+                                # effective gradient ratio is ~46:1 in favour of reconstruction,
+                                # which overwhelms regression and causes variance collapse.
+
+training:
+  epochs: 2000
+  learning_rate: 2.0e-4         # lower LR for stable encoder fine-tuning
+  encoder_lr: 5.0e-6            # 40× lower than base_lr for partially unfrozen encoder layers
+  encoder_unfreeze_last_n: 0    # FREEZE encoder. ExpB showed unfreeze hurts with N=240 + Ga-site CIFs.
+  freeze_encoder: true
+  weight_decay: 5.0e-6          # ExpA: reduced from 1e-4 → address over-regularisation
+                                # (slope=0.065 indicated predictions shrunken toward mean).
+                                # Decoupled L2 regularisation: stable, no spike at high weight norms.
+  patience: 300
+  cv_folds: 10               # ExpA: 10-fold (was 5). Each fold: ~60 train / 18-19 val → more stable VC folds
+  batch_size: 16                # larger batches → stable gradients, more InfoNCE pairs
+  mc_dropout_passes: 20         # MC Dropout inference passes; 0 = disabled
+  mixup_alpha: 0.2              # embedding-space Mixup; 0.0 = disabled
+  grad_clip: 1.0                # gradient clipping max norm (was hardcoded 5.0)
+
+pseudo_labeling:
+  enabled: false                # disabled — model predicting mean → pseudo-labels reinforce mean
+  std_threshold: 0.3
+  phase2_epochs: 500
+  phase2_lr_scale: 0.1
+  mc_passes: 20
+
+augmentation:
+  concentration_jitter: 0.005   # ±0.5 at%
+  label_noise_std: 0.01         # 1% of range
+
+gp:
+  enabled: false            # Set true via --gp flag or here to run GP baseline in CV.
+                            # GP operates on raw XenonPy+process features (no CGCNN),
+                            # so it directly tests whether the structure stream helps.
+                            # Uses Matérn 3/2 kernel + PCA(15) for N<100 stability.
+                            # Reference: Thelen et al. 2026; Kim et al. npj CM 2020.
+  use_embeddings: true      # ADDITIONAL: also run GP on learned 160-dim MLP embeddings.
+                            # Hybrid MLP+GP: learned representations + Bayesian regression.
+                            # Only active when gp.enabled=true (or --gp flag passed).
+
+xgboost:
+  n_estimators: 200
+  max_depth: 5
+  learning_rate: 0.05
+  subsample: 0.8
+  colsample_bytree: 0.8
+
+data:
+  log_transform_targets: true
+  mask_noconc_labels: true
+  # v7: mask remaining no_conc rows (20 rows) — unknown concentrations.
+  mask_undoped_labels: true
+  # Mask undoped rows to focus MSE on doped samples with real composition signal.
+  min_conc_threshold: 0.0
+  # No concentration threshold — use all labeled samples (Exp A strategy)
+  # Targets (photo_dark_ratio, vacancy_concentration) are stored as log10(value)
+  # in the CSV by scripts/00c_prepare_data.py. Values are NOT re-transformed at
+  # load time. Expected ranges: photo_dark_ratio ∈ [0.85, 8.3],
+  #                             vacancy_concentration ∈ [9.97, 19.3].
+  mask_carrier_vc: true
+  # Mask VC labels where concentration was back-calculated from carrier
+  # concentration (conc_source='carrier' in CSV). Circular dependency:
+  # at% = n_carrier / 3.64e22 × 100, and n_carrier ≈ VC target.
+  # Affects ~11 rows (Si MBE/MOCVD, Sn MOCVD, some undoped).
+  exclude_elements: ["N", "H", "Nb", "In"]
+  # ExpD (best v7 config): exclude elements with incorrect/rare CIFs.
+  # N/H: Ga-site CIFs physically wrong (need O-site/interstitial + encoder unfreeze).
+  # Nb/In: rare v7 additions with little data support.
+  target_standardize: true
+  # Per-fold z-score normalization of targets before MSE loss.
+  # Predictions are inverse-transformed before OOF collection.
+  # Fixes slope compression caused by weight_decay on large-offset targets.
+  drop_both_nan_rows: false
+  # Rows where both targets are NaN are kept — they contribute InfoNCE contrastive
+  # signal (dopant-class embeddings) even when MSE loss is masked to zero.
+
+paths:
+  experimental_csv: data/raw/experimental/ga2o3_exp.csv
+  structures_dir: data/structures
+  embeddings_cache: data/processed/stage2_embeddings.pkl
+  results_dir: results

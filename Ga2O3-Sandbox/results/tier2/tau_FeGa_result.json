@@ -1,0 +1,16 @@
+{
+  "defect": "FeGa",
+  "charges": "0/-1",
+  "dQ_amu_half_A": 0.269,
+  "lambda_qA_eV": 0.015,
+  "lambda_qB_eV": 0.009,
+  "effective_lambda_eV": 0.012,
+  "driving_force_dE_eV": 0.86,
+  "N_trap_cm3": 1e+17,
+  "capture_barrier_eV": 16.018,
+  "effective_phonon_meV": 37.0,
+  "capture_coeff_cm3_s": 8.265406656081625e-277,
+  "capture_cross_section_cm2": 4.132703328040812e-284,
+  "SRH_tau_s": 1e+99,
+  "fidelity": "order-of-magnitude / class-ranking only (C0 bounded, not full Alkauskas ME)"
+}

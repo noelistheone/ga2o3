@@ -1,0 +1,26 @@
+# Stage 2: Multi-modal feature extraction dimensions (Phase 2C, 16-dim process tensor)
+# Archived snapshot for pdr_best / vc_best — they were trained with in_dim=16.
+structure_stream:
+  embedding_dim: 64
+  pretrained_ckpt: checkpoints/pretrained_encoder.pt
+composition_stream:
+  xenonpy_raw_dim: 290
+  hidden_dim: 128
+  out_dim: 64
+  dropout: 0.1
+  cache_file: data/processed/xenonpy_cache.pkl
+process_stream:
+  in_dim: 16
+  continuous_dim: 11
+  method_embed_dim: 3
+  n_methods: 6
+  hidden_dim: 64
+  out_dim: 32
+  dropout: 0.2
+fusion:
+  total_dim: 160
+  mode: concat
+  structure_scale: 1.0
+scalers:
+  process_scaler: data/processed/process_scaler.pkl
+  composition_scaler: data/processed/composition_scaler.pkl

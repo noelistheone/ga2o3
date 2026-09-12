@@ -1,0 +1,26 @@
+{
+ "val30": {
+  "labs_with_undoped_ref": 3,
+  "labs_without": 10,
+  "designed_K2_median_withref": 0.803,
+  "designed_K2_median_noref": 0.76
+ },
+ "aud22_keys": [
+  "n_sampled",
+  "supported",
+  "partial",
+  "unsupported",
+  "unjudgeable",
+  "per_row",
+  "method"
+ ],
+ "aud22_partial_subclasses": {
+  "partial_subclass_counts": {
+   "unit_conversion": 20,
+   "other": 12,
+   "range_vs_point": 9
+  },
+  "n_partial": 41,
+  "read": "unit-conversion partials are exact after the registered conversion (zero numeric deviation by construction); range-vs-point partials are bounded by the quoted range width; field-association partials are the screen's target class"
+ }
+}

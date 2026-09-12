@@ -1,0 +1,36 @@
+# Stage 1: Pre-training hyperparameters
+model:
+  atom_embedding_dim: 64
+  edge_rbf_dim: 40        # Gaussian RBF centers for edge distance expansion
+  rbf_cutoff: 8.0         # Angstroms, max distance for RBF centers
+  rbf_sigma: 0.5          # Gaussian width
+  num_conv_layers: 4
+  hidden_dim: 64
+  output_dim: 2           # [band_gap, formation_energy]
+
+data:
+  cutoff_radius: 6.0      # Angstroms, neighbor search radius
+  max_neighbors: 12       # Max neighbors per atom (KNN fallback)
+  val_fraction: 0.1       # Only used when cv_folds=1 (single split)
+  num_workers: 4          # DataLoader worker processes
+  process_workers: 8      # Parallel workers for CIF→graph conversion (0 = serial)
+                          # Set to os.cpu_count() (e.g. 16) for fastest processing
+                          # Reduce if you hit "Too many open files" errors
+  cv_folds: 5             # K-fold CV for Stage 1 — trains 5 independent encoders,
+                          # saves checkpoint from best-val-loss fold.
+                          # NOTE: k=5 takes ~5× longer than k=1.
+
+training:
+  epochs: 100
+  batch_size: 256         # larger batch fits in 24 GB VRAM (RTX 3090)
+  learning_rate: 1.0e-3
+  weight_decay: 1.0e-4    # L2 regularization lambda
+  scheduler: cosine       # cosine annealing
+  min_lr: 1.0e-5
+  patience: 20            # early stopping patience
+
+paths:
+  raw_data: data/raw/mp_oxides
+  processed: data/processed/mp_graphs
+  labels_csv: data/processed/mp_labels.csv
+  checkpoint: checkpoints/pretrained_encoder.pt

@@ -1,0 +1,20 @@
+{
+ "Tf1073": {
+  "n_points": 18,
+  "spearman": 0.988,
+  "pred_slope_dex_per_dex": 0.012,
+  "meas_slope_dex_per_dex": 1.055
+ },
+ "Tf1350": {
+  "n_points": 18,
+  "spearman": 0.988,
+  "pred_slope_dex_per_dex": 0.175,
+  "meas_slope_dex_per_dex": 1.055
+ },
+ "Tf1500": {
+  "n_points": 18,
+  "spearman": 0.988,
+  "pred_slope_dex_per_dex": 0.51,
+  "meas_slope_dex_per_dex": 1.055
+ }
+}

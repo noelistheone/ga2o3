@@ -1,0 +1,102 @@
+{
+ "_method": "leave-one-element-out per FOM; element-clustered bootstrap CI (4000) and element-permutation null (10000); naive per-pair binomial deliberately not reported",
+ "_reuses": "Ga2O3-Net/scripts/phase105h_newdopant_supp.py::element_loeo (read-only)",
+ "per_fom": {
+  "hall_mobility_mu": {
+   "pairwise_acc": 0.742,
+   "n_pairs": 66,
+   "n_elements": 12,
+   "element_bootstrap_ci95": [
+    0.541,
+    0.907
+   ],
+   "element_permutation_p": 0.0152,
+   "median_split_acc": 0.833,
+   "chem5": true
+  },
+  "hall_carrier_n": {
+   "pairwise_acc": 0.571,
+   "n_pairs": 63,
+   "n_elements": 12,
+   "element_bootstrap_ci95": [
+    0.386,
+    0.8
+   ],
+   "element_permutation_p": 0.2956,
+   "median_split_acc": 0.5,
+   "chem5": true
+  },
+  "optical_bandgap_Eg": {
+   "pairwise_acc": 0.549,
+   "n_pairs": 102,
+   "n_elements": 15,
+   "element_bootstrap_ci95": [
+    0.367,
+    0.728
+   ],
+   "element_permutation_p": 0.3407,
+   "median_split_acc": 0.6,
+   "chem5": true
+  },
+  "vacancy_concentration": {
+   "pairwise_acc": 0.714,
+   "n_pairs": 14,
+   "n_elements": 6,
+   "element_bootstrap_ci95": [
+    0.333,
+    1.0
+   ],
+   "element_permutation_p": 0.175,
+   "median_split_acc": 0.833,
+   "chem5": true
+  },
+  "dark_current_pA": {
+   "pairwise_acc": 0.733,
+   "n_pairs": 15,
+   "n_elements": 6,
+   "element_bootstrap_ci95": [
+    0.273,
+    1.0
+   ],
+   "element_permutation_p": 0.137,
+   "median_split_acc": 0.667,
+   "chem5": true
+  },
+  "photo_dark_ratio": {
+   "pairwise_acc": 0.464,
+   "n_pairs": 28,
+   "n_elements": 8,
+   "element_bootstrap_ci95": [
+    0.158,
+    0.792
+   ],
+   "element_permutation_p": 0.6331,
+   "median_split_acc": 0.25,
+   "chem5": false
+  },
+  "tau_decay": {
+   "pairwise_acc": 0.464,
+   "n_pairs": 28,
+   "n_elements": 8,
+   "element_bootstrap_ci95": [
+    0.174,
+    0.84
+   ],
+   "element_permutation_p": 0.641,
+   "median_split_acc": 0.5,
+   "chem5": false
+  },
+  "bandgap_shift_dEg": {
+   "pairwise_acc": 0.536,
+   "n_pairs": 28,
+   "n_elements": 8,
+   "element_bootstrap_ci95": [
+    0.24,
+    0.792
+   ],
+   "element_permutation_p": 0.4455,
+   "median_split_acc": 0.75,
+   "chem5": false
+  }
+ }
+}

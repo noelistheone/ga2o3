@@ -1,0 +1,182 @@
+{
+  "ckpt": "results/deployment/vc_phase55_v55ext_qwen/stage3_model.pt",
+  "config": "results/deployment/vc_phase55_v55ext_qwen/multimodal.yaml",
+  "process": {
+    "method": "RF magnetron sputtering",
+    "atmosphere": "Ar",
+    "temperature_c": 700.0
+  },
+  "summary": {
+    "target": "vacancy_concentration",
+    "n_probed": 16,
+    "n_graded": 9,
+    "LEARNED_LAW": 0,
+    "RIGHT_SIGN_NONMONO": 2,
+    "FLAT": 4,
+    "WRONG_DIRECTION": 3,
+    "isovalent_OK_FLAT": 3,
+    "isovalent_UNEXPECTED": 4
+  },
+  "per_element": [
+    {
+      "element": "Al",
+      "status": "ok",
+      "valence_class": "isovalent/anion",
+      "expected_sign": 0,
+      "sweep_rho": 0.261,
+      "monotonic_frac": 0.56,
+      "span_std": 0.309,
+      "verdict": "UNEXPECTED_RESPONSE"
+    },
+    {
+      "element": "B",
+      "status": "ok",
+      "valence_class": "isovalent/anion",
+      "expected_sign": 0,
+      "sweep_rho": -0.248,
+      "monotonic_frac": 0.67,
+      "span_std": 0.191,
+      "verdict": "UNEXPECTED_RESPONSE"
+    },
+    {
+      "element": "Bi",
+      "status": "ok",
+      "valence_class": "isovalent/anion",
+      "expected_sign": 0,
+      "sweep_rho": 0.721,
+      "monotonic_frac": 0.67,
+      "span_std": 1.103,
+      "verdict": "UNEXPECTED_RESPONSE"
+    },
+    {
+      "element": "Cr",
+      "status": "ok",
+      "valence_class": "isovalent/anion",
+      "expected_sign": 0,
+      "sweep_rho": 0.576,
+      "monotonic_frac": 0.56,
+      "span_std": 0.323,
+      "verdict": "UNEXPECTED_RESPONSE"
+    },
+    {
+      "element": "Cu",
+      "status": "ok",
+      "valence_class": "acceptor",
+      "expected_sign": -1,
+      "sweep_rho": 0.212,
+      "monotonic_frac": 0.44,
+      "span_std": 0.247,
+      "verdict": "WRONG_DIRECTION"
+    },
+    {
+      "element": "Fe",
+      "status": "ok",
+      "valence_class": "isovalent/anion",
+      "expected_sign": 0,
+      "sweep_rho": -0.03,
+      "monotonic_frac": 0.56,
+      "span_std": 0.234,
+      "verdict": "OK_FLAT"
+    },
+    {
+      "element": "Ge",
+      "status": "ok",
+      "valence_class": "donor",
+      "expected_sign": 1,
+      "sweep_rho": 0.576,
+      "monotonic_frac": 0.56,
+      "span_std": 0.206,
+      "verdict": "RIGHT_SIGN_NONMONO"
+    },
+    {
+      "element": "Mg",
+      "status": "ok",
+      "valence_class": "acceptor",
+      "expected_sign": -1,
+      "sweep_rho": -0.006,
+      "monotonic_frac": 0.44,
+      "span_std": 0.3,
+      "verdict": "FLAT"
+    },
+    {
+      "element": "Sb",
+      "status": "ok",
+      "valence_class": "isovalent/anion",
+      "expected_sign": 0,
+      "sweep_rho": 0.042,
+      "monotonic_frac": 0.56,
+      "span_std": 0.229,
+      "verdict": "OK_FLAT"
+    },
+    {
+      "element": "Si",
+      "status": "ok",
+      "valence_class": "donor",
+      "expected_sign": 1,
+      "sweep_rho": -0.212,
+      "monotonic_frac": 0.67,
+      "span_std": 0.245,
+      "verdict": "WRONG_DIRECTION"
+    },
+    {
+      "element": "Sn",
+      "status": "ok",
+      "valence_class": "donor",
+      "expected_sign": 1,
+      "sweep_rho": 0.055,
+      "monotonic_frac": 0.44,
+      "span_std": 0.603,
+      "verdict": "FLAT"
+    },
+    {
+      "element": "Ta",
+      "status": "ok",
+      "valence_class": "super_donor",
+      "expected_sign": 1,
+      "sweep_rho": 0.139,
+      "monotonic_frac": 0.56,
+      "span_std": 0.267,
+      "verdict": "FLAT"
+    },
+    {
+      "element": "Ti",
+      "status": "ok",
+      "valence_class": "donor",
+      "expected_sign": 1,
+      "sweep_rho": -0.224,
+      "monotonic_frac": 0.56,
+      "span_std": 0.269,
+      "verdict": "WRONG_DIRECTION"
+    },
+    {
+      "element": "V",
+      "status": "ok",
+      "valence_class": "isovalent/anion",
+      "expected_sign": 0,
+      "sweep_rho": 0.115,
+      "monotonic_frac": 0.33,
+      "span_std": 0.277,
+      "verdict": "OK_FLAT"
+    },
+    {
+      "element": "W",
+      "status": "ok",
+      "valence_class": "super_donor",
+      "expected_sign": 1,
+      "sweep_rho": 0.139,
+      "monotonic_frac": 0.44,
+      "span_std": 0.347,
+      "verdict": "FLAT"
+    },
+    {
+      "element": "Zn",
+      "status": "ok",
+      "valence_class": "acceptor",
+      "expected_sign": -1,
+      "sweep_rho": -0.164,
+      "monotonic_frac": 0.56,
+      "span_std": 0.212,
+      "verdict": "RIGHT_SIGN_NONMONO"
+    }
+  ]
+}

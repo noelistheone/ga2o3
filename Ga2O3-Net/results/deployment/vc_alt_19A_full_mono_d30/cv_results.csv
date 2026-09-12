@@ -1,0 +1,9 @@
+metric,value
+mlp_vacancy_concentration_mae_mean,0.879336
+mlp_vacancy_concentration_mae_std,0.726055
+mlp_vacancy_concentration_rmse_mean,1.113741
+mlp_vacancy_concentration_rmse_std,0.908427
+mlp_vacancy_concentration_r2_mean,-45709888509.715157
+mlp_vacancy_concentration_r2_std,137101140702.213715
+mlp_vacancy_concentration_mc_std_mean_mean,0.047570
+mlp_vacancy_concentration_mc_std_mean_std,0.015881

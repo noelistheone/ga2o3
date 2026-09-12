@@ -1,0 +1,364 @@
+{
+  "device": "cuda:0",
+  "models": {
+    "sum": {
+      "G1_counterfactual_law": {
+        "rules": {
+          "R1_donor_up_EF_up": {
+            "agree": 0.886,
+            "n_decisive": 343,
+            "solver_mean_dsign": 1.0
+          },
+          "R2_acceptor_up_EF_down": {
+            "agree": 0.959,
+            "n_decisive": 629,
+            "solver_mean_dsign": -1.0
+          },
+          "R3_acceptor_up_VO_up": {
+            "agree": 0.99,
+            "n_decisive": 587,
+            "solver_mean_dsign": 1.0
+          },
+          "R4_donor_up_VO_down": {
+            "agree": 0.885,
+            "n_decisive": 139,
+            "solver_mean_dsign": -1.0
+          },
+          "R5_pO2_up_VO_down": {
+            "agree": 1.0,
+            "n_decisive": 756,
+            "solver_mean_dsign": -1.0
+          },
+          "R6_T_up_VO_up": {
+            "agree": 1.0,
+            "n_decisive": 800,
+            "solver_mean_dsign": 1.0
+          },
+          "R7_add_acceptor_EF_down": {
+            "agree": 0.979,
+            "n_decisive": 518,
+            "solver_mean_dsign": -1.0
+          },
+          "R8_add_donor_EF_up": {
+            "agree": 0.899,
+            "n_decisive": 800,
+            "solver_mean_dsign": 1.0
+          },
+          "R9_isovalent_less_than_donor": {
+            "agree": 0.86,
+            "n_decisive": 456
+          }
+        },
+        "learned": 9,
+        "of": 9,
+        "pass_": true
+      },
+      "L1": {
+        "name": "L1_monotonicity_VO_vs_conc_D34",
+        "surrogate_pct_monotone": 0.662,
+        "solver_pct_monotone": 0.625,
+        "n_decisive": 136,
+        "pass_": false
+      },
+      "L5": {
+        "name": "L5_permutation_invariance",
+        "max_dev": 9e-06,
+        "pass_": true
+      },
+      "L6": {
+        "name": "L6_c_to_0_reduction",
+        "mean_abs_dlogVO": 0.4974,
+        "pass_": false
+      }
+    },
+    "mean": {
+      "G1_counterfactual_law": {
+        "rules": {
+          "R1_donor_up_EF_up": {
+            "agree": 0.856,
+            "n_decisive": 347,
+            "solver_mean_dsign": 1.0
+          },
+          "R2_acceptor_up_EF_down": {
+            "agree": 0.888,
+            "n_decisive": 623,
+            "solver_mean_dsign": -1.0
+          },
+          "R3_acceptor_up_VO_up": {
+            "agree": 1.0,
+            "n_decisive": 586,
+            "solver_mean_dsign": 1.0
+          },
+          "R4_donor_up_VO_down": {
+            "agree": 0.943,
+            "n_decisive": 158,
+            "solver_mean_dsign": -1.0
+          },
+          "R5_pO2_up_VO_down": {
+            "agree": 1.0,
+            "n_decisive": 758,
+            "solver_mean_dsign": -1.0
+          },
+          "R6_T_up_VO_up": {
+            "agree": 1.0,
+            "n_decisive": 800,
+            "solver_mean_dsign": 1.0
+          },
+          "R7_add_acceptor_EF_down": {
+            "agree": 0.967,
+            "n_decisive": 518,
+            "solver_mean_dsign": -1.0
+          },
+          "R8_add_donor_EF_up": {
+            "agree": 1.0,
+            "n_decisive": 800,
+            "solver_mean_dsign": 1.0
+          },
+          "R9_isovalent_less_than_donor": {
+            "agree": 0.729,
+            "n_decisive": 465
+          }
+        },
+        "learned": 8,
+        "of": 9,
+        "pass_": true
+      },
+      "L1": {
+        "name": "L1_monotonicity_VO_vs_conc_D34",
+        "surrogate_pct_monotone": 0.744,
+        "solver_pct_monotone": 0.664,
+        "n_decisive": 125,
+        "pass_": false
+      },
+      "L5": {
+        "name": "L5_permutation_invariance",
+        "max_dev": 3e-06,
+        "pass_": true
+      },
+      "L6": {
+        "name": "L6_c_to_0_reduction",
+        "mean_abs_dlogVO": 0.3674,
+        "pass_": false
+      }
+    },
+    "attn": {
+      "G1_counterfactual_law": {
+        "rules": {
+          "R1_donor_up_EF_up": {
+            "agree": 0.911,
+            "n_decisive": 349,
+            "solver_mean_dsign": 1.0
+          },
+          "R2_acceptor_up_EF_down": {
+            "agree": 0.887,
+            "n_decisive": 645,
+            "solver_mean_dsign": -1.0
+          },
+          "R3_acceptor_up_VO_up": {
+            "agree": 0.93,
+            "n_decisive": 602,
+            "solver_mean_dsign": 1.0
+          },
+          "R4_donor_up_VO_down": {
+            "agree": 0.947,
+            "n_decisive": 151,
+            "solver_mean_dsign": -1.0
+          },
+          "R5_pO2_up_VO_down": {
+            "agree": 1.0,
+            "n_decisive": 767,
+            "solver_mean_dsign": -1.0
+          },
+          "R6_T_up_VO_up": {
+            "agree": 1.0,
+            "n_decisive": 800,
+            "solver_mean_dsign": 1.0
+          },
+          "R7_add_acceptor_EF_down": {
+            "agree": 0.861,
+            "n_decisive": 496,
+            "solver_mean_dsign": -1.0
+          },
+          "R8_add_donor_EF_up": {
+            "agree": 0.828,
+            "n_decisive": 798,
+            "solver_mean_dsign": 1.0
+          },
+          "R9_isovalent_less_than_donor": {
+            "agree": 0.835,
+            "n_decisive": 462
+          }
+        },
+        "learned": 9,
+        "of": 9,
+        "pass_": true
+      },
+      "L1": {
+        "name": "L1_monotonicity_VO_vs_conc_D34",
+        "surrogate_pct_monotone": 0.619,
+        "solver_pct_monotone": 0.619,
+        "n_decisive": 118,
+        "pass_": false
+      },
+      "L5": {
+        "name": "L5_permutation_invariance",
+        "max_dev": 5e-06,
+        "pass_": true
+      },
+      "L6": {
+        "name": "L6_c_to_0_reduction",
+        "mean_abs_dlogVO": 0.6604,
+        "pass_": false
+      }
+    },
+    "slot": {
+      "G1_counterfactual_law": {
+        "rules": {
+          "R1_donor_up_EF_up": {
+            "agree": 0.724,
+            "n_decisive": 304,
+            "solver_mean_dsign": 1.0
+          },
+          "R2_acceptor_up_EF_down": {
+            "agree": 0.83,
+            "n_decisive": 646,
+            "solver_mean_dsign": -1.0
+          },
+          "R3_acceptor_up_VO_up": {
+            "agree": 0.913,
+            "n_decisive": 599,
+            "solver_mean_dsign": 1.0
+          },
+          "R4_donor_up_VO_down": {
+            "agree": 0.755,
+            "n_decisive": 155,
+            "solver_mean_dsign": -1.0
+          },
+          "R5_pO2_up_VO_down": {
+            "agree": 1.0,
+            "n_decisive": 751,
+            "solver_mean_dsign": -1.0
+          },
+          "R6_T_up_VO_up": {
+            "agree": 1.0,
+            "n_decisive": 800,
+            "solver_mean_dsign": 1.0
+          },
+          "R7_add_acceptor_EF_down": {
+            "agree": 0.79,
+            "n_decisive": 509,
+            "solver_mean_dsign": -1.0
+          },
+          "R8_add_donor_EF_up": {
+            "agree": 0.842,
+            "n_decisive": 799,
+            "solver_mean_dsign": 1.0
+          },
+          "R9_isovalent_less_than_donor": {
+            "agree": 0.71,
+            "n_decisive": 448
+          }
+        },
+        "learned": 5,
+        "of": 9,
+        "pass_": false
+      },
+      "L1": {
+        "name": "L1_monotonicity_VO_vs_conc_D34",
+        "surrogate_pct_monotone": 0.733,
+        "solver_pct_monotone": 0.607,
+        "n_decisive": 135,
+        "pass_": false
+      },
+      "L5": {
+        "name": "L5_permutation_invariance",
+        "max_dev": 12.649076,
+        "pass_": false
+      },
+      "L6": {
+        "name": "L6_c_to_0_reduction",
+        "mean_abs_dlogVO": 1.9457,
+        "pass_": false
+      }
+    },
+    "sum_gated": {
+      "G1_counterfactual_law": {
+        "rules": {
+          "R1_donor_up_EF_up": {
+            "agree": 0.726,
+            "n_decisive": 347,
+            "solver_mean_dsign": 1.0
+          },
+          "R2_acceptor_up_EF_down": {
+            "agree": 0.792,
+            "n_decisive": 653,
+            "solver_mean_dsign": -1.0
+          },
+          "R3_acceptor_up_VO_up": {
+            "agree": 0.977,
+            "n_decisive": 608,
+            "solver_mean_dsign": 1.0
+          },
+          "R4_donor_up_VO_down": {
+            "agree": 0.861,
+            "n_decisive": 158,
+            "solver_mean_dsign": -1.0
+          },
+          "R5_pO2_up_VO_down": {
+            "agree": 1.0,
+            "n_decisive": 758,
+            "solver_mean_dsign": -1.0
+          },
+          "R6_T_up_VO_up": {
+            "agree": 1.0,
+            "n_decisive": 800,
+            "solver_mean_dsign": 1.0
+          },
+          "R7_add_acceptor_EF_down": {
+            "agree": 0.878,
+            "n_decisive": 531,
+            "solver_mean_dsign": -1.0
+          },
+          "R8_add_donor_EF_up": {
+            "agree": 0.772,
+            "n_decisive": 798,
+            "solver_mean_dsign": 1.0
+          },
+          "R9_isovalent_less_than_donor": {
+            "agree": 0.953,
+            "n_decisive": 446
+          }
+        },
+        "learned": 6,
+        "of": 9,
+        "pass_": false
+      },
+      "L1": {
+        "name": "L1_monotonicity_VO_vs_conc_D34",
+        "surrogate_pct_monotone": 0.697,
+        "solver_pct_monotone": 0.633,
+        "n_decisive": 109,
+        "pass_": false
+      },
+      "L5": {
+        "name": "L5_permutation_invariance",
+        "max_dev": 5e-06,
+        "pass_": true
+      },
+      "L6": {
+        "name": "L6_c_to_0_reduction",
+        "mean_abs_dlogVO": 0.0008,
+        "pass_": true
+      }
+    }
+  },
+  "G5_type_heldout": {
+    "name": "G5_doping_type_heldout_acceptor_acceptor",
+    "trained_excluding": "acceptor+acceptor configs",
+    "n_train": 110734,
+    "heldout_rho_logVO": 0.931,
+    "heldout_rho_EF": 0.561,
+    "compensation_sign_agreement": 0.895,
+    "pass_": true
+  }
+}

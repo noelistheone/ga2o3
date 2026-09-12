@@ -1,0 +1,10 @@
+{
+ "E_perfect_a033_eV": -84355.065,
+ "E_O2_a033_eV": -884.191,
+ "E_VO_q0_a033_eV": -83909.12,
+ "Ef_VO0_Orich_a033_eV": 3.849,
+ "DB_anchor_eV": 3.5,
+ "residual_eV": 0.349,
+ "alpha025_result": "3.67 vs 3.5 (Delta 0.17 eV, in text)",
+ "protocol": "matched-mixing O-rich formation energy: E(VO,q0)-E(perfect)+mu_O, mu_O=0.5*E(O2), all at exx=0.33"
+}

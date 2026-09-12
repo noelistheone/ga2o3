@@ -1,0 +1,52 @@
+# Phase 24A only — physics features as 4th fusion stream, NO output envelope.
+#
+# Phase 24 v2 (envelope active) collapsed in-distribution predictions toward
+# floor (Mg r flipped to -0.65, OOF R² +0.150 vs Phase 23 +0.516).
+# Phase 24A alone (this config) costs only -0.016 R² — kept as the
+# interpretable lane (cation valence/radius mismatch, E_photon-E_g, etc).
+#
+# PhysicsStream: 8 first-principles scalars → MLP → 16-d embedding,
+#   inserted as 4th fusion stream (struct, comp, physics, proc).
+#
+# Fused dim = 64 + 64 + 16 + 32 = 176
+
+structure_stream:
+  embedding_dim: 64
+  pretrained_ckpt: checkpoints/pretrained_encoder_v2.pt
+
+composition_stream:
+  xenonpy_raw_dim: 290
+  hidden_dim: 128
+  out_dim: 64
+  dropout: 0.1
+  cache_file: data/processed/xenonpy_cache.pkl
+
+process_stream:
+  in_dim: 18
+  continuous_dim: 12
+  method_embed_dim: 3
+  n_methods: 6
+  substrate_embed_dim: 3
+  n_substrates: 7
+  hidden_dim: 64
+  out_dim: 32
+  dropout: 0.2
+
+physics:
+  features: true               # Phase 24A — wire PhysicsStream
+  features_hidden: 32
+  features_out_dim: 16
+  features_dropout: 0.1
+  envelope_pdr: false          # Phase 24B failed — not used
+  envelope_vc:  false
+
+fusion:
+  total_dim: 176               # 64 + 64 + 16 + 32
+  mode: film                   # FiLM still modulates proc with comp
+  structure_scale: 1.0
+  attention_heads: 4
+  attention_dim: 64
+
+scalers:
+  process_scaler: data/processed/process_scaler.pkl
+  composition_scaler: data/processed/composition_scaler.pkl

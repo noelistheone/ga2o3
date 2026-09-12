@@ -1,0 +1,270 @@
+{
+  "n_labs": 17,
+  "per_lab": [
+    {
+      "doi": "nan",
+      "n": 96,
+      "und": true,
+      "dopants": [
+        "Cr",
+        "Ge",
+        "Mg",
+        "Si",
+        "Sn",
+        "Zn",
+        "undoped"
+      ],
+      "global": 1.37,
+      "floor": 1.22,
+      "des2": 1.55,
+      "rand2": 1.85,
+      "des3": 1.68,
+      "rand3": 1.88
+    },
+    {
+      "doi": "10.1021/acs.cgd.2c00290",
+      "n": 8,
+      "und": false,
+      "dopants": [
+        "Si"
+      ],
+      "global": 1.49,
+      "floor": 0.63,
+      "des2": 1.26,
+      "rand2": 0.91,
+      "des3": 1.64,
+      "rand3": 1.3
+    },
+    {
+      "doi": "10.1063/1.5034474",
+      "n": 6,
+      "und": false,
+      "dopants": [
+        "Ge",
+        "Si"
+      ],
+      "global": 1.34,
+      "floor": 0.5,
+      "des2": 0.65,
+      "rand2": 0.66,
+      "des3": 0.74,
+      "rand3": 0.64
+    },
+    {
+      "doi": "10.1063/5.0059657",
+      "n": 11,
+      "und": false,
+      "dopants": [
+        "Ge"
+      ],
+      "global": 1.23,
+      "floor": 0.37,
+      "des2": 1.68,
+      "rand2": 1.98,
+      "des3": 1.83,
+      "rand3": 1.79
+    },
+    {
+      "doi": "10.1063/5.0184850",
+      "n": 5,
+      "und": false,
+      "dopants": [
+        "Si"
+      ],
+      "global": 0.8,
+      "floor": 0.24,
+      "des2": 0.24,
+      "rand2": 0.46,
+      "des3": 0.51,
+      "rand3": 0.43
+    },
+    {
+      "doi": "10.1063/5.0230413",
+      "n": 5,
+      "und": true,
+      "dopants": [
+        "Si",
+        "undoped"
+      ],
+      "global": 2.81,
+      "floor": 0.81,
+      "des2": 0.8,
+      "rand2": 0.82,
+      "des3": 0.76,
+      "rand3": 0.81
+    },
+    {
+      "doi": "10.1088/1361-6641/ab75a6",
+      "n": 10,
+      "und": true,
+      "dopants": [
+        "Hf",
+        "undoped"
+      ],
+      "global": 0.17,
+      "floor": 0.22,
+      "des2": 0.25,
+      "rand2": 0.25,
+      "des3": 0.25,
+      "rand3": 0.26
+    },
+    {
+      "doi": "10.1116/6.0001004",
+      "n": 5,
+      "und": false,
+      "dopants": [
+        "Ge"
+      ],
+      "global": 1.88,
+      "floor": 0.24,
+      "des2": 0.92,
+      "rand2": 0.5,
+      "des3": 0.39,
+      "rand3": 0.38
+    },
+    {
+      "doi": "10.48550/arxiv.2001.11187",
+      "n": 10,
+      "und": true,
+      "dopants": [
+        "Hf",
+        "undoped"
+      ],
+      "global": 0.17,
+      "floor": 0.22,
+      "des2": 0.25,
+      "rand2": 0.24,
+      "des3": 0.25,
+      "rand3": 0.24
+    },
+    {
+      "doi": "10.48550/arxiv.2311.00821",
+      "n": 5,
+      "und": false,
+      "dopants": [
+        "Si"
+      ],
+      "global": 0.8,
+      "floor": 0.24,
+      "des2": 0.24,
+      "rand2": 0.35,
+      "des3": 0.51,
+      "rand3": 0.32
+    },
+    {
+      "doi": "10.48550/arxiv.2407.17089",
+      "n": 6,
+      "und": true,
+      "dopants": [
+        "Si",
+        "undoped"
+      ],
+      "global": 2.82,
+      "floor": 0.81,
+      "des2": 0.81,
+      "rand2": 0.81,
+      "des3": 0.8,
+      "rand3": 0.88
+    },
+    {
+      "doi": "10.48550/arxiv.2412.00149",
+      "n": 5,
+      "und": false,
+      "dopants": [
+        "Si"
+      ],
+      "global": 0.93,
+      "floor": 0.39,
+      "des2": 0.28,
+      "rand2": 1.14,
+      "des3": 0.94,
+      "rand3": 1.45
+    },
+    {
+      "doi": "10.48550/arxiv.2606.05607",
+      "n": 7,
+      "und": false,
+      "dopants": [
+        "Si"
+      ],
+      "global": 0.94,
+      "floor": 0.45,
+      "des2": 0.77,
+      "rand2": 1.06,
+      "des3": 0.96,
+      "rand3": 0.92
+    },
+    {
+      "doi": "10.3390/coatings11050589",
+      "n": 6,
+      "und": false,
+      "dopants": [
+        "Si"
+      ],
+      "global": 0.61,
+      "floor": 0.61,
+      "des2": 1.24,
+      "rand2": 1.08,
+      "des3": 0.71,
+      "rand3": 0.95
+    },
+    {
+      "doi": "10.1063/5.0058059",
+      "n": 8,
+      "und": true,
+      "dopants": [
+        "Ge",
+        "undoped"
+      ],
+      "global": 2.05,
+      "floor": 1.43,
+      "des2": 3.6,
+      "rand2": 2.72,
+      "des3": 3.91,
+      "rand3": 2.27
+    },
+    {
+      "doi": "10.1149/2.0081702jss",
+      "n": 5,
+      "und": false,
+      "dopants": [
+        "Si",
+        "Sn"
+      ],
+      "global": 1.26,
+      "floor": 0.42,
+      "des2": 2.2,
+      "rand2": 1.41,
+      "des3": 1.45,
+      "rand3": 1.93
+    },
+    {
+      "doi": "10.1063/5.0142107",
+      "n": 18,
+      "und": false,
+      "dopants": [
+        "Si"
+      ],
+      "global": 0.51,
+      "floor": 0.48,
+      "des2": 0.9,
+      "rand2": 0.74,
+      "des3": 0.95,
+      "rand3": 0.61
+    }
+  ],
+  "pooled_median_dex": {
+    "global": 1.23,
+    "rand2": 0.82,
+    "des2": 0.81,
+    "rand3": 0.88,
+    "des3": 0.8,
+    "floor": 0.45
+  },
+  "cache_size": 833,
+  "reads": [
+    "global=Mode-A baseline(no anchor); floor=within-lab best fit.",
+    "designer adds value iff des_k<rand_k at same k and des_k->floor at small k.",
+    "n scored in log10 cm^-3; every prediction is the sandbox forward pass."
+  ]
+}

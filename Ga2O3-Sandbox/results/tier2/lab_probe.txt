@@ -1,0 +1,15 @@
+total rows: 488
+columns: ['dopant_spec', 'element', 'method', 'concentration_at%', 'atmosphere', 'temperature_C', 'time_min', 'photocurrent_uA', 'dark_current_pA', 'photo_dark_ratio', 'sensitivity', 'vacancy_concentration', 'measurement_voltage_V', 'measurement_wavelength_nm', 'notes', 'doi', 'usable_flag', 'sample_weight', 'responsivity_A_W', 'detectivity_jones', 'eqe_percent']
+
+lab-anchor rows (doi~Original): 8
+{'element': 'Si', 'dopant_spec': 'Si:0.023400', 'concentration_at%': 2.34, 'method': 'RF magnetron sputtering', 'atmosphere': 'Ar', 'temperature_C': 800.0, 'photo_dark_ratio': 4.2788, 'eqe_percent': 5.605, 'vacancy_concentration': nan, 'doi': 'Original CSV Si'}
+{'element': 'Sn', 'dopant_spec': 'Sn:0.026500', 'concentration_at%': 2.65, 'method': 'RF magnetron sputtering', 'atmosphere': 'Ar', 'temperature_C': 800.0, 'photo_dark_ratio': 3.2964, 'eqe_percent': 0.89, 'vacancy_concentration': nan, 'doi': 'Original CSV Sn'}
+{'element': 'Mg', 'dopant_spec': 'Mg:0.010100', 'concentration_at%': 1.01, 'method': 'RF magnetron sputtering', 'atmosphere': 'Ar', 'temperature_C': 800.0, 'photo_dark_ratio': 4.0969, 'eqe_percent': 1200.0, 'vacancy_concentration': nan, 'doi': 'Original CSV Mg'}
+{'element': 'Zn', 'dopant_spec': 'Zn:0.026300', 'concentration_at%': 2.63, 'method': 'RF magnetron sputtering', 'atmosphere': 'Ar', 'temperature_C': nan, 'photo_dark_ratio': 4.2299, 'eqe_percent': 16000.0, 'vacancy_concentration': nan, 'doi': 'Original CSV Zn'}
+{'element': 'undoped', 'dopant_spec': 'undoped', 'concentration_at%': 0.0, 'method': 'RF magnetron sputtering', 'atmosphere': 'Ar', 'temperature_C': 800.0, 'photo_dark_ratio': 2.0, 'eqe_percent': 0.254, 'vacancy_concentration': nan, 'doi': 'Original CSV Si'}
+{'element': 'undoped', 'dopant_spec': 'undoped', 'concentration_at%': 0.0, 'method': 'RF magnetron sputtering', 'atmosphere': 'Ar', 'temperature_C': 800.0, 'photo_dark_ratio': 2.3483, 'eqe_percent': 0.058, 'vacancy_concentration': nan, 'doi': 'Original CSV Sn'}
+{'element': 'undoped', 'dopant_spec': 'undoped', 'concentration_at%': 0.0, 'method': 'RF magnetron sputtering', 'atmosphere': 'Ar', 'temperature_C': 800.0, 'photo_dark_ratio': 3.0414, 'eqe_percent': 48.8, 'vacancy_concentration': nan, 'doi': 'Original CSV Mg'}
+{'element': 'undoped', 'dopant_spec': 'undoped', 'concentration_at%': 0.0, 'method': 'RF magnetron sputtering', 'atmosphere': 'Ar', 'temperature_C': nan, 'photo_dark_ratio': 3.3838, 'eqe_percent': 83.0, 'vacancy_concentration': nan, 'doi': 'Original CSV Zn'}
+
+carrier/mobility columns present: []
+

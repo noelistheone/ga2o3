@@ -1,0 +1,58 @@
+{
+ "photo_dark_ratio": {
+  "sampled": 63,
+  "no_doi_rows_in_table": 157,
+  "joinable": 21,
+  "exact": 16,
+  "unit": 0,
+  "mantissa": 0,
+  "absent": 5,
+  "LEGACY_NO_QUOTES": 42,
+  "value_supported_frac_of_joinable": 0.762
+ },
+ "dark_current_pA": {
+  "sampled": 36,
+  "no_doi_rows_in_table": 59,
+  "joinable": 35,
+  "exact": 5,
+  "unit": 29,
+  "mantissa": 1,
+  "absent": 0,
+  "LEGACY_NO_QUOTES": 1,
+  "value_supported_frac_of_joinable": 1.0
+ },
+ "vacancy_concentration": {
+  "sampled": 18,
+  "no_doi_rows_in_table": 98,
+  "joinable": 0,
+  "exact": 0,
+  "unit": 0,
+  "mantissa": 0,
+  "absent": 0,
+  "LEGACY_NO_QUOTES": 18,
+  "value_supported_frac_of_joinable": null
+ },
+ "optical_bandgap_Eg": {
+  "sampled": 100,
+  "no_doi_rows_in_table": 494,
+  "joinable": 98,
+  "exact": 98,
+  "unit": 0,
+  "mantissa": 0,
+  "absent": 0,
+  "LEGACY_NO_QUOTES": 2,
+  "value_supported_frac_of_joinable": 1.0
+ },
+ "tau_decay": {
+  "sampled": 53,
+  "no_doi_rows_in_table": 155,
+  "joinable": 53,
+  "exact": 31,
+  "unit": 19,
+  "mantissa": 0,
+  "absent": 3,
+  "LEGACY_NO_QUOTES": 0,
+  "value_supported_frac_of_joinable": 0.943
+ },
+ "_method": "per-FOM sample of <=100 DOI-bearing rows (seed 43, fresh-sample replication); quotes recovered from the six ingest-time artifacts; exact = value (or 10^value) within 1% in a quote of the same DOI; LEGACY = DOI absent from all quote stores (pre-quote-keeping era)"
+}

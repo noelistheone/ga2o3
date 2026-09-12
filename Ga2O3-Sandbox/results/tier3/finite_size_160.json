@@ -1,0 +1,10 @@
+{
+ "D80_eV": -18.235,
+ "D160_eV": -18.042,
+ "MP80_eV": 0.847,
+ "MP160_eV": 0.672,
+ "D_plus_MP_80": -17.388,
+ "D_plus_MP_160": -17.37,
+ "residual_eV": -0.019,
+ "protocol": "vertical q2-q0 total-energy difference at the neutral geometry within each cell (80: PBE-relaxed R0; 160: MACE-relaxed, RMSD 0.026 A from PBE), Gamma, PBE; Makov-Payne monopole scaled by Omega^{-1/3}."
+}

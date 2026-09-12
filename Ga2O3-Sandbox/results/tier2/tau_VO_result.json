@@ -1,0 +1,22 @@
+{
+  "cc_diagram_eV": {
+    "E00": -87773.483,
+    "E22": -87794.055,
+    "E02": -87772.242,
+    "E20": -87791.719
+  },
+  "reorg_energy_neutral_lam0_eV": 1.241,
+  "reorg_energy_charged_lam2_eV": 2.337,
+  "effective_reorg_lambda_eV": 1.789,
+  "dQ_amu_half_A": 12.26,
+  "driving_force_dE_eV": 1.0,
+  "N_trap_cm3": 1e+18,
+  "capture_barrier_eV": 1.087,
+  "effective_phonon_meV": 10.0,
+  "capture_coeff_cm3_s": 5.49451858653066e-26,
+  "capture_cross_section_cm2": 2.74725929326533e-33,
+  "SRH_tau_s": 18199956.634079173,
+  "fidelity": "order-of-magnitude / class-ranking only (C0 bounded, not full Alkauskas ME)",
+  "defect": "V_O (2+/0) negative-U \u2014 dominant PPC/\u03c4 deep trap",
+  "note": "first first-principles CC\u2192NMP\u2192\u03c4 for a native Ga2O3 defect in THIS sandbox; order-of-magnitude / class-ranking fidelity (\u03c4 was the property with no prior forward prediction). PBE CC; HSE refinement + full Alkauskas matrix element = next tier."
+}

@@ -1,0 +1,191 @@
+{
+ "n_draws": 50,
+ "per_K": {
+  "2": {
+   "n_labs": 13,
+   "designed_median": 0.761,
+   "random_median": 0.931,
+   "wins_designed": 8,
+   "sign_test_p": 0.291,
+   "median_diff_bootstrap_CI95": [
+    -0.249,
+    0.152
+   ],
+   "frac_bootstrap_mass_favoring_designed": 0.811,
+   "per_lab": [
+    {
+     "doi": "10.1021/acs.cgd.2c00290",
+     "designed": 1.258,
+     "random_mean": 1.106,
+     "n_random_draws": 28
+    },
+    {
+     "doi": "10.1063/1.5034474",
+     "designed": 0.567,
+     "random_mean": 0.645,
+     "n_random_draws": 15
+    },
+    {
+     "doi": "10.1063/5.0059657",
+     "designed": 1.827,
+     "random_mean": 2.091,
+     "n_random_draws": 50
+    },
+    {
+     "doi": "10.1063/5.0184850",
+     "designed": 0.151,
+     "random_mean": 0.4,
+     "n_random_draws": 10
+    },
+    {
+     "doi": "10.1063/5.0230413",
+     "designed": 0.803,
+     "random_mean": 0.82,
+     "n_random_draws": 10
+    },
+    {
+     "doi": "10.1088/1361-6641/ab75a6",
+     "designed": 0.113,
+     "random_mean": 0.15,
+     "n_random_draws": 45
+    },
+    {
+     "doi": "10.1116/6.0001004",
+     "designed": 0.761,
+     "random_mean": 0.334,
+     "n_random_draws": 10
+    },
+    {
+     "doi": "10.48550/arxiv.2412.00149",
+     "designed": 0.273,
+     "random_mean": 0.964,
+     "n_random_draws": 10
+    },
+    {
+     "doi": "10.48550/arxiv.2606.05607",
+     "designed": 0.759,
+     "random_mean": 0.931,
+     "n_random_draws": 21
+    },
+    {
+     "doi": "10.3390/coatings11050589",
+     "designed": 1.236,
+     "random_mean": 0.948,
+     "n_random_draws": 15
+    },
+    {
+     "doi": "10.1063/5.0058059",
+     "designed": 1.321,
+     "random_mean": 1.854,
+     "n_random_draws": 28
+    },
+    {
+     "doi": "10.1149/2.0081702jss",
+     "designed": 1.758,
+     "random_mean": 1.606,
+     "n_random_draws": 10
+    },
+    {
+     "doi": "10.1063/5.0142107",
+     "designed": 0.618,
+     "random_mean": 0.563,
+     "n_random_draws": 50
+    }
+   ],
+   "median_paired_diff": -0.037
+  },
+  "3": {
+   "n_labs": 13,
+   "designed_median": 0.757,
+   "random_median": 0.85,
+   "wins_designed": 8,
+   "sign_test_p": 0.291,
+   "median_diff_bootstrap_CI95": [
+    -0.178,
+    0.078
+   ],
+   "frac_bootstrap_mass_favoring_designed": 0.808,
+   "per_lab": [
+    {
+     "doi": "10.1021/acs.cgd.2c00290",
+     "designed": 1.637,
+     "random_mean": 1.326,
+     "n_random_draws": 50
+    },
+    {
+     "doi": "10.1063/1.5034474",
+     "designed": 0.585,
+     "random_mean": 0.763,
+     "n_random_draws": 20
+    },
+    {
+     "doi": "10.1063/5.0059657",
+     "designed": 1.983,
+     "random_mean": 1.799,
+     "n_random_draws": 50
+    },
+    {
+     "doi": "10.1063/5.0184850",
+     "designed": 0.514,
+     "random_mean": 0.408,
+     "n_random_draws": 10
+    },
+    {
+     "doi": "10.1063/5.0230413",
+     "designed": 0.757,
+     "random_mean": 0.828,
+     "n_random_draws": 10
+    },
+    {
+     "doi": "10.1088/1361-6641/ab75a6",
+     "designed": 0.099,
+     "random_mean": 0.127,
+     "n_random_draws": 50
+    },
+    {
+     "doi": "10.1116/6.0001004",
+     "designed": 0.231,
+     "random_mean": 0.391,
+     "n_random_draws": 10
+    },
+    {
+     "doi": "10.48550/arxiv.2412.00149",
+     "designed": 0.938,
+     "random_mean": 1.266,
+     "n_random_draws": 10
+    },
+    {
+     "doi": "10.48550/arxiv.2606.05607",
+     "designed": 0.949,
+     "random_mean": 0.872,
+     "n_random_draws": 35
+    },
+    {
+     "doi": "10.3390/coatings11050589",
+     "designed": 0.715,
+     "random_mean": 0.85,
+     "n_random_draws": 20
+    },
+    {
+     "doi": "10.1063/5.0058059",
+     "designed": 1.708,
+     "random_mean": 2.188,
+     "n_random_draws": 50
+    },
+    {
+     "doi": "10.1149/2.0081702jss",
+     "designed": 1.452,
+     "random_mean": 1.751,
+     "n_random_draws": 10
+    },
+    {
+     "doi": "10.1063/5.0142107",
+     "designed": 0.643,
+     "random_mean": 0.565,
+     "n_random_draws": 50
+    }
+   ],
+   "median_paired_diff": -0.071
+  }
+ }
+}

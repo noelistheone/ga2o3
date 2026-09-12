@@ -1,0 +1,122 @@
+{
+ "family_size_confirmatory": 17,
+ "tests": [
+  {
+   "test": "restricted LRT sigma_b^2>0 [photo_dark_ratio]",
+   "p": 0.0004997501249375312,
+   "mc_se": 0.0005,
+   "kind": "confirmatory",
+   "bh_q": 0.0009
+  },
+  {
+   "test": "restricted LRT sigma_b^2>0 [dark_current_pA]",
+   "p": 0.0004997501249375312,
+   "mc_se": 0.0005,
+   "kind": "confirmatory",
+   "bh_q": 0.0009
+  },
+  {
+   "test": "restricted LRT sigma_b^2>0 [vacancy_concentration]",
+   "p": 0.0004997501249375312,
+   "mc_se": 0.0005,
+   "kind": "confirmatory",
+   "bh_q": 0.0009
+  },
+  {
+   "test": "restricted LRT sigma_b^2>0 [hall_carrier_n]",
+   "p": 0.0004997501249375312,
+   "mc_se": 0.0005,
+   "kind": "confirmatory",
+   "bh_q": 0.0009
+  },
+  {
+   "test": "restricted LRT sigma_b^2>0 [hall_mobility_mu]",
+   "p": 0.0004997501249375312,
+   "mc_se": 0.0005,
+   "kind": "confirmatory",
+   "bh_q": 0.0009
+  },
+  {
+   "test": "restricted LRT sigma_b^2>0 [optical_bandgap_Eg]",
+   "p": 0.0004997501249375312,
+   "mc_se": 0.0005,
+   "kind": "confirmatory",
+   "bh_q": 0.0009
+  },
+  {
+   "test": "restricted LRT sigma_b^2>0 [bandgap_shift_dEg]",
+   "p": 0.0004997501249375312,
+   "mc_se": 0.0005,
+   "kind": "confirmatory",
+   "bh_q": 0.0009
+  },
+  {
+   "test": "restricted LRT sigma_b^2>0 [tau_decay]",
+   "p": 0.0004997501249375312,
+   "mc_se": 0.0005,
+   "kind": "confirmatory",
+   "bh_q": 0.0009
+  },
+  {
+   "test": "restricted LRT sigma_b^2>0 [conductivity_sigma]",
+   "p": 0.0004997501249375312,
+   "mc_se": 0.0005,
+   "kind": "confirmatory",
+   "bh_q": 0.0009
+  },
+  {
+   "test": "direction battery, exact study-level sign-flip",
+   "p": 0.00391,
+   "kind": "confirmatory",
+   "bh_q": 0.0066
+  },
+  {
+   "test": "direction battery, binomial vs base rate",
+   "p": 0.0046,
+   "kind": "confirmatory",
+   "bh_q": 0.0071
+  },
+  {
+   "test": "unseen-dopant pooled all-8, element permutation",
+   "p": 0.0319,
+   "kind": "confirmatory",
+   "bh_q": 0.0417
+  },
+  {
+   "test": "unseen-dopant chem-5, element permutation (post hoc)",
+   "p": 0.0184,
+   "kind": "exploratory"
+  },
+  {
+   "test": "orthogonality: mobility covariate share (permutation)",
+   "p": 0.005,
+   "kind": "confirmatory",
+   "bh_q": 0.0071
+  },
+  {
+   "test": "designer paired sign test (n=13)",
+   "p": 0.291,
+   "kind": "confirmatory",
+   "bh_q": 0.291
+  },
+  {
+   "test": "designer combined across-budget sign-flip",
+   "p": 0.0868,
+   "kind": "confirmatory",
+   "bh_q": 0.102
+  },
+  {
+   "test": "four-device annealed PDR direction (binomial)",
+   "p": 0.125,
+   "kind": "confirmatory",
+   "bh_q": 0.1328
+  },
+  {
+   "test": "conductivity unseen-dopant pairwise permutation",
+   "p": 0.09,
+   "kind": "confirmatory",
+   "bh_q": 0.102
+  }
+ ],
+ "read": "the load-bearing confirmatory results (LRTs, direction battery, pooled pairwise, mobility orthogonality) survive BH-FDR at q<0.05; the designer advantage and conductivity pairwise are reported as directional, as in the text"
+}

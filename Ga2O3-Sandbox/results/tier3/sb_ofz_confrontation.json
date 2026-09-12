@@ -1,0 +1,209 @@
+{
+ "experiment": {
+  "source": "Li et al., Chin. Opt. Lett. 21, 041605 (2023), OFZ crystals",
+  "n_range_cm3": [
+   9.55e+16,
+   8.1e+18
+  ],
+  "mu_range": [
+   153.1,
+   108.7
+  ],
+  "site": "octahedral Ga(II) (agrees with our computed site preference)"
+ },
+ "our_HSE_a025_level_3.106": {
+  "OFZ_effective": [
+   {
+    "frac": 3e-06,
+    "Sb_cm3": 3.82e+16,
+    "n_cm3": 1e+16,
+    "mu": 204.7
+   },
+   {
+    "frac": 1e-05,
+    "Sb_cm3": 1.27e+17,
+    "n_cm3": 1e+16,
+    "mu": 204.7
+   },
+   {
+    "frac": 3e-05,
+    "Sb_cm3": 3.82e+17,
+    "n_cm3": 1e+16,
+    "mu": 204.7
+   },
+   {
+    "frac": 0.0001,
+    "Sb_cm3": 1.27e+18,
+    "n_cm3": 1e+16,
+    "mu": 204.7
+   },
+   {
+    "frac": 0.0003,
+    "Sb_cm3": 3.82e+18,
+    "n_cm3": 1e+16,
+    "mu": 204.7
+   },
+   {
+    "frac": 0.001,
+    "Sb_cm3": 1.27e+19,
+    "n_cm3": 1e+16,
+    "mu": 204.7
+   }
+  ],
+  "OFZ_air": [
+   {
+    "frac": 3e-06,
+    "Sb_cm3": 3.82e+16,
+    "n_cm3": 9990000000000000.0,
+    "mu": 204.7
+   },
+   {
+    "frac": 1e-05,
+    "Sb_cm3": 1.27e+17,
+    "n_cm3": 9990000000000000.0,
+    "mu": 204.7
+   },
+   {
+    "frac": 3e-05,
+    "Sb_cm3": 3.82e+17,
+    "n_cm3": 9980000000000000.0,
+    "mu": 204.7
+   },
+   {
+    "frac": 0.0001,
+    "Sb_cm3": 1.27e+18,
+    "n_cm3": 9960000000000000.0,
+    "mu": 204.7
+   },
+   {
+    "frac": 0.0003,
+    "Sb_cm3": 3.82e+18,
+    "n_cm3": 9900000000000000.0,
+    "mu": 204.7
+   },
+   {
+    "frac": 0.001,
+    "Sb_cm3": 1.27e+19,
+    "n_cm3": 9730000000000000.0,
+    "mu": 204.7
+   }
+  ]
+ },
+ "best_estimate_a033_aniso_3.65": {
+  "OFZ_effective": [
+   {
+    "frac": 3e-06,
+    "Sb_cm3": 3.82e+16,
+    "n_cm3": 1e+16,
+    "mu": 204.7
+   },
+   {
+    "frac": 1e-05,
+    "Sb_cm3": 1.27e+17,
+    "n_cm3": 9980000000000000.0,
+    "mu": 204.7
+   },
+   {
+    "frac": 3e-05,
+    "Sb_cm3": 3.82e+17,
+    "n_cm3": 9920000000000000.0,
+    "mu": 204.7
+   },
+   {
+    "frac": 0.0001,
+    "Sb_cm3": 1.27e+18,
+    "n_cm3": 9710000000000000.0,
+    "mu": 204.7
+   },
+   {
+    "frac": 0.0003,
+    "Sb_cm3": 3.82e+18,
+    "n_cm3": 9100000000000000.0,
+    "mu": 204.6
+   },
+   {
+    "frac": 0.001,
+    "Sb_cm3": 1.27e+19,
+    "n_cm3": 6940000000000000.0,
+    "mu": 204.6
+   }
+  ],
+  "OFZ_air": [
+   {
+    "frac": 3e-06,
+    "Sb_cm3": 3.82e+16,
+    "n_cm3": 9000000000000000.0,
+    "mu": 204.6
+   },
+   {
+    "frac": 1e-05,
+    "Sb_cm3": 1.27e+17,
+    "n_cm3": 4390000000000000.0,
+    "mu": 204.5
+   },
+   {
+    "frac": 3e-05,
+    "Sb_cm3": 3.82e+17,
+    "n_cm3": 0.00813,
+    "mu": 203.2
+   },
+   {
+    "frac": 0.0001,
+    "Sb_cm3": 1.27e+18,
+    "n_cm3": 0.00623,
+    "mu": 197.5
+   },
+   {
+    "frac": 0.0003,
+    "Sb_cm3": 3.82e+18,
+    "n_cm3": 0.0063,
+    "mu": 182.8
+   },
+   {
+    "frac": 0.001,
+    "Sb_cm3": 1.27e+19,
+    "n_cm3": 0.00699,
+    "mu": 152.9
+   }
+  ]
+ },
+ "required_level_scan": [
+  {
+   "level_below_CBM_eV": 0.1,
+   "n_at_1e-3": 1.58e+16,
+   "n_at_3e-5": 6.58e+16
+  },
+  {
+   "level_below_CBM_eV": 0.2,
+   "n_at_1e-3": 332000000000000.0,
+   "n_at_3e-5": 6670000000000000.0
+  },
+  {
+   "level_below_CBM_eV": 0.3,
+   "n_at_1e-3": 6990000000000.0,
+   "n_at_3e-5": 3810000000000000.0
+  },
+  {
+   "level_below_CBM_eV": 0.5,
+   "n_at_1e-3": 3530000000.0,
+   "n_at_3e-5": 3810000000000000.0
+  },
+  {
+   "level_below_CBM_eV": 0.8,
+   "n_at_1e-3": 124000.0,
+   "n_at_3e-5": 4720000000000000.0
+  },
+  {
+   "level_below_CBM_eV": 1.0,
+   "n_at_1e-3": 218.0,
+   "n_at_3e-5": 8350000000000000.0
+  }
+ ],
+ "read": {
+  "measured_top_n": 8.1e+18,
+  "self_compensation_finding": "within the full-equilibrium model at the calibrated state, even a HYPOTHETICAL shallow double donor at this loading self-compensates via V_Ga to ~1e16 (EF_anneal rises ~0.03 eV -> V_Ga doubles, exp(3*dEF/kT) knife-edge); no isolated double-donor level 0.1-1.0 eV below CBM reproduces the measured 8.1e18",
+  "with_our_deep_levels": "n stays at the unintentional background (~1e16-1e17), Sb contributes nothing",
+  "experimental_caveats": "actual crystal Sb saturates at 0.010-0.024 mol% (Sb2O5 volatility) while n rises x15 -- single-donor activation jumps 14%->90% as content merely doubles (nonlinear); no XPS valence, no T-dependent Hall, no Si/impurity survey beyond ICP-AES(Sb); UID background 9.55e16 in the undoped reference",
+  "conclusion": "the measured conductivity trend is inconsistent with isolated substitutional Sb_Ga under ANY level placement in the equilibrium model; reconciliation requires a non-substitutional donor channel (complexes/co-varying growth chemistry) or a strongly reducing effective state; discriminating experiments: T-dependent Hall, Sb 3d XPS, SIMS Si"
+ }
+}

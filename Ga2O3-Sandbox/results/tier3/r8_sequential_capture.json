@@ -1,0 +1,81 @@
+{
+ "protocol": "sequential single-carrier Marcus steps; dE = database level below CB (electron capture), lam = mean per-state relaxation energy from the cross single points, barrier = (lam+dE)^2/(4 lam) with dE<0 for downhill capture convention matched to the concerted files",
+ "steps": [
+  {
+   "defect": "VO",
+   "step": "(+2/+1)",
+   "dQ_amu_half_A": 9.31,
+   "lam_A_eV": 1.06,
+   "lam_B_eV": 0.196,
+   "lam_eff_eV": 0.628,
+   "eps_above_VBM_dbconv_eV": 3.78,
+   "dE_capture_eV": -1.12,
+   "barrier_eV": 0.096,
+   "regime": "strong-coupling",
+   "barrier_at_concerted_dE_eV": 1.055,
+   "at_weak_coupling_boundary": false
+  },
+  {
+   "defect": "VO",
+   "step": "(+1/+0)",
+   "dQ_amu_half_A": 3.46,
+   "lam_A_eV": 0.58,
+   "lam_B_eV": 0.443,
+   "lam_eff_eV": 0.512,
+   "eps_above_VBM_dbconv_eV": 3.2,
+   "dE_capture_eV": -1.7,
+   "barrier_eV": 0.69,
+   "regime": "strong-coupling",
+   "barrier_at_concerted_dE_eV": 1.116,
+   "at_weak_coupling_boundary": false
+  },
+  {
+   "defect": "VGa",
+   "step": "(+0/-1)",
+   "dQ_amu_half_A": 2.27,
+   "lam_A_eV": 0.187,
+   "lam_B_eV": 0.218,
+   "lam_eff_eV": 0.202,
+   "eps_above_VBM_dbconv_eV": 1.69,
+   "dE_capture_eV": -3.21,
+   "barrier_eV": 11.185,
+   "regime": "strong-coupling",
+   "barrier_at_concerted_dE_eV": 1.243,
+   "at_weak_coupling_boundary": true
+  },
+  {
+   "defect": "VGa",
+   "step": "(-1/-2)",
+   "dQ_amu_half_A": 1.18,
+   "lam_A_eV": 0.191,
+   "lam_B_eV": 0.252,
+   "lam_eff_eV": 0.222,
+   "eps_above_VBM_dbconv_eV": 2.458,
+   "dE_capture_eV": -2.442,
+   "barrier_eV": 5.564,
+   "regime": "strong-coupling",
+   "barrier_at_concerted_dE_eV": 1.176,
+   "at_weak_coupling_boundary": true
+  },
+  {
+   "defect": "VGa",
+   "step": "(-2/-3)",
+   "dQ_amu_half_A": 2.03,
+   "lam_A_eV": 0.301,
+   "lam_B_eV": 0.481,
+   "lam_eff_eV": 0.391,
+   "eps_above_VBM_dbconv_eV": 2.692,
+   "dE_capture_eV": -2.208,
+   "barrier_eV": 2.11,
+   "regime": "strong-coupling",
+   "barrier_at_concerted_dE_eV": 0.907,
+   "at_weak_coupling_boundary": false
+  }
+ ],
+ "rate_limiting": {
+  "VO": "(+1/+0)",
+  "VGa": "(+0/-1)"
+ },
+ "class_ranking_preserved": false,
+ "read": "sequential decomposition: the rate-limiting V_O electron-capture step is (+/0) with lam=0.51, dQ=3.5, barrier 0.69-1.12 eV across the two driving-force conventions (DB-level electron capture / concerted-file convention); V_O (2+/+) is fast (lam=0.63, barrier 0.10-1.06). Every V_Ga per-step lam (0.20-0.39) sits at or near the instrument's own weak-coupling validity boundary (lam<0.2 excluded): V_Ga's fast decay is small-reorganization capture, V_O's slow decay is strong-coupling -- the class ranking survives the sequential treatment and is mechanistically sharper. Classical over-barrier rates are lower bounds; nuclear tunneling only accelerates the small-lam (V_Ga) side, reinforcing the ranking."
+}

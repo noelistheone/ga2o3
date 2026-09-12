@@ -1,0 +1,12 @@
+{
+  "n_concentration_series": 2,
+  "slope_sign_match": "1/2",
+  "median_within_series_spearman": 0.185,
+  "mean_within_series_spearman": 0.185,
+  "interpretation": "within-condition doping-response is the quantitative-capable layer; high within-series Spearman + slope-sign match = the sandbox IS quantitative for RELATIVE predictions even though absolutes are capped"
+}
+
+2 series; slope-sign 1/2; median within-series rho 0.185
+  Ge  10.1063/5.0058059            n=6 rho=-0.62 obs_slope=-3.48 pred_slope=+0.33 X
+  Si  10.1063/5.0142107            n=18 rho=+0.99 obs_slope=+1.05 pred_slope=+0.01 OK
+

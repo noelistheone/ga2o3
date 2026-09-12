@@ -1,0 +1,33 @@
+{
+ "theta_order": [
+  "log10_Tf",
+  "log10_pO2",
+  "E_B",
+  "log10_Nd_bg"
+ ],
+ "obs_n_mu_sigma": {
+  "eigenvalues": [
+   0.000134,
+   0.07366,
+   5141.0,
+   12280.0
+  ],
+  "rank_1e-6rel": 3,
+  "condition_number": 91700000.0
+ },
+ "obs_n_mu_only": {
+  "eigenvalues": [
+   7.297e-05,
+   0.03344,
+   3385.0,
+   5084.0
+  ],
+  "rank_1e-6rel": 3,
+  "condition_number": 69700000.0
+ },
+ "null_space_principal_cosines": [
+  1.0,
+  1.0
+ ],
+ "read": "if ranks match and principal cosines ~1, the rank-2 degeneracy and its null directions (pO2, Nd_bg) are identical with or without the constructed sigma channel"
+}

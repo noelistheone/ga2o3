@@ -1,0 +1,19 @@
+{
+  "quantity": "HSE V_O (2+/0) thermodynamic transition level (in-house, from existing dft/qe_cc)",
+  "E_HSE_VO_q0_eV": -84843.275,
+  "E_HSE_VO_q2_eV": -84864.007,
+  "geom": "q0@R0, q2@R2 (verified 1.33 A max disp = negative-U relaxation)",
+  "Ef0_Orich_eV": 3.674,
+  "Ef2_Orich_eV": -0.773,
+  "eps_2plus_0_above_VBM_eV": 2.223,
+  "eps_2plus_0_below_CBM_eV": 2.677,
+  "PBE_eps_2plus_0_above_VBM_eV": 0.91,
+  "HSE_minus_PBE_shift_eV": 1.313,
+  "KROGER_VO_2plus_0_above_VBM_eV (isolated sites)": [
+    2.625,
+    3.353,
+    3.49
+  ],
+  "verdict": "HSE V_O (2+/0) = VBM+2.22 eV (CBM-2.68) = DEEP negative-U donor (NOT the n-type source), HSE deepens it +1.31 eV vs PBE. Consistent with KROGER + the established deep-V_O picture.",
+  "caveat": "MP-monopole corrected, NO charged-cell potential alignment (eFNV/Kumagai-Oba) yet -> ~+-0.2-0.3 eV; sign/depth/HSE-shift robust. Alignment = plan fallback step 1."
+}

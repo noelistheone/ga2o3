@@ -1,0 +1,40 @@
+{
+  "E_VBM_HSE_eV": 7.7191,
+  "E_perfect_HSE_eV": -85290.43327980262,
+  "Eg_eV": 4.9,
+  "note": "HSE@PBE-geom transition levels \u2014 removes the PBE-gap-shift. Compare to the PBE result (new_dopant_prediction.json) where both looked artificially deep.",
+  "dopants": {
+    "Sb": {
+      "dopant": "Sb",
+      "e_2plus_0_above_VBM_eV": 3.106,
+      "e_2plus_0_below_CBM_eV": 1.794,
+      "classification_HSE": "deep donor",
+      "nine_properties_HSE": {
+        "hall_n_cm3": 9.881831229265666e+16,
+        "sigma_S_cm": 0.9403152555285818,
+        "hall_mu_cm2Vs": 92.0571136999785,
+        "Eg_optical_eV": 4.901360575607859,
+        "dEg_eV": -7.871843001874476e-08,
+        "dark_activation_eV": 0.11932279306437632,
+        "EF_300K_below_Ec": 0.11932279306437632,
+        "solubility_limited": false
+      }
+    },
+    "Bi": {
+      "dopant": "Bi",
+      "e_2plus_0_above_VBM_eV": 1.656,
+      "e_2plus_0_below_CBM_eV": 3.244,
+      "classification_HSE": "deep/inactive",
+      "nine_properties_HSE": {
+        "hall_n_cm3": 9.885663438346645e+16,
+        "sigma_S_cm": 0.9406915457695388,
+        "hall_mu_cm2Vs": 92.05825209911409,
+        "Eg_optical_eV": 4.9013606543262895,
+        "dEg_eV": -3.469446951953614e-17,
+        "dark_activation_eV": 0.11931274973708383,
+        "EF_300K_below_Ec": 0.11931274973708383,
+        "solubility_limited": false
+      }
+    }
+  }
+}

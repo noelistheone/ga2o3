@@ -1,0 +1,122 @@
+{
+ "gate": {
+  "Si": {
+   "cation_fraction": 0.0234,
+   "occupancy_pct": 2.34,
+   "solubility_limited_flag": true
+  },
+  "Sn": {
+   "cation_fraction": 0.0265,
+   "occupancy_pct": 2.65,
+   "solubility_limited_flag": true
+  },
+  "Mg": {
+   "cation_fraction": 0.0101,
+   "occupancy_pct": 1.01,
+   "solubility_limited_flag": true
+  },
+  "Zn": {
+   "cation_fraction": 0.0263,
+   "occupancy_pct": 2.63,
+   "solubility_limited_flag": true
+  },
+  "_si_series_max_at_pct": 6.0,
+  "_threshold_pct": 10.0
+ },
+ "f_sweep": {
+  "0.3": {
+   "Si": {
+    "pdr_dir": "up",
+    "dark_act_eV": 0.174
+   },
+   "Sn": {
+    "pdr_dir": "up",
+    "dark_act_eV": 0.178
+   },
+   "Mg": {
+    "pdr_dir": "up",
+    "dark_act_eV": 3.729
+   },
+   "Zn": {
+    "pdr_dir": "up",
+    "dark_act_eV": 3.581
+   }
+  },
+  "0.35": {
+   "Si": {
+    "pdr_dir": "up",
+    "dark_act_eV": 0.165
+   },
+   "Sn": {
+    "pdr_dir": "up",
+    "dark_act_eV": 0.169
+   },
+   "Mg": {
+    "pdr_dir": "up",
+    "dark_act_eV": 3.714
+   },
+   "Zn": {
+    "pdr_dir": "up",
+    "dark_act_eV": 3.567
+   }
+  },
+  "0.4": {
+   "Si": {
+    "pdr_dir": "up",
+    "dark_act_eV": 0.155
+   },
+   "Sn": {
+    "pdr_dir": "up",
+    "dark_act_eV": 0.159
+   },
+   "Mg": {
+    "pdr_dir": "up",
+    "dark_act_eV": 3.7
+   },
+   "Zn": {
+    "pdr_dir": "up",
+    "dark_act_eV": 3.553
+   }
+  },
+  "0.45": {
+   "Si": {
+    "pdr_dir": "up",
+    "dark_act_eV": 0.145
+   },
+   "Sn": {
+    "pdr_dir": "up",
+    "dark_act_eV": 0.15
+   },
+   "Mg": {
+    "pdr_dir": "up",
+    "dark_act_eV": 3.685
+   },
+   "Zn": {
+    "pdr_dir": "up",
+    "dark_act_eV": 3.54
+   }
+  },
+  "0.5": {
+   "Si": {
+    "pdr_dir": "up",
+    "dark_act_eV": 0.136
+   },
+   "Sn": {
+    "pdr_dir": "up",
+    "dark_act_eV": 0.14
+   },
+   "Mg": {
+    "pdr_dir": "up",
+    "dark_act_eV": 3.671
+   },
+   "Zn": {
+    "pdr_dir": "up",
+    "dark_act_eV": 3.528
+   }
+  }
+ },
+ "continuity": {
+  "n_equilibrium_at_Tf": 1.683869327051131e+16,
+  "note": "forward() has no T_readout hook; continuity asserted at the engine level (same FD occupancy formula at both stages)"
+ }
+}

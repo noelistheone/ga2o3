@@ -1,0 +1,537 @@
+{
+  "theta0": {
+    "log10_Tf": 1400.0000000000005,
+    "log10_pO2": 1e-05,
+    "E_B": 0.03,
+    "log10_Nd_bg": 1e+17
+  },
+  "observables": [
+    "log10_n",
+    "log10_mu",
+    "log10_sigma"
+  ],
+  "per_condition_sensitivity": [
+    {
+      "cond": "Si 0.1at% xtal",
+      "d_logn_d": {
+        "log10_Tf": 13.941,
+        "log10_pO2": -0.216,
+        "E_B": 0.0,
+        "log10_Nd_bg": 0.004
+      },
+      "d_logmu_d": {
+        "log10_Tf": 0.064,
+        "log10_pO2": -0.001,
+        "E_B": 0.0,
+        "log10_Nd_bg": -0.001
+      },
+      "d_logsig_d": {
+        "log10_Tf": 14.885,
+        "log10_pO2": -0.231,
+        "E_B": 0.0,
+        "log10_Nd_bg": 0.004
+      }
+    },
+    {
+      "cond": "Si 0.1at% film",
+      "d_logn_d": {
+        "log10_Tf": 13.941,
+        "log10_pO2": -0.216,
+        "E_B": 0.0,
+        "log10_Nd_bg": 0.004
+      },
+      "d_logmu_d": {
+        "log10_Tf": 0.064,
+        "log10_pO2": -0.001,
+        "E_B": -16.799,
+        "log10_Nd_bg": -0.001
+      },
+      "d_logsig_d": {
+        "log10_Tf": 14.885,
+        "log10_pO2": -0.231,
+        "E_B": -16.799,
+        "log10_Nd_bg": 0.004
+      }
+    },
+    {
+      "cond": "Si 0.5at% xtal",
+      "d_logn_d": {
+        "log10_Tf": 16.149,
+        "log10_pO2": -0.226,
+        "E_B": 0.0,
+        "log10_Nd_bg": 0.001
+      },
+      "d_logmu_d": {
+        "log10_Tf": 0.001,
+        "log10_pO2": -0.002,
+        "E_B": 0.0,
+        "log10_Nd_bg": -0.0
+      },
+      "d_logsig_d": {
+        "log10_Tf": 17.186,
+        "log10_pO2": -0.242,
+        "E_B": 0.0,
+        "log10_Nd_bg": 0.001
+      }
+    },
+    {
+      "cond": "Si 0.5at% film",
+      "d_logn_d": {
+        "log10_Tf": 16.149,
+        "log10_pO2": -0.226,
+        "E_B": 0.0,
+        "log10_Nd_bg": 0.001
+      },
+      "d_logmu_d": {
+        "log10_Tf": 0.001,
+        "log10_pO2": -0.002,
+        "E_B": -16.799,
+        "log10_Nd_bg": -0.0
+      },
+      "d_logsig_d": {
+        "log10_Tf": 17.186,
+        "log10_pO2": -0.242,
+        "E_B": -16.799,
+        "log10_Nd_bg": 0.001
+      }
+    },
+    {
+      "cond": "Si 2.0at% xtal",
+      "d_logn_d": {
+        "log10_Tf": 16.711,
+        "log10_pO2": -0.201,
+        "E_B": 0.0,
+        "log10_Nd_bg": 0.001
+      },
+      "d_logmu_d": {
+        "log10_Tf": 0.0,
+        "log10_pO2": -0.006,
+        "E_B": 0.0,
+        "log10_Nd_bg": -0.0
+      },
+      "d_logsig_d": {
+        "log10_Tf": 17.787,
+        "log10_pO2": -0.219,
+        "E_B": 0.0,
+        "log10_Nd_bg": 0.001
+      }
+    },
+    {
+      "cond": "Si 2.0at% film",
+      "d_logn_d": {
+        "log10_Tf": 16.711,
+        "log10_pO2": -0.201,
+        "E_B": 0.0,
+        "log10_Nd_bg": 0.001
+      },
+      "d_logmu_d": {
+        "log10_Tf": 0.0,
+        "log10_pO2": -0.006,
+        "E_B": -16.799,
+        "log10_Nd_bg": -0.0
+      },
+      "d_logsig_d": {
+        "log10_Tf": 17.787,
+        "log10_pO2": -0.219,
+        "E_B": -16.799,
+        "log10_Nd_bg": 0.001
+      }
+    },
+    {
+      "cond": "Sn 0.1at% xtal",
+      "d_logn_d": {
+        "log10_Tf": 15.096,
+        "log10_pO2": -0.214,
+        "E_B": 0.0,
+        "log10_Nd_bg": 0.004
+      },
+      "d_logmu_d": {
+        "log10_Tf": -0.876,
+        "log10_pO2": -0.001,
+        "E_B": 0.0,
+        "log10_Nd_bg": -0.001
+      },
+      "d_logsig_d": {
+        "log10_Tf": 15.165,
+        "log10_pO2": -0.228,
+        "E_B": 0.0,
+        "log10_Nd_bg": 0.004
+      }
+    },
+    {
+      "cond": "Sn 0.1at% film",
+      "d_logn_d": {
+        "log10_Tf": 15.096,
+        "log10_pO2": -0.214,
+        "E_B": 0.0,
+        "log10_Nd_bg": 0.004
+      },
+      "d_logmu_d": {
+        "log10_Tf": -0.876,
+        "log10_pO2": -0.001,
+        "E_B": -16.799,
+        "log10_Nd_bg": -0.001
+      },
+      "d_logsig_d": {
+        "log10_Tf": 15.165,
+        "log10_pO2": -0.228,
+        "E_B": -16.799,
+        "log10_Nd_bg": 0.004
+      }
+    },
+    {
+      "cond": "Sn 0.5at% xtal",
+      "d_logn_d": {
+        "log10_Tf": 16.625,
+        "log10_pO2": -0.236,
+        "E_B": 0.0,
+        "log10_Nd_bg": 0.001
+      },
+      "d_logmu_d": {
+        "log10_Tf": -1.169,
+        "log10_pO2": -0.0,
+        "E_B": 0.0,
+        "log10_Nd_bg": -0.0
+      },
+      "d_logsig_d": {
+        "log10_Tf": 16.504,
+        "log10_pO2": -0.251,
+        "E_B": 0.0,
+        "log10_Nd_bg": 0.001
+      }
+    },
+    {
+      "cond": "Sn 0.5at% film",
+      "d_logn_d": {
+        "log10_Tf": 16.625,
+        "log10_pO2": -0.236,
+        "E_B": 0.0,
+        "log10_Nd_bg": 0.001
+      },
+      "d_logmu_d": {
+        "log10_Tf": -1.169,
+        "log10_pO2": -0.0,
+        "E_B": -16.799,
+        "log10_Nd_bg": -0.0
+      },
+      "d_logsig_d": {
+        "log10_Tf": 16.504,
+        "log10_pO2": -0.251,
+        "E_B": -16.799,
+        "log10_Nd_bg": 0.001
+      }
+    },
+    {
+      "cond": "Sn 2.0at% xtal",
+      "d_logn_d": {
+        "log10_Tf": 16.625,
+        "log10_pO2": -0.347,
+        "E_B": 0.0,
+        "log10_Nd_bg": 0.001
+      },
+      "d_logmu_d": {
+        "log10_Tf": -1.169,
+        "log10_pO2": -0.004,
+        "E_B": 0.0,
+        "log10_Nd_bg": -0.0
+      },
+      "d_logsig_d": {
+        "log10_Tf": 16.504,
+        "log10_pO2": -0.374,
+        "E_B": 0.0,
+        "log10_Nd_bg": 0.001
+      }
+    },
+    {
+      "cond": "Sn 2.0at% film",
+      "d_logn_d": {
+        "log10_Tf": 16.625,
+        "log10_pO2": -0.347,
+        "E_B": 0.0,
+        "log10_Nd_bg": 0.001
+      },
+      "d_logmu_d": {
+        "log10_Tf": -1.169,
+        "log10_pO2": -0.004,
+        "E_B": -16.799,
+        "log10_Nd_bg": -0.0
+      },
+      "d_logsig_d": {
+        "log10_Tf": 16.504,
+        "log10_pO2": -0.374,
+        "E_B": -16.799,
+        "log10_Nd_bg": 0.001
+      }
+    },
+    {
+      "cond": "Hf 0.1at% xtal",
+      "d_logn_d": {
+        "log10_Tf": 10.879,
+        "log10_pO2": -0.197,
+        "E_B": 0.0,
+        "log10_Nd_bg": 0.004
+      },
+      "d_logmu_d": {
+        "log10_Tf": 0.155,
+        "log10_pO2": -0.003,
+        "E_B": 0.0,
+        "log10_Nd_bg": -0.0
+      },
+      "d_logsig_d": {
+        "log10_Tf": 11.741,
+        "log10_pO2": -0.212,
+        "E_B": 0.0,
+        "log10_Nd_bg": 0.003
+      }
+    },
+    {
+      "cond": "Hf 0.1at% film",
+      "d_logn_d": {
+        "log10_Tf": 10.879,
+        "log10_pO2": -0.197,
+        "E_B": 0.0,
+        "log10_Nd_bg": 0.004
+      },
+      "d_logmu_d": {
+        "log10_Tf": 0.155,
+        "log10_pO2": -0.003,
+        "E_B": -16.799,
+        "log10_Nd_bg": -0.0
+      },
+      "d_logsig_d": {
+        "log10_Tf": 11.741,
+        "log10_pO2": -0.212,
+        "E_B": -16.799,
+        "log10_Nd_bg": 0.003
+      }
+    },
+    {
+      "cond": "Hf 0.5at% xtal",
+      "d_logn_d": {
+        "log10_Tf": 12.908,
+        "log10_pO2": -0.226,
+        "E_B": 0.0,
+        "log10_Nd_bg": 0.001
+      },
+      "d_logmu_d": {
+        "log10_Tf": 0.008,
+        "log10_pO2": -0.0,
+        "E_B": 0.0,
+        "log10_Nd_bg": -0.0
+      },
+      "d_logsig_d": {
+        "log10_Tf": 13.795,
+        "log10_pO2": -0.242,
+        "E_B": 0.0,
+        "log10_Nd_bg": 0.001
+      }
+    },
+    {
+      "cond": "Hf 0.5at% film",
+      "d_logn_d": {
+        "log10_Tf": 12.908,
+        "log10_pO2": -0.226,
+        "E_B": 0.0,
+        "log10_Nd_bg": 0.001
+      },
+      "d_logmu_d": {
+        "log10_Tf": 0.008,
+        "log10_pO2": -0.0,
+        "E_B": -16.799,
+        "log10_Nd_bg": -0.0
+      },
+      "d_logsig_d": {
+        "log10_Tf": 13.795,
+        "log10_pO2": -0.242,
+        "E_B": -16.799,
+        "log10_Nd_bg": 0.001
+      }
+    },
+    {
+      "cond": "Hf 2.0at% xtal",
+      "d_logn_d": {
+        "log10_Tf": 15.434,
+        "log10_pO2": -0.231,
+        "E_B": 0.0,
+        "log10_Nd_bg": 0.0
+      },
+      "d_logmu_d": {
+        "log10_Tf": -0.012,
+        "log10_pO2": -0.0,
+        "E_B": 0.0,
+        "log10_Nd_bg": -0.0
+      },
+      "d_logsig_d": {
+        "log10_Tf": 16.499,
+        "log10_pO2": -0.247,
+        "E_B": 0.0,
+        "log10_Nd_bg": 0.0
+      }
+    },
+    {
+      "cond": "Hf 2.0at% film",
+      "d_logn_d": {
+        "log10_Tf": 15.434,
+        "log10_pO2": -0.231,
+        "E_B": 0.0,
+        "log10_Nd_bg": 0.0
+      },
+      "d_logmu_d": {
+        "log10_Tf": -0.012,
+        "log10_pO2": -0.0,
+        "E_B": -16.799,
+        "log10_Nd_bg": -0.0
+      },
+      "d_logsig_d": {
+        "log10_Tf": 16.499,
+        "log10_pO2": -0.247,
+        "E_B": -16.799,
+        "log10_Nd_bg": 0.0
+      }
+    },
+    {
+      "cond": "Ge 0.1at% xtal",
+      "d_logn_d": {
+        "log10_Tf": 10.879,
+        "log10_pO2": -0.197,
+        "E_B": 0.0,
+        "log10_Nd_bg": 0.004
+      },
+      "d_logmu_d": {
+        "log10_Tf": 0.155,
+        "log10_pO2": -0.003,
+        "E_B": 0.0,
+        "log10_Nd_bg": -0.0
+      },
+      "d_logsig_d": {
+        "log10_Tf": 11.741,
+        "log10_pO2": -0.212,
+        "E_B": 0.0,
+        "log10_Nd_bg": 0.003
+      }
+    },
+    {
+      "cond": "Ge 0.1at% film",
+      "d_logn_d": {
+        "log10_Tf": 10.879,
+        "log10_pO2": -0.197,
+        "E_B": 0.0,
+        "log10_Nd_bg": 0.004
+      },
+      "d_logmu_d": {
+        "log10_Tf": 0.155,
+        "log10_pO2": -0.003,
+        "E_B": -16.799,
+        "log10_Nd_bg": -0.0
+      },
+      "d_logsig_d": {
+        "log10_Tf": 11.741,
+        "log10_pO2": -0.212,
+        "E_B": -16.799,
+        "log10_Nd_bg": 0.003
+      }
+    },
+    {
+      "cond": "Ge 0.5at% xtal",
+      "d_logn_d": {
+        "log10_Tf": 12.908,
+        "log10_pO2": -0.226,
+        "E_B": 0.0,
+        "log10_Nd_bg": 0.001
+      },
+      "d_logmu_d": {
+        "log10_Tf": 0.008,
+        "log10_pO2": -0.0,
+        "E_B": 0.0,
+        "log10_Nd_bg": -0.0
+      },
+      "d_logsig_d": {
+        "log10_Tf": 13.795,
+        "log10_pO2": -0.242,
+        "E_B": 0.0,
+        "log10_Nd_bg": 0.001
+      }
+    },
+    {
+      "cond": "Ge 0.5at% film",
+      "d_logn_d": {
+        "log10_Tf": 12.908,
+        "log10_pO2": -0.226,
+        "E_B": 0.0,
+        "log10_Nd_bg": 0.001
+      },
+      "d_logmu_d": {
+        "log10_Tf": 0.008,
+        "log10_pO2": -0.0,
+        "E_B": -16.799,
+        "log10_Nd_bg": -0.0
+      },
+      "d_logsig_d": {
+        "log10_Tf": 13.795,
+        "log10_pO2": -0.242,
+        "E_B": -16.799,
+        "log10_Nd_bg": 0.001
+      }
+    },
+    {
+      "cond": "Ge 2.0at% xtal",
+      "d_logn_d": {
+        "log10_Tf": 14.634,
+        "log10_pO2": -0.231,
+        "E_B": 0.0,
+        "log10_Nd_bg": 0.0
+      },
+      "d_logmu_d": {
+        "log10_Tf": -0.006,
+        "log10_pO2": -0.0,
+        "E_B": 0.0,
+        "log10_Nd_bg": -0.0
+      },
+      "d_logsig_d": {
+        "log10_Tf": 15.653,
+        "log10_pO2": -0.247,
+        "E_B": 0.0,
+        "log10_Nd_bg": 0.0
+      }
+    },
+    {
+      "cond": "Ge 2.0at% film",
+      "d_logn_d": {
+        "log10_Tf": 14.634,
+        "log10_pO2": -0.231,
+        "E_B": 0.0,
+        "log10_Nd_bg": 0.0
+      },
+      "d_logmu_d": {
+        "log10_Tf": -0.006,
+        "log10_pO2": -0.0,
+        "E_B": -16.799,
+        "log10_Nd_bg": -0.0
+      },
+      "d_logsig_d": {
+        "log10_Tf": 15.653,
+        "log10_pO2": -0.247,
+        "E_B": -16.799,
+        "log10_Nd_bg": 0.0
+      }
+    }
+  ],
+  "full_battery_theta_information_diag": {
+    "log10_Tf": 10645.1045,
+    "log10_pO2": 2.7808,
+    "E_B": 6773.1638,
+    "log10_Nd_bg": 0.0002
+  },
+  "FIM_eigenvalues": [
+    0.0001,
+    0.0737,
+    5141.2896,
+    12279.6859
+  ],
+  "condition_number": 91658015.2,
+  "reads": [
+    "log10_Tf (freeze-in T) is the dominant, best-identified knob for log n.",
+    "E_B (grain-boundary barrier) is identified ONLY by mu on films (near-zero elsewhere).",
+    "A large condition number means some theta direction is weakly constrained by these observables -> the experiment-designer must add a condition that breaks that degeneracy."
+  ]
+}

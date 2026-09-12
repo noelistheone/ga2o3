@@ -1,0 +1,31 @@
+{
+ "n_dois": 86,
+ "n_resolved": 82,
+ "n_groups": 36,
+ "n_multi_doi_groups": 13,
+ "largest_group": 18,
+ "linkage_rule": "shared last author OR last-author-in-other's-list OR >=2 shared normalized authors (family+first initial)",
+ "hall_carrier_n": {
+  "icc_doi_level": 0.6165,
+  "icc_group_level": 0.5063,
+  "n_doi": 136,
+  "n_groups": 91
+ },
+ "hall_mobility_mu": {
+  "icc_doi_level": 0.8499,
+  "icc_group_level": 0.7821,
+  "n_doi": 118,
+  "n_groups": 74
+ },
+ "mu_lolo_group_level": {
+  "prop": "mu",
+  "n_rows": 269,
+  "n_labs": 38,
+  "raw_uncorrected_median_dex": 0.21,
+  "modeA_crosslab_LOLO_median_dex": 0.23,
+  "modeB_anchored_median_dex": 0.2,
+  "within_lab_scatter_floor_dex": 0.17,
+  "modeA_factor": 1.7,
+  "modeB_factor": 1.6
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "E_q0_a033_eV": -84495.489,
+ "E_q2_a033_eV": -84514.941,
+ "VBM_a033": 7.3249,
+ "MP2": 0.847,
+ "eps_2plus_0_above_VBM_a033_eV": 1.978,
+ "eps_a025_eV": 1.656,
+ "alpha_response_eV": 0.322,
+ "below_CBM_gapmatched_4.9_eV": 2.922,
+ "with_exact_aniso_pc_eV": 2.067,
+ "protocol": "same geometries, exx_fraction=0.33, fixed-occ VBM(a033), same MP monopole"
+}

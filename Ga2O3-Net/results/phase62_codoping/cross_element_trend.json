@@ -1,0 +1,208 @@
+{
+  "photo_dark_ratio": {
+    "target": "photo_dark_ratio",
+    "n_rows": 241,
+    "n_hold_elements": 7,
+    "hold_elements": [
+      "Sn",
+      "Mg",
+      "Zn",
+      "Ta",
+      "N",
+      "H",
+      "Si"
+    ],
+    "MIN_ROWS": 4,
+    "reps": {
+      "process_only": {
+        "ridge": {
+          "OOD_R2": -0.0138,
+          "OOD_spearman": 0.0725,
+          "OOD_MAE": 1.7001,
+          "n": 144
+        },
+        "rf": {
+          "OOD_R2": -0.0152,
+          "OOD_spearman": 0.282,
+          "OOD_MAE": 1.7448,
+          "n": 144
+        },
+        "xgb": {
+          "OOD_R2": -0.0335,
+          "OOD_spearman": 0.2904,
+          "OOD_MAE": 1.8191,
+          "n": 144
+        }
+      },
+      "onehot": {
+        "ridge": {
+          "OOD_R2": -0.096,
+          "OOD_spearman": -0.0229,
+          "OOD_MAE": 1.8019,
+          "n": 144
+        },
+        "rf": {
+          "OOD_R2": 0.0747,
+          "OOD_spearman": 0.319,
+          "OOD_MAE": 1.687,
+          "n": 144
+        },
+        "xgb": {
+          "OOD_R2": 0.0218,
+          "OOD_spearman": 0.2532,
+          "OOD_MAE": 1.7267,
+          "n": 144
+        }
+      },
+      "phys5": {
+        "ridge": {
+          "OOD_R2": -0.793,
+          "OOD_spearman": -0.0122,
+          "OOD_MAE": 2.2909,
+          "n": 144
+        },
+        "rf": {
+          "OOD_R2": -0.0611,
+          "OOD_spearman": 0.225,
+          "OOD_MAE": 1.8459,
+          "n": 144
+        },
+        "xgb": {
+          "OOD_R2": -0.049,
+          "OOD_spearman": 0.2283,
+          "OOD_MAE": 1.7971,
+          "n": 144
+        }
+      },
+      "mace256": {
+        "ridge": {
+          "OOD_R2": 0.0238,
+          "OOD_spearman": 0.2391,
+          "OOD_MAE": 1.6885,
+          "n": 133
+        },
+        "rf": {
+          "OOD_R2": 0.0332,
+          "OOD_spearman": 0.3909,
+          "OOD_MAE": 1.6986,
+          "n": 133
+        },
+        "xgb": {
+          "OOD_R2": -0.0785,
+          "OOD_spearman": 0.2154,
+          "OOD_MAE": 1.8065,
+          "n": 133
+        }
+      }
+    },
+    "mace_covered_hold_elements": [
+      "Sn",
+      "Mg",
+      "Zn",
+      "Ta",
+      "Si"
+    ]
+  },
+  "vacancy_concentration": {
+    "target": "vacancy_concentration",
+    "n_rows": 186,
+    "n_hold_elements": 6,
+    "hold_elements": [
+      "Mg",
+      "Sn",
+      "Si",
+      "N",
+      "Zn",
+      "H"
+    ],
+    "MIN_ROWS": 4,
+    "reps": {
+      "process_only": {
+        "ridge": {
+          "OOD_R2": -0.2683,
+          "OOD_spearman": -0.2184,
+          "OOD_MAE": 1.8134,
+          "n": 133
+        },
+        "rf": {
+          "OOD_R2": -0.2354,
+          "OOD_spearman": -0.1086,
+          "OOD_MAE": 1.7515,
+          "n": 133
+        },
+        "xgb": {
+          "OOD_R2": -0.0534,
+          "OOD_spearman": 0.1641,
+          "OOD_MAE": 1.6222,
+          "n": 133
+        }
+      },
+      "onehot": {
+        "ridge": {
+          "OOD_R2": -0.5179,
+          "OOD_spearman": -0.3713,
+          "OOD_MAE": 1.8702,
+          "n": 133
+        },
+        "rf": {
+          "OOD_R2": -0.1647,
+          "OOD_spearman": -0.2012,
+          "OOD_MAE": 1.6043,
+          "n": 133
+        },
+        "xgb": {
+          "OOD_R2": -0.1706,
+          "OOD_spearman": -0.193,
+          "OOD_MAE": 1.6407,
+          "n": 133
+        }
+      },
+      "phys5": {
+        "ridge": {
+          "OOD_R2": -1.7161,
+          "OOD_spearman": 0.4801,
+          "OOD_MAE": 2.3461,
+          "n": 133
+        },
+        "rf": {
+          "OOD_R2": 0.2469,
+          "OOD_spearman": 0.5883,
+          "OOD_MAE": 1.2925,
+          "n": 133
+        },
+        "xgb": {
+          "OOD_R2": 0.073,
+          "OOD_spearman": 0.5819,
+          "OOD_MAE": 1.413,
+          "n": 133
+        }
+      },
+      "mace256": {
+        "ridge": {
+          "OOD_R2": 0.2558,
+          "OOD_spearman": 0.6431,
+          "OOD_MAE": 1.2734,
+          "n": 115
+        },
+        "rf": {
+          "OOD_R2": 0.0289,
+          "OOD_spearman": 0.1327,
+          "OOD_MAE": 1.5522,
+          "n": 115
+        },
+        "xgb": {
+          "OOD_R2": -0.2184,
+          "OOD_spearman": -0.0053,
+          "OOD_MAE": 1.9298,
+          "n": 115
+        }
+      }
+    },
+    "mace_covered_hold_elements": [
+      "Mg",
+      "Sn",
+      "Si",
+      "Zn"
+    ]
+  }
+}

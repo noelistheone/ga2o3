@@ -1,0 +1,123 @@
+{
+  "gates": [
+    {
+      "name": "G1_reduce_to_V62_no_binding",
+      "dEF": 0.0,
+      "dlogVO": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "G2_reduce_to_V61_D1",
+      "dEF": 0.0,
+      "dlogVO": 0.0,
+      "pass_": true
+    },
+    {
+      "name": "G3_outer_fixed_point_converges",
+      "outer_iters": 19,
+      "outer_resid": 4.0818938555836973e-10,
+      "bound_frac": 0.9899897083405858,
+      "pass_": true
+    },
+    {
+      "name": "G4_coulomb_decomposition_xval",
+      "d_near": 3.048,
+      "E_coulomb": -0.4632,
+      "pairs": [
+        {
+          "pair": "Mg+Sn",
+          "E_assoc_near": -0.54248046875,
+          "E_bind_iso": -1.011627197265625,
+          "reconstructed": -1.0056,
+          "abs_err": 0.006
+        },
+        {
+          "pair": "Zn+Sn",
+          "E_assoc_near": -0.52239990234375,
+          "E_bind_iso": -0.98077392578125,
+          "reconstructed": -0.9856,
+          "abs_err": 0.0048
+        },
+        {
+          "pair": "Mg+Si",
+          "E_assoc_near": -0.6099853515625,
+          "E_bind_iso": -1.16156005859375,
+          "reconstructed": -1.0732,
+          "abs_err": 0.0884
+        },
+        {
+          "pair": "Mg+Ge",
+          "E_assoc_near": -0.568878173828125,
+          "E_bind_iso": -1.056884765625,
+          "reconstructed": -1.032,
+          "abs_err": 0.0248
+        },
+        {
+          "pair": "Zn+Si",
+          "E_assoc_near": -0.629638671875,
+          "E_bind_iso": -1.17987060546875,
+          "reconstructed": -1.0928,
+          "abs_err": 0.0871
+        }
+      ],
+      "max_abs_err": 0.0884,
+      "mean_abs_err": 0.0422,
+      "pass_": true
+    },
+    {
+      "name": "G5_self_consistent_vs_decoupled",
+      "decoupled": {
+        "E_F": 3.0779,
+        "log10_VO": 4.3289,
+        "bound_frac": 0.8698
+      },
+      "self_consistent": {
+        "E_F": 3.0218,
+        "log10_VO": 4.3289,
+        "bound_frac": 0.99
+      },
+      "charged_pairing_higher": true,
+      "pass_": true
+    },
+    {
+      "name": "G6_independent_scipy_xcheck",
+      "cases": [
+        {
+          "case": "Sn+Mg",
+          "dEF": 3.5868201742061956e-09,
+          "dlogVO": 2.6645352591003757e-15,
+          "dboundfrac": 9.880984919163893e-15,
+          "torch": {
+            "E_F": 3.01737,
+            "log10_VO": 4.32894,
+            "bound_frac": 0.99121
+          },
+          "scipy": {
+            "E_F": 3.01737,
+            "log10_VO": 4.32894,
+            "bound_frac": 0.99121
+          }
+        },
+        {
+          "case": "Sn+Mg+Zn",
+          "dEF": 8.881784197001252e-16,
+          "dlogVO": 8.881784197001252e-15,
+          "dboundfrac": 4.440892098500626e-16,
+          "torch": {
+            "E_F": 1.27031,
+            "log10_VO": 7.77114,
+            "bound_frac": 0.87719
+          },
+          "scipy": {
+            "E_F": 1.27031,
+            "log10_VO": 7.77114,
+            "bound_frac": 0.87719
+          }
+        }
+      ],
+      "max_dev": 3.5868201742061956e-09,
+      "pass_": true
+    }
+  ],
+  "ALL_PASS": true
+}

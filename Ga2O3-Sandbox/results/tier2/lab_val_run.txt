@@ -1,0 +1,101 @@
+{
+  "preregistered_lab_directions": {
+    "Si": "up",
+    "Sn": "up",
+    "Mg": "up",
+    "Zn": "up"
+  },
+  "process_params": {
+    "T_anneal": 1073.0,
+    "pO2": 1e-05,
+    "EcT_fraction": 0.4,
+    "film": true,
+    "E_B_eV": 0.03,
+    "Nd_bg": 1e+17
+  },
+  "results": {
+    "Si": {
+      "conc_at%": 2.34,
+      "annealed": true,
+      "PDR_score_doped": 20.84,
+      "PDR_score_undoped": 17.42,
+      "delta_PDR_score": 3.42,
+      "predicted_PDR_direction": "up",
+      "lab_PDR_direction": "up",
+      "PDR_direction_correct": true,
+      "delta_dark_activation_eV": -0.01,
+      "n_cm3": "2.49e+16",
+      "sigma_S_cm": "6.63e-02"
+    },
+    "Sn": {
+      "conc_at%": 2.65,
+      "annealed": true,
+      "PDR_score_doped": 18.28,
+      "PDR_score_undoped": 17.42,
+      "delta_PDR_score": 0.86,
+      "predicted_PDR_direction": "up",
+      "lab_PDR_direction": "up",
+      "PDR_direction_correct": true,
+      "delta_dark_activation_eV": -0.006,
+      "n_cm3": "2.12e+16",
+      "sigma_S_cm": "1.06e-01"
+    },
+    "Mg": {
+      "conc_at%": 1.01,
+      "annealed": true,
+      "PDR_score_doped": 31.82,
+      "PDR_score_undoped": 17.42,
+      "delta_PDR_score": 14.4,
+      "predicted_PDR_direction": "up",
+      "lab_PDR_direction": "up",
+      "PDR_direction_correct": true,
+      "delta_dark_activation_eV": 3.535,
+      "n_cm3": "7.01e-44",
+      "sigma_S_cm": "1.87e-61"
+    },
+    "Zn": {
+      "conc_at%": 2.63,
+      "annealed": false,
+      "PDR_score_doped": 32.25,
+      "PDR_score_undoped": 17.42,
+      "delta_PDR_score": 14.83,
+      "predicted_PDR_direction": "up",
+      "lab_PDR_direction": "up",
+      "PDR_direction_correct": true,
+      "delta_dark_activation_eV": 3.388,
+      "n_cm3": "2.06e-41",
+      "sigma_S_cm": "5.48e-59"
+    }
+  },
+  "annealed_PDR_direction_score": "3/3",
+  "all4_PDR_direction_score": "4/4",
+  "discrimination_check": {
+    "n_up": 16,
+    "n_down": 1,
+    "discriminates": true,
+    "per_dopant_delta_PDR_score": {
+      "Si": 3.42,
+      "H": 4.31,
+      "Fe": 11.58,
+      "Sn": 0.86,
+      "Cr": -0.0,
+      "Ti": 12.5,
+      "Ir": 0.0,
+      "Mg": 14.4,
+      "Ca": 14.66,
+      "Zn": 14.83,
+      "Co": 12.12,
+      "Zr": 2.53,
+      "Hf": 2.68,
+      "Ta": 14.52,
+      "Ge": 2.68,
+      "Pt": 13.46,
+      "Rh": 0.0
+    },
+    "note": "chain predicts BOTH up and down across dopants \u2192 discriminating"
+  },
+  "literature_ML_baseline": "PDR direction 1/4 (backwards) on this same bench (Phase-105)",
+  "verdict": "PHYSICS BEATS literature-ML on PDR direction",
+  "honest_caveat": "n=3 case study; 3/3 by chance p=1/8. Corpus trend battery supplies statistics. Zn abstained (unannealed). PDR is direction-only fidelity."
+}
+

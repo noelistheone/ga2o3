@@ -1,0 +1,102 @@
+{
+ "photo_dark_ratio": {
+  "n_rows": 114,
+  "n_studies": 50,
+  "n_covariates": 51,
+  "reml_icc": 0.795,
+  "r2_cv_covariates_on_blup": -0.802,
+  "p_perm": 0.4428,
+  "icc_perp": 0.795,
+  "bound_icc": 0.453,
+  "bound_icc_perp": 0.453
+ },
+ "dark_current_pA": {
+  "n_rows": 40,
+  "n_studies": 27,
+  "n_covariates": 44,
+  "reml_icc": 0.838,
+  "r2_cv_covariates_on_blup": -0.212,
+  "p_perm": 0.0448,
+  "icc_perp": 0.838,
+  "bound_icc": 0.403,
+  "bound_icc_perp": 0.403
+ },
+ "vacancy_concentration": {
+  "n_rows": 62,
+  "n_studies": 27,
+  "n_covariates": 44,
+  "reml_icc": 0.785,
+  "r2_cv_covariates_on_blup": -0.383,
+  "p_perm": 0.1194,
+  "icc_perp": 0.785,
+  "bound_icc": 0.463,
+  "bound_icc_perp": 0.463
+ },
+ "hall_carrier_n": {
+  "n_rows": 281,
+  "n_studies": 97,
+  "n_covariates": 44,
+  "reml_icc": 0.604,
+  "r2_cv_covariates_on_blup": -0.235,
+  "p_perm": 0.1592,
+  "icc_perp": 0.604,
+  "bound_icc": 0.629,
+  "bound_icc_perp": 0.629
+ },
+ "hall_mobility_mu": {
+  "n_rows": 258,
+  "n_studies": 87,
+  "n_covariates": 44,
+  "reml_icc": 0.85,
+  "r2_cv_covariates_on_blup": 0.504,
+  "p_perm": 0.005,
+  "icc_perp": 0.422,
+  "bound_icc": 0.387,
+  "bound_icc_perp": 0.76
+ },
+ "optical_bandgap_Eg": {
+  "n_rows": 341,
+  "n_studies": 153,
+  "n_covariates": 47,
+  "reml_icc": 0.616,
+  "r2_cv_covariates_on_blup": 0.115,
+  "p_perm": 0.005,
+  "icc_perp": 0.545,
+  "bound_icc": 0.62,
+  "bound_icc_perp": 0.675
+ },
+ "bandgap_shift_dEg": {
+  "n_rows": 158,
+  "n_studies": 72,
+  "n_covariates": 47,
+  "reml_icc": 0.788,
+  "r2_cv_covariates_on_blup": 0.097,
+  "p_perm": 0.01,
+  "icc_perp": 0.712,
+  "bound_icc": 0.461,
+  "bound_icc_perp": 0.537
+ },
+ "tau_decay": {
+  "n_rows": 105,
+  "n_studies": 63,
+  "n_covariates": 44,
+  "reml_icc": 0.789,
+  "r2_cv_covariates_on_blup": -0.438,
+  "p_perm": 0.4627,
+  "icc_perp": 0.789,
+  "bound_icc": 0.46,
+  "bound_icc_perp": 0.46
+ },
+ "conductivity_sigma": {
+  "n_rows": 137,
+  "n_studies": 59,
+  "n_covariates": 43,
+  "reml_icc": 0.851,
+  "r2_cv_covariates_on_blup": -0.54,
+  "p_perm": 0.4229,
+  "icc_perp": 0.851,
+  "bound_icc": 0.386,
+  "bound_icc_perp": 0.386
+ },
+ "_protocol_note": "REML refit on feature-complete rows of the CURRENT corpus (differs slightly from the official phase101 ICC snapshot used in Fig. 2/abstract; the paper table pairs the official ICC+CI with this test R2, ICC_perp = ICC_official*(1-max(R2,0)))."
+}

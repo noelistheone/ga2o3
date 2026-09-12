@@ -1,0 +1,14 @@
+OOF file: /home/lawrence/Physics/Ga2O3-Net/results/phase3h_vc_head128/oof_predictions.csv  |  rows: 220
+================================================================================
+[skip] photo_dark_ratio: no *_true or *_pred column
+
+### vacancy_concentration
+  raw       N= 52  R²=+0.269 [95% CI +0.147, +0.315]  MAE=1.190  RMSE=1.695  r=+0.704  slope=3.014
+  Platt     N= 52  R²=+0.449 [95% CI +0.176, +0.535]  MAE=1.165  RMSE=1.472  r=+0.711  slope=1.504
+  nested    N= 52  R²=+0.425 [95% CI -0.074, +0.587]  MAE=1.246  RMSE=1.503  r=+0.653  slope=0.949
+
+### Per-dopant Pearson r — vacancy_concentration
+  Mg                    N= 14  r=+0.603
+  Si                    N= 14  r=+0.473
+  Sn                    N= 18  r=+0.612
+  Zn                    N=  5  r=+0.932

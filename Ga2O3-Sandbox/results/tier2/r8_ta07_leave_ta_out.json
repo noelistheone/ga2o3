@@ -1,0 +1,68 @@
+{
+ "ta_rows_in_global_fit": 3,
+ "Tf_grid_all": {
+  "1073": 1.854,
+  "1200": 1.217,
+  "1350": 1.097,
+  "1500": 1.134,
+  "1650": 1.175,
+  "1800": 1.26
+ },
+ "Tf_best_all": 1350,
+ "Tf_grid_leave_ta_out": {
+  "1073": 1.854,
+  "1200": 1.202,
+  "1350": 1.112,
+  "1500": 1.145,
+  "1650": 1.154,
+  "1800": 1.257
+ },
+ "Tf_best_leave_ta_out": 1350,
+ "ofz_series_at_leave_ta_out_Tf": [
+  {
+   "frac": 1e-06,
+   "Ta_cm3": 1.2733333333333334e+16,
+   "n_cm3": 1.5333852745797328e+16,
+   "mu_cm2Vs": 203.8
+  },
+  {
+   "frac": 3e-06,
+   "Ta_cm3": 3.82e+16,
+   "n_cm3": 1.1418880027575984e+16,
+   "mu_cm2Vs": 200.6
+  },
+  {
+   "frac": 1e-05,
+   "Ta_cm3": 1.2733333333333334e+17,
+   "n_cm3": 8890.26666500683,
+   "mu_cm2Vs": 183.3
+  },
+  {
+   "frac": 3e-05,
+   "Ta_cm3": 3.82e+17,
+   "n_cm3": 2933.826446035946,
+   "mu_cm2Vs": 143.1
+  },
+  {
+   "frac": 0.0001,
+   "Ta_cm3": 1.2733333333333335e+18,
+   "n_cm3": 1892.7386634904997,
+   "mu_cm2Vs": 102.9
+  },
+  {
+   "frac": 0.0003,
+   "Ta_cm3": 3.82e+18,
+   "n_cm3": 1853.5936212937852,
+   "mu_cm2Vs": 88.1
+  },
+  {
+   "frac": 0.002,
+   "Ta_cm3": 2.546666666666667e+19,
+   "n_cm3": 2700.8290706608464,
+   "mu_cm2Vs": 82.6
+  }
+ ],
+ "mu_near_7e17": null,
+ "effective_pO2_rule": "OFZ series run at air pO2=0.2 atm exactly as the published record (growth ambient), not a tuned effective value; the effective-state bracket (air vs O2-poor) is the pre-existing file results/tier2/ta_experimental_conditions.json",
+ "read": "leave-Ta-out temperature equals the all-rows temperature -> the Ta reproduction is not circular"
+}

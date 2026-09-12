@@ -1,0 +1,124 @@
+{
+  "grid": {
+    "T": [
+      1073.0,
+      1400.0,
+      1700.0
+    ],
+    "pO2": [
+      1e-08,
+      1e-05,
+      0.01
+    ],
+    "Nd_bg": [
+      1e+16,
+      1e+17,
+      1e+18
+    ]
+  },
+  "n_settings": 27,
+  "best_setting": {
+    "T": 1073.0,
+    "pO2": 1e-05,
+    "Nd_bg": 1e+17,
+    "n_dopants": 10,
+    "rho": 0.443,
+    "perm_p": 0.187,
+    "beats_floor": false
+  },
+  "any_setting_beats_floor_p05": false,
+  "all_results": [
+    {
+      "T": 1073.0,
+      "pO2": 1e-08,
+      "Nd_bg": 1e+16,
+      "n_dopants": 10,
+      "rho": 0.443,
+      "perm_p": 0.1905,
+      "beats_floor": false
+    },
+    {
+      "T": 1073.0,
+      "pO2": 1e-05,
+      "Nd_bg": 1e+17,
+      "n_dopants": 10,
+      "rho": 0.443,
+      "perm_p": 0.187,
+      "beats_floor": false
+    },
+    {
+      "T": 1700.0,
+      "pO2": 1e-08,
+      "Nd_bg": 1e+18,
+      "n_dopants": 10,
+      "rho": 0.321,
+      "perm_p": 0.374,
+      "beats_floor": false
+    },
+    {
+      "T": 1700.0,
+      "pO2": 1e-05,
+      "Nd_bg": 1e+18,
+      "n_dopants": 10,
+      "rho": 0.321,
+      "perm_p": 0.368,
+      "beats_floor": false
+    },
+    {
+      "T": 1400.0,
+      "pO2": 0.01,
+      "Nd_bg": 1e+18,
+      "n_dopants": 10,
+      "rho": 0.304,
+      "perm_p": 0.393,
+      "beats_floor": false
+    },
+    {
+      "T": 1700.0,
+      "pO2": 0.01,
+      "Nd_bg": 1e+17,
+      "n_dopants": 10,
+      "rho": 0.304,
+      "perm_p": 0.3865,
+      "beats_floor": false
+    },
+    {
+      "T": 1073.0,
+      "pO2": 1e-08,
+      "Nd_bg": 1e+17,
+      "n_dopants": 10,
+      "rho": 0.295,
+      "perm_p": 0.399,
+      "beats_floor": false
+    },
+    {
+      "T": 1400.0,
+      "pO2": 1e-05,
+      "Nd_bg": 1e+17,
+      "n_dopants": 10,
+      "rho": 0.295,
+      "perm_p": 0.417,
+      "beats_floor": false
+    },
+    {
+      "T": 1073.0,
+      "pO2": 1e-05,
+      "Nd_bg": 1e+18,
+      "n_dopants": 10,
+      "rho": 0.271,
+      "perm_p": 0.433,
+      "beats_floor": false
+    },
+    {
+      "T": 1073.0,
+      "pO2": 1e-08,
+      "Nd_bg": 1e+18,
+      "n_dopants": 10,
+      "rho": 0.258,
+      "perm_p": 0.463,
+      "beats_floor": false
+    }
+  ],
+  "interpretation": "NO process setting makes the cross-dopant n ranking floor-robust \u2192 the ranking is ENERGETICS-limited (donor/acceptor classification), not process-limited: the exponential-sensitivity ceiling manifests in the FORWARD physics too, confirming the thesis from the physics side"
+}
+

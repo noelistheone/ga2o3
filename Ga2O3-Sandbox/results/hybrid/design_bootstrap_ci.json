@@ -1,0 +1,9 @@
+{
+ "n_labs": 13,
+ "median_diff_des2_minus_rand2": -0.06,
+ "bootstrap_CI95": [
+  -0.3,
+  0.16
+ ],
+ "frac_boots_below_zero": 0.802
+}

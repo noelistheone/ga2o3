@@ -1,0 +1,161 @@
+{
+  "method": "occupation-based fundamental gap, nspin=1, PBE, identical settings",
+  "crystal_gap_PBE_eV": 2.339,
+  "crystal_VBM": 8.88,
+  "crystal_CBM": 11.218,
+  "n_amorphous_cells": 20,
+  "amorphous_gap_mean_eV": 2.106,
+  "amorphous_gap_std_eV": 0.277,
+  "dEg_disorder_eV": -0.233,
+  "dEg_disorder_sem_eV": 0.062,
+  "Urbach_E_U_meV": null,
+  "per_cell": [
+    {
+      "cell": "cell_0",
+      "VBM": 9.144,
+      "CBM": 10.924,
+      "gap": 1.78,
+      "E_U_meV": null
+    },
+    {
+      "cell": "cell_1",
+      "VBM": 8.872,
+      "CBM": 11.201,
+      "gap": 2.329,
+      "E_U_meV": null
+    },
+    {
+      "cell": "cell_10",
+      "VBM": 8.87,
+      "CBM": 11.201,
+      "gap": 2.332,
+      "E_U_meV": null
+    },
+    {
+      "cell": "cell_11",
+      "VBM": 8.87,
+      "CBM": 11.201,
+      "gap": 2.332,
+      "E_U_meV": null
+    },
+    {
+      "cell": "cell_12",
+      "VBM": 9.185,
+      "CBM": 11.062,
+      "gap": 1.877,
+      "E_U_meV": null
+    },
+    {
+      "cell": "cell_13",
+      "VBM": 8.873,
+      "CBM": 11.201,
+      "gap": 2.328,
+      "E_U_meV": null
+    },
+    {
+      "cell": "cell_14",
+      "VBM": 8.749,
+      "CBM": 11.011,
+      "gap": 2.262,
+      "E_U_meV": null
+    },
+    {
+      "cell": "cell_15",
+      "VBM": 8.874,
+      "CBM": 11.202,
+      "gap": 2.329,
+      "E_U_meV": null
+    },
+    {
+      "cell": "cell_16",
+      "VBM": 8.876,
+      "CBM": 11.202,
+      "gap": 2.326,
+      "E_U_meV": null
+    },
+    {
+      "cell": "cell_17",
+      "VBM": 9.301,
+      "CBM": 10.861,
+      "gap": 1.56,
+      "E_U_meV": null
+    },
+    {
+      "cell": "cell_18",
+      "VBM": 8.747,
+      "CBM": 11.01,
+      "gap": 2.263,
+      "E_U_meV": null
+    },
+    {
+      "cell": "cell_19",
+      "VBM": 8.874,
+      "CBM": 11.202,
+      "gap": 2.328,
+      "E_U_meV": null
+    },
+    {
+      "cell": "cell_2",
+      "VBM": 8.873,
+      "CBM": 11.202,
+      "gap": 2.329,
+      "E_U_meV": null
+    },
+    {
+      "cell": "cell_3",
+      "VBM": 9.217,
+      "CBM": 11.137,
+      "gap": 1.921,
+      "E_U_meV": null
+    },
+    {
+      "cell": "cell_4",
+      "VBM": 9.351,
+      "CBM": 11.026,
+      "gap": 1.674,
+      "E_U_meV": null
+    },
+    {
+      "cell": "cell_5",
+      "VBM": 8.872,
+      "CBM": 11.201,
+      "gap": 2.329,
+      "E_U_meV": null
+    },
+    {
+      "cell": "cell_6",
+      "VBM": 9.473,
+      "CBM": 11.069,
+      "gap": 1.597,
+      "E_U_meV": null
+    },
+    {
+      "cell": "cell_7",
+      "VBM": 9.169,
+      "CBM": 11.097,
+      "gap": 1.928,
+      "E_U_meV": null
+    },
+    {
+      "cell": "cell_8",
+      "VBM": 8.875,
+      "CBM": 11.204,
+      "gap": 2.329,
+      "E_U_meV": null
+    },
+    {
+      "cell": "cell_9",
+      "VBM": 9.137,
+      "CBM": 11.101,
+      "gap": 1.964,
+      "E_U_meV": null
+    }
+  ],
+  "caveats": "naive occupation gap = LOWER bound (counts localized tail states); IPR mobility edge + HSE spot-check are refinements. Fixed-cell quench = crystal density (NPT is the density refinement). Thermal/ZPR (~0.19 eV) separate. First-of-kind a-Ga2O3 structural narrowing.",
+  "genuinely_disordered_subset": {
+    "n": 8,
+    "gap_mean": 1.788,
+    "narrowing_eV": 0.551
+  },
+  "n_recrystallized": 12
+}

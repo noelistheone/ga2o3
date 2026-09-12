@@ -1,0 +1,14 @@
+{
+ "spacegroup": "C2/m",
+ "orthogonality_check": {
+  "bdotc": 0.0
+ },
+ "E_iso_eps10.2_eV": 0.7139,
+ "production_MP_eV": 0.847,
+ "E_iso_eps11.2_Fiedler_eV": 0.6501,
+ "E_aniso_Gopalan_eV": 0.6683,
+ "E_aniso_MP_DFPT_eV": 0.6087,
+ "delta_aniso_vs_production_eV": -0.1787,
+ "delta_level_eV": -0.0894,
+ "note": "exact Ewald point-charge+jellium; anisotropic via E_vac(eps^-1/2 L)/sqrt(det eps). Gopalan tensor (a*,b,c)=(10.05,10.6,12.4) exp; Fiedler avg 11.2; MP mp-886 DFPT eig (11.32,11.51,13.82). Level shift = delta/2 for the (2+/0) level."
+}

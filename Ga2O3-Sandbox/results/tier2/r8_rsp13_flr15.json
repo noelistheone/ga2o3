@@ -1,0 +1,26 @@
+{
+ "rsp13": {
+  "n_labs": 69,
+  "hybrid_median_of_perlab_medians_dex": 0.261,
+  "constant_median_of_perlab_medians_dex": 0.259,
+  "wilcoxon_p_one_sided": 0.9964,
+  "n_labs_hybrid_better": 35,
+  "response_labs_n": 10,
+  "within_heldout_lab_spearman_median": -0.099,
+  "within_heldout_lab_spearman_frac_positive": 0.5,
+  "strata_median_dex": {
+   "film": 0.22,
+   "crystal": 0.261
+  },
+  "strata_n_labs": {
+   "film": 2,
+   "crystal": 67
+  },
+  "constant_response": 0.0
+ },
+ "flr15": {
+  "floor_insample_pooled_median": 0.474,
+  "floor_leave_one_point_out_pooled_median": 0.807,
+  "n_labs": 13
+ }
+}

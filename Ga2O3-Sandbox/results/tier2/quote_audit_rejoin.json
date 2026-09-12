@@ -1,0 +1,951 @@
+{
+ "n_rejoined": 42,
+ "counts": {
+  "SUPPORTED": 40,
+  "PARTIAL": 1,
+  "NOT_FOUND": 0,
+  "NO_QUOTES": 1
+ },
+ "method": "The 42 audit rows whose in-table quote was the provenance tag 'phase77_ingest' were re-joined by normalized DOI to the ingest-time verification artifacts (Ga2O3-Net results/phase77_new_data_sweep/{deduped,verify_191_result,deepen_result}.json), which retain per-row verbatim source quotes. Each numeric field of the audited row was then searched in the recovered quotes (scientific-notation-aware, rel. 1%); SUPPORTED = every non-null field found, PARTIAL = some, NOT_FOUND = none, NO_QUOTES = DOI absent from the artifacts.",
+ "per_row": [
+  {
+   "index": 117,
+   "doi": "10.1002/pssa.201900632",
+   "checked": [
+    "carrier_cm3"
+   ],
+   "found": [
+    "carrier_cm3"
+   ],
+   "verdict": "SUPPORTED",
+   "evidence": {
+    "carrier_cm3": {
+     "value": 1e+17,
+     "match": "mantissa",
+     "quote": "alpha-Ga2O3 films on m-plane sapphires with the thickness of 2 um show mobilities as high as 65 cm2 (V s)-1, which is much higher than previously reported value of 24 cm2 (V s)-1 in the films grown on c-plane sapphire."
+    }
+   },
+   "n_candidate_quotes": 2
+  },
+  {
+   "index": 132,
+   "doi": "10.1021/acs.cgd.2c00290",
+   "checked": [
+    "carrier_cm3",
+    "mu_cm2Vs"
+   ],
+   "found": [
+    "carrier_cm3",
+    "mu_cm2Vs"
+   ],
+   "verdict": "SUPPORTED",
+   "evidence": {
+    "carrier_cm3": {
+     "value": 1.8e+16,
+     "match": "exact",
+     "quote": "#329 58 800 60 950 0.0496 60 2.95 2.95 1.80 x 10^16 190"
+    },
+    "mu_cm2Vs": {
+     "value": 190.0,
+     "match": "exact",
+     "quote": "#329 58 800 60 950 0.0496 60 2.95 2.95 1.80 x 10^16 190"
+    }
+   },
+   "n_candidate_quotes": 17
+  },
+  {
+   "index": 145,
+   "doi": "10.1038/s41598-017-13656-x",
+   "checked": [
+    "carrier_cm3"
+   ],
+   "found": [
+    "carrier_cm3"
+   ],
+   "verdict": "SUPPORTED",
+   "evidence": {
+    "carrier_cm3": {
+     "value": 1.21e+17,
+     "match": "exact",
+     "quote": "Room temperature electron densities are 1.71\u00d71017 cm-3 for Sample 1 (red square) and 1.21\u00d71017 cm-3 for Sample 2 (blue diamond)."
+    }
+   },
+   "n_candidate_quotes": 2
+  },
+  {
+   "index": 148,
+   "doi": "10.1038/s41598-020-62948-2",
+   "checked": [
+    "mu_cm2Vs"
+   ],
+   "found": [
+    "mu_cm2Vs"
+   ],
+   "verdict": "SUPPORTED",
+   "evidence": {
+    "mu_cm2Vs": {
+     "value": 100.0,
+     "match": "exact",
+     "quote": "O2 -annealing followed by H2 diffusion led to high n-type conductivity (stable over time) and remarkable sheet carrier density of about 10^16 cm-2 with electron mobility 100 cm2/Vs"
+    }
+   },
+   "n_candidate_quotes": 2
+  },
+  {
+   "index": 149,
+   "doi": "10.1063/1.5025704",
+   "checked": [
+    "mu_cm2Vs"
+   ],
+   "found": [
+    "mu_cm2Vs"
+   ],
+   "verdict": "SUPPORTED",
+   "evidence": {
+    "mu_cm2Vs": {
+     "value": 162.0,
+     "match": "exact",
+     "quote": "The room temperature mobility was measured to be 162 cm2/Vs and 180 cm2/Vs for sample A and B, respectively."
+    }
+   },
+   "n_candidate_quotes": 8
+  },
+  {
+   "index": 153,
+   "doi": "10.1063/1.5034474",
+   "checked": [
+    "carrier_cm3"
+   ],
+   "found": [
+    "carrier_cm3"
+   ],
+   "verdict": "SUPPORTED",
+   "evidence": {
+    "carrier_cm3": {
+     "value": 3e+17,
+     "match": "mantissa",
+     "quote": "Sample 1 | MBE | Ge | N_dn 6.5 (10^16 cm-3) | E_dn 28 meV | N_ac 4.8 | N_ac/N_dn 0.74 (Table I). Donor concentration from simultaneous self-consistent fitting of temperature-dependent Hall carrier density and mobility."
+    }
+   },
+   "n_candidate_quotes": 6
+  },
+  {
+   "index": 155,
+   "doi": "10.1063/1.5034474",
+   "checked": [
+    "carrier_cm3"
+   ],
+   "found": [
+    "carrier_cm3"
+   ],
+   "verdict": "SUPPORTED",
+   "evidence": {
+    "carrier_cm3": {
+     "value": 3e+17,
+     "match": "mantissa",
+     "quote": "Sample 1 | MBE | Ge | N_dn 6.5 (10^16 cm-3) | E_dn 28 meV | N_ac 4.8 | N_ac/N_dn 0.74 (Table I). Donor concentration from simultaneous self-consistent fitting of temperature-dependent Hall carrier density and mobility."
+    }
+   },
+   "n_candidate_quotes": 6
+  },
+  {
+   "index": 163,
+   "doi": "10.1063/1.5132752",
+   "checked": [
+    "carrier_cm3",
+    "mu_cm2Vs"
+   ],
+   "found": [
+    "carrier_cm3",
+    "mu_cm2Vs"
+   ],
+   "verdict": "SUPPORTED",
+   "evidence": {
+    "carrier_cm3": {
+     "value": 240000000000000.0,
+     "match": "exact",
+     "quote": "Films grown without detectable N and H concentrations showed a room temperature electron mobility of 153 cm2/V s with the corresponding free carrier concentration of 2.4 x 10^14 cm-3, the lowest room temperature carrier concentration reported for MOCVD grown beta-Ga2O3 with excellent electron mobili"
+    },
+    "mu_cm2Vs": {
+     "value": 153.0,
+     "match": "exact",
+     "quote": "Films grown without detectable N and H concentrations showed a room temperature electron mobility of 153 cm2/V s with the corresponding free carrier concentration of 2.4 x 10^14 cm-3, the lowest room temperature carrier concentration reported for MOCVD grown beta-Ga2O3 with excellent electron mobili"
+    }
+   },
+   "n_candidate_quotes": 5
+  },
+  {
+   "index": 165,
+   "doi": "10.1063/1.5132752",
+   "checked": [
+    "mu_cm2Vs"
+   ],
+   "found": [
+    "mu_cm2Vs"
+   ],
+   "verdict": "SUPPORTED",
+   "evidence": {
+    "mu_cm2Vs": {
+     "value": 150.0,
+     "match": "exact",
+     "quote": "Comparison pure O2-grown film: free carrier concentration ~3 x 10^15 cm-3 with Hall mobility ~150 cm2/V s at room temperature (no detectable N/H incorporation)."
+    }
+   },
+   "n_candidate_quotes": 5
+  },
+  {
+   "index": 167,
+   "doi": "10.1063/5.0043903",
+   "checked": [
+    "mu_cm2Vs"
+   ],
+   "found": [
+    "mu_cm2Vs"
+   ],
+   "verdict": "SUPPORTED",
+   "evidence": {
+    "mu_cm2Vs": {
+     "value": 90.0,
+     "match": "exact",
+     "quote": "the Hall mobility measurement was performed in 90\u2013350 K temperature range (figure 3), which shows typical mobility curve with \u00b5 values 90 cm2V/s at 300 K and a maxima 110.86 cm2V/s at 190 K"
+    }
+   },
+   "n_candidate_quotes": 3
+  },
+  {
+   "index": 172,
+   "doi": "10.1063/5.0059657",
+   "checked": [
+    "carrier_cm3",
+    "mu_cm2Vs"
+   ],
+   "found": [
+    "carrier_cm3",
+    "mu_cm2Vs"
+   ],
+   "verdict": "SUPPORTED",
+   "evidence": {
+    "carrier_cm3": {
+     "value": 1.5e+20,
+     "match": "exact",
+     "quote": "Sample c: n = 1.5 \u00d7 10\u00b2\u2070 cm\u207b\u00b3, \u03bc = 40.0 cm\u00b2/Vs"
+    },
+    "mu_cm2Vs": {
+     "value": 37.6,
+     "match": "exact",
+     "quote": "Sample d: n = 2.6 \u00d7 10\u00b2\u2070 cm\u207b\u00b3, \u03bc = 37.6 cm\u00b2/Vs"
+    }
+   },
+   "n_candidate_quotes": 10
+  },
+  {
+   "index": 177,
+   "doi": "10.1063/5.0059657",
+   "checked": [
+    "carrier_cm3"
+   ],
+   "found": [
+    "carrier_cm3"
+   ],
+   "verdict": "SUPPORTED",
+   "evidence": {
+    "carrier_cm3": {
+     "value": 8e+16,
+     "match": "exact",
+     "quote": "The highest room-temperature electron mobility achieved was \u223c125 cm\u00b2/Vs with a corresponding free carrier concentration of \u223c8 \u00d7 10\u00b9\u2076 cm\u207b\u00b3."
+    }
+   },
+   "n_candidate_quotes": 10
+  },
+  {
+   "index": 184,
+   "doi": "10.1063/5.0124017",
+   "checked": [
+    "carrier_cm3",
+    "concentration_value"
+   ],
+   "found": [
+    "carrier_cm3"
+   ],
+   "verdict": "PARTIAL",
+   "evidence": {
+    "carrier_cm3": {
+     "value": 1.3e+19,
+     "match": "exact",
+     "quote": "the bulk carrier concentration for the Si implanted sample was 1.3 x 10^19 cm^-3 with a room temperature mobility of 93 cm^2/(V s)."
+    }
+   },
+   "n_candidate_quotes": 7
+  },
+  {
+   "index": 185,
+   "doi": "10.1063/5.0124017",
+   "checked": [
+    "mu_cm2Vs"
+   ],
+   "found": [
+    "mu_cm2Vs"
+   ],
+   "verdict": "SUPPORTED",
+   "evidence": {
+    "mu_cm2Vs": {
+     "value": 93.0,
+     "match": "exact",
+     "quote": "Room temperature Hall measurements resulted in sheet carrier concentrations and Hall mobilities of 2.13 x 10^14 /93 ... cm^2/(V s), respectively, for these three donor species. (Si)"
+    }
+   },
+   "n_candidate_quotes": 7
+  },
+  {
+   "index": 195,
+   "doi": "10.1063/5.0179622",
+   "checked": [
+    "mu_cm2Vs"
+   ],
+   "found": [
+    "mu_cm2Vs"
+   ],
+   "verdict": "SUPPORTED",
+   "evidence": {
+    "mu_cm2Vs": {
+     "value": 94.0,
+     "match": "exact",
+     "quote": "For the three implants studied in this work, we observed 94.0 cm2/Vs at 3.95x10^18 cm-3"
+    }
+   },
+   "n_candidate_quotes": 9
+  },
+  {
+   "index": 199,
+   "doi": "10.1063/5.0179622",
+   "checked": [
+    "mu_cm2Vs",
+    "concentration_value"
+   ],
+   "found": [
+    "mu_cm2Vs",
+    "concentration_value"
+   ],
+   "verdict": "SUPPORTED",
+   "evidence": {
+    "mu_cm2Vs": {
+     "value": 90.0,
+     "match": "exact",
+     "quote": "For 5x10^18 cm-3 implants, there was minimal change in activation up to 60 minutes with >70% activation and mu >90 cm2/Vs"
+    },
+    "concentration_value": {
+     "value": 80.0,
+     "match": "exact",
+     "quote": "For 5x10^19 cm-3, anneals for up to 20 minutes showed 80% activation with ~60 cm2/Vs"
+    }
+   },
+   "n_candidate_quotes": 9
+  },
+  {
+   "index": 209,
+   "doi": "10.1063/5.0184850",
+   "checked": [
+    "mu_cm2Vs"
+   ],
+   "found": [
+    "mu_cm2Vs"
+   ],
+   "verdict": "SUPPORTED",
+   "evidence": {
+    "mu_cm2Vs": {
+     "value": 71.6,
+     "match": "exact",
+     "quote": "71.6 cm2/Vs at 4.22\u00d71019 cm-3"
+    }
+   },
+   "n_candidate_quotes": 8
+  },
+  {
+   "index": 210,
+   "doi": "10.1063/5.0184850",
+   "checked": [
+    "carrier_cm3"
+   ],
+   "found": [
+    "carrier_cm3"
+   ],
+   "verdict": "SUPPORTED",
+   "evidence": {
+    "carrier_cm3": {
+     "value": 3.95e+18,
+     "match": "exact",
+     "quote": "For the three implants studied in this work, we observed 94.0 cm2/Vs at 3.95\u00d71018 cm-3"
+    }
+   },
+   "n_candidate_quotes": 8
+  },
+  {
+   "index": 218,
+   "doi": "10.1063/5.0184946",
+   "checked": [
+    "carrier_cm3",
+    "mu_cm2Vs"
+   ],
+   "found": [
+    "carrier_cm3",
+    "mu_cm2Vs"
+   ],
+   "verdict": "SUPPORTED",
+   "evidence": {
+    "carrier_cm3": {
+     "value": 8.14e+19,
+     "match": "exact",
+     "quote": "For a 5 minute anneal, 81% of the carriers were activated (estimated concentration of 8.14x10^19 cm-3) with a mobility of 70.8 cm2/Vs and Rs of 75.3 ohm/sq"
+    },
+    "mu_cm2Vs": {
+     "value": 70.8,
+     "match": "exact",
+     "quote": "For a 5 minute anneal, 81% of the carriers were activated (estimated concentration of 8.14x10^19 cm-3) with a mobility of 70.8 cm2/Vs and Rs of 75.3 ohm/sq"
+    }
+   },
+   "n_candidate_quotes": 10
+  },
+  {
+   "index": 220,
+   "doi": "10.1063/5.0185911",
+   "checked": [
+    "carrier_cm3",
+    "mu_cm2Vs"
+   ],
+   "found": [
+    "carrier_cm3",
+    "mu_cm2Vs"
+   ],
+   "verdict": "SUPPORTED",
+   "evidence": {
+    "carrier_cm3": {
+     "value": 3.85e+18,
+     "match": "exact",
+     "quote": "The carrier concentration was controlled in the range of 3.85 x 10^18 to 2.58 x 10^20 cm-3 by varying the Si concentration in the precursor solution."
+    },
+    "mu_cm2Vs": {
+     "value": 57.2,
+     "match": "exact",
+     "quote": "The film achieved the highest conductivity of 2368 S/cm with a mobility of 57.2 cm2/V s at the carrier concentration of 2.58 x 10^20 cm-3."
+    }
+   },
+   "n_candidate_quotes": 2
+  },
+  {
+   "index": 229,
+   "doi": "10.1063/5.0205906",
+   "checked": [
+    "carrier_cm3"
+   ],
+   "found": [
+    "carrier_cm3"
+   ],
+   "verdict": "SUPPORTED",
+   "evidence": {
+    "carrier_cm3": {
+     "value": 6.3e+17,
+     "match": "exact",
+     "quote": "the highest mobility achieved was 66 cm^2 V^\u22121 s^\u22121 at a carrier concentration of 6.3 \u00d7 10^17 cm^\u22123 [\u03b1-Ga2O3 polymorph]"
+    }
+   },
+   "n_candidate_quotes": 3
+  },
+  {
+   "index": 231,
+   "doi": "10.1063/5.0207432",
+   "checked": [
+    "carrier_cm3"
+   ],
+   "found": [
+    "carrier_cm3"
+   ],
+   "verdict": "SUPPORTED",
+   "evidence": {
+    "carrier_cm3": {
+     "value": 1.6e+19,
+     "match": "exact",
+     "quote": "The carrier density was controlled in the range of 8.2 x 10^16 to 1.6 x 10^19 cm^-3 ... (range upper bound)"
+    }
+   },
+   "n_candidate_quotes": 3
+  },
+  {
+   "index": 238,
+   "doi": "10.1063/5.0244593",
+   "checked": [
+    "carrier_cm3",
+    "mu_cm2Vs"
+   ],
+   "found": [
+    "carrier_cm3",
+    "mu_cm2Vs"
+   ],
+   "verdict": "SUPPORTED",
+   "evidence": {
+    "carrier_cm3": {
+     "value": 1500000000000000.0,
+     "match": "exact",
+     "quote": "The impurity tin concentration, electron concentration, and room temperature mobility of the alpha-Ga2O3 films are 4.5 x 10^20 cm-3, 1.5 x 10^15 cm-3, and 26.9 cm2 V-1 s-1, respectively."
+    },
+    "mu_cm2Vs": {
+     "value": 26.9,
+     "match": "exact",
+     "quote": "The impurity tin concentration, electron concentration, and room temperature mobility of the alpha-Ga2O3 films are 4.5 x 10^20 cm-3, 1.5 x 10^15 cm-3, and 26.9 cm2 V-1 s-1, respectively."
+    }
+   },
+   "n_candidate_quotes": 2
+  },
+  {
+   "index": 250,
+   "doi": "10.1063/5.0245559",
+   "checked": [
+    "carrier_cm3",
+    "mu_cm2Vs"
+   ],
+   "found": [
+    "carrier_cm3",
+    "mu_cm2Vs"
+   ],
+   "verdict": "SUPPORTED",
+   "evidence": {
+    "carrier_cm3": {
+     "value": 5.05e+17,
+     "match": "exact",
+     "quote": "Table 1: (010) \u03b2-Ga2O3, 118 cm2/Vs, 5.05\u00d710^17 cm-3"
+    },
+    "mu_cm2Vs": {
+     "value": 92.0,
+     "match": "exact",
+     "quote": "Table 1: (010) \u03b2-Ga2O3, 3.89 \u00b5m, 92 cm2/Vs, 1.41\u00d710^18 cm-3"
+    }
+   },
+   "n_candidate_quotes": 20
+  },
+  {
+   "index": 275,
+   "doi": "10.1088/1361-6641/ab75a6",
+   "checked": [
+    "carrier_cm3",
+    "mu_cm2Vs"
+   ],
+   "found": [
+    "carrier_cm3",
+    "mu_cm2Vs"
+   ],
+   "verdict": "SUPPORTED",
+   "evidence": {
+    "carrier_cm3": {
+     "value": 1.5e+17,
+     "match": "exact",
+     "quote": "UID-2  1.5x10^17  97  430 (Table 1, room temperature)"
+    },
+    "mu_cm2Vs": {
+     "value": 97.0,
+     "match": "exact",
+     "quote": "UID-2  1.5x10^17  97  430 (Table 1, room temperature)"
+    }
+   },
+   "n_candidate_quotes": 10
+  },
+  {
+   "index": 278,
+   "doi": "10.1088/1674-4926/43/9/092802",
+   "checked": [
+    "mu_cm2Vs"
+   ],
+   "found": [
+    "mu_cm2Vs"
+   ],
+   "verdict": "SUPPORTED",
+   "evidence": {
+    "mu_cm2Vs": {
+     "value": 45.0,
+     "match": "exact",
+     "quote": "the H-incorporated \u03b2-Ga2O3 films exhibit n-type conductivity with the highest room-temperature mobility of 45 cm2/(V\u00b7s)"
+    }
+   },
+   "n_candidate_quotes": 6
+  },
+  {
+   "index": 280,
+   "doi": "10.1116/6.0000866",
+   "checked": [
+    "mu_cm2Vs"
+   ],
+   "found": [
+    "mu_cm2Vs"
+   ],
+   "verdict": "SUPPORTED",
+   "evidence": {
+    "mu_cm2Vs": {
+     "value": 25.0,
+     "match": "exact",
+     "quote": "The room temperature mobility reduces from 25 - 5 cm2/Vs with increasing carrier concentration. The reduction in mobility with increasing carrier concentration is attributed to higher ionized impurity scattering in heavily-doped films."
+    }
+   },
+   "n_candidate_quotes": 5
+  },
+  {
+   "index": 284,
+   "doi": "10.1116/6.0000866",
+   "checked": [
+    "carrier_cm3"
+   ],
+   "found": [
+    "carrier_cm3"
+   ],
+   "verdict": "SUPPORTED",
+   "evidence": {
+    "carrier_cm3": {
+     "value": 3e+18,
+     "match": "exact",
+     "quote": "A room temperature Hall charge density of 2 x 1017 - 3 x 1018 cm-3 and Hall mobility of 20 - 35 cm2/Vs were realized."
+    }
+   },
+   "n_candidate_quotes": 5
+  },
+  {
+   "index": 289,
+   "doi": "10.1116/6.0001004",
+   "checked": [
+    "carrier_cm3",
+    "mu_cm2Vs"
+   ],
+   "found": [
+    "carrier_cm3",
+    "mu_cm2Vs"
+   ],
+   "verdict": "SUPPORTED",
+   "evidence": {
+    "carrier_cm3": {
+     "value": 2e+17,
+     "match": "exact",
+     "quote": "A room temperature Hall charge density of 2 x 1017 - 3 x 1018 cm-3 and Hall mobility of 20 - 35 cm2/Vs were realized."
+    },
+    "mu_cm2Vs": {
+     "value": 20.0,
+     "match": "exact",
+     "quote": "A room temperature Hall charge density of 2 x 1017 - 3 x 1018 cm-3 and Hall mobility of 20 - 35 cm2/Vs were realized."
+    }
+   },
+   "n_candidate_quotes": 8
+  },
+  {
+   "index": 311,
+   "doi": "10.35848/1882-0786/adcfee",
+   "checked": [
+    "carrier_cm3",
+    "mu_cm2Vs"
+   ],
+   "found": [
+    "carrier_cm3",
+    "mu_cm2Vs"
+   ],
+   "verdict": "SUPPORTED",
+   "evidence": {
+    "carrier_cm3": {
+     "value": 1.8e+16,
+     "match": "exact",
+     "quote": "RT electron density: 1.8 x 10^16 cm^-3 ... RT electron mobility of 136 cm^2 V^-1 s^-1 (at the lowest Si concentration 1.8 x 10^16 cm^-3, R_Si = 8.0 x 10^-7)"
+    },
+    "mu_cm2Vs": {
+     "value": 136.0,
+     "match": "exact",
+     "quote": "RT electron density: 1.8 x 10^16 cm^-3 ... RT electron mobility of 136 cm^2 V^-1 s^-1 (at the lowest Si concentration 1.8 x 10^16 cm^-3, R_Si = 8.0 x 10^-7)"
+    }
+   },
+   "n_candidate_quotes": 5
+  },
+  {
+   "index": 319,
+   "doi": "10.48550/arxiv.2001.11187",
+   "checked": [
+    "carrier_cm3",
+    "mu_cm2Vs",
+    "concentration_value"
+   ],
+   "found": [
+    "carrier_cm3",
+    "mu_cm2Vs",
+    "concentration_value"
+   ],
+   "verdict": "SUPPORTED",
+   "evidence": {
+    "carrier_cm3": {
+     "value": 9.2e+18,
+     "match": "exact",
+     "quote": "Table 1: Hf-3 9.2x10^18 cm-3, 80 cm2/V\u00b7s, 8.5 m\u03a9\u00b7cm."
+    },
+    "mu_cm2Vs": {
+     "value": 80.0,
+     "match": "exact",
+     "quote": "Table 1: Hf-3 9.2x10^18 cm-3, 80 cm2/V\u00b7s, 8.5 m\u03a9\u00b7cm."
+    },
+    "concentration_value": {
+     "value": 0.5,
+     "match": "mantissa",
+     "quote": "Table 1: Hf-5 1.1x10^19 cm-3, 70 cm2/V\u00b7s, 8.1 m\u03a9\u00b7cm."
+    }
+   },
+   "n_candidate_quotes": 20
+  },
+  {
+   "index": 320,
+   "doi": "10.48550/arxiv.2001.11187",
+   "checked": [
+    "carrier_cm3",
+    "mu_cm2Vs",
+    "concentration_value"
+   ],
+   "found": [
+    "carrier_cm3",
+    "mu_cm2Vs",
+    "concentration_value"
+   ],
+   "verdict": "SUPPORTED",
+   "evidence": {
+    "carrier_cm3": {
+     "value": 9.5e+18,
+     "match": "exact",
+     "quote": "Table 1: Hf-4 9.5x10^18 cm-3, 72 cm2/V\u00b7s, 9.1 m\u03a9\u00b7cm."
+    },
+    "mu_cm2Vs": {
+     "value": 72.0,
+     "match": "exact",
+     "quote": "Table 1: Hf-4 9.5x10^18 cm-3, 72 cm2/V\u00b7s, 9.1 m\u03a9\u00b7cm."
+    },
+    "concentration_value": {
+     "value": 0.5,
+     "match": "mantissa",
+     "quote": "Table 1: Hf-5 1.1x10^19 cm-3, 70 cm2/V\u00b7s, 8.1 m\u03a9\u00b7cm."
+    }
+   },
+   "n_candidate_quotes": 20
+  },
+  {
+   "index": 354,
+   "doi": "10.48550/arxiv.2311.14253",
+   "checked": [
+    "carrier_cm3",
+    "mu_cm2Vs"
+   ],
+   "found": [
+    "carrier_cm3",
+    "mu_cm2Vs"
+   ],
+   "verdict": "SUPPORTED",
+   "evidence": {
+    "carrier_cm3": {
+     "value": 2400000000000000.0,
+     "match": "exact",
+     "quote": "A controlled background carrier density scaling from 3.3x10^16 cm-3 to 2.4x10^15 cm-3 is demonstrated, without the use of intentional dopant gases such as silane, by controlling the growth rate and O2/TEGa ratio."
+    },
+    "mu_cm2Vs": {
+     "value": 132.0,
+     "match": "exact",
+     "quote": "MOCVD SBDs on a 6.3 um thick epitaxial layer show a uniform charge vs. depth profile of ~2.4x10^15 cm-3, an estimated mu_drift of 132 cm2/Vs."
+    }
+   },
+   "n_candidate_quotes": 3
+  },
+  {
+   "index": 364,
+   "doi": "10.48550/arxiv.2412.00149",
+   "checked": [
+    "carrier_cm3",
+    "mu_cm2Vs"
+   ],
+   "found": [
+    "carrier_cm3",
+    "mu_cm2Vs"
+   ],
+   "verdict": "SUPPORTED",
+   "evidence": {
+    "carrier_cm3": {
+     "value": 1.51e+17,
+     "match": "exact",
+     "quote": "Table 1: 3.40 (thickness) 6.80 (growth rate) 162 (Hall Mobility) 1.51\u00d710^17 (Carrier Concentration)"
+    },
+    "mu_cm2Vs": {
+     "value": 162.0,
+     "match": "exact",
+     "quote": "Table 1: 3.40 (thickness) 6.80 (growth rate) 162 (Hall Mobility) 1.51\u00d710^17 (Carrier Concentration)"
+    }
+   },
+   "n_candidate_quotes": 10
+  },
+  {
+   "index": 368,
+   "doi": "10.48550/arxiv.2509.14403",
+   "checked": [
+    "mu_cm2Vs"
+   ],
+   "found": [
+    "mu_cm2Vs"
+   ],
+   "verdict": "SUPPORTED",
+   "evidence": {
+    "mu_cm2Vs": {
+     "value": 176.0,
+     "match": "exact",
+     "quote": "At 15 Torr, Hall mobility values were all greater than 150 cm2/Vs with a maximum of 176 cm2/Vs reached, signifying good crystalline quality and minimal impurities in the TMGa drift layers."
+    }
+   },
+   "n_candidate_quotes": 5
+  },
+  {
+   "index": 369,
+   "doi": "10.48550/arxiv.2509.14403",
+   "checked": [
+    "carrier_cm3"
+   ],
+   "found": [
+    "carrier_cm3"
+   ],
+   "verdict": "SUPPORTED",
+   "evidence": {
+    "carrier_cm3": {
+     "value": 3000000000000000.0,
+     "match": "exact",
+     "quote": "a UID Hall electron concentration of ~3 x 1015 cm-3 ... comparable to the electron concentration from Hall measurements (3 x 1015 cm-3)"
+    }
+   },
+   "n_candidate_quotes": 5
+  },
+  {
+   "index": 370,
+   "doi": "10.48550/arxiv.2509.14403",
+   "checked": [
+    "carrier_cm3"
+   ],
+   "found": [
+    "carrier_cm3"
+   ],
+   "verdict": "SUPPORTED",
+   "evidence": {
+    "carrier_cm3": {
+     "value": 3000000000000000.0,
+     "match": "exact",
+     "quote": "a UID Hall electron concentration of ~3 x 1015 cm-3 ... comparable to the electron concentration from Hall measurements (3 x 1015 cm-3)"
+    }
+   },
+   "n_candidate_quotes": 5
+  },
+  {
+   "index": 381,
+   "doi": "10.7567/1882-0786/ab2b6c",
+   "checked": [
+    "mu_cm2Vs",
+    "concentration_value"
+   ],
+   "found": [
+    "mu_cm2Vs",
+    "concentration_value"
+   ],
+   "verdict": "SUPPORTED",
+   "evidence": {
+    "mu_cm2Vs": {
+     "value": 75.0,
+     "match": "exact",
+     "quote": "Zr0.32   0.068   75\u00b10.4   1.25x10^18   9.7   1.1x10^18"
+    },
+    "concentration_value": {
+     "value": 0.1,
+     "match": "exact",
+     "quote": "TABLE I ... Zr0.1 ... r(ohmcm) 0.086 ... 112\u00b12 ... 6.5x1017 ... 13"
+    }
+   },
+   "n_candidate_quotes": 11
+  },
+  {
+   "index": 382,
+   "doi": "10.7567/1882-0786/ab2b6c",
+   "checked": [
+    "carrier_cm3",
+    "concentration_value"
+   ],
+   "found": [
+    "carrier_cm3",
+    "concentration_value"
+   ],
+   "verdict": "SUPPORTED",
+   "evidence": {
+    "carrier_cm3": {
+     "value": 6.5e+17,
+     "match": "exact",
+     "quote": "TABLE I ... Zr0.1 ... r(ohmcm) 0.086 ... 112\u00b12 ... 6.5x1017 ... 13"
+    },
+    "concentration_value": {
+     "value": 0.1,
+     "match": "exact",
+     "quote": "TABLE I ... Zr0.1 ... r(ohmcm) 0.086 ... 112\u00b12 ... 6.5x1017 ... 13"
+    }
+   },
+   "n_candidate_quotes": 11
+  },
+  {
+   "index": 384,
+   "doi": "10.7567/1882-0786/ab2b6c",
+   "checked": [
+    "carrier_cm3",
+    "concentration_value"
+   ],
+   "found": [
+    "carrier_cm3",
+    "concentration_value"
+   ],
+   "verdict": "SUPPORTED",
+   "evidence": {
+    "carrier_cm3": {
+     "value": 4.8e+18,
+     "match": "exact",
+     "quote": "Zr0.5   0.017   75\u00b11.1   4.8x10^18   <4   5x10^18"
+    },
+    "concentration_value": {
+     "value": 0.1,
+     "match": "exact",
+     "quote": "TABLE I ... Zr0.1 ... r(ohmcm) 0.086 ... 112\u00b12 ... 6.5x1017 ... 13"
+    }
+   },
+   "n_candidate_quotes": 11
+  },
+  {
+   "index": 386,
+   "doi": "10.7567/1882-0786/ab47b8",
+   "checked": [
+    "carrier_cm3",
+    "mu_cm2Vs"
+   ],
+   "found": [
+    "carrier_cm3",
+    "mu_cm2Vs"
+   ],
+   "verdict": "SUPPORTED",
+   "evidence": {
+    "carrier_cm3": {
+     "value": 3.5e+19,
+     "match": "exact",
+     "quote": "Table I, Sample B: Silane Molar Flow 15.18 nmol/min ... RT Carrier Concentration 3.5 x 1019 cm-3"
+    },
+    "mu_cm2Vs": {
+     "value": 53.0,
+     "match": "exact",
+     "quote": "Table I, Sample A: RT Hall Mobility 53 cm2/V.s (RT resistivity 0.019 Ohm-cm)"
+    }
+   },
+   "n_candidate_quotes": 6
+  },
+  {
+   "index": 457,
+   "doi": "arxiv.org/abs/2008.00303",
+   "checked": [
+    "mu_cm2Vs",
+    "concentration_value"
+   ],
+   "found": [],
+   "verdict": "NO_QUOTES",
+   "evidence": {},
+   "n_candidate_quotes": 0
+  }
+ ]
+}

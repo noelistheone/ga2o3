@@ -1,0 +1,38 @@
+{
+  "source": "MatterSim-v1 amorphous cells (correct density 5.95 g/cc, independent finite-T MLIP)",
+  "crystal_gap_PBE_eV": 2.339,
+  "n_cells": 3,
+  "amorphous_gap_mean_eV": 1.755,
+  "amorphous_gap_std_eV": 0.071,
+  "dEg_disorder_eV": -0.584,
+  "cells": [
+    {
+      "cell": "ms_0",
+      "gap_eV": 1.671,
+      "VBM": 9.374,
+      "CBM": 11.045,
+      "urbach_meV": null
+    },
+    {
+      "cell": "ms_1",
+      "gap_eV": 1.844,
+      "VBM": 9.288,
+      "CBM": 11.132,
+      "urbach_meV": null
+    },
+    {
+      "cell": "ms_2",
+      "gap_eV": 1.751,
+      "VBM": 9.399,
+      "CBM": 11.15,
+      "urbach_meV": null
+    }
+  ],
+  "round1_MACE_dEg_eV": -0.233,
+  "round1_amorphous_subset_dEg_eV": -0.551,
+  "bond_disorder_A": {
+    "matterSim": 0.14,
+    "round1_MACE": 0.095
+  },
+  "verdict": "MatterSim (more-disordered, correct-density, independent MLIP) narrowing -0.584 eV vs round-1 MACE ensemble -0.233 (which under-disordered: 12/20 recrystallized). Approaches round-1's genuinely-amorphous-subset -0.551. Confirms the disorder-narrowing mechanism with an independent engine; dEg stays disorder-dominated + competes with BM widening (~+0.23) -> net dEg small & disorder-sensitive (the honest-negative, now cross-validated)."
+}

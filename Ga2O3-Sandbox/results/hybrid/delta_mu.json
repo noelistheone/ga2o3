@@ -1,0 +1,14 @@
+{
+ "property": "hall_mu",
+ "n_rows": 269,
+ "n_labs": 69,
+ "LOLO_physics_only_dex": 0.246,
+ "LOLO_physics_plus_delta_dex": 0.23,
+ "delta_skill_share": 0.066,
+ "B_mu_cap_dex": 0.15,
+ "delta_adopted": true,
+ "conformal90_bar_dex": 1.047,
+ "conformal90_factor": 11.13,
+ "verdict": "delta-trim ADOPTED: tightens mu LOLO",
+ "restored_from": "results/tier2/r8_ko25.log (deployed cap 0.15; the cap-sweep script had overwritten this file with its last iteration, cap 0.25)"
+}

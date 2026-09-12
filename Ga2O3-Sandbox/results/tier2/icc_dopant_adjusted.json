@@ -1,0 +1,58 @@
+{
+ "photo_dark_ratio": {
+  "icc_intercept_only": 0.601,
+  "icc_dopant_adjusted": 0.688,
+  "n_rows": 220,
+  "n_studies": 122,
+  "n_dopants": 17
+ },
+ "dark_current_pA": {
+  "icc_intercept_only": 0.778,
+  "icc_dopant_adjusted": 0.695,
+  "n_rows": 95,
+  "n_studies": 63,
+  "n_dopants": 14
+ },
+ "vacancy_concentration": {
+  "icc_intercept_only": 0.694,
+  "icc_dopant_adjusted": 0.567,
+  "n_rows": 116,
+  "n_studies": 58,
+  "n_dopants": 9
+ },
+ "hall_carrier_n": {
+  "icc_intercept_only": 0.617,
+  "icc_dopant_adjusted": 0.557,
+  "n_rows": 379,
+  "n_studies": 136,
+  "n_dopants": 19
+ },
+ "hall_mobility_mu": {
+  "icc_intercept_only": 0.85,
+  "icc_dopant_adjusted": 0.771,
+  "n_rows": 341,
+  "n_studies": 118,
+  "n_dopants": 18
+ },
+ "optical_bandgap_Eg": {
+  "icc_intercept_only": 0.586,
+  "icc_dopant_adjusted": 0.569,
+  "n_rows": 639,
+  "n_studies": 300,
+  "n_dopants": 27
+ },
+ "bandgap_shift_dEg": {
+  "icc_intercept_only": 0.775,
+  "icc_dopant_adjusted": 0.736,
+  "n_rows": 170,
+  "n_studies": 80,
+  "n_dopants": 19
+ },
+ "tau_decay": {
+  "icc_intercept_only": 0.852,
+  "icc_dopant_adjusted": 0.848,
+  "n_rows": 208,
+  "n_studies": 131,
+  "n_dopants": 13
+ }
+}

@@ -1,0 +1,83 @@
+{
+ "_source": "/data/lawrence/Physics/Ga2O3-Net/results/phase65/transport_llm_extracted_v2.csv",
+ "_seed": 42,
+ "rows_in_table": 549,
+ "rows_with_value_and_quote": 259,
+ "full_pool": {
+  "n": 259,
+  "semantically_clean": 225,
+  "rate": 0.869,
+  "flag_counts": {
+   "qualifier": 29,
+   "temperature": 4,
+   "sample form": 4
+  }
+ },
+ "random_50": {
+  "n": 50,
+  "semantically_clean": 47,
+  "rate": 0.94,
+  "flag_counts": {
+   "qualifier": 3,
+   "sample form": 1
+  }
+ },
+ "examples": [
+  {
+   "doi": "nan",
+   "flags": [
+    "qualifier: quote says peak/maximum but the row carries no peak marker"
+   ],
+   "quote": "A record high sheet charge density of 3.3\u00d710\u00b9\u00b3 cm\u207b\u00b2 was modulated using 100 nm fin channels, delivering a peak drain current of 410 mA/mm and a peak transconductance of 60 mS/mm."
+  },
+  {
+   "doi": "nan",
+   "flags": [
+    "qualifier: quote says peak/maximum but the row carries no peak marker"
+   ],
+   "quote": "the best electrical performance is reached at a Si concentration of about 1\\(\\times\\)1020 cm\\(\\textsuperscript{-3}\\), using optimized deposition parameters. It is found that a high crystalline quality and a mobility of a"
+  },
+  {
+   "doi": "nan",
+   "flags": [
+    "qualifier: quote says peak/maximum but the row carries no peak marker"
+   ],
+   "quote": "The field effect transistors (FET) based on the printed GaInSnO multilayers show n-type switching with on/off ratio all exceeding 105, a maximum field-effect mobility (\u00b5eff) of 65.40 cm2 V\u22121 s\u22121, and a minimum sub-thresh"
+  },
+  {
+   "doi": "nan",
+   "flags": [
+    "qualifier: quote says peak/maximum but the row carries no peak marker"
+   ],
+   "quote": "maximum room temperature Hall mobility of 136cm2/Vs at 3.9\u00d71016cm\u22123."
+  },
+  {
+   "doi": "nan",
+   "flags": [
+    "qualifier: quote says peak/maximum but the row carries no peak marker"
+   ],
+   "quote": "With Sn doping, mobile electron densities of n(cid:3)1017-1019/cm3 were achieved, with the highest reported electron mobility of 65cm2/Vs at n(cid:3)1:2(cid:5)1018/cm3 at room temperature."
+  },
+  {
+   "doi": "nan",
+   "flags": [
+    "qualifier: quote says peak/maximum but the row carries no peak marker"
+   ],
+   "quote": "conductivity and Hall effect measurements, showing a tunable free carrier concentration, n, between 5 9 1017 and 2 9 1018 cm-3, with a maximum electron mobility, l, of *40 cm2/Vs."
+  },
+  {
+   "doi": "nan",
+   "flags": [
+    "qualifier: quote says peak/maximum but the row carries no peak marker"
+   ],
+   "quote": "conductivity and Hall effect measurements, showing a tunable free carrier concentration, n, between 5 9 1017 and 2 9 1018 cm-3, with a maximum electron mobility, l, of *40 cm2/Vs."
+  },
+  {
+   "doi": "nan",
+   "flags": [
+    "qualifier: quote says peak/maximum but the row carries no peak marker"
+   ],
+   "quote": "The maximum mobility of 41 cm2/Vs, measured in a sample with free carrier concentration of 1 9 1018 cm-3, represents the highest value reported for b-Ga O layers grown by MOVPE so far."
+  }
+ ]
+}

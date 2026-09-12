@@ -1,0 +1,710 @@
+{
+  "n_sampled": 100,
+  "supported": 14,
+  "partial": 41,
+  "unsupported": 3,
+  "unjudgeable": 42,
+  "per_row": [
+    {
+      "index": 0,
+      "doi": null,
+      "field_checked": "carrier_cm3",
+      "verdict": "SUPPORTED",
+      "note": "carrier 1.83e16: quote lists '1.83x10^16 ... cm-3' for sample A (first of four)."
+    },
+    {
+      "index": 2,
+      "doi": null,
+      "field_checked": "carrier_cm3",
+      "verdict": "SUPPORTED",
+      "note": "carrier 3.35e17: quote lists '3.35x10^17 ... cm-3' (third of four, label C)."
+    },
+    {
+      "index": 6,
+      "doi": null,
+      "field_checked": "carrier_cm3+mu_cm2Vs+rho_ohmcm",
+      "verdict": "PARTIAL",
+      "note": "mu 100 and rho 1e-4 Ohm.cm supported verbatim; but quote says SHEET density 1e16 cm^-2 while row records carrier_cm3=1e16 (volume cm^-3) - unit mismatch on carrier."
+    },
+    {
+      "index": 9,
+      "doi": null,
+      "field_checked": "carrier_cm3",
+      "verdict": "SUPPORTED",
+      "note": "carrier 6e17: quote '6x10^17 cm-3' explicit with unit."
+    },
+    {
+      "index": 10,
+      "doi": null,
+      "field_checked": "carrier_cm3+mu_cm2Vs",
+      "verdict": "PARTIAL",
+      "note": "mu 186 cm2/Vs supported verbatim; carrier 1.8e17 not present in quote."
+    },
+    {
+      "index": 11,
+      "doi": null,
+      "field_checked": "carrier_cm3+concentration_value",
+      "verdict": "PARTIAL",
+      "note": "conc/carrier 2e16 cm-3 is the lower endpoint of a stated doping RANGE (2e16-2e19); quote describes controllable doping range, not a measured carrier value."
+    },
+    {
+      "index": 22,
+      "doi": null,
+      "field_checked": "carrier_cm3",
+      "verdict": "SUPPORTED",
+      "note": "carrier 6.0e13: quote states hole concentration 6.0x10^13 cm-3 explicitly (at 800 K, sample S1)."
+    },
+    {
+      "index": 30,
+      "doi": null,
+      "field_checked": "carrier_cm3+mu_cm2Vs+concentration_value",
+      "verdict": "PARTIAL",
+      "note": "mu 70 present only as bound '>70 cm2/Vs'; conc 1e20 and carrier 8e19 not in quote (only '>80% activation')."
+    },
+    {
+      "index": 33,
+      "doi": null,
+      "field_checked": "carrier_cm3+mu_cm2Vs",
+      "verdict": "PARTIAL",
+      "note": "carrier 8.30e15 and mu 200 both explicit but only as RANGE endpoints (4.38-8.30e15 cm-3; 194-200 cm2/Vs); co-assignment to one sample not entailed."
+    },
+    {
+      "index": 55,
+      "doi": null,
+      "field_checked": "rho_ohmcm",
+      "verdict": "SUPPORTED",
+      "note": "rho 5.0: quote 'low resistivity (~5 Ohm cm)' - approximate value with unit."
+    },
+    {
+      "index": 63,
+      "doi": null,
+      "field_checked": "carrier_cm3+mu_cm2Vs",
+      "verdict": "SUPPORTED",
+      "note": "mu 32 cm2/Vs at n~3e18/cm3 explicitly paired in quote (glyph artifacts (cid:3)/(cid:5) = approx/x)."
+    },
+    {
+      "index": 68,
+      "doi": null,
+      "field_checked": "carrier_cm3+mu_cm2Vs+rho_ohmcm+concentration_value",
+      "verdict": "UNSUPPORTED",
+      "note": "Quote is a methods sentence about the Hall instrument (Ecopia HMS-3000); contains none of conc 24.65 at%, carrier 3.8e18, mu 18.7, rho 0.19."
+    },
+    {
+      "index": 70,
+      "doi": null,
+      "field_checked": "carrier_cm3+mu_cm2Vs+concentration_value",
+      "verdict": "PARTIAL",
+      "note": "Table fragment '0.03% 1.5x10^19 47.5 111' matches conc 0.03%, carrier 1.5e19, mu 47.5 exactly, but no units/headers in fragment - units unverifiable from quote."
+    },
+    {
+      "index": 72,
+      "doi": null,
+      "field_checked": "carrier_cm3+mu_cm2Vs+concentration_value",
+      "verdict": "PARTIAL",
+      "note": "Table fragment '0.5% 1.1x10^20 75.0' matches all three values; units absent from fragment."
+    },
+    {
+      "index": 73,
+      "doi": null,
+      "field_checked": "carrier_cm3+mu_cm2Vs+concentration_value",
+      "verdict": "PARTIAL",
+      "note": "Table fragment '1% 2.6x10^20 60.5' matches all three values; units absent from fragment."
+    },
+    {
+      "index": 75,
+      "doi": null,
+      "field_checked": "rho_ohmcm",
+      "verdict": "UNSUPPORTED",
+      "note": "rho 1000: quote only says 'very high resistivity' qualitatively; no numeric value."
+    },
+    {
+      "index": 76,
+      "doi": null,
+      "field_checked": "carrier_cm3+mu_cm2Vs",
+      "verdict": "PARTIAL",
+      "note": "carrier 1e17 is lower endpoint of stated range 1e17-1e19 cm-3; mu 65 not in this quote."
+    },
+    {
+      "index": 77,
+      "doi": null,
+      "field_checked": "carrier_cm3+mu_cm2Vs",
+      "verdict": "PARTIAL",
+      "note": "carrier 1e18 lies INSIDE stated range 1e17-1e19 cm-3 (not explicit); mu 65 not in this quote."
+    },
+    {
+      "index": 78,
+      "doi": null,
+      "field_checked": "carrier_cm3+mu_cm2Vs",
+      "verdict": "PARTIAL",
+      "note": "carrier 1e19 is upper endpoint of stated range 1e17-1e19 cm-3; mu 65 not in this quote."
+    },
+    {
+      "index": 79,
+      "doi": null,
+      "field_checked": "carrier_cm3+mu_cm2Vs",
+      "verdict": "PARTIAL",
+      "note": "mu 65 cm2(Vs)-1 supported ('as high as 65'); carrier 1e17 not in quote."
+    },
+    {
+      "index": 81,
+      "doi": null,
+      "field_checked": "carrier_cm3+mu_cm2Vs",
+      "verdict": "PARTIAL",
+      "note": "mu 65 supported as maximum; carrier 1e19 not in quote."
+    },
+    {
+      "index": 82,
+      "doi": null,
+      "field_checked": "carrier_cm3+mu_cm2Vs",
+      "verdict": "PARTIAL",
+      "note": "carrier 5e17 explicit as range endpoint ('between 5x10^17 and 2x10^18', OCR '9'=x); mu 10 NOT in quote (quote gives max ~40)."
+    },
+    {
+      "index": 83,
+      "doi": null,
+      "field_checked": "carrier_cm3+mu_cm2Vs",
+      "verdict": "PARTIAL",
+      "note": "carrier 2e18 (range endpoint) and mu ~40 (stated maximum) both present, but pairing to one sample not entailed."
+    },
+    {
+      "index": 84,
+      "doi": null,
+      "field_checked": "carrier_cm3+mu_cm2Vs",
+      "verdict": "SUPPORTED",
+      "note": "mu 41 cm2/Vs explicitly measured at carrier 1e18 cm-3 ('1 9 1018' = 1x10^18 OCR artifact); explicit pairing."
+    },
+    {
+      "index": 86,
+      "doi": null,
+      "field_checked": "carrier_cm3",
+      "verdict": "SUPPORTED",
+      "note": "carrier 1.12e20 cm-3 explicit with unit (Si+Ta co-doped film)."
+    },
+    {
+      "index": 90,
+      "doi": null,
+      "field_checked": "carrier_cm3+mu_cm2Vs",
+      "verdict": "SUPPORTED",
+      "note": "mu 5.29 cm2/Vs at carrier 5.72e14 cm-3 explicitly paired."
+    },
+    {
+      "index": 101,
+      "doi": null,
+      "field_checked": "carrier_cm3+mu_cm2Vs",
+      "verdict": "PARTIAL",
+      "note": "mu ~80 supported; quote says SHEET concentration 8.7e13 cm^-2 (holes) but row records carrier_cm3=8.7e13 (cm^-3) - unit mismatch on carrier."
+    },
+    {
+      "index": 104,
+      "doi": null,
+      "field_checked": "carrier_cm3+rho_ohmcm",
+      "verdict": "PARTIAL",
+      "note": "2e19 cm-3 present but as DOPANT concentration N_D for sample D (recorded as carrier); rho 0.2 not in quote."
+    },
+    {
+      "index": 109,
+      "doi": null,
+      "field_checked": "carrier_cm3+mu_cm2Vs+rho_ohmcm+concentration_value",
+      "verdict": "UNSUPPORTED",
+      "note": "Same instrument-methods quote as idx 68; contains none of conc 9.7 at%, carrier 1.2e18, mu 12.5, rho 0.45."
+    },
+    {
+      "index": 117,
+      "doi": "10.1002/pssa.201900632",
+      "field_checked": "carrier_cm3",
+      "verdict": "UNJUDGEABLE",
+      "note": "Quote field contains the provenance tag 'phase77_ingest', not a verbatim quote; no source text stored, cannot verify value against quote."
+    },
+    {
+      "index": 132,
+      "doi": "10.1021/acs.cgd.2c00290",
+      "field_checked": "carrier_cm3+mu_cm2Vs",
+      "verdict": "UNJUDGEABLE",
+      "note": "Quote field contains the provenance tag 'phase77_ingest', not a verbatim quote; no source text stored, cannot verify value against quote."
+    },
+    {
+      "index": 145,
+      "doi": "10.1038/s41598-017-13656-x",
+      "field_checked": "carrier_cm3",
+      "verdict": "UNJUDGEABLE",
+      "note": "Quote field contains the provenance tag 'phase77_ingest', not a verbatim quote; no source text stored, cannot verify value against quote."
+    },
+    {
+      "index": 148,
+      "doi": "10.1038/s41598-020-62948-2",
+      "field_checked": "mu_cm2Vs",
+      "verdict": "UNJUDGEABLE",
+      "note": "Quote field contains the provenance tag 'phase77_ingest', not a verbatim quote; no source text stored, cannot verify value against quote."
+    },
+    {
+      "index": 149,
+      "doi": "10.1063/1.5025704",
+      "field_checked": "mu_cm2Vs",
+      "verdict": "UNJUDGEABLE",
+      "note": "Quote field contains the provenance tag 'phase77_ingest', not a verbatim quote; no source text stored, cannot verify value against quote."
+    },
+    {
+      "index": 153,
+      "doi": "10.1063/1.5034474",
+      "field_checked": "carrier_cm3",
+      "verdict": "UNJUDGEABLE",
+      "note": "Quote field contains the provenance tag 'phase77_ingest', not a verbatim quote; no source text stored, cannot verify value against quote."
+    },
+    {
+      "index": 155,
+      "doi": "10.1063/1.5034474",
+      "field_checked": "carrier_cm3",
+      "verdict": "UNJUDGEABLE",
+      "note": "Quote field contains the provenance tag 'phase77_ingest', not a verbatim quote; no source text stored, cannot verify value against quote."
+    },
+    {
+      "index": 163,
+      "doi": "10.1063/1.5132752",
+      "field_checked": "carrier_cm3+mu_cm2Vs",
+      "verdict": "UNJUDGEABLE",
+      "note": "Quote field contains the provenance tag 'phase77_ingest', not a verbatim quote; no source text stored, cannot verify value against quote."
+    },
+    {
+      "index": 165,
+      "doi": "10.1063/1.5132752",
+      "field_checked": "mu_cm2Vs",
+      "verdict": "UNJUDGEABLE",
+      "note": "Quote field contains the provenance tag 'phase77_ingest', not a verbatim quote; no source text stored, cannot verify value against quote."
+    },
+    {
+      "index": 167,
+      "doi": "10.1063/5.0043903",
+      "field_checked": "mu_cm2Vs",
+      "verdict": "UNJUDGEABLE",
+      "note": "Quote field contains the provenance tag 'phase77_ingest', not a verbatim quote; no source text stored, cannot verify value against quote."
+    },
+    {
+      "index": 172,
+      "doi": "10.1063/5.0059657",
+      "field_checked": "carrier_cm3+mu_cm2Vs",
+      "verdict": "UNJUDGEABLE",
+      "note": "Quote field contains the provenance tag 'phase77_ingest', not a verbatim quote; no source text stored, cannot verify value against quote."
+    },
+    {
+      "index": 177,
+      "doi": "10.1063/5.0059657",
+      "field_checked": "carrier_cm3",
+      "verdict": "UNJUDGEABLE",
+      "note": "Quote field contains the provenance tag 'phase77_ingest', not a verbatim quote; no source text stored, cannot verify value against quote."
+    },
+    {
+      "index": 184,
+      "doi": "10.1063/5.0124017",
+      "field_checked": "carrier_cm3+concentration_value",
+      "verdict": "UNJUDGEABLE",
+      "note": "Quote field contains the provenance tag 'phase77_ingest', not a verbatim quote; no source text stored, cannot verify value against quote."
+    },
+    {
+      "index": 185,
+      "doi": "10.1063/5.0124017",
+      "field_checked": "mu_cm2Vs",
+      "verdict": "UNJUDGEABLE",
+      "note": "Quote field contains the provenance tag 'phase77_ingest', not a verbatim quote; no source text stored, cannot verify value against quote."
+    },
+    {
+      "index": 195,
+      "doi": "10.1063/5.0179622",
+      "field_checked": "mu_cm2Vs",
+      "verdict": "UNJUDGEABLE",
+      "note": "Quote field contains the provenance tag 'phase77_ingest', not a verbatim quote; no source text stored, cannot verify value against quote."
+    },
+    {
+      "index": 199,
+      "doi": "10.1063/5.0179622",
+      "field_checked": "mu_cm2Vs+concentration_value",
+      "verdict": "UNJUDGEABLE",
+      "note": "Quote field contains the provenance tag 'phase77_ingest', not a verbatim quote; no source text stored, cannot verify value against quote."
+    },
+    {
+      "index": 209,
+      "doi": "10.1063/5.0184850",
+      "field_checked": "mu_cm2Vs",
+      "verdict": "UNJUDGEABLE",
+      "note": "Quote field contains the provenance tag 'phase77_ingest', not a verbatim quote; no source text stored, cannot verify value against quote."
+    },
+    {
+      "index": 210,
+      "doi": "10.1063/5.0184850",
+      "field_checked": "carrier_cm3",
+      "verdict": "UNJUDGEABLE",
+      "note": "Quote field contains the provenance tag 'phase77_ingest', not a verbatim quote; no source text stored, cannot verify value against quote."
+    },
+    {
+      "index": 218,
+      "doi": "10.1063/5.0184946",
+      "field_checked": "carrier_cm3+mu_cm2Vs",
+      "verdict": "UNJUDGEABLE",
+      "note": "Quote field contains the provenance tag 'phase77_ingest', not a verbatim quote; no source text stored, cannot verify value against quote."
+    },
+    {
+      "index": 220,
+      "doi": "10.1063/5.0185911",
+      "field_checked": "carrier_cm3+mu_cm2Vs",
+      "verdict": "UNJUDGEABLE",
+      "note": "Quote field contains the provenance tag 'phase77_ingest', not a verbatim quote; no source text stored, cannot verify value against quote."
+    },
+    {
+      "index": 229,
+      "doi": "10.1063/5.0205906",
+      "field_checked": "carrier_cm3",
+      "verdict": "UNJUDGEABLE",
+      "note": "Quote field contains the provenance tag 'phase77_ingest', not a verbatim quote; no source text stored, cannot verify value against quote."
+    },
+    {
+      "index": 231,
+      "doi": "10.1063/5.0207432",
+      "field_checked": "carrier_cm3",
+      "verdict": "UNJUDGEABLE",
+      "note": "Quote field contains the provenance tag 'phase77_ingest', not a verbatim quote; no source text stored, cannot verify value against quote."
+    },
+    {
+      "index": 238,
+      "doi": "10.1063/5.0244593",
+      "field_checked": "carrier_cm3+mu_cm2Vs",
+      "verdict": "UNJUDGEABLE",
+      "note": "Quote field contains the provenance tag 'phase77_ingest', not a verbatim quote; no source text stored, cannot verify value against quote."
+    },
+    {
+      "index": 250,
+      "doi": "10.1063/5.0245559",
+      "field_checked": "carrier_cm3+mu_cm2Vs",
+      "verdict": "UNJUDGEABLE",
+      "note": "Quote field contains the provenance tag 'phase77_ingest', not a verbatim quote; no source text stored, cannot verify value against quote."
+    },
+    {
+      "index": 275,
+      "doi": "10.1088/1361-6641/ab75a6",
+      "field_checked": "carrier_cm3+mu_cm2Vs",
+      "verdict": "UNJUDGEABLE",
+      "note": "Quote field contains the provenance tag 'phase77_ingest', not a verbatim quote; no source text stored, cannot verify value against quote."
+    },
+    {
+      "index": 278,
+      "doi": "10.1088/1674-4926/43/9/092802",
+      "field_checked": "mu_cm2Vs",
+      "verdict": "UNJUDGEABLE",
+      "note": "Quote field contains the provenance tag 'phase77_ingest', not a verbatim quote; no source text stored, cannot verify value against quote."
+    },
+    {
+      "index": 280,
+      "doi": "10.1116/6.0000866",
+      "field_checked": "mu_cm2Vs",
+      "verdict": "UNJUDGEABLE",
+      "note": "Quote field contains the provenance tag 'phase77_ingest', not a verbatim quote; no source text stored, cannot verify value against quote."
+    },
+    {
+      "index": 284,
+      "doi": "10.1116/6.0000866",
+      "field_checked": "carrier_cm3",
+      "verdict": "UNJUDGEABLE",
+      "note": "Quote field contains the provenance tag 'phase77_ingest', not a verbatim quote; no source text stored, cannot verify value against quote."
+    },
+    {
+      "index": 289,
+      "doi": "10.1116/6.0001004",
+      "field_checked": "carrier_cm3+mu_cm2Vs",
+      "verdict": "UNJUDGEABLE",
+      "note": "Quote field contains the provenance tag 'phase77_ingest', not a verbatim quote; no source text stored, cannot verify value against quote."
+    },
+    {
+      "index": 311,
+      "doi": "10.35848/1882-0786/adcfee",
+      "field_checked": "carrier_cm3+mu_cm2Vs",
+      "verdict": "UNJUDGEABLE",
+      "note": "Quote field contains the provenance tag 'phase77_ingest', not a verbatim quote; no source text stored, cannot verify value against quote."
+    },
+    {
+      "index": 319,
+      "doi": "10.48550/arxiv.2001.11187",
+      "field_checked": "carrier_cm3+mu_cm2Vs+concentration_value",
+      "verdict": "UNJUDGEABLE",
+      "note": "Quote field contains the provenance tag 'phase77_ingest', not a verbatim quote; no source text stored, cannot verify value against quote."
+    },
+    {
+      "index": 320,
+      "doi": "10.48550/arxiv.2001.11187",
+      "field_checked": "carrier_cm3+mu_cm2Vs+concentration_value",
+      "verdict": "UNJUDGEABLE",
+      "note": "Quote field contains the provenance tag 'phase77_ingest', not a verbatim quote; no source text stored, cannot verify value against quote."
+    },
+    {
+      "index": 354,
+      "doi": "10.48550/arxiv.2311.14253",
+      "field_checked": "carrier_cm3+mu_cm2Vs",
+      "verdict": "UNJUDGEABLE",
+      "note": "Quote field contains the provenance tag 'phase77_ingest', not a verbatim quote; no source text stored, cannot verify value against quote."
+    },
+    {
+      "index": 364,
+      "doi": "10.48550/arxiv.2412.00149",
+      "field_checked": "carrier_cm3+mu_cm2Vs",
+      "verdict": "UNJUDGEABLE",
+      "note": "Quote field contains the provenance tag 'phase77_ingest', not a verbatim quote; no source text stored, cannot verify value against quote."
+    },
+    {
+      "index": 368,
+      "doi": "10.48550/arxiv.2509.14403",
+      "field_checked": "mu_cm2Vs",
+      "verdict": "UNJUDGEABLE",
+      "note": "Quote field contains the provenance tag 'phase77_ingest', not a verbatim quote; no source text stored, cannot verify value against quote."
+    },
+    {
+      "index": 369,
+      "doi": "10.48550/arxiv.2509.14403",
+      "field_checked": "carrier_cm3",
+      "verdict": "UNJUDGEABLE",
+      "note": "Quote field contains the provenance tag 'phase77_ingest', not a verbatim quote; no source text stored, cannot verify value against quote."
+    },
+    {
+      "index": 370,
+      "doi": "10.48550/arxiv.2509.14403",
+      "field_checked": "carrier_cm3",
+      "verdict": "UNJUDGEABLE",
+      "note": "Quote field contains the provenance tag 'phase77_ingest', not a verbatim quote; no source text stored, cannot verify value against quote."
+    },
+    {
+      "index": 381,
+      "doi": "10.7567/1882-0786/ab2b6c",
+      "field_checked": "mu_cm2Vs+concentration_value",
+      "verdict": "UNJUDGEABLE",
+      "note": "Quote field contains the provenance tag 'phase77_ingest', not a verbatim quote; no source text stored, cannot verify value against quote."
+    },
+    {
+      "index": 382,
+      "doi": "10.7567/1882-0786/ab2b6c",
+      "field_checked": "carrier_cm3+concentration_value",
+      "verdict": "UNJUDGEABLE",
+      "note": "Quote field contains the provenance tag 'phase77_ingest', not a verbatim quote; no source text stored, cannot verify value against quote."
+    },
+    {
+      "index": 384,
+      "doi": "10.7567/1882-0786/ab2b6c",
+      "field_checked": "carrier_cm3+concentration_value",
+      "verdict": "UNJUDGEABLE",
+      "note": "Quote field contains the provenance tag 'phase77_ingest', not a verbatim quote; no source text stored, cannot verify value against quote."
+    },
+    {
+      "index": 386,
+      "doi": "10.7567/1882-0786/ab47b8",
+      "field_checked": "carrier_cm3+mu_cm2Vs",
+      "verdict": "UNJUDGEABLE",
+      "note": "Quote field contains the provenance tag 'phase77_ingest', not a verbatim quote; no source text stored, cannot verify value against quote."
+    },
+    {
+      "index": 393,
+      "doi": "pmc.ncbi.nlm.nih.gov/articles/pmc12388335",
+      "field_checked": "mu_cm2Vs+concentration_value",
+      "verdict": "PARTIAL",
+      "note": "mu 0.16 supported with unit header from Table 4; conc 8.0 at% not in quote (235 is T_Zn deposition temperature)."
+    },
+    {
+      "index": 395,
+      "doi": "10.3390/coatings15101181",
+      "field_checked": "mu_cm2Vs+concentration_value",
+      "verdict": "PARTIAL",
+      "note": "mu 69.9 matches bare table value (no unit in fragment); conc 1.0 at% not in quote."
+    },
+    {
+      "index": 412,
+      "doi": "www.mdpi.com/2072-666x/16/8/954 (full text verified via pmc mirror pmc.ncbi.nlm.nih.gov/articles/pmc12388335/)",
+      "field_checked": "mu_cm2Vs+concentration_value",
+      "verdict": "PARTIAL",
+      "note": "mu 0.22 supported with unit header (Table 4 row at T_Zn=230); conc 6.0 at% not in quote."
+    },
+    {
+      "index": 415,
+      "doi": "www.mdpi.com/1996-1944/17/19/4931 (pmc11477709)",
+      "field_checked": "mu_cm2Vs+concentration_value",
+      "verdict": "PARTIAL",
+      "note": "mu 0.53682 cm2/Vs verbatim; conc 3.6 at% not in quote."
+    },
+    {
+      "index": 432,
+      "doi": "pubs.aip.org/aip/apl/article/125/11/112105/3312238/tungsten-donors-doping-in-gallium-oxide-single",
+      "field_checked": "carrier_cm3+concentration_value",
+      "verdict": "SUPPORTED",
+      "note": "carrier 9.5499e16 == 9.55e16 cm-3 (UID crystal) - float artifact of round-trip, numerically equivalent; conc 0 consistent with UID."
+    },
+    {
+      "index": 447,
+      "doi": "10.1149/2.0081702jss",
+      "field_checked": "carrier_cm3+concentration_value",
+      "verdict": "PARTIAL",
+      "note": "carrier 8e19 (float artifact 8.0002e19) is upper endpoint of stated Si doping range 1e17-8e19 cm-3; conc 1.0 at% not in quote."
+    },
+    {
+      "index": 452,
+      "doi": "10.1149/2.0081702jss",
+      "field_checked": "carrier_cm3+concentration_value",
+      "verdict": "PARTIAL",
+      "note": "carrier 4e17 is lower endpoint of stated Sn doping range 4e17-1e19 cm-3; conc 4.0 at% not in quote (appears mis-derived from the 4x10^17 mantissa)."
+    },
+    {
+      "index": 457,
+      "doi": "arxiv.org/abs/2008.00303",
+      "field_checked": "mu_cm2Vs+concentration_value",
+      "verdict": "UNJUDGEABLE",
+      "note": "Quote truncated mid-sentence ('...the measured room temperature Hall') right before the mobility value; mu 186 cannot be verified from stored fragment."
+    },
+    {
+      "index": 460,
+      "doi": "10.1063/5.0142107",
+      "field_checked": "mu_cm2Vs+concentration_value",
+      "verdict": "PARTIAL",
+      "note": "mu 135 matches Table I 525C column; but conc 3.4 at% is the CARRIER mantissa (3.4x10^17) - actual table conc is 0.012. Conc mis-extracted."
+    },
+    {
+      "index": 464,
+      "doi": "10.1063/5.0142107",
+      "field_checked": "mu_cm2Vs+concentration_value",
+      "verdict": "PARTIAL",
+      "note": "mu 83 matches; conc 1.7 at% is carrier mantissa (1.7x10^18) - actual table conc 0.059. Conc mis-extracted."
+    },
+    {
+      "index": 467,
+      "doi": "10.1063/5.0142107",
+      "field_checked": "carrier_cm3+concentration_value",
+      "verdict": "PARTIAL",
+      "note": "conc 0.147 and carrier 4.3e18 both match table fragment; units not in fragment (Table I annotation only)."
+    },
+    {
+      "index": 473,
+      "doi": "10.1063/5.0142107",
+      "field_checked": "carrier_cm3+concentration_value",
+      "verdict": "PARTIAL",
+      "note": "conc 0.012 and carrier 2.1e17 (float artifact 2.0999e17) match table fragment; units not in fragment."
+    },
+    {
+      "index": 478,
+      "doi": "10.1063/5.0142107",
+      "field_checked": "mu_cm2Vs+concentration_value",
+      "verdict": "PARTIAL",
+      "note": "mu 60 matches 550C column; conc 2.5 at% is carrier mantissa (2.5x10^18) - actual conc 0.147. Conc mis-extracted."
+    },
+    {
+      "index": 479,
+      "doi": "10.1063/5.0142107",
+      "field_checked": "carrier_cm3+concentration_value",
+      "verdict": "PARTIAL",
+      "note": "conc 0.147 and carrier 2.5e18 match table fragment; units not in fragment."
+    },
+    {
+      "index": 480,
+      "doi": "10.1063/5.0142107",
+      "field_checked": "mu_cm2Vs+concentration_value",
+      "verdict": "PARTIAL",
+      "note": "mu 55 matches 550C column; conc 7.7 at% is carrier mantissa (7.7x10^18) - actual conc 0.294. Conc mis-extracted."
+    },
+    {
+      "index": 490,
+      "doi": "10.1063/5.0142107",
+      "field_checked": "mu_cm2Vs+concentration_value",
+      "verdict": "PARTIAL",
+      "note": "mu 38 matches 600C column; conc 4.5 at% is carrier mantissa (4.5x10^18) - actual conc 0.147. Conc mis-extracted."
+    },
+    {
+      "index": 493,
+      "doi": "10.1063/5.0142107",
+      "field_checked": "carrier_cm3+concentration_value",
+      "verdict": "PARTIAL",
+      "note": "conc 0.294 and carrier 7.0e18 match table fragment; units not in fragment."
+    },
+    {
+      "index": 494,
+      "doi": "10.1063/5.0142107",
+      "field_checked": "mu_cm2Vs+concentration_value",
+      "verdict": "PARTIAL",
+      "note": "mu 66 matches 600C column; conc 1.1 at% is carrier mantissa (1.1x10^19) - actual conc 0.588. Conc mis-extracted."
+    },
+    {
+      "index": 503,
+      "doi": "par.nsf.gov/biblio/10488373",
+      "field_checked": "carrier_cm3+concentration_value",
+      "verdict": "PARTIAL",
+      "note": "carrier 3.4e17 cm-3 supported verbatim; conc 3.0 at% not in quote."
+    },
+    {
+      "index": 505,
+      "doi": "theses.hal.science/tel-04268510v1/file/125463_chi_2023_archivage.pdf",
+      "field_checked": "mu_cm2Vs+concentration_value",
+      "verdict": "SUPPORTED",
+      "note": "mu 8.7 +/- 1.7 cm2/(V.s) verbatim; conc 0 = undoped convention (dopant empty)."
+    },
+    {
+      "index": 506,
+      "doi": "theses.hal.science/tel-04268510v1/file/125463_chi_2023_archivage.pdf",
+      "field_checked": "carrier_cm3+concentration_value",
+      "verdict": "SUPPORTED",
+      "note": "carrier 2.2e14 cm-3 (float artifact 2.1999e14) verbatim: 'p = 2.2x10^14 cm-3 for the undoped layer'."
+    },
+    {
+      "index": 507,
+      "doi": "theses.hal.science/tel-04268510v1/file/125463_chi_2023_archivage.pdf",
+      "field_checked": "carrier_cm3+concentration_value",
+      "verdict": "SUPPORTED",
+      "note": "carrier 5.5e14 cm-3 verbatim: '5.5x10^14 cm-3 for the undoped sample'."
+    },
+    {
+      "index": 511,
+      "doi": "theses.hal.science/tel-04268510v1/file/125463_chi_2023_archivage.pdf",
+      "field_checked": "mu_cm2Vs+concentration_value",
+      "verdict": "PARTIAL",
+      "note": "mu 7.3 +/- 1.1 cm2/(V.s) for Zn:Ga2O3 verbatim; conc 1.0 at% not in quote."
+    },
+    {
+      "index": 515,
+      "doi": "10.1038/s41598-019-49238-2",
+      "field_checked": "mu_cm2Vs+concentration_value",
+      "verdict": "PARTIAL",
+      "note": "mu 115 +/- 10 cm2/Vs supported; conc 150 at% is film THICKNESS '>150 nm' mis-recorded as concentration in at% - clear transcription error."
+    },
+    {
+      "index": 519,
+      "doi": "10.1038/s41598-019-49238-2",
+      "field_checked": "carrier_cm3+concentration_value",
+      "verdict": "SUPPORTED",
+      "note": "carrier 2e18 cm-3 ('about 2x10^18 cm-3') verbatim; float artifact 1.9999e18 numerically equivalent."
+    },
+    {
+      "index": 520,
+      "doi": "arxiv.org/abs/2306.01115",
+      "field_checked": "mu_cm2Vs+concentration_value",
+      "verdict": "PARTIAL",
+      "note": "quote says 'mu < 1 cm2/(V.s)' - an upper BOUND recorded as point value mu=1.0."
+    },
+    {
+      "index": 535,
+      "doi": "10.20944/preprints202512.0642.v1",
+      "field_checked": "carrier_cm3+concentration_value",
+      "verdict": "PARTIAL",
+      "note": "carrier 1.45e17 matches table fragment (no unit shown); conc 2.0 at% not in quote."
+    },
+    {
+      "index": 537,
+      "doi": "10.20944/preprints202512.0642.v1",
+      "field_checked": "carrier_cm3+concentration_value",
+      "verdict": "PARTIAL",
+      "note": "carrier 4.55e15 matches table fragment (no unit shown); conc 2.0 at% not in quote."
+    },
+    {
+      "index": 544,
+      "doi": "10.48550/arxiv.2011.03657",
+      "field_checked": "carrier_cm3+concentration_value",
+      "verdict": "PARTIAL",
+      "note": "carrier 1.5e18 cm-3 present but as NET DOPING concentration of sample #1 (recorded as carrier); conc 1.0 at% not in quote (likely sample label '#1' mis-read)."
+    },
+    {
+      "index": 545,
+      "doi": "10.48550/arxiv.2011.03657",
+      "field_checked": "carrier_cm3+concentration_value",
+      "verdict": "PARTIAL",
+      "note": "carrier 5.0e18 cm-3 present as net doping concentration of sample #2; conc 5.0 at% not in quote (mantissa mis-derivation)."
+    }
+  ],
+  "method": "Source: /home/lawrence/Physics/Ga2O3-Net/results/phase65/transport_llm_extracted_v2.csv (549 rows). Eligibility: non-empty 'quote' AND at least one non-null numeric field among carrier_cm3/mu_cm2Vs/rho_ohmcm/concentration_value (all 549 rows eligible). Sample: pandas DataFrame.sample(n=100, random_state=42), deterministic. Each sampled row was read and judged manually by the auditing LLM (Claude, Fable 5): the stored verbatim quote was compared against every non-null numeric field in the row. Rules: numeric equivalence across notations (2.5e18 == 2.5x10^18 cm-3, OCR/glyph artifacts like '9'=x and (cid:N), float round-trip artifacts e.g. 9.5499e16==9.55e16) counts as SUPPORTED; a quote stating a range containing the value, a bound (>/<) recorded as a point value, a unit-less table fragment whose numbers match, a unit mismatch (sheet cm^-2 vs volume cm^-3), or only a subset of the row's fields present in the quote = PARTIAL; quote lacking / contradicting the value(s) (e.g. instrument-methods sentences with no numbers) = UNSUPPORTED; placeholder tag 'phase77_ingest' instead of a quote, or a quote truncated before the value = UNJUDGEABLE. Verdict per row is the weakest applicable grade across its checked fields, except UNJUDGEABLE which reflects missing/truncated quote text."
+}

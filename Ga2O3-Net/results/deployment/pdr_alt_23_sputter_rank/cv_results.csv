@@ -1,0 +1,9 @@
+metric,value
+mlp_photo_dark_ratio_mae_mean,0.663630
+mlp_photo_dark_ratio_mae_std,0.484048
+mlp_photo_dark_ratio_rmse_mean,0.795880
+mlp_photo_dark_ratio_rmse_std,0.503926
+mlp_photo_dark_ratio_r2_mean,-788.232311
+mlp_photo_dark_ratio_r2_std,2223.929818
+mlp_photo_dark_ratio_mc_std_mean_mean,0.056580
+mlp_photo_dark_ratio_mc_std_mean_std,0.028776

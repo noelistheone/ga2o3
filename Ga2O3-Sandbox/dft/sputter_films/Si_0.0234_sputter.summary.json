@@ -1,0 +1,37 @@
+{
+  "dopant": "Si",
+  "conc": 0.0234,
+  "n_atoms": 80,
+  "n_dopant": 1,
+  "melt_K": 3000.0,
+  "device": "cuda",
+  "stages": [
+    {
+      "stage": "melt",
+      "T": 3000.0,
+      "E": -442.470150175664
+    },
+    {
+      "stage": "quench",
+      "T": 2000.0,
+      "E": -457.0433100072688
+    },
+    {
+      "stage": "quench",
+      "T": 1000.0,
+      "E": -468.47810641855455
+    },
+    {
+      "stage": "quench",
+      "T": 300.0,
+      "E": -477.36115198710974
+    }
+  ],
+  "crystal_dopant_O_bond": 1.849,
+  "crystal_dopant_coord": 4.0,
+  "asdeposited_dopant_O_bond": 1.647,
+  "asdeposited_dopant_coord": 4.0,
+  "final_E": -480.6177465169498,
+  "final_E_per_atom": -6.007721831461873,
+  "asdeposited_GaO_coord": 5.48
+}

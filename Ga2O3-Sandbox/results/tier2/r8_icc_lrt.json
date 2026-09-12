@@ -1,0 +1,138 @@
+{
+ "photo_dark_ratio": {
+  "n_rows": 220,
+  "n_studies": 122,
+  "icc_reml": 0.6006,
+  "lrt_stat": 63.893,
+  "p_exact_restricted_lrt": 0.0004997501249375312,
+  "icc_ci95_parametric_bootstrap": [
+   0.45,
+   0.719
+  ],
+  "singleton_fraction": 0.672,
+  "median_cluster_size": 1.0,
+  "loo_study_max_abs_dicc": 0.0895,
+  "mc_se_at_p": 0.0005
+ },
+ "dark_current_pA": {
+  "n_rows": 95,
+  "n_studies": 63,
+  "icc_reml": 0.7776,
+  "lrt_stat": 22.256,
+  "p_exact_restricted_lrt": 0.0004997501249375312,
+  "icc_ci95_parametric_bootstrap": [
+   0.616,
+   0.882
+  ],
+  "singleton_fraction": 0.714,
+  "median_cluster_size": 1.0,
+  "loo_study_max_abs_dicc": 0.0948,
+  "mc_se_at_p": 0.0005
+ },
+ "vacancy_concentration": {
+  "n_rows": 116,
+  "n_studies": 58,
+  "icc_reml": 0.6944,
+  "lrt_stat": 65.917,
+  "p_exact_restricted_lrt": 0.0004997501249375312,
+  "icc_ci95_parametric_bootstrap": [
+   0.516,
+   0.807
+  ],
+  "singleton_fraction": 0.5,
+  "median_cluster_size": 1.5,
+  "loo_study_max_abs_dicc": 0.1535,
+  "mc_se_at_p": 0.0005
+ },
+ "hall_carrier_n": {
+  "n_rows": 379,
+  "n_studies": 136,
+  "icc_reml": 0.6165,
+  "lrt_stat": 140.196,
+  "p_exact_restricted_lrt": 0.0004997501249375312,
+  "icc_ci95_parametric_bootstrap": [
+   0.51,
+   0.698
+  ],
+  "singleton_fraction": 0.36,
+  "median_cluster_size": 2.0,
+  "loo_study_max_abs_dicc": 0.0251,
+  "mc_se_at_p": 0.0005
+ },
+ "hall_mobility_mu": {
+  "n_rows": 341,
+  "n_studies": 118,
+  "icc_reml": 0.8499,
+  "lrt_stat": 315.732,
+  "p_exact_restricted_lrt": 0.0004997501249375312,
+  "icc_ci95_parametric_bootstrap": [
+   0.8,
+   0.888
+  ],
+  "singleton_fraction": 0.381,
+  "median_cluster_size": 2.0,
+  "loo_study_max_abs_dicc": 0.0166,
+  "mc_se_at_p": 0.0005
+ },
+ "optical_bandgap_Eg": {
+  "n_rows": 639,
+  "n_studies": 300,
+  "icc_reml": 0.586,
+  "lrt_stat": 253.462,
+  "p_exact_restricted_lrt": 0.0004997501249375312,
+  "icc_ci95_parametric_bootstrap": [
+   0.504,
+   0.658
+  ],
+  "singleton_fraction": 0.46,
+  "median_cluster_size": 2.0,
+  "loo_study_max_abs_dicc": 0.0364,
+  "mc_se_at_p": 0.0005
+ },
+ "bandgap_shift_dEg": {
+  "n_rows": 170,
+  "n_studies": 80,
+  "icc_reml": 0.7748,
+  "lrt_stat": 96.347,
+  "p_exact_restricted_lrt": 0.0004997501249375312,
+  "icc_ci95_parametric_bootstrap": [
+   0.664,
+   0.851
+  ],
+  "singleton_fraction": 0.5,
+  "median_cluster_size": 1.5,
+  "loo_study_max_abs_dicc": 0.0474,
+  "mc_se_at_p": 0.0005
+ },
+ "tau_decay": {
+  "n_rows": 208,
+  "n_studies": 131,
+  "icc_reml": 0.8516,
+  "lrt_stat": 105.472,
+  "p_exact_restricted_lrt": 0.0004997501249375312,
+  "icc_ci95_parametric_bootstrap": [
+   0.782,
+   0.901
+  ],
+  "singleton_fraction": 0.687,
+  "median_cluster_size": 1.0,
+  "loo_study_max_abs_dicc": 0.0156,
+  "mc_se_at_p": 0.0005
+ },
+ "conductivity_sigma": {
+  "n_rows": 194,
+  "n_studies": 81,
+  "icc_reml": 0.8421,
+  "lrt_stat": 125.142,
+  "p_exact_restricted_lrt": 0.0004997501249375312,
+  "icc_ci95_parametric_bootstrap": [
+   0.767,
+   0.892
+  ],
+  "singleton_fraction": 0.469,
+  "median_cluster_size": 2.0,
+  "loo_study_max_abs_dicc": 0.0406,
+  "mc_se_at_p": 0.0005
+ },
+ "_method": "intercept-only REML (1-D profiled), exact restricted LRT of sigma_b^2>0 via 2000-sim parametric bootstrap under H0 (Crainiceanu-Ruppert-style), ICC CI via 2000-sim parametric bootstrap from the fitted model, seed 2026"
+}

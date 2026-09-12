@@ -1,0 +1,12 @@
+=== ga2o3_exp.csv device corpus ===
+rows: 488 | unique doi: 219
+papers with doped+undoped & >=2 PDR: 16
+papers with doped+undoped & >=2 dark: 11
+papers with doped+undoped & >=2 V_O: 8
+(element, doi) concentration series (>=2 conc): 44
+
+distinct dopant elements (34): ['Ag', 'Al', 'Al+Ga', 'Al+Ga+Zn', 'B', 'Bi+Cu', 'Cu', 'Er', 'Eu', 'F', 'Fe', 'Ge', 'H', 'In', 'In+Al', 'In+Ga', 'Lu', 'Mg', 'Mg+N', 'Mg+Zn', 'Mn', 'N', 'Nb', 'Rh', 'Sb', 'Si', 'Sn', 'Ta', 'Ti', 'V', 'W', 'Zn', 'Zn+Ga', 'Zr']
+
+=== transport corpus ===
+rows: 549 cols: ['corpus', 'file', 'doi', 'dopant_element', 'co_dopants', 'concentration_value', 'concentration_unit', 'growth_method', 'carrier_type', 'measurement_kind', 'sample_label', 'carrier_cm3', 'mu_cm2Vs', 'rho_ohmcm', 'quote']
+

@@ -1,0 +1,1018 @@
+{
+ "_purpose": "R9 reviewer point 6: homogeneous-sample-type REML ICC vs full-corpus ICC",
+ "_data_of_record": "/home/lawrence/Physics/Ga2O3-Net/results/phase65/transport_llm_extracted_v2.csv",
+ "_grouping_key": "file (source document); doi rejected (112/549 rows blank -> pseudo-lab collapse)",
+ "_estimator": "intercept-only REML (1-D profiled), exact restricted LRT of sigma_b^2>0 via 2000-sim parametric bootstrap under H0 (Crainiceanu-Ruppert-style), ICC CI via 2000-sim parametric bootstrap from the fitted model, seed 2026 -- functions copied verbatim from scripts/r8_icc_lrt.py",
+ "_power_floor": {
+  "min_rows": 40,
+  "min_studies": 15
+ },
+ "_full_corpus_reference": "/home/lawrence/Physics/Ga2O3-Sandbox/results/tier2/r8_icc_lrt.json",
+ "results": {
+  "hall_mobility_mu": {
+   "FULL_CORPUS_reproduction": {
+    "n_rows": 341,
+    "n_studies": 118,
+    "icc_reml": 0.8499,
+    "lrt_stat": 315.732,
+    "p_exact_restricted_lrt": 0.0004997501249375312,
+    "icc_ci95_parametric_bootstrap": [
+     0.797,
+     0.888
+    ],
+    "singleton_fraction": 0.381,
+    "median_cluster_size": 2.0,
+    "loo_study_max_abs_dicc": 0.0166,
+    "mc_se_at_p": 0.0005,
+    "sigma_b2": 0.5672,
+    "sigma_e2": 0.1002
+   },
+   "epitaxial_film_all": {
+    "n_rows": 224,
+    "n_studies": 79,
+    "icc_reml": 0.7484,
+    "lrt_stat": 139.446,
+    "p_exact_restricted_lrt": 0.0004997501249375312,
+    "icc_ci95_parametric_bootstrap": [
+     0.651,
+     0.824
+    ],
+    "singleton_fraction": 0.38,
+    "median_cluster_size": 2.0,
+    "loo_study_max_abs_dicc": 0.0255,
+    "mc_se_at_p": 0.0005,
+    "sigma_b2": 0.2978,
+    "sigma_e2": 0.1001
+   },
+   "epitaxial_film_MOCVD_MOVPE_only": {
+    "n_rows": 127,
+    "n_studies": 47,
+    "icc_reml": 0.7467,
+    "lrt_stat": 80.371,
+    "p_exact_restricted_lrt": 0.0004997501249375312,
+    "icc_ci95_parametric_bootstrap": [
+     0.606,
+     0.836
+    ],
+    "singleton_fraction": 0.277,
+    "median_cluster_size": 2.0,
+    "loo_study_max_abs_dicc": 0.0369,
+    "mc_se_at_p": 0.0005,
+    "sigma_b2": 0.371,
+    "sigma_e2": 0.1259
+   },
+   "epitaxial_film_all_STRICT_no_backfill": {
+    "n_rows": 223,
+    "n_studies": 78,
+    "icc_reml": 0.7501,
+    "lrt_stat": 139.39,
+    "p_exact_restricted_lrt": 0.0004997501249375312,
+    "icc_ci95_parametric_bootstrap": [
+     0.642,
+     0.82
+    ],
+    "singleton_fraction": 0.372,
+    "median_cluster_size": 2.0,
+    "loo_study_max_abs_dicc": 0.0254,
+    "mc_se_at_p": 0.0005,
+    "sigma_b2": 0.3006,
+    "sigma_e2": 0.1002
+   }
+  },
+  "hall_carrier_n": {
+   "FULL_CORPUS_reproduction": {
+    "n_rows": 379,
+    "n_studies": 136,
+    "icc_reml": 0.6165,
+    "lrt_stat": 140.196,
+    "p_exact_restricted_lrt": 0.0004997501249375312,
+    "icc_ci95_parametric_bootstrap": [
+     0.517,
+     0.705
+    ],
+    "singleton_fraction": 0.36,
+    "median_cluster_size": 2.0,
+    "loo_study_max_abs_dicc": 0.0251,
+    "mc_se_at_p": 0.0005,
+    "sigma_b2": 1.6137,
+    "sigma_e2": 1.0037
+   },
+   "bulk_melt_single_crystal": {
+    "n_rows": 47,
+    "n_studies": 22,
+    "icc_reml": 0.3384,
+    "lrt_stat": 6.979,
+    "p_exact_restricted_lrt": 0.006496751624187906,
+    "icc_ci95_parametric_bootstrap": [
+     0.0,
+     0.674
+    ],
+    "singleton_fraction": 0.636,
+    "median_cluster_size": 1.0,
+    "loo_study_max_abs_dicc": 0.0682,
+    "mc_se_at_p": 0.0018,
+    "sigma_b2": 0.2015,
+    "sigma_e2": 0.3939
+   },
+   "epitaxial_film_all": {
+    "n_rows": 264,
+    "n_studies": 86,
+    "icc_reml": 0.5428,
+    "lrt_stat": 71.099,
+    "p_exact_restricted_lrt": 0.0004997501249375312,
+    "icc_ci95_parametric_bootstrap": [
+     0.403,
+     0.654
+    ],
+    "singleton_fraction": 0.267,
+    "median_cluster_size": 2.0,
+    "loo_study_max_abs_dicc": 0.0316,
+    "mc_se_at_p": 0.0005,
+    "sigma_b2": 1.3906,
+    "sigma_e2": 1.1714
+   },
+   "epitaxial_film_MOCVD_MOVPE_only": {
+    "n_rows": 149,
+    "n_studies": 50,
+    "icc_reml": 0.5285,
+    "lrt_stat": 41.23,
+    "p_exact_restricted_lrt": 0.0004997501249375312,
+    "icc_ci95_parametric_bootstrap": [
+     0.332,
+     0.67
+    ],
+    "singleton_fraction": 0.28,
+    "median_cluster_size": 2.0,
+    "loo_study_max_abs_dicc": 0.0426,
+    "mc_se_at_p": 0.0005,
+    "sigma_b2": 1.5351,
+    "sigma_e2": 1.3695
+   },
+   "bulk_melt_single_crystal_STRICT_no_backfill": {
+    "n_rows": 44,
+    "n_studies": 21,
+    "icc_reml": 0.3509,
+    "lrt_stat": 7.051,
+    "p_exact_restricted_lrt": 0.004497751124437781,
+    "icc_ci95_parametric_bootstrap": [
+     0.0,
+     0.685
+    ],
+    "singleton_fraction": 0.667,
+    "median_cluster_size": 1.0,
+    "loo_study_max_abs_dicc": 0.0682,
+    "mc_se_at_p": 0.0015,
+    "sigma_b2": 0.2199,
+    "sigma_e2": 0.4067
+   },
+   "epitaxial_film_all_STRICT_no_backfill": {
+    "n_rows": 262,
+    "n_studies": 85,
+    "icc_reml": 0.544,
+    "lrt_stat": 70.87,
+    "p_exact_restricted_lrt": 0.0004997501249375312,
+    "icc_ci95_parametric_bootstrap": [
+     0.408,
+     0.655
+    ],
+    "singleton_fraction": 0.271,
+    "median_cluster_size": 2.0,
+    "loo_study_max_abs_dicc": 0.0314,
+    "mc_se_at_p": 0.0005,
+    "sigma_b2": 1.4052,
+    "sigma_e2": 1.1778
+   }
+  }
+ },
+ "rejected_subsets": {
+  "hall_mobility_mu": {
+   "bulk_melt_single_crystal": {
+    "n_rows": 37,
+    "n_studies": 11,
+    "reason": "below power floor (need >=40 rows AND >=15 studies)"
+   },
+   "epitaxial_film_MBE_only": {
+    "n_rows": 28,
+    "n_studies": 7,
+    "reason": "below power floor (need >=40 rows AND >=15 studies)"
+   },
+   "epitaxial_film_LPCVD_only": {
+    "n_rows": 35,
+    "n_studies": 8,
+    "reason": "below power floor (need >=40 rows AND >=15 studies)"
+   },
+   "pvd_sputter_pld_films": {
+    "n_rows": 25,
+    "n_studies": 12,
+    "reason": "below power floor (need >=40 rows AND >=15 studies)"
+   },
+   "implanted": {
+    "n_rows": 25,
+    "n_studies": 8,
+    "reason": "below power floor (need >=40 rows AND >=15 studies)"
+   },
+   "bulk_melt_single_crystal_STRICT_no_backfill": {
+    "n_rows": 36,
+    "n_studies": 10,
+    "reason": "below power floor"
+   }
+  },
+  "hall_carrier_n": {
+   "epitaxial_film_MBE_only": {
+    "n_rows": 35,
+    "n_studies": 8,
+    "reason": "below power floor (need >=40 rows AND >=15 studies)"
+   },
+   "epitaxial_film_LPCVD_only": {
+    "n_rows": 31,
+    "n_studies": 11,
+    "reason": "below power floor (need >=40 rows AND >=15 studies)"
+   },
+   "pvd_sputter_pld_films": {
+    "n_rows": 24,
+    "n_studies": 14,
+    "reason": "below power floor (need >=40 rows AND >=15 studies)"
+   },
+   "implanted": {
+    "n_rows": 18,
+    "n_studies": 8,
+    "reason": "below power floor (need >=40 rows AND >=15 studies)"
+   }
+  }
+ },
+ "audit": {
+  "hall_mobility_mu": {
+   "family_census_after_backfill": {
+    "bulk": {
+     "n_rows": 37,
+     "n_studies": 11
+    },
+    "epi": {
+     "n_rows": 224,
+     "n_studies": 79
+    },
+    "exotic": {
+     "n_rows": 5,
+     "n_studies": 4
+    },
+    "implanted": {
+     "n_rows": 25,
+     "n_studies": 8
+    },
+    "other_film": {
+     "n_rows": 18,
+     "n_studies": 5
+    },
+    "pvd": {
+     "n_rows": 25,
+     "n_studies": 12
+    },
+    "unknown": {
+     "n_rows": 7,
+     "n_studies": 3
+    }
+   },
+   "stype_census_strict": {
+    "epi_mocvd_movpe": 127,
+    "bulk_melt_single_crystal": 36,
+    "epi_lpcvd": 35,
+    "epi_mbe": 28,
+    "implanted": 25,
+    "epi_mistcvd": 21,
+    "sputtered_film": 15,
+    "pecvd_film": 12,
+    "epi_hvpe": 12,
+    "pvd_other_film": 10,
+    "ald_film": 6,
+    "unknown_no_method_text": 5,
+    "unknown_measurement_text_only": 4,
+    "converted_from_gan": 3,
+    "exfoliated_flake": 2
+   }
+  },
+  "hall_carrier_n": {
+   "family_census_after_backfill": {
+    "bulk": {
+     "n_rows": 47,
+     "n_studies": 22
+    },
+    "epi": {
+     "n_rows": 264,
+     "n_studies": 86
+    },
+    "exotic": {
+     "n_rows": 5,
+     "n_studies": 4
+    },
+    "implanted": {
+     "n_rows": 18,
+     "n_studies": 8
+    },
+    "other_film": {
+     "n_rows": 12,
+     "n_studies": 5
+    },
+    "pvd": {
+     "n_rows": 24,
+     "n_studies": 14
+    },
+    "unknown": {
+     "n_rows": 9,
+     "n_studies": 5
+    }
+   },
+   "stype_census_strict": {
+    "epi_mocvd_movpe": 149,
+    "bulk_melt_single_crystal": 44,
+    "epi_mbe": 35,
+    "epi_mistcvd": 32,
+    "epi_lpcvd": 31,
+    "implanted": 18,
+    "epi_hvpe": 15,
+    "pvd_other_film": 13,
+    "sputtered_film": 11,
+    "unknown_measurement_text_only": 9,
+    "ald_film": 6,
+    "pecvd_film": 6,
+    "unknown_no_method_text": 5,
+    "converted_from_gan": 3,
+    "exfoliated_flake": 2
+   }
+  },
+  "_studies_mixing_sample_types": {
+   "n_mixed": 8,
+   "n_total_files": 146,
+   "examples": {
+    "10.1002/advs.202518859": [
+     "bulk",
+     "epi"
+    ],
+    "10.1038/s41598-019-49238-2 (pmc.ncbi.nlm.nih.gov/articles/pmc6739305/)": [
+     "bulk",
+     "epi"
+    ],
+    "10.1063/1.5034474": [
+     "bulk",
+     "epi"
+    ],
+    "10.1063/5.0179622": [
+     "epi",
+     "implanted"
+    ],
+    "10.1063/5.0184850": [
+     "epi",
+     "implanted"
+    ],
+    "10.1063/5.0184946": [
+     "epi",
+     "implanted"
+    ],
+    "10.48550/arxiv.2311.00821": [
+     "epi",
+     "implanted"
+    ],
+    "c2dff65547dcf519.md": [
+     "epi",
+     "pvd"
+    ]
+   }
+  }
+ },
+ "sampletype_fixed_effect_and_regrouping": {
+  "_purpose": "complementary to the subset fits: (A) y ~ sample_type + (1|study) using reml_fe copied verbatim from scripts/r8_icc_dopantfe.py; (B) ICC with sample type AS the cluster instead of study; (C) per-family diagnostic ICCs with NO power floor (uncertified, do not quote)",
+  "hall_mobility_mu": {
+   "icc_study_only": 0.8499,
+   "n_rows": 341,
+   "n_studies": 118,
+   "icc_study_given_family_FE": 0.7883,
+   "n_family_levels": 7,
+   "delta_vs_study_only_family": -0.0616,
+   "icc_grouped_by_family_instead_of_study": 0.524,
+   "icc_study_given_stype_FE": 0.7519,
+   "n_stype_levels": 15,
+   "delta_vs_study_only_stype": -0.098,
+   "icc_grouped_by_stype_instead_of_study": 0.5629,
+   "icc_within_each_family_DIAGNOSTIC_no_power_floor": {
+    "bulk": {
+     "n_rows": 37,
+     "n_studies": 11,
+     "icc_reml": 0.3567
+    },
+    "epi": {
+     "n_rows": 224,
+     "n_studies": 79,
+     "icc_reml": 0.7484
+    },
+    "exotic": {
+     "n_rows": 5,
+     "n_studies": 4,
+     "icc_reml": 0.9997
+    },
+    "implanted": {
+     "n_rows": 25,
+     "n_studies": 8,
+     "icc_reml": 0.9779
+    },
+    "other_film": {
+     "n_rows": 18,
+     "n_studies": 5,
+     "icc_reml": 0.9885
+    },
+    "pvd": {
+     "n_rows": 25,
+     "n_studies": 12,
+     "icc_reml": 0.7833
+    },
+    "unknown": {
+     "n_rows": 7,
+     "n_studies": 3,
+     "icc_reml": 0.0
+    }
+   }
+  },
+  "hall_carrier_n": {
+   "icc_study_only": 0.6165,
+   "n_rows": 379,
+   "n_studies": 136,
+   "icc_study_given_family_FE": 0.5825,
+   "n_family_levels": 7,
+   "delta_vs_study_only_family": -0.034,
+   "icc_grouped_by_family_instead_of_study": 0.2431,
+   "icc_study_given_stype_FE": 0.4929,
+   "n_stype_levels": 15,
+   "delta_vs_study_only_stype": -0.1236,
+   "icc_grouped_by_stype_instead_of_study": 0.373,
+   "icc_within_each_family_DIAGNOSTIC_no_power_floor": {
+    "bulk": {
+     "n_rows": 47,
+     "n_studies": 22,
+     "icc_reml": 0.3384
+    },
+    "epi": {
+     "n_rows": 264,
+     "n_studies": 86,
+     "icc_reml": 0.5428
+    },
+    "exotic": {
+     "n_rows": 5,
+     "n_studies": 4,
+     "icc_reml": 0.9997
+    },
+    "implanted": {
+     "n_rows": 18,
+     "n_studies": 8,
+     "icc_reml": 0.1501
+    },
+    "other_film": {
+     "n_rows": 12,
+     "n_studies": 5,
+     "icc_reml": 0.8957
+    },
+    "pvd": {
+     "n_rows": 24,
+     "n_studies": 14,
+     "icc_reml": 0.9496
+    },
+    "unknown": {
+     "n_rows": 9,
+     "n_studies": 5,
+     "icc_reml": 0.261
+    }
+   }
+  }
+ },
+ "range_restriction_diagnostic": {
+  "_purpose": "a lower subset ICC can mean the lab effect vanished OR that the subset spans a narrower dynamic range. Reports raw marginal SD, span, and sigma_b in decades.",
+  "hall_mobility_mu": {
+   "FULL_CORPUS": {
+    "n_rows": 341,
+    "n_studies": 118,
+    "raw_sd_log10": 0.786,
+    "range_log10": [
+     -0.96,
+     3.23
+    ],
+    "span_decades": 4.18,
+    "sigma_b2": 0.5672,
+    "sigma_e2": 0.1002,
+    "sigma_b_dex": 0.753,
+    "sigma_e_dex": 0.317,
+    "icc": 0.8499
+   },
+   "bulk_melt_single_crystal": {
+    "n_rows": 37,
+    "n_studies": 11,
+    "raw_sd_log10": 0.337,
+    "range_log10": [
+     0.0,
+     2.2
+    ],
+    "span_decades": 2.2,
+    "sigma_b2": 0.0476,
+    "sigma_e2": 0.0859,
+    "sigma_b_dex": 0.218,
+    "sigma_e_dex": 0.293,
+    "icc": 0.3567
+   },
+   "epitaxial_film_all": {
+    "n_rows": 224,
+    "n_studies": 79,
+    "raw_sd_log10": 0.613,
+    "range_log10": [
+     -0.72,
+     3.23
+    ],
+    "span_decades": 3.95,
+    "sigma_b2": 0.2978,
+    "sigma_e2": 0.1001,
+    "sigma_b_dex": 0.546,
+    "sigma_e_dex": 0.316,
+    "icc": 0.7484
+   },
+   "epitaxial_film_MOCVD_MOVPE_only": {
+    "n_rows": 127,
+    "n_studies": 47,
+    "raw_sd_log10": 0.708,
+    "range_log10": [
+     -0.72,
+     3.23
+    ],
+    "span_decades": 3.95,
+    "sigma_b2": 0.371,
+    "sigma_e2": 0.1259,
+    "sigma_b_dex": 0.609,
+    "sigma_e_dex": 0.355,
+    "icc": 0.7467
+   },
+   "epitaxial_film_MBE_only": {
+    "n_rows": 28,
+    "n_studies": 7,
+    "raw_sd_log10": 0.419,
+    "range_log10": [
+     1.3,
+     3.0
+    ],
+    "span_decades": 1.69,
+    "sigma_b2": 0.1212,
+    "sigma_e2": 0.079,
+    "sigma_b_dex": 0.348,
+    "sigma_e_dex": 0.281,
+    "icc": 0.6055
+   },
+   "epitaxial_film_LPCVD_only": {
+    "n_rows": 35,
+    "n_studies": 8,
+    "raw_sd_log10": 0.48,
+    "range_log10": [
+     0.3,
+     2.93
+    ],
+    "span_decades": 2.62,
+    "sigma_b2": 0.294,
+    "sigma_e2": 0.048,
+    "sigma_b_dex": 0.542,
+    "sigma_e_dex": 0.219,
+    "icc": 0.8597
+   },
+   "pvd_sputter_pld_films": {
+    "n_rows": 25,
+    "n_studies": 12,
+    "raw_sd_log10": 0.84,
+    "range_log10": [
+     -0.7,
+     2.06
+    ],
+    "span_decades": 2.76,
+    "sigma_b2": 0.6391,
+    "sigma_e2": 0.1768,
+    "sigma_b_dex": 0.799,
+    "sigma_e_dex": 0.421,
+    "icc": 0.7833
+   }
+  },
+  "hall_carrier_n": {
+   "FULL_CORPUS": {
+    "n_rows": 379,
+    "n_studies": 136,
+    "raw_sd_log10": 1.585,
+    "range_log10": [
+     12.7,
+     20.48
+    ],
+    "span_decades": 7.78,
+    "sigma_b2": 1.6137,
+    "sigma_e2": 1.0037,
+    "sigma_b_dex": 1.27,
+    "sigma_e_dex": 1.002,
+    "icc": 0.6165
+   },
+   "bulk_melt_single_crystal": {
+    "n_rows": 47,
+    "n_studies": 22,
+    "raw_sd_log10": 0.779,
+    "range_log10": [
+     16.0,
+     19.28
+    ],
+    "span_decades": 3.28,
+    "sigma_b2": 0.2015,
+    "sigma_e2": 0.3939,
+    "sigma_b_dex": 0.449,
+    "sigma_e_dex": 0.628,
+    "icc": 0.3384
+   },
+   "epitaxial_film_all": {
+    "n_rows": 264,
+    "n_studies": 86,
+    "raw_sd_log10": 1.551,
+    "range_log10": [
+     13.52,
+     20.48
+    ],
+    "span_decades": 6.96,
+    "sigma_b2": 1.3906,
+    "sigma_e2": 1.1714,
+    "sigma_b_dex": 1.179,
+    "sigma_e_dex": 1.082,
+    "icc": 0.5428
+   },
+   "epitaxial_film_MOCVD_MOVPE_only": {
+    "n_rows": 149,
+    "n_studies": 50,
+    "raw_sd_log10": 1.678,
+    "range_log10": [
+     13.52,
+     20.48
+    ],
+    "span_decades": 6.96,
+    "sigma_b2": 1.5351,
+    "sigma_e2": 1.3695,
+    "sigma_b_dex": 1.239,
+    "sigma_e_dex": 1.17,
+    "icc": 0.5285
+   },
+   "epitaxial_film_MBE_only": {
+    "n_rows": 35,
+    "n_studies": 8,
+    "raw_sd_log10": 1.108,
+    "range_log10": [
+     16.0,
+     20.3
+    ],
+    "span_decades": 4.3,
+    "sigma_b2": 0.0,
+    "sigma_e2": 1.2278,
+    "sigma_b_dex": 0.0,
+    "sigma_e_dex": 1.108,
+    "icc": 0.0
+   },
+   "epitaxial_film_LPCVD_only": {
+    "n_rows": 31,
+    "n_studies": 11,
+    "raw_sd_log10": 0.77,
+    "range_log10": [
+     16.3,
+     19.67
+    ],
+    "span_decades": 3.37,
+    "sigma_b2": 0.0,
+    "sigma_e2": 0.5923,
+    "sigma_b_dex": 0.0,
+    "sigma_e_dex": 0.77,
+    "icc": 0.0
+   },
+   "pvd_sputter_pld_films": {
+    "n_rows": 24,
+    "n_studies": 14,
+    "raw_sd_log10": 2.112,
+    "range_log10": [
+     13.3,
+     20.41
+    ],
+    "span_decades": 7.11,
+    "sigma_b2": 5.7966,
+    "sigma_e2": 0.3076,
+    "sigma_b_dex": 2.408,
+    "sigma_e_dex": 0.555,
+    "icc": 0.9496
+   }
+  }
+ },
+ "_reproduction_check": {
+  "hall_mobility_mu": {
+   "recomputed_full_corpus_icc": 0.8499,
+   "published_icc": 0.8499,
+   "published_file": "/home/lawrence/Physics/Ga2O3-Sandbox/results/tier2/r8_icc_lrt.json:hall_mobility_mu.icc_reml",
+   "match": true
+  },
+  "hall_carrier_n": {
+   "recomputed_full_corpus_icc": 0.6165,
+   "published_icc": 0.6165,
+   "published_file": "/home/lawrence/Physics/Ga2O3-Sandbox/results/tier2/r8_icc_lrt.json:hall_carrier_n.icc_reml",
+   "match": true
+  },
+  "note": "point ICCs reproduce exactly; bootstrap CIs differ in the 3rd decimal only because the shared RNG stream (seed 2026) is consumed in a different order in this script"
+ },
+ "_verdict": {
+  "question": "is the 58-85% between-study ICC actually a sample-type effect?",
+  "answer": "NO for the epitaxial tables; PARTIALLY for bulk carrier density, and that part is range restriction.",
+  "evidence": [
+   "MOCVD/MOVPE epitaxial films alone -- ONE growth technique, 47 (mu) / 50 (n) distinct studies -- still give ICC 0.747 [0.606,0.836] (mu) and 0.529 [0.332,0.670] (n), both p=5e-4 by exact restricted LRT.",
+   "All-epitaxial: mu 0.748 [0.651,0.824] (224 rows/79 studies), n 0.543 [0.403,0.654] (264/86).",
+   "Conditioning the FULL tables on a 15-level sample-type fixed effect removes only 0.098 of mu's ICC (0.850->0.752) and 0.124 of n's (0.617->0.493); the coarse 7-family FE removes 0.062 and 0.034.",
+   "Bulk melt-grown single crystals, n only (47 rows/22 studies): ICC 0.338, but 95% CI [0.000,0.674] touches zero and 14/22 studies are singletons -- the weakest fit that clears the floor. Its sigma_b is still 0.449 decades (factor 2.8 between labs); its ICC is low mainly because bulk n spans 3.28 decades vs 7.78 for the full corpus.",
+   "Bulk melt-grown single crystals, mobility: 37 rows / 11 studies -- BELOW the pre-set power floor, NOT fitted.",
+   "Sample type is indeed nearly a study-level attribute (only 8 of 146 source documents mix types), which is why the homogeneous-subset test is the right one -- and it survives it.",
+   "EXTENSION: in 4 of the 6 properties tested, the largest homogeneous class has an ICC AT OR ABOVE the full-corpus value -- Eg sputtered-only 0.703 [0.532,0.814] vs full 0.586; PDR sputtered-only 0.848 [0.740,0.910] vs full 0.601; V_O PVD-only 0.866 [0.704,0.942] vs full 0.694. Homogenising the sample type does not shrink the laboratory effect; in these tables it enlarges it.",
+   "One honest null: PDR restricted to epitaxial films (40 rows/29 studies, 76% singletons) gives ICC 0.000, restricted-LRT p=0.48. It clears the row/study floor but has almost no within-study replication, so it constrains little.",
+   "dark_current_pA: NO homogeneous subset clears the floor (largest is PVD, 36 rows/26 studies). Not fitted."
+  ]
+ },
+ "other_properties_extension": {
+  "_file": "/home/lawrence/Physics/Ga2O3-Sandbox/results/revision_r9/homogeneous_icc_otherfoms.json",
+  "_note": "same estimator, same power floor, applied to the four other FOMs whose corpus carries a growth-method field (Eg from eg_extracted.csv grouped by file; PDR/dark/V_O from ga2o3_exp.csv grouped by doi, the only document key that table has)",
+  "results": {
+   "optical_bandgap_Eg": {
+    "FULL_CORPUS_reproduction": {
+     "n_rows": 639,
+     "n_studies": 300,
+     "icc_reml": 0.586,
+     "lrt_stat": 253.462,
+     "p_exact_restricted_lrt": 0.0004997501249375312,
+     "icc_ci95_parametric_bootstrap": [
+      0.503,
+      0.656
+     ],
+     "singleton_fraction": 0.46,
+     "median_cluster_size": 2.0,
+     "sigma_b_dex": 0.274,
+     "sigma_e_dex": 0.23,
+     "raw_sd": null
+    },
+    "epitaxial_film_all": {
+     "n_rows": 136,
+     "n_studies": 61,
+     "icc_reml": 0.5444,
+     "lrt_stat": 49.548,
+     "p_exact_restricted_lrt": 0.0004997501249375312,
+     "icc_ci95_parametric_bootstrap": [
+      0.341,
+      0.703
+     ],
+     "singleton_fraction": 0.508,
+     "median_cluster_size": 1.0,
+     "sigma_b_dex": 0.211,
+     "sigma_e_dex": 0.193,
+     "raw_sd": null
+    },
+    "epitaxial_film_MOCVD_MOVPE_only": {
+     "n_rows": 89,
+     "n_studies": 35,
+     "icc_reml": 0.5985,
+     "lrt_stat": 39.199,
+     "p_exact_restricted_lrt": 0.0004997501249375312,
+     "icc_ci95_parametric_bootstrap": [
+      0.349,
+      0.758
+     ],
+     "singleton_fraction": 0.486,
+     "median_cluster_size": 2.0,
+     "sigma_b_dex": 0.264,
+     "sigma_e_dex": 0.216,
+     "raw_sd": null
+    },
+    "sputtered_film_only": {
+     "n_rows": 116,
+     "n_studies": 59,
+     "icc_reml": 0.7033,
+     "lrt_stat": 59.238,
+     "p_exact_restricted_lrt": 0.0004997501249375312,
+     "icc_ci95_parametric_bootstrap": [
+      0.532,
+      0.814
+     ],
+     "singleton_fraction": 0.492,
+     "median_cluster_size": 2.0,
+     "sigma_b_dex": 0.314,
+     "sigma_e_dex": 0.204,
+     "raw_sd": null
+    },
+    "pvd_sputter_pld_films": {
+     "n_rows": 196,
+     "n_studies": 97,
+     "icc_reml": 0.7077,
+     "lrt_stat": 95.399,
+     "p_exact_restricted_lrt": 0.0004997501249375312,
+     "icc_ci95_parametric_bootstrap": [
+      0.586,
+      0.793
+     ],
+     "singleton_fraction": 0.464,
+     "median_cluster_size": 2.0,
+     "sigma_b_dex": 0.292,
+     "sigma_e_dex": 0.188,
+     "raw_sd": null
+    }
+   },
+   "photo_dark_ratio": {
+    "FULL_CORPUS_reproduction": {
+     "n_rows": 220,
+     "n_studies": 122,
+     "icc_reml": 0.6006,
+     "lrt_stat": 63.893,
+     "p_exact_restricted_lrt": 0.0004997501249375312,
+     "icc_ci95_parametric_bootstrap": [
+      0.451,
+      0.714
+     ],
+     "singleton_fraction": 0.672,
+     "median_cluster_size": 1.0,
+     "sigma_b_dex": 1.393,
+     "sigma_e_dex": 1.136,
+     "raw_sd": null
+    },
+    "epitaxial_film_all": {
+     "n_rows": 40,
+     "n_studies": 29,
+     "icc_reml": 0.0,
+     "lrt_stat": 0.0,
+     "p_exact_restricted_lrt": 0.4782608695652174,
+     "icc_ci95_parametric_bootstrap": [
+      0.0,
+      0.61
+     ],
+     "singleton_fraction": 0.759,
+     "median_cluster_size": 1.0,
+     "sigma_b_dex": 0.0,
+     "sigma_e_dex": 1.666,
+     "raw_sd": null
+    },
+    "sputtered_film_only": {
+     "n_rows": 109,
+     "n_studies": 49,
+     "icc_reml": 0.848,
+     "lrt_stat": 81.484,
+     "p_exact_restricted_lrt": 0.0004997501249375312,
+     "icc_ci95_parametric_bootstrap": [
+      0.74,
+      0.91
+     ],
+     "singleton_fraction": 0.592,
+     "median_cluster_size": 1.0,
+     "sigma_b_dex": 1.698,
+     "sigma_e_dex": 0.719,
+     "raw_sd": null
+    },
+    "pvd_sputter_pld_films": {
+     "n_rows": 129,
+     "n_studies": 64,
+     "icc_reml": 0.7787,
+     "lrt_stat": 73.813,
+     "p_exact_restricted_lrt": 0.0004997501249375312,
+     "icc_ci95_parametric_bootstrap": [
+      0.658,
+      0.864
+     ],
+     "singleton_fraction": 0.641,
+     "median_cluster_size": 1.0,
+     "sigma_b_dex": 1.514,
+     "sigma_e_dex": 0.807,
+     "raw_sd": null
+    }
+   },
+   "dark_current_pA": {
+    "FULL_CORPUS_reproduction": {
+     "n_rows": 95,
+     "n_studies": 63,
+     "icc_reml": 0.7776,
+     "lrt_stat": 22.256,
+     "p_exact_restricted_lrt": 0.0004997501249375312,
+     "icc_ci95_parametric_bootstrap": [
+      0.62,
+      0.881
+     ],
+     "singleton_fraction": 0.714,
+     "median_cluster_size": 1.0,
+     "sigma_b_dex": 1.863,
+     "sigma_e_dex": 0.996,
+     "raw_sd": null
+    }
+   },
+   "vacancy_concentration": {
+    "FULL_CORPUS_reproduction": {
+     "n_rows": 116,
+     "n_studies": 58,
+     "icc_reml": 0.6944,
+     "lrt_stat": 65.917,
+     "p_exact_restricted_lrt": 0.0004997501249375312,
+     "icc_ci95_parametric_bootstrap": [
+      0.522,
+      0.812
+     ],
+     "singleton_fraction": 0.5,
+     "median_cluster_size": 1.5,
+     "sigma_b_dex": 1.246,
+     "sigma_e_dex": 0.827,
+     "raw_sd": null
+    },
+    "epitaxial_film_all": {
+     "n_rows": 48,
+     "n_studies": 22,
+     "icc_reml": 0.5723,
+     "lrt_stat": 7.842,
+     "p_exact_restricted_lrt": 0.0024987506246876563,
+     "icc_ci95_parametric_bootstrap": [
+      0.228,
+      0.783
+     ],
+     "singleton_fraction": 0.364,
+     "median_cluster_size": 2.0,
+     "sigma_b_dex": 1.228,
+     "sigma_e_dex": 1.062,
+     "raw_sd": null
+    },
+    "pvd_sputter_pld_films": {
+     "n_rows": 43,
+     "n_studies": 21,
+     "icc_reml": 0.8663,
+     "lrt_stat": 55.147,
+     "p_exact_restricted_lrt": 0.0004997501249375312,
+     "icc_ci95_parametric_bootstrap": [
+      0.704,
+      0.942
+     ],
+     "singleton_fraction": 0.524,
+     "median_cluster_size": 1.0,
+     "sigma_b_dex": 1.385,
+     "sigma_e_dex": 0.544,
+     "raw_sd": null
+    }
+   }
+  },
+  "rejected_subsets": {
+   "optical_bandgap_Eg": {
+    "bulk_melt_single_crystal": {
+     "n_rows": 7,
+     "n_studies": 4,
+     "reason": "below power floor (>=40 rows AND >=15 studies)"
+    }
+   },
+   "photo_dark_ratio": {
+    "bulk_melt_single_crystal": {
+     "n_rows": 1,
+     "n_studies": 1,
+     "reason": "below power floor (>=40 rows AND >=15 studies)"
+    },
+    "epitaxial_film_MOCVD_MOVPE_only": {
+     "n_rows": 31,
+     "n_studies": 24,
+     "reason": "below power floor (>=40 rows AND >=15 studies)"
+    }
+   },
+   "dark_current_pA": {
+    "bulk_melt_single_crystal": {
+     "n_rows": 0,
+     "n_studies": 0,
+     "reason": "below power floor (>=40 rows AND >=15 studies)"
+    },
+    "epitaxial_film_all": {
+     "n_rows": 18,
+     "n_studies": 16,
+     "reason": "below power floor (>=40 rows AND >=15 studies)"
+    },
+    "epitaxial_film_MOCVD_MOVPE_only": {
+     "n_rows": 13,
+     "n_studies": 12,
+     "reason": "below power floor (>=40 rows AND >=15 studies)"
+    },
+    "sputtered_film_only": {
+     "n_rows": 31,
+     "n_studies": 22,
+     "reason": "below power floor (>=40 rows AND >=15 studies)"
+    },
+    "pvd_sputter_pld_films": {
+     "n_rows": 36,
+     "n_studies": 26,
+     "reason": "below power floor (>=40 rows AND >=15 studies)"
+    }
+   },
+   "vacancy_concentration": {
+    "bulk_melt_single_crystal": {
+     "n_rows": 2,
+     "n_studies": 2,
+     "reason": "below power floor (>=40 rows AND >=15 studies)"
+    },
+    "epitaxial_film_MOCVD_MOVPE_only": {
+     "n_rows": 31,
+     "n_studies": 16,
+     "reason": "below power floor (>=40 rows AND >=15 studies)"
+    },
+    "sputtered_film_only": {
+     "n_rows": 31,
+     "n_studies": 14,
+     "reason": "below power floor (>=40 rows AND >=15 studies)"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,6 @@
+{
+ "n_rows_doi": 0,
+ "median_abs_dex": NaN,
+ "max_abs_dex": NaN,
+ "note": "doi=nan rows (incl. a sheet-density cm^-2 misparse) do not enter the 194-row sigma analysis set"
+}

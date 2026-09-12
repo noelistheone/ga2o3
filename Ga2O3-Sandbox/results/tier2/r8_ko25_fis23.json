@@ -1,0 +1,35 @@
+{
+ "ko25_cap_sweep": {
+  "0.05": {
+   "LOLO_physics_only_dex": 0.246,
+   "LOLO_physics_plus_delta_dex": 0.231,
+   "B_mu_cap_dex": 0.05,
+   "verdict": "delta-trim ADOPTED: tightens mu LOLO"
+  },
+  "0.1": {
+   "LOLO_physics_only_dex": 0.246,
+   "LOLO_physics_plus_delta_dex": 0.228,
+   "B_mu_cap_dex": 0.1,
+   "verdict": "delta-trim ADOPTED: tightens mu LOLO"
+  },
+  "0.15": {
+   "LOLO_physics_only_dex": 0.246,
+   "LOLO_physics_plus_delta_dex": 0.23,
+   "B_mu_cap_dex": 0.15,
+   "verdict": "delta-trim ADOPTED: tightens mu LOLO"
+  },
+  "0.25": {
+   "LOLO_physics_only_dex": 0.246,
+   "LOLO_physics_plus_delta_dex": 0.248,
+   "B_mu_cap_dex": 0.25,
+   "verdict": "delta REJECTED by ablation gate: mu physics already at floor (delta carries <2% skill) -> mu stays physics-only factor 1.8, genuinely simulated"
+  }
+ },
+ "ko25_gate_note": "the 10% ablation-gate threshold enters only the accept/reject verdict, not the certified numbers; at thresholds 5/10/20% the verdict is unchanged because the physics-only and physics+delta LOLO medians differ by less than any of the three thresholds",
+ "fis23_spectrum_log10ev_median": [
+  0.0,
+  1.49,
+  2.6
+ ],
+ "fis23_rank2_gap_median": 1.49
+}

@@ -1,0 +1,127 @@
+{
+  "supercell": "Ga32O48 (2x2x2)",
+  "A_site_idx": 0,
+  "separations": {
+    "near": {
+      "j": 4,
+      "d_AB": 3.048
+    },
+    "mid": {
+      "j": 26,
+      "d_AB": 5.359
+    },
+    "far": {
+      "j": 7,
+      "d_AB": 7.541
+    }
+  },
+  "E_host_eV": -482.4024658203125,
+  "single_dopant_E_eV": {
+    "Mg": -481.7861328125,
+    "Sn": -482.3316345214844,
+    "Zn": -478.45098876953125,
+    "Si": -486.67388916015625,
+    "Ge": -483.23291015625
+  },
+  "pairs": [
+    {
+      "A": "Mg",
+      "B": "Sn",
+      "d_near": 3.048,
+      "d_mid": 5.359,
+      "d_far": 7.541,
+      "E_near": -482.7269287109375,
+      "E_mid": -481.3360290527344,
+      "E_far": -482.1844482421875,
+      "E_assoc_near_eV": -0.54248046875,
+      "E_assoc_mid_eV": 0.848419189453125,
+      "E_bind_eV": -1.011627197265625,
+      "verdict": "BOUND (attract)"
+    },
+    {
+      "A": "Zn",
+      "B": "Sn",
+      "d_near": 3.048,
+      "d_mid": 5.359,
+      "d_far": 7.541,
+      "E_near": -479.3609313964844,
+      "E_mid": -477.998779296875,
+      "E_far": -478.8385314941406,
+      "E_assoc_near_eV": -0.52239990234375,
+      "E_assoc_mid_eV": 0.839752197265625,
+      "E_bind_eV": -0.98077392578125,
+      "verdict": "BOUND (attract)"
+    },
+    {
+      "A": "Mg",
+      "B": "Si",
+      "d_near": 3.048,
+      "d_mid": 5.359,
+      "d_far": 7.541,
+      "E_near": -487.2191162109375,
+      "E_mid": -487.3192138671875,
+      "E_far": -486.609130859375,
+      "E_assoc_near_eV": -0.6099853515625,
+      "E_assoc_mid_eV": -0.7100830078125,
+      "E_bind_eV": -1.16156005859375,
+      "verdict": "BOUND (attract)"
+    },
+    {
+      "A": "Mg",
+      "B": "Ge",
+      "d_near": 3.048,
+      "d_mid": 5.359,
+      "d_far": 7.541,
+      "E_near": -483.6734619140625,
+      "E_mid": -483.2948913574219,
+      "E_far": -483.1045837402344,
+      "E_assoc_near_eV": -0.568878173828125,
+      "E_assoc_mid_eV": -0.1903076171875,
+      "E_bind_eV": -1.056884765625,
+      "verdict": "BOUND (attract)"
+    },
+    {
+      "A": "Zn",
+      "B": "Si",
+      "d_near": 3.048,
+      "d_mid": 5.359,
+      "d_far": 7.541,
+      "E_near": -483.90228271484375,
+      "E_mid": -483.97698974609375,
+      "E_far": -483.27264404296875,
+      "E_assoc_near_eV": -0.629638671875,
+      "E_assoc_mid_eV": -0.704345703125,
+      "E_bind_eV": -1.17987060546875,
+      "verdict": "BOUND (attract)"
+    },
+    {
+      "A": "Sn",
+      "B": "Si",
+      "d_near": 3.048,
+      "d_mid": 5.359,
+      "d_far": 7.541,
+      "E_near": -485.75457763671875,
+      "E_mid": -486.66845703125,
+      "E_far": -486.0962219238281,
+      "E_assoc_near_eV": 0.341644287109375,
+      "E_assoc_mid_eV": -0.572235107421875,
+      "E_bind_eV": 0.848480224609375,
+      "verdict": "REPEL"
+    },
+    {
+      "A": "Mg",
+      "B": "Zn",
+      "d_near": 3.048,
+      "d_mid": 5.359,
+      "d_far": 7.541,
+      "E_near": -477.01531982421875,
+      "E_mid": -477.33514404296875,
+      "E_far": -477.4039611816406,
+      "E_assoc_near_eV": 0.388641357421875,
+      "E_assoc_mid_eV": 0.068817138671875,
+      "E_bind_eV": 0.8193359375,
+      "verdict": "REPEL"
+    }
+  ],
+  "note": "E_assoc = E(near)-E(far), pure A-B interaction (neutral, MACE-MP-0). Negative => bound complex => non-additive delta matters; ~0 => dilute independent-defect approximation is exact. Charged-defect binding needs HSE06 (research B.1)."
+}

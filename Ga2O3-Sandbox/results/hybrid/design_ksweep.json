@@ -1,0 +1,38 @@
+{
+ "Ks": [
+  1,
+  2,
+  3,
+  4,
+  5
+ ],
+ "per_K": {
+  "1": {
+   "designed": 0.803,
+   "random": 0.816,
+   "n_labs": 13
+  },
+  "2": {
+   "designed": 0.761,
+   "random": 0.825,
+   "n_labs": 13
+  },
+  "3": {
+   "designed": 0.757,
+   "random": 0.851,
+   "n_labs": 13
+  },
+  "4": {
+   "designed": 0.991,
+   "random": 0.828,
+   "n_labs": 13
+  },
+  "5": {
+   "designed": 0.678,
+   "random": 0.87,
+   "n_labs": 13
+  }
+ },
+ "floor": 0.47,
+ "blind": 1.28
+}

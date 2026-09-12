@@ -1,0 +1,37 @@
+# Phase 13A: FiLM fusion — element-conditioned process modulation.
+# γ, β = MLP(comp_emb); proc' = (1 + γ) ⊙ proc + β; out = concat(struct, comp, proc').
+# Output dim same as concat (160) — head config from concat baselines reused unchanged.
+# Init: γ=β=0 ⇒ at step 0 this is identical to ConcatFusion, so training starts from
+# the same point and only diverges when modulation actually helps.
+structure_stream:
+  embedding_dim: 64
+  pretrained_ckpt: checkpoints/pretrained_encoder_v2.pt
+
+composition_stream:
+  xenonpy_raw_dim: 290
+  hidden_dim: 128
+  out_dim: 64
+  dropout: 0.1
+  cache_file: data/processed/xenonpy_cache.pkl
+
+process_stream:
+  in_dim: 18
+  continuous_dim: 12
+  method_embed_dim: 3
+  n_methods: 6
+  substrate_embed_dim: 3
+  n_substrates: 7
+  hidden_dim: 64
+  out_dim: 32
+  dropout: 0.2
+
+fusion:
+  total_dim: 160
+  mode: film          # Phase 13A
+  structure_scale: 1.0
+  attention_heads: 4
+  attention_dim: 64
+
+scalers:
+  process_scaler: data/processed/process_scaler.pkl
+  composition_scaler: data/processed/composition_scaler.pkl

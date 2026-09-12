@@ -1,0 +1,50 @@
+{
+  "system": "V_O q0 (79 atoms), fixed QE cell, same unrelaxed start",
+  "rmsd_MACE_vs_QE_final_A": 0.0255,
+  "max_atom_disp_MACE_vs_QE_A": 0.1004,
+  "mean_relax_magnitude_QE_A": 0.0262,
+  "mean_relax_magnitude_MACE_A": 0.0307,
+  "max_relax_QE_A": 0.2973,
+  "max_relax_MACE_A": 0.2244,
+  "neighbors": {
+    "top6_relaxed_atoms_QE": [
+      {
+        "idx": 26,
+        "elem": "Ga",
+        "qe_disp": 0.297,
+        "mace_disp": 0.224
+      },
+      {
+        "idx": 56,
+        "elem": "O",
+        "qe_disp": 0.08,
+        "mace_disp": 0.094
+      },
+      {
+        "idx": 78,
+        "elem": "O",
+        "qe_disp": 0.058,
+        "mace_disp": 0.041
+      },
+      {
+        "idx": 48,
+        "elem": "O",
+        "qe_disp": 0.058,
+        "mace_disp": 0.059
+      },
+      {
+        "idx": 52,
+        "elem": "O",
+        "qe_disp": 0.058,
+        "mace_disp": 0.059
+      },
+      {
+        "idx": 58,
+        "elem": "O",
+        "qe_disp": 0.056,
+        "mace_disp": 0.017
+      }
+    ]
+  },
+  "interpretation": "If rmsd << mean_relax_magnitude, MACE captures the QE relaxation pattern -> MLIP-relax + QE/HSE single-point is a valid fast surrogate for the relaxation step."
+}

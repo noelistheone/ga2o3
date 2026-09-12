@@ -1,0 +1,86 @@
+# Phase 30: Brouwer defect-chemistry head replaces scalar VC head.
+# Latent net produces (E_f^VO residual, log_prefactor, dopant_term);
+# closed-form Brouwer equation produces standardized log[V_O].
+# T and p_O2 dependencies are encoded in the formula, not learned.
+#
+# Use with --single-target vacancy_concentration and --multimodal-config
+# config/multimodal_v2_film.yaml.
+#
+# Same data + training pipeline as Phase 20 sputter VC (within-DOI pair-aware
+# loss) so the comparison vs Phase 20 baseline is clean — only the head changes.
+head:
+  type: brouwer
+  in_dim: 160
+  hidden_dims: [64, 32]
+  dropout: 0.30
+  output_dim: 1
+
+targets:
+  - photo_dark_ratio
+  - vacancy_concentration
+
+loss:
+  type: combined
+  mse_weight: 1.0
+  infonce_weight: 0.0
+  l2_lambda: 0.0
+  infonce_temperature: 0.3
+  init_log_var: 0.0
+  recon_weight: 0.0
+
+  monotonic_vc_weight: 0.0
+  monotonic_vc_delta: 0.15
+  monotonic_vc_target_idx: 0
+  monotonic_vc_within_doi_weight: 2.0
+  monotonic_vc_within_doi_min_dconc: 0.05
+training:
+  epochs: 2000
+  learning_rate: 2.0e-4
+  encoder_lr: 5.0e-6
+  encoder_unfreeze_last_n: 0
+  freeze_encoder: true
+  weight_decay: 5.0e-6
+  patience: 300
+  cv_folds: 10
+  batch_size: 16
+  mc_dropout_passes: 20
+  mixup_alpha: 0.0
+  grad_clip: 1.0
+
+pseudo_labeling:
+  enabled: false
+  std_threshold: 0.3
+  phase2_epochs: 500
+  phase2_lr_scale: 0.1
+  mc_passes: 20
+
+augmentation:
+  concentration_jitter: 0.005
+  label_noise_std: 0.0
+
+gp:
+  enabled: false
+  use_embeddings: true
+
+xgboost:
+  n_estimators: 200
+  max_depth: 5
+  learning_rate: 0.05
+  subsample: 0.8
+  colsample_bytree: 0.8
+
+data:
+  log_transform_targets: true
+  mask_noconc_labels: true
+  mask_undoped_labels: true
+  min_conc_threshold: 0.0
+  mask_carrier_vc: true
+  exclude_elements: ["N", "H", "Nb", "In"]
+  target_standardize: true
+  drop_both_nan_rows: false
+
+paths:
+  experimental_csv: data/raw/experimental/ga2o3_exp_aug3x_vcinterp_sputter.csv
+  structures_dir: data/structures
+  embeddings_cache: data/processed/stage2_embeddings.pkl
+  results_dir: results

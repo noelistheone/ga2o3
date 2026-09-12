@@ -1,0 +1,35 @@
+{
+  "dopant": "Bi",
+  "n_tet_sites": 16,
+  "n_oct_sites": 16,
+  "configs": {
+    "Ga_I_tet": {
+      "sub_index": 16,
+      "E_mace_eV": -479.099,
+      "dop_O_bonds_A": [
+        2.119,
+        2.119,
+        2.122,
+        2.165
+      ],
+      "mean_MO_A": 2.131,
+      "coordination": 4
+    },
+    "Ga_II_oct": {
+      "sub_index": 0,
+      "E_mace_eV": -479.4966,
+      "dop_O_bonds_A": [
+        2.205,
+        2.205,
+        2.208,
+        2.3,
+        2.317,
+        2.317
+      ],
+      "mean_MO_A": 2.259,
+      "coordination": 6
+    }
+  },
+  "preferred_site": "Ga_II_oct",
+  "site_pref_dE_eV": 0.398
+}

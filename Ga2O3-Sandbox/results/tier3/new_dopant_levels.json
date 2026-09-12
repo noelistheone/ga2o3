@@ -1,0 +1,55 @@
+{
+  "E_VBM_eV": 8.9497,
+  "makov_payne_q2_eV": 0.847,
+  "Eg_eV": 4.9,
+  "dopants": {
+    "Sb": {
+      "dopant": "Sb",
+      "E_tot_eV": {
+        "0": -88615.64,
+        "1": -88626.664,
+        "2": -88637.726
+      },
+      "transition_levels": {
+        "2+/1": {
+          "above_VBM_eV": 1.477,
+          "below_CBM_eV": 3.423
+        },
+        "1+/0": {
+          "above_VBM_eV": 1.863,
+          "below_CBM_eV": 3.037
+        },
+        "2+/0": {
+          "above_VBM_eV": 1.67,
+          "below_CBM_eV": 3.23
+        }
+      },
+      "classification": "deep level / weak donor (2+/0 at CBM-3.23 eV)",
+      "note": "mu-independent (rigorous). Absolute conc needs a QE mu_M metal ref (queued separately). Potential-alignment term for charged cells not yet applied (refinement) \u2014 levels are first-pass."
+    },
+    "Bi": {
+      "dopant": "Bi",
+      "E_tot_eV": {
+        "0": -88372.833,
+        "1": -88382.867,
+        "2": -88392.909
+      },
+      "transition_levels": {
+        "2+/1": {
+          "above_VBM_eV": 0.457,
+          "below_CBM_eV": 4.443
+        },
+        "1+/0": {
+          "above_VBM_eV": 0.873,
+          "below_CBM_eV": 4.027
+        },
+        "2+/0": {
+          "above_VBM_eV": 0.665,
+          "below_CBM_eV": 4.235
+        }
+      },
+      "classification": "deep level / weak donor (2+/0 at CBM-4.24 eV)",
+      "note": "mu-independent (rigorous). Absolute conc needs a QE mu_M metal ref (queued separately). Potential-alignment term for charged cells not yet applied (refinement) \u2014 levels are first-pass."
+    }
+  }
+}

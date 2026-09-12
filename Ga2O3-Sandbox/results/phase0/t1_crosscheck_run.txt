@@ -1,0 +1,63 @@
+{
+  "crosscheck_rows": [
+    {
+      "T": 2068,
+      "pO2": 0.02,
+      "EF_engine": 3.40453,
+      "EF_independent": 3.40453,
+      "dEF_eV": "4.92e-13",
+      "n_engine": "9.2872e+17",
+      "n_indep": "9.2872e+17",
+      "dn_rel": "2.76e-12",
+      "agree": true
+    },
+    {
+      "T": 1400,
+      "pO2": 1.0,
+      "EF_engine": 3.2201,
+      "EF_independent": 3.2201,
+      "dEF_eV": "2.01e-12",
+      "n_engine": "1.0625e+15",
+      "n_indep": "1.0625e+15",
+      "dn_rel": "1.67e-11",
+      "agree": true
+    },
+    {
+      "T": 1073,
+      "pO2": 0.0001,
+      "EF_engine": 3.12477,
+      "EF_independent": 3.12477,
+      "dEF_eV": "2.93e-14",
+      "n_engine": "2.1055e+12",
+      "n_indep": "2.1055e+12",
+      "dn_rel": "3.16e-13",
+      "agree": true
+    },
+    {
+      "T": 900,
+      "pO2": 1.0,
+      "EF_engine": 3.07255,
+      "EF_independent": 3.07255,
+      "dEF_eV": "1.05e-11",
+      "n_engine": "1.3593e+10",
+      "n_indep": "1.3593e+10",
+      "dn_rel": "1.35e-10",
+      "agree": true
+    },
+    {
+      "T": 1600,
+      "pO2": 0.2,
+      "EF_engine": 3.27662,
+      "EF_independent": 3.27662,
+      "dEF_eV": "3.57e-12",
+      "n_engine": "1.4223e+16",
+      "n_indep": "1.4223e+16",
+      "dn_rel": "2.59e-11",
+      "agree": true
+    }
+  ],
+  "ALL_AGREE": true,
+  "py_sc_fermi_version": "2.2.0",
+  "py_sc_fermi_note": "installed; a full cross-run needs a DOS array + per-charge E_form at fixed mu. Deferred to a dedicated adapter (native solver already validated against the independent grid solver)."
+}
+

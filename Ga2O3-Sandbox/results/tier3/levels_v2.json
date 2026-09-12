@@ -1,0 +1,130 @@
+{
+ "provenance": "levels_v2: unified alpha x point-charge x elastic chain (R6)",
+ "VO_a025": {
+  "MP_prod": {
+   "eps_2+/0": 2.223,
+   "eps_2+/0_elastic": 2.079
+  },
+  "aniso_exact": {
+   "eps_2+/0": 2.313,
+   "eps_2+/0_elastic": 2.169
+  }
+ },
+ "VO_a033": {
+  "MP_prod": {
+   "eps_2+/0": 2.641,
+   "eps_2+/0_elastic": 2.497
+  },
+  "aniso_exact": {
+   "eps_2+/0": 2.73,
+   "eps_2+/0_elastic": 2.586
+  }
+ },
+ "Sb_a025": {
+  "MP_prod": {
+   "eps_2+/0": 3.106,
+   "eps_2+/+": 3.025,
+   "eps_+/0": 3.187,
+   "U_eV": 0.162
+  },
+  "aniso_exact": {
+   "eps_2+/0": 3.196,
+   "eps_2+/+": 3.16,
+   "eps_+/0": 3.232,
+   "U_eV": 0.072
+  }
+ },
+ "Sb_a033": {
+  "MP_prod": {
+   "eps_2+/0": 3.561,
+   "eps_2+/+": 3.516,
+   "eps_+/0": 3.607,
+   "U_eV": 0.091
+  },
+  "aniso_exact": {
+   "eps_2+/0": 3.651,
+   "eps_2+/+": 3.65,
+   "eps_+/0": 3.652,
+   "U_eV": 0.002
+  }
+ },
+ "Bi_a025": {
+  "MP_prod": {
+   "eps_2+/0": 1.656,
+   "eps_2+/+": 1.514,
+   "eps_+/0": 1.799,
+   "U_eV": 0.285
+  },
+  "aniso_exact": {
+   "eps_2+/0": 1.746,
+   "eps_2+/+": 1.648,
+   "eps_+/0": 1.844,
+   "U_eV": 0.196
+  }
+ },
+ "Bi_a033": {
+  "MP_prod": {
+   "eps_2+/0": 1.978,
+   "eps_2+/+": 1.852,
+   "eps_+/0": 2.103,
+   "U_eV": 0.251
+  },
+  "aniso_exact": {
+   "eps_2+/0": 2.067,
+   "eps_2+/+": 1.987,
+   "eps_+/0": 2.148,
+   "U_eV": 0.161
+  }
+ },
+ "VO_best_estimate_vs_DB": {
+  "chain": "alpha=0.33 + exact anisotropic point charge + 160-atom elastic",
+  "eps_eV": 2.586,
+  "DB_shallowest": 2.625,
+  "residual_eV": 0.039
+ },
+ "kpoint_check_PBE": {
+  "Eq0_minus_Eq2_gamma_eV": 20.5723,
+  "Eq0_minus_Eq2_222_eV": 21.3069,
+  "level_shift_eV": 0.3673,
+  "protocol": "PBE single points on the relaxed 80-atom geometries; identical settings, K_POINTS gamma vs 2x2x2 MP; shift applies to the raw (2+/0) level",
+  "dopants": {
+   "VO": {
+    "diff_gamma": 20.5723,
+    "diff_222": 21.3069,
+    "level_shift": 0.3673
+   },
+   "Sb": {
+    "diff_gamma": 22.0866,
+    "diff_222": 23.3581,
+    "level_shift": 0.6357
+   },
+   "Bi": {
+    "diff_gamma": 20.0768,
+    "diff_222": 20.7265,
+    "level_shift": 0.3249
+   },
+   "perfect_cell_E222_minus_Egamma_eV": -6.8735
+  }
+ },
+ "hse_q2_relaxation_scan": {
+  "lams": [
+   0.85,
+   0.95,
+   1.0,
+   1.05,
+   1.15
+  ],
+  "E_eV": [
+   -84863.8751,
+   -84863.9957,
+   -84864.0074,
+   -84863.9727,
+   -84863.7072
+  ],
+  "lam_min": 0.973,
+  "E_min_minus_E_pbe_geom_eV": -0.0072,
+  "level_shift_eV": 0.0036,
+  "curvature_ok": true,
+  "protocol": "HSE(alpha=0.25) single points along R(lam)=R0+lam(R2-R0); parabola fit; the HSE minimum along the PBE relaxation coordinate bounds the PBE-geometry bias of the charged state"
+ }
+}

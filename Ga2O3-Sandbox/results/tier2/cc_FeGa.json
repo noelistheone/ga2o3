@@ -1,0 +1,13 @@
+{
+  "defect": "FeGa",
+  "qA": 0,
+  "qB": -1,
+  "dQ_amu_half_A": 0.269,
+  "max_disp_A": 0.017,
+  "E_q0_at_R0": -89552.826,
+  "E_q-1_at_R-1": -89541.585,
+  "cross_singlepoints": [
+    "cc_FeGa_q0_at_R-1",
+    "cc_FeGa_q-1_at_R0"
+  ]
+}

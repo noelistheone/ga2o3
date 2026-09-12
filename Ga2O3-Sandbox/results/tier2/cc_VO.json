@@ -1,0 +1,13 @@
+{
+  "defect": "VO",
+  "qA": 1,
+  "qB": 0,
+  "dQ_amu_half_A": 3.462,
+  "max_disp_A": 0.313,
+  "E_q1_at_R1": -87783.38,
+  "E_q0_at_R0": -87773.483,
+  "cross_singlepoints": [
+    "cc_VO_q1_at_R0",
+    "cc_VO_q0_at_R1"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "dopant": "Mg",
+  "conc": 0.0101,
+  "n_atoms": 80,
+  "n_dopant": 1,
+  "melt_K": 3000.0,
+  "device": "cuda",
+  "stages": [
+    {
+      "stage": "melt",
+      "T": 3000.0,
+      "E": -445.4845328641165
+    },
+    {
+      "stage": "quench",
+      "T": 2000.0,
+      "E": -459.3389051840051
+    },
+    {
+      "stage": "quench",
+      "T": 1000.0,
+      "E": -472.2430761151137
+    },
+    {
+      "stage": "quench",
+      "T": 300.0,
+      "E": -477.7923729842211
+    }
+  ],
+  "crystal_dopant_O_bond": 1.849,
+  "crystal_dopant_coord": 4.0,
+  "asdeposited_dopant_O_bond": 1.924,
+  "asdeposited_dopant_coord": 4.0,
+  "final_E": -481.2040493064618,
+  "final_E_per_atom": -6.015050616330773,
+  "asdeposited_GaO_coord": 5.03
+}

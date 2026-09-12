@@ -1,0 +1,47 @@
+{
+  "pass": {
+    "N1_Si_shallow_donor": true,
+    "N1_Sn_shallow_donor": true,
+    "N1_Fe_deep_acceptor_Ec-0.6-1.1": true,
+    "N1_Mg_deep_acceptor_VBM+0.9-1.5": true,
+    "A1_EFG_conductive_n_near_Sn": true,
+    "A1_EFG_compensation_below_5pct": true,
+    "A2_anneal_less_conductive_than_EFG": true,
+    "A3_VGa_active_1e13_to_1e17": true
+  },
+  "values": {
+    "N1": {
+      "Si_ground_charge_midgap": 1,
+      "Sn_ground_charge_midgap": 1,
+      "Fe_acceptor_0/-1_below_Ec": 0.82,
+      "Mg_acceptor_0/-1_above_VBM": 1.18
+    },
+    "A1_EFG": {
+      "Sn_target": 3e+18,
+      "Sn_total_in_solid": 3e+18,
+      "n_300K": "2.998e+18",
+      "p_300K": "6.437e-62",
+      "EF_above_VBM": 4.933,
+      "Ec": 4.961,
+      "ionized_acceptors": "1.876e+15",
+      "compensation_ratio_Na_over_n": "6.256e-04",
+      "freeze_in_T": 1950.0
+    },
+    "A2_O2anneal": {
+      "n_300K": "9.779e+16",
+      "p_300K": "2.190e-60",
+      "EF_above_VBM": 4.842,
+      "ionized_acceptors": "2.192e+18",
+      "n_ratio_anneal_over_EFG": "3.262e-02"
+    },
+    "A3_VGa_in_Sn_EFG_crystal": {
+      "V_Ga_isolated": "5.631e+14",
+      "V_Ga_active_incl_H": "6.094e+14",
+      "V_Ga_all_incl_Sn_complexes": "3.001e+18",
+      "note": "frozen from 1950 K freeze-in, quenched to 300 K; DLOS ~1e16 is the free-V_Ga signal"
+    }
+  },
+  "pass_count": 8,
+  "total_checks": 8,
+  "ALL_PASS": true
+}

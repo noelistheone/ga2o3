@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "description": "Native oxygen-vacancy formation enthalpies for beta-Ga2O3 at E_F=VBM, pO2=1 atm (O-rich-consistent anchor). THE seed record of the provenance-tracked energetics DB. Every entry must carry full provenance; verified=false values are excluded from production runs.",
+  "host": "beta-Ga2O3",
+  "band_gap_eV": 4.85,
+  "entries": [
+    {
+      "defect": "V_O",
+      "site": "averaged (O_I/O_II/O_III not resolved in this anchor)",
+      "charge": 0,
+      "E_f_at_VBM_eV": 3.5,
+      "functional": "HSE06",
+      "source": "Ga2O3-Net production anchor (in-code attribution: 'HSE06 Lyons 2022 / Varley 2017')",
+      "source_doi": null,
+      "supercell": null,
+      "correction_scheme": null,
+      "verified": false,
+      "verification_needed": "Phase S1: pin to primary source (site-resolved values; Varley et al. APL 2010 / Lyons; Deak et al. PRB 2017 report site-resolved V_O E_f ~ 2.2-3.6 eV range O-rich) and replace with site-resolved verified numbers"
+    },
+    {
+      "defect": "V_O",
+      "site": "averaged",
+      "charge": 1,
+      "E_f_at_VBM_eV": 1.8,
+      "functional": "HSE06",
+      "source": "Ga2O3-Net production anchor (in-code attribution: 'HSE06 Lyons 2022 / Varley 2017')",
+      "source_doi": null,
+      "supercell": null,
+      "correction_scheme": null,
+      "verified": false,
+      "verification_needed": "same as q=0 entry"
+    },
+    {
+      "defect": "V_O",
+      "site": "averaged",
+      "charge": 2,
+      "E_f_at_VBM_eV": 0.3,
+      "functional": "HSE06",
+      "source": "Ga2O3-Net production anchor (in-code attribution: 'HSE06 Lyons 2022 / Varley 2017')",
+      "source_doi": null,
+      "supercell": null,
+      "correction_scheme": null,
+      "verified": false,
+      "verification_needed": "same as q=0 entry"
+    }
+  ],
+  "notes": "These three numbers reproduce Ga2O3-Net's blessed closed-form behaviour (deep-donor V_O, negative-U-like ordering with q=+2 lowest at VBM). They are adequate for Phase S0 solver-port sanity checks ONLY. Phase S1 replaces them with site-resolved, DOI-pinned, correction-documented values before any production prediction."
+}

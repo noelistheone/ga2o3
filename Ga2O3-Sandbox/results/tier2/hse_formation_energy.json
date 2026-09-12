@@ -1,0 +1,12 @@
+{
+  "E_HSE_perfect_eV": -85290.433,
+  "E_HSE_VO_q0_eV": -84843.275,
+  "mu_O_HSE_eV(half_E_O2)": -443.484,
+  "E_f_HSE_VO_q0_Orich_eV": 3.674,
+  "comparison": {
+    "PBE_VO_q0_Orich": 3.09,
+    "HSE_this_work_Orich": 3.674,
+    "KROGER_HSE_dHo_q0": "~3.5 (O-rich-consistent anchor)"
+  },
+  "note": "HSE neutral V_O formation energy on the PBE-relaxed geometry (HSE@PBE-geom). If it lands nearer the KROGER HSE ~3.5 eV than PBE's 3.09, the HSE tier tightens the energetics as expected. Charged HSE E_f needs an HSE VBM (fixed-occ HSE perfect) \u2014 next refinement. Even tightened, absolutes stay order-of-magnitude (ceiling)."
+}

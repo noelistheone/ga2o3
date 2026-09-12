@@ -1,0 +1,26 @@
+{
+ "n_points": 6,
+ "meas_slope": -1.338,
+ "runs": {
+  "Tf1073": {
+   "spearman": -0.617,
+   "pred_slope": 0.163,
+   "any_solubility_flag": true
+  },
+  "Tf1350": {
+   "spearman": -0.617,
+   "pred_slope": 0.152,
+   "any_solubility_flag": true
+  },
+  "Tf1500": {
+   "spearman": -0.617,
+   "pred_slope": 0.024,
+   "any_solubility_flag": true
+  },
+  "Tf1650": {
+   "spearman": -0.617,
+   "pred_slope": 0.127,
+   "any_solubility_flag": true
+  }
+ }
+}

@@ -1,0 +1,11 @@
+{
+ "n_contrasts": 37,
+ "correct": 37,
+ "frac": 1.0,
+ "base_rate_up": 0.865,
+ "majority_baseline": 0.865,
+ "perm_p": 0.0,
+ "binom_p_vs_majority": 0.0046,
+ "n_papers": 8,
+ "note": "true doped-vs-undoped within-paper contrasts only (C1 rebuild)"
+}

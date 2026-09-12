@@ -1,0 +1,36 @@
+# Phase 5D: v2 encoder checkpoint. Identical to multimodal.yaml except for
+# pretrained_ckpt path. Structure stream dim stays 64; process tensor keeps
+# 5C's 18-dim layout so 5D can stack with 5C (both fixes are in the training
+# pipeline, the re-pretrain is only for the encoder).
+structure_stream:
+  embedding_dim: 64
+  pretrained_ckpt: checkpoints/pretrained_encoder_v2.pt
+
+composition_stream:
+  xenonpy_raw_dim: 290
+  hidden_dim: 128
+  out_dim: 64
+  dropout: 0.1
+  cache_file: data/processed/xenonpy_cache.pkl
+
+process_stream:
+  in_dim: 18
+  continuous_dim: 12
+  method_embed_dim: 3
+  n_methods: 6
+  substrate_embed_dim: 3
+  n_substrates: 7
+  hidden_dim: 64
+  out_dim: 32
+  dropout: 0.2
+
+fusion:
+  total_dim: 160
+  mode: concat
+  structure_scale: 1.0
+  attention_heads: 4
+  attention_dim: 64
+
+scalers:
+  process_scaler: data/processed/process_scaler.pkl
+  composition_scaler: data/processed/composition_scaler.pkl

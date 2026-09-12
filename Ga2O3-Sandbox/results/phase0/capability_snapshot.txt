@@ -1,0 +1,20 @@
+dopant    type          Ec-EF  log n  logVO logVGa  dominant
+undoped   insulating     2.36   0.00   7.00   5.48  
+Si        n              0.17  16.14   6.61  16.93  defect#169:6.8e+18
+H         insulating     3.27   0.00   7.79   4.02  defect#46:9.9e+16
+Fe        insulating     1.44   0.00   8.51   2.90  defect#201:9.7e+18
+Sn        n              0.18  16.00   6.61  16.51  defect#152:4.0e+18
+Cr        insulating     1.96   0.00   7.00   5.49  defect#193:1.0e+19
+Ti        insulating     1.24   0.00   6.61  17.02  defect#199:1.0e+19
+Ir        insulating     2.02   0.00   6.61  11.10  defect#222:1.0e+19
+Mg        insulating     3.74   0.00  18.62   0.00  defect#236:1.0e+19
+Ca        insulating     3.76   0.00  18.62   0.00  defect#238:1.0e+19
+Zn        insulating     3.61   0.00  18.61   0.00  defect#240:5.5e+18
+Co        insulating     2.50   0.00  15.60   0.00  defect#243:8.2e+18
+Zr        n              0.14  16.67   6.61  18.52  defect#247:1.0e+19
+Hf        n              0.14  16.67   6.61  18.52  defect#249:1.0e+19
+Ta        insulating     0.92   3.63   6.61  18.68  defect#251:1.0e+19
+Ge        n              0.14  16.67   6.61  18.52  defect#253:6.1e+18
+Pt        insulating     0.99   2.33   6.61  18.04  defect#255:1.0e+19
+Rh        insulating     2.47   0.00   6.92   5.71  defect#258:1.0e+19
+

@@ -1,0 +1,13 @@
+{
+  "defect": "VGa",
+  "qA": -2,
+  "qB": -3,
+  "dQ_amu_half_A": 2.027,
+  "max_disp_A": 0.165,
+  "E_q-2_at_R-2": -86116.714,
+  "E_q-3_at_R-3": -86107.127,
+  "cross_singlepoints": [
+    "cc_VGa_q-2_at_R-3",
+    "cc_VGa_q-3_at_R-2"
+  ]
+}

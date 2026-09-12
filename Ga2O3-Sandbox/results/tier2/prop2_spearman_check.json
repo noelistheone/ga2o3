@@ -1,0 +1,68 @@
+{
+ "optical_bandgap_Eg": {
+  "icc": 0.587,
+  "bound_sqrt_1_minus_icc": 0.6427,
+  "cases": {
+   "gaussian": {
+    "spearman_mc": 0.6279,
+    "spearman_p97.5": 0.6852,
+    "pearson_mc": 0.6448
+   },
+   "lognormal_skew": {
+    "spearman_mc": 0.4355,
+    "spearman_p97.5": 0.5295,
+    "pearson_mc": 0.645
+   },
+   "t3_heavy": {
+    "spearman_mc": 0.5382,
+    "spearman_p97.5": 0.63,
+    "pearson_mc": 0.6461
+   }
+  },
+  "holds_spearman": false
+ },
+ "hall_mobility_mu": {
+  "icc": 0.85,
+  "bound_sqrt_1_minus_icc": 0.3873,
+  "cases": {
+   "gaussian": {
+    "spearman_mc": 0.3799,
+    "spearman_p97.5": 0.4707,
+    "pearson_mc": 0.3933
+   },
+   "lognormal_skew": {
+    "spearman_mc": 0.2675,
+    "spearman_p97.5": 0.3778,
+    "pearson_mc": 0.3873
+   },
+   "t3_heavy": {
+    "spearman_mc": 0.32,
+    "spearman_p97.5": 0.4217,
+    "pearson_mc": 0.3851
+   }
+  },
+  "holds_spearman": false
+ },
+ "photo_dark_ratio": {
+  "icc": 0.604,
+  "bound_sqrt_1_minus_icc": 0.6293,
+  "cases": {
+   "gaussian": {
+    "spearman_mc": 0.6171,
+    "spearman_p97.5": 0.7151,
+    "pearson_mc": 0.6362
+   },
+   "lognormal_skew": {
+    "spearman_mc": 0.4342,
+    "spearman_p97.5": 0.5699,
+    "pearson_mc": 0.6371
+   },
+   "t3_heavy": {
+    "spearman_mc": 0.5371,
+    "spearman_p97.5": 0.651,
+    "pearson_mc": 0.6373
+   }
+  },
+  "holds_spearman": false
+ }
+}

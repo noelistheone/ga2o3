@@ -1,0 +1,105 @@
+{
+  "qe_reference": {
+    "O_rich": 3.09,
+    "mid": 1.61,
+    "Ga_rich": 0.14,
+    "HSE_O_rich": 3.67,
+    "KROGER_HSE": 3.5
+  },
+  "exp_dHf_Ga2O3_fu": -11.29,
+  "methods": {
+    "mace": {
+      "method": "mace",
+      "variant": null,
+      "E_perfect": -482.8728,
+      "E_VO": -473.201,
+      "E_O2": -9.3817,
+      "E_alphaGa_cell": -24.0804,
+      "mu_Ga_bulk": -3.01,
+      "mu_O_Orich_halfO2": -4.6908,
+      "mu_O_Garich_solids": -8.0532,
+      "Ef_VO_Orich": 4.9809,
+      "Ef_VO_Garich": 1.6186,
+      "d_Orich_vs_QE": 1.891,
+      "d_Garich_vs_QE": 1.479,
+      "dHf_Ga2O3_fu": -10.087,
+      "dHf_error_vs_exp": 1.203,
+      "perfect_vol": 872.93,
+      "perfect_vol_QE": 845.9,
+      "conv": {
+        "perfect": true,
+        "vo": true,
+        "o2": true,
+        "ga": true
+      },
+      "t_sec": {
+        "perfect": 4.5,
+        "vo": 6.6,
+        "o2": 0.2,
+        "ga": 0.6
+      }
+    },
+    "orb": {
+      "method": "orb",
+      "variant": "orb_v3_conservative_inf_omat",
+      "E_perfect": -477.5161,
+      "E_VO": -467.782,
+      "E_O2": -9.8801,
+      "E_alphaGa_cell": -23.2232,
+      "mu_Ga_bulk": -2.9029,
+      "mu_O_Orich_halfO2": -4.94,
+      "mu_O_Garich_solids": -8.013,
+      "Ef_VO_Orich": 4.7941,
+      "Ef_VO_Garich": 1.7211,
+      "d_Orich_vs_QE": 1.704,
+      "d_Garich_vs_QE": 1.581,
+      "dHf_Ga2O3_fu": -9.219,
+      "dHf_error_vs_exp": 2.071,
+      "perfect_vol": 880.92,
+      "perfect_vol_QE": 845.9,
+      "conv": {
+        "perfect": true,
+        "vo": true,
+        "o2": true,
+        "ga": true
+      },
+      "t_sec": {
+        "perfect": 6.2,
+        "vo": 0.9,
+        "o2": 0.2,
+        "ga": 0.5
+      }
+    },
+    "chgnet": {
+      "method": "chgnet",
+      "variant": null,
+      "E_perfect": -514.558,
+      "E_VO": -504.8278,
+      "E_O2": -9.6373,
+      "E_alphaGa_cell": -24.1506,
+      "mu_Ga_bulk": -3.0188,
+      "mu_O_Orich_halfO2": -4.8186,
+      "mu_O_Garich_solids": -8.7074,
+      "Ef_VO_Orich": 4.9117,
+      "Ef_VO_Garich": 1.0229,
+      "d_Orich_vs_QE": 1.822,
+      "d_Garich_vs_QE": 0.883,
+      "dHf_Ga2O3_fu": -11.666,
+      "dHf_error_vs_exp": -0.376,
+      "perfect_vol": 876.35,
+      "perfect_vol_QE": 845.9,
+      "conv": {
+        "perfect": true,
+        "vo": true,
+        "o2": true,
+        "ga": true
+      },
+      "t_sec": {
+        "perfect": 1.6,
+        "vo": 2.3,
+        "o2": 0.1,
+        "ga": 0.6
+      }
+    }
+  }
+}

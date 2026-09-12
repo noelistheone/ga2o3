@@ -1,0 +1,91 @@
+# Phase 27 (sputter PDR): Phase 23 baseline + **C-Mixup** label-aware
+# pair sampling in the FiLM-fused embedding space.
+#
+# Vanilla mixup harms regression (linear-interpolated label is wrong across
+# distant labels). C-Mixup (Yao et al. NeurIPS'22, arXiv:2210.05775) samples
+# partner j for anchor i with prob ∝ exp(-(y_i - y_j)² / (2·bw²)) on the
+# primary target — pairs end up close in label space so interpolation is
+# locally meaningful.
+#
+# Use with --multimodal-config config/multimodal_v2_film.yaml.
+head:
+  type: mlp
+  in_dim: 160
+  hidden_dims: [128, 64]
+  dropout: 0.05
+  output_dim: 1
+
+targets:
+  - photo_dark_ratio
+  - vacancy_concentration
+
+loss:
+  type: combined
+  mse_weight: 1.0
+  infonce_weight: 0.0
+  l2_lambda: 0.0
+  infonce_temperature: 0.3
+  init_log_var: 0.0
+  recon_weight: 0.0
+  regression_loss: huber
+  cross_elem_rank_weight: 0.5         # keep Phase 23 BPR rank loss
+  cross_elem_rank_target_idx: 0
+  cross_elem_rank_min_dtrue: 0.2
+  huber_delta: 1.0
+
+training:
+  epochs: 2000
+  learning_rate: 2.0e-4
+  encoder_lr: 5.0e-6
+  encoder_unfreeze_last_n: 0
+  freeze_encoder: true
+  weight_decay: 5.0e-6
+  patience: 300
+  cv_folds: 10
+  batch_size: 16
+  mc_dropout_passes: 20
+  # Phase 27 C-Mixup knobs
+  mixup_alpha: 0.2                    # Beta(0.2, 0.2) — standard for small datasets
+  mixup_label_kernel_bw: 0.5          # Gaussian σ on log10_PDR ≈ 0.5 (≈ ⅓ of std)
+  mixup_primary_target_idx: 0         # photo_dark_ratio is column 0
+  grad_clip: 1.0
+
+pseudo_labeling:
+  enabled: false
+  std_threshold: 0.3
+  phase2_epochs: 500
+  phase2_lr_scale: 0.1
+  mc_passes: 20
+
+augmentation:
+  concentration_jitter: 0.005
+  label_noise_std: 0.0
+  method_shuffle_prob: 0.0
+  substrate_shuffle_prob: 0.3
+
+gp:
+  enabled: false
+  use_embeddings: true
+
+xgboost:
+  n_estimators: 200
+  max_depth: 5
+  learning_rate: 0.05
+  subsample: 0.8
+  colsample_bytree: 0.8
+
+data:
+  log_transform_targets: true
+  mask_noconc_labels: true
+  mask_undoped_labels: true
+  min_conc_threshold: 0.0
+  mask_carrier_vc: true
+  exclude_elements: ["N", "H", "Nb", "In"]
+  target_standardize: true
+  drop_both_nan_rows: false
+
+paths:
+  experimental_csv: data/raw/experimental/ga2o3_exp_aug3x_interp_sputter.csv
+  structures_dir: data/structures
+  embeddings_cache: data/processed/stage2_embeddings.pkl
+  results_dir: results

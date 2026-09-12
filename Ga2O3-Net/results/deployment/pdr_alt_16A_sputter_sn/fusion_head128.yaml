@@ -1,0 +1,89 @@
+# Phase 16A: 13A FiLM recipe trained ONLY on RF magnetron sputtering rows. Synth bank disabled (incompatible with filtered CSV).
+# fusion uses FiLM (γ, β = MLP(comp_emb); proc' = (1+γ)⊙proc + β).
+# Use with --multimodal-config config/multimodal_v2_film.yaml.
+#
+# Phase 12 temperature-sweep showed shape r=0.9998 across all elements,
+# proving zero element×T interaction was learned. FiLM forces element
+# identity to modulate the process embedding before fusion.
+head:
+  type: mlp
+  in_dim: 160
+  hidden_dims: [128, 64]
+  dropout: 0.05
+  output_dim: 1
+
+targets:
+  - photo_dark_ratio
+  - vacancy_concentration
+
+loss:
+  type: combined
+  mse_weight: 1.0
+  infonce_weight: 0.0
+  l2_lambda: 0.0
+  infonce_temperature: 0.3
+  init_log_var: 0.0
+  recon_weight: 0.0
+  regression_loss: huber
+  huber_delta: 1.0
+
+training:
+  epochs: 2000
+  learning_rate: 2.0e-4
+  encoder_lr: 5.0e-6
+  encoder_unfreeze_last_n: 0
+  freeze_encoder: true
+  weight_decay: 5.0e-6
+  patience: 300
+  cv_folds: 10
+  batch_size: 16
+  mc_dropout_passes: 20
+  mixup_alpha: 0.0
+  grad_clip: 1.0
+
+pseudo_labeling:
+  enabled: false
+  std_threshold: 0.3
+  phase2_epochs: 500
+  phase2_lr_scale: 0.1
+  mc_passes: 20
+
+augmentation:
+  concentration_jitter: 0.005
+  label_noise_std: 0.0
+  method_shuffle_prob: 0.0        # Phase 16A: sputter-only, no method to shuffle
+  substrate_shuffle_prob: 0.3     # keep — multiple substrates within sputter
+
+gp:
+  enabled: false
+  use_embeddings: true
+
+xgboost:
+  n_estimators: 200
+  max_depth: 5
+  learning_rate: 0.05
+  subsample: 0.8
+  colsample_bytree: 0.8
+
+data:
+  log_transform_targets: true
+  mask_noconc_labels: true
+  mask_undoped_labels: true
+  min_conc_threshold: 0.0
+  mask_carrier_vc: true
+  exclude_elements: ["N", "H", "Nb", "In"]
+  target_standardize: true
+  drop_both_nan_rows: false
+
+paths:
+  experimental_csv: data/raw/experimental/ga2o3_exp_aug3x_interp_sputter.csv
+  structures_dir: data/structures
+  embeddings_cache: data/processed/stage2_embeddings.pkl
+  results_dir: results
+
+# Phase 12A: latent synthesis bank (cluster-conditional joint Gaussian augmentation)
+# latent_synth:
+#   bank_path: data/processed/phase12b_synth.npz
+#   synth_weight: 0.3              # weight per synth sample inside MSE
+#   synth_per_step: 8              # synth rows mixed into each gradient step
+#   synth_loss_weight: 1.0         # scales the synth-loss term added to total
