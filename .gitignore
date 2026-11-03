@@ -37,3 +37,19 @@ tmp.*
 **/data/raw/
 **/data/processed/
 **/checkpoints/*.bin
+
+# Local outputs from the CPC entry points.
+cpc/.venv/
+cpc/runs/
+cpc/replay_runs/
+cpc/**/external/KROGER/
+cpc/**/kroger_ga2o3_092724*.npz
+# The CPC release tracks source code and README only, with dependency files.
+cpc/source_data/
+cpc/verification/
+cpc/figures/
+cpc/tables/
+cpc/research/data/
+cpc/research/results/
+cpc/**/AGENTS.md
+cpc/**/agent.md
