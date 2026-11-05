@@ -1,0 +1,68 @@
+{
+  "original_replay_max_error": 3.552713678800501e-15,
+  "original_replay_cases": 12,
+  "prediction_rows": 160,
+  "all_valid": true,
+  "selected_labels": [
+    {
+      "element": "Si",
+      "step": 1,
+      "label_id": "182:-2",
+      "parent": 182,
+      "q": -2,
+      "q_reference": 0,
+      "delta_Ga": -2,
+      "delta_O": 0,
+      "dopant_atoms": 1,
+      "selected_utility_rank": 1,
+      "mean_abs_sensitivity_dex_per_eV": 2.066462382243093,
+      "max_abs_sensitivity_dex_per_eV": 3.9405685213841446,
+      "local_design_variance_share": 0.999419914449277
+    },
+    {
+      "element": "Si",
+      "step": 2,
+      "label_id": "177:-2",
+      "parent": 177,
+      "q": -2,
+      "q_reference": 0,
+      "delta_Ga": -2,
+      "delta_O": 0,
+      "dopant_atoms": 1,
+      "selected_utility_rank": 1,
+      "mean_abs_sensitivity_dex_per_eV": 0.9874467501520146,
+      "max_abs_sensitivity_dex_per_eV": 3.5388774962991456,
+      "local_design_variance_share": 0.9946265196511757
+    },
+    {
+      "element": "Sn",
+      "step": 1,
+      "label_id": "156:-2",
+      "parent": 156,
+      "q": -2,
+      "q_reference": 0,
+      "delta_Ga": -2,
+      "delta_O": 0,
+      "dopant_atoms": 1,
+      "selected_utility_rank": 1,
+      "mean_abs_sensitivity_dex_per_eV": 2.169253135521663,
+      "max_abs_sensitivity_dex_per_eV": 3.9510152383985,
+      "local_design_variance_share": 0.9999768884135534
+    },
+    {
+      "element": "Sn",
+      "step": 2,
+      "label_id": "158:-2",
+      "parent": 158,
+      "q": -2,
+      "q_reference": 0,
+      "delta_Ga": -2,
+      "delta_O": 0,
+      "dopant_atoms": 1,
+      "selected_utility_rank": 1,
+      "mean_abs_sensitivity_dex_per_eV": 0.0684406333370846,
+      "max_abs_sensitivity_dex_per_eV": 0.2230180121045357,
+      "local_design_variance_share": 0.951020288729566
+    }
+  ]
+}

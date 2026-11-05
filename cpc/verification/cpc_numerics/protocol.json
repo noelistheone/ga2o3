@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "design_T_K": [
+    1100.0,
+    1500.0
+  ],
+  "design_C_cm3": [
+    3e+17,
+    3e+19
+  ],
+  "elements": [
+    "Si",
+    "Sn"
+  ],
+  "energetic_dimensions": [
+    1,
+    4,
+    16,
+    "all"
+  ],
+  "repetitions": 3,
+  "fd_steps": [
+    0.001,
+    0.0001,
+    1e-05,
+    1e-06
+  ],
+  "primary_step": 1e-05,
+  "timings": "three interleaved complete Jacobians; one cold-start per method/repetition; FD perturbations may warm-start",
+  "computation": "single-thread CPU float64; same hot state Jacobian and residual code, same cold roots; forward skips IFT backsolve/output parameter derivatives",
+  "coordinates": "relative charge energies in eV; deterministic input label order, not selected by observed errors",
+  "independent_reference": "pre-existing nested charge/chemical-potential bracketing engine; same catalogue/thermochemistry/statistics, different nonlinear root path; not third-party program execution",
+  "thresholds": {
+    "forward_dex": 1e-09,
+    "primary_gradient_scaled": 0.0003,
+    "engine_dex": 1e-05
+  },
+  "code_sha256": {
+    "benchmark_cpc.py": "e9ebb615ea1cf8cc83b1f6f14704c1d8d9382b3a98423a48ea8e296706f00b4b",
+    "cpc_numerics.py": "44ad8b03b994e9371ee3eaf9089d0354149f34581700ab36f3d20600af4a6054"
+  },
+  "software": {
+    "python": "3.11.11",
+    "numpy": "2.3.5",
+    "platform": "Linux-7.0.0-38-generic-x86_64-with-glibc2.39",
+    "processor": "x86_64",
+    "cpu_model": "AMD Ryzen 9 5950X 16-Core Processor"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "kind": "thermal",
+  "held": "10.1063/5.0101132",
+  "train_units": [
+    "10.1002/aelm.202300679",
+    "10.1007/s10853-015-9693-6",
+    "10.1007/s40843-022-2167-x",
+    "10.1063/5.0027870"
+  ],
+  "input_sha256": "187d6580d3a0e618c389bef032d38dd07669ef5a39d6a0d02213a846dfb8302f",
+  "alpha": 0.0,
+  "starts": [
+    [
+      0.9388555436835619,
+      16.0,
+      -1.5228787452803376,
+      0.2
+    ],
+    [
+      2.2917194669523435,
+      15.5,
+      -1.2218487496163564,
+      1.0
+    ]
+  ],
+  "bounds": [
+    [
+      -6.0,
+      14.0,
+      -2.5228787452803374,
+      0.0
+    ],
+    [
+      6.0,
+      18.0,
+      -0.6989700043360187,
+      5.0
+    ]
+  ],
+  "max_nfev": 80,
+  "derivative": "FD",
+  "tolerances": 1e-07,
+  "fd_step": 1e-05,
+  "weighting": "equal source, specimen, observation; inventory additionally equal related groups and conditional scenarios",
+  "purpose": "fresh portable fit; does not replace archived headline fits",
+  "no_query_labels_used_in_optimization": true
+}

@@ -1,0 +1,9 @@
+method,scope,MAE,conditions,sources
+FixedNHReference,common20,0.4147680810534015,20,6
+FixedNHReference,all35,0.4465055570275099,35,7
+LearnedNHInventory,common20,0.3377212625661638,20,6
+LearnedNHInventory,all35,0.3477350326718911,35,7
+DirectQuadratic6,common20,0.6429218459497571,20,6
+DirectQuadratic6,all35,0.6760950498514601,35,7
+ReducedInventory6,common20,0.6339812725035351,20,6
+ReducedInventory6,all35,0.636286408470459,35,7

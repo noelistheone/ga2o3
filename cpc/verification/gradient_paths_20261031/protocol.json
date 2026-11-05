@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "elements": [
+    "Si",
+    "Sn"
+  ],
+  "Tf_K": [
+    1100.0,
+    1500.0
+  ],
+  "C_cm3": [
+    3e+17,
+    3e+19
+  ],
+  "Nd_cm3": 9100000000000000.0,
+  "pO2_atm": 1e-05,
+  "Tmeasurement_K": 300.0,
+  "fd_steps_eV": [
+    0.0001,
+    1e-05
+  ],
+  "primary_step_eV": 1e-05,
+  "coordinate_order": "all stored relative labels",
+  "scope": "mechanism of the numerical derivative; no materials refit",
+  "frozen_control": "hold ALL parent concentrations at baseline; recompute cold charge occupations and neutrality",
+  "score": "Euclidean norm of omitted inventory contribution / norm of full energetic Jacobian; all coordinates retained",
+  "source_sha256": "bcf2e1feb5faccb2f0fae77ebb6c59884805973d827c671a910a6d83def345f3"
+}

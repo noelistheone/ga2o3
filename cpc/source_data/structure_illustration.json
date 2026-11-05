@@ -1,0 +1,9 @@
+{
+  "source": "dft/qe_cc/gate2_perfect.in",
+  "atom_count": 80,
+  "formula": "Ga32O48",
+  "neighbor_cutoff_Angstrom": 2.35,
+  "GaI_index": 16,
+  "GaII_index": 8,
+  "motif": "idealized donor substitution and Ga vacancy on host positions;not a relaxed defect structure"
+}

@@ -1,0 +1,18 @@
+{
+  "configurations": 32,
+  "timed_jacobians": 192,
+  "gradient_coordinates": 1504,
+  "independent_root_cases": 8,
+  "failures": 0,
+  "max_forward_error_dex": 3.552713678800501e-15,
+  "max_primary_gradient_scaled": 5.019035057612011e-07,
+  "max_independent_error_dex": 1.2860783016321875e-07,
+  "speedup_by_dimension": {
+    "1": 1.5847002741599225,
+    "4": 5.43289432843177,
+    "16": 20.384438253572462,
+    "23": 28.165293303712417,
+    "29": 37.4595515118764
+  },
+  "passed": true
+}

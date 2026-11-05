@@ -1,0 +1,14 @@
+{
+  "training_ift_seconds": 5.8527228478342295,
+  "training_fd_seconds": 47.2348271231167,
+  "speedup": 8.070573022366114,
+  "IFT_physical_calls": 1980,
+  "FD_physical_calls": 18370,
+  "loss_difference": 7.105427357601002e-14,
+  "max_parameter_difference": 2.871649140701038e-09,
+  "max_query_difference_dex": 1.8943708823826455e-09,
+  "all_starts_converged": true,
+  "training_rows": 110,
+  "query_rows": 57,
+  "held": "10.1063/5.0101132"
+}

@@ -1,0 +1,9 @@
+method,scope,MAE,reads
+Fixed donor,all142,0.7444435668802556,142
+Fixed donor,common80,0.8574790620463257,80
+Primary learned,all142,0.26491452043522856,142
+Primary learned,common80,0.2975494318865384,80
+Direct Ridge,all142,0.3453045582377259,142
+Direct Ridge,common80,0.32337953206215975,80
+Expanded bounds,all142,0.2801922022234571,142
+Expanded bounds,common80,0.3232750198991846,80

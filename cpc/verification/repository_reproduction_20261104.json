@@ -1,0 +1,246 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-04",
+  "scope": "Clean published-file snapshot validation; original article prediction tables and manuscript retained unchanged.",
+  "environment": {
+    "python": "3.11.11",
+    "numpy": "2.3.5",
+    "scipy": "1.17.1",
+    "pandas": "2.3.3"
+  },
+  "saved_result_checks": {
+    "metrics": 331,
+    "submission_controls": 74,
+    "gradient_summary": 448
+  },
+  "generated_figure_pdfs": 10,
+  "generated_tex_tables": 13,
+  "inventory_replay": {
+    "count": 98,
+    "passed": 98,
+    "maximum_error_dex": 4.973799150320701e-14
+  },
+  "fresh_thermal_derivative_comparison": {
+    "query_records": 57,
+    "max_prediction_difference_dex": 1.8943708823826455e-09
+  },
+  "numerical_benchmark": {
+    "configurations": 32,
+    "timed_jacobians": 192,
+    "gradient_coordinates": 1504,
+    "independent_root_cases": 8,
+    "failures": 0,
+    "max_forward_error_dex": 3.552713678800501e-15,
+    "max_primary_gradient_scaled": 5.019035057612011e-07,
+    "max_independent_error_dex": 1.2860783016321875e-07,
+    "speedup_by_dimension": {
+      "1": 1.5834400472954218,
+      "4": 5.46335540292284,
+      "16": 20.549118401855047,
+      "23": 28.643214057956246,
+      "29": 37.263295055354206
+    },
+    "passed": true
+  },
+  "gradient_path_benchmark": {
+    "settings": 8,
+    "energetic_coordinates": 208,
+    "derivative_comparisons": 832,
+    "max_full_gradient_error": 5.019035057612011e-07,
+    "max_frozen_gradient_error": 5.8797411384148284e-08,
+    "max_additive_error": 1.4481749133210542e-12,
+    "max_baseline_value_error": 3.552713678800501e-15,
+    "omitted_relative_min": 0.7508574276871021,
+    "omitted_relative_max": 1.000000000005734,
+    "passed": true
+  },
+  "completed_commands": [
+    {
+      "command": [
+        "scripts/verify_release.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "scripts/verify_metrics.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "scripts/summarize_submission_validation.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "scripts/summarize_gradient_paths.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "scripts/make_tables.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "scripts/make_figures.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "scripts/make_cpc_figure.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "scripts/prepare_kroger_input.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "scripts/replay_inventory.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "scripts/sandbox_workflow.py",
+        "fit",
+        "--kind",
+        "inventory",
+        "--input",
+        "source_data/validation_room_inputs.csv",
+        "--held",
+        "10.1007/s40843-022-2167-x",
+        "--output",
+        "runs/inventory"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "scripts/sandbox_workflow.py",
+        "acquire",
+        "--element",
+        "Si",
+        "--budget",
+        "2",
+        "--output",
+        "runs/energy_si"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "scripts/sandbox_workflow.py",
+        "predict",
+        "--model",
+        "runs/inventory/model.json",
+        "--input",
+        "examples/query_inputs.csv",
+        "--output",
+        "runs/prediction.csv"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "scripts/sandbox_workflow.py",
+        "predict",
+        "--model",
+        "verification/cpc_workflow/inventory_ift/model.json",
+        "--input",
+        "examples/query_inputs.csv",
+        "--output",
+        "runs/saved_model_prediction.csv"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "examples/predict_example.py",
+        "--element",
+        "Si",
+        "--dose",
+        "1e18"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "scripts/sandbox_workflow.py",
+        "fit",
+        "--kind",
+        "thermal",
+        "--input",
+        "source_data/validation_thermal_inputs.csv",
+        "--held",
+        "10.1063/5.0101132",
+        "--derivative",
+        "IFT",
+        "--output",
+        "runs/thermal_ift"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "scripts/sandbox_workflow.py",
+        "fit",
+        "--kind",
+        "thermal",
+        "--input",
+        "source_data/validation_thermal_inputs.csv",
+        "--held",
+        "10.1063/5.0101132",
+        "--derivative",
+        "FD",
+        "--output",
+        "runs/thermal_fd"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "scripts/sandbox_workflow.py",
+        "acquire",
+        "--element",
+        "Sn",
+        "--budget",
+        "2",
+        "--output",
+        "runs/energy_sn"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "scripts/benchmark_cpc.py",
+        "--output",
+        "runs/numerics"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "scripts/benchmark_gradient_paths.py",
+        "--output",
+        "runs/gradient_paths"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "execution_isolation": {
+    "inputs": "Only published files were copied into the test directory; KROGER was then fetched using the pinned preparation script.",
+    "file_guard": "Reads outside that directory into the research workspace were denied by a Python audit hook.",
+    "original_article_prediction_tables_changed": false,
+    "manuscript_changed": false
+  }
+}

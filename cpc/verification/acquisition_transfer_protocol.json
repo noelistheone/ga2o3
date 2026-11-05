@@ -1,0 +1,51 @@
+{
+  "query": [
+    [
+      925.0,
+      3e+17
+    ],
+    [
+      925.0,
+      3e+18
+    ],
+    [
+      925.0,
+      3e+19
+    ],
+    [
+      925.0,
+      3e+20
+    ],
+    [
+      1600.0,
+      3e+17
+    ],
+    [
+      1600.0,
+      3e+18
+    ],
+    [
+      1600.0,
+      3e+19
+    ],
+    [
+      1600.0,
+      3e+20
+    ]
+  ],
+  "budgets": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "policies": [
+    "goal",
+    "energy_variance"
+  ],
+  "selection": "Replay original selected labels; no re-ranking using new queries",
+  "target": "Full-catalogue virtual response, not newly measured materials",
+  "protocol_correction": "Initial900K is a thermochemical piece boundary rejected before any query scores; moved to925K, retaining the initial failure record",
+  "code_sha256": "15467882b09e3bb988cda07c623e8c88ecaae917815f4ba0cdb856c9ff1b1014"
+}

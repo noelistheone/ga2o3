@@ -1,0 +1,595 @@
+{
+  "count": 98,
+  "passed": 98,
+  "maximum_error_dex": 4.973799150320701e-14,
+  "records": [
+    {
+      "case_id": "10.1002/aelm.202300679::TEOS-1::scenario0",
+      "variant": "FixedNHReference",
+      "absolute_replay_error_dex": 2.842170943040401e-14,
+      "passed": true
+    },
+    {
+      "case_id": "10.1002/aelm.202300679::TEOS-2::scenario0",
+      "variant": "FixedNHReference",
+      "absolute_replay_error_dex": 2.842170943040401e-14,
+      "passed": true
+    },
+    {
+      "case_id": "10.1002/aelm.202300679::TEOS-3::scenario0",
+      "variant": "FixedNHReference",
+      "absolute_replay_error_dex": 1.4210854715202004e-14,
+      "passed": true
+    },
+    {
+      "case_id": "10.1007/s10853-015-9693-6::Fig5-marker01::scenario0",
+      "variant": "FixedNHReference",
+      "absolute_replay_error_dex": 3.552713678800501e-14,
+      "passed": true
+    },
+    {
+      "case_id": "10.1007/s10853-015-9693-6::Fig5-marker02::scenario0",
+      "variant": "FixedNHReference",
+      "absolute_replay_error_dex": 3.552713678800501e-14,
+      "passed": true
+    },
+    {
+      "case_id": "10.1007/s10853-015-9693-6::Fig5-marker03::scenario0",
+      "variant": "FixedNHReference",
+      "absolute_replay_error_dex": 1.4210854715202004e-14,
+      "passed": true
+    },
+    {
+      "case_id": "10.1007/s10853-015-9693-6::Fig5-marker04::scenario0",
+      "variant": "FixedNHReference",
+      "absolute_replay_error_dex": 4.263256414560601e-14,
+      "passed": true
+    },
+    {
+      "case_id": "10.1007/s10853-015-9693-6::Fig5-marker05::scenario0",
+      "variant": "FixedNHReference",
+      "absolute_replay_error_dex": 4.263256414560601e-14,
+      "passed": true
+    },
+    {
+      "case_id": "10.1007/s10853-015-9693-6::Fig5-marker06::scenario0",
+      "variant": "FixedNHReference",
+      "absolute_replay_error_dex": 4.263256414560601e-14,
+      "passed": true
+    },
+    {
+      "case_id": "10.1007/s10853-015-9693-6::Fig5-marker07::scenario0",
+      "variant": "FixedNHReference",
+      "absolute_replay_error_dex": 4.263256414560601e-14,
+      "passed": true
+    },
+    {
+      "case_id": "10.1007/s10853-015-9693-6::Fig5-marker08::scenario0",
+      "variant": "FixedNHReference",
+      "absolute_replay_error_dex": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "10.1039/c5ce01106j::A::scenario0",
+      "variant": "FixedNHReference",
+      "absolute_replay_error_dex": 1.0658141036401503e-14,
+      "passed": true
+    },
+    {
+      "case_id": "10.1039/c5ce01106j::A::scenario1",
+      "variant": "FixedNHReference",
+      "absolute_replay_error_dex": 1.7763568394002505e-14,
+      "passed": true
+    },
+    {
+      "case_id": "10.1039/c5ce01106j::A::scenario2",
+      "variant": "FixedNHReference",
+      "absolute_replay_error_dex": 1.0658141036401503e-14,
+      "passed": true
+    },
+    {
+      "case_id": "10.1039/c5ce01106j::A::scenario3",
+      "variant": "FixedNHReference",
+      "absolute_replay_error_dex": 1.7763568394002505e-14,
+      "passed": true
+    },
+    {
+      "case_id": "10.1039/c5ce01106j::A::scenario4",
+      "variant": "FixedNHReference",
+      "absolute_replay_error_dex": 1.0658141036401503e-14,
+      "passed": true
+    },
+    {
+      "case_id": "10.1039/c5ce01106j::A::scenario5",
+      "variant": "FixedNHReference",
+      "absolute_replay_error_dex": 1.7763568394002505e-14,
+      "passed": true
+    },
+    {
+      "case_id": "10.1039/c5ce01106j::A::scenario6",
+      "variant": "FixedNHReference",
+      "absolute_replay_error_dex": 1.0658141036401503e-14,
+      "passed": true
+    },
+    {
+      "case_id": "10.1039/c5ce01106j::A::scenario7",
+      "variant": "FixedNHReference",
+      "absolute_replay_error_dex": 1.7763568394002505e-14,
+      "passed": true
+    },
+    {
+      "case_id": "10.1039/c5ce01106j::B::scenario0",
+      "variant": "FixedNHReference",
+      "absolute_replay_error_dex": 4.263256414560601e-14,
+      "passed": true
+    },
+    {
+      "case_id": "10.1039/c5ce01106j::B::scenario1",
+      "variant": "FixedNHReference",
+      "absolute_replay_error_dex": 3.552713678800501e-14,
+      "passed": true
+    },
+    {
+      "case_id": "10.1039/c5ce01106j::B::scenario2",
+      "variant": "FixedNHReference",
+      "absolute_replay_error_dex": 4.263256414560601e-14,
+      "passed": true
+    },
+    {
+      "case_id": "10.1039/c5ce01106j::B::scenario3",
+      "variant": "FixedNHReference",
+      "absolute_replay_error_dex": 3.552713678800501e-14,
+      "passed": true
+    },
+    {
+      "case_id": "10.1039/c5ce01106j::B::scenario4",
+      "variant": "FixedNHReference",
+      "absolute_replay_error_dex": 4.263256414560601e-14,
+      "passed": true
+    },
+    {
+      "case_id": "10.1039/c5ce01106j::B::scenario5",
+      "variant": "FixedNHReference",
+      "absolute_replay_error_dex": 3.552713678800501e-14,
+      "passed": true
+    },
+    {
+      "case_id": "10.1039/c5ce01106j::B::scenario6",
+      "variant": "FixedNHReference",
+      "absolute_replay_error_dex": 4.263256414560601e-14,
+      "passed": true
+    },
+    {
+      "case_id": "10.1039/c5ce01106j::B::scenario7",
+      "variant": "FixedNHReference",
+      "absolute_replay_error_dex": 3.552713678800501e-14,
+      "passed": true
+    },
+    {
+      "case_id": "10.1007/s40843-022-2167-x::A::scenario0",
+      "variant": "FixedNHReference",
+      "absolute_replay_error_dex": 2.1316282072803006e-14,
+      "passed": true
+    },
+    {
+      "case_id": "10.1007/s40843-022-2167-x::B::scenario0",
+      "variant": "FixedNHReference",
+      "absolute_replay_error_dex": 3.552713678800501e-15,
+      "passed": true
+    },
+    {
+      "case_id": "10.1007/s40843-022-2167-x::C::scenario0",
+      "variant": "FixedNHReference",
+      "absolute_replay_error_dex": 3.197442310920451e-14,
+      "passed": true
+    },
+    {
+      "case_id": "10.1007/s40843-022-2167-x::D::scenario0",
+      "variant": "FixedNHReference",
+      "absolute_replay_error_dex": 4.263256414560601e-14,
+      "passed": true
+    },
+    {
+      "case_id": "10.1063/5.0027870::Fig4b-marker01::scenario0",
+      "variant": "FixedNHReference",
+      "absolute_replay_error_dex": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "10.1063/5.0027870::Fig4b-marker02::scenario0",
+      "variant": "FixedNHReference",
+      "absolute_replay_error_dex": 1.4210854715202004e-14,
+      "passed": true
+    },
+    {
+      "case_id": "10.1063/5.0027870::Fig4b-marker03::scenario0",
+      "variant": "FixedNHReference",
+      "absolute_replay_error_dex": 1.4210854715202004e-14,
+      "passed": true
+    },
+    {
+      "case_id": "10.1063/5.0027870::Fig4b-marker04::scenario0",
+      "variant": "FixedNHReference",
+      "absolute_replay_error_dex": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "10.1063/5.0027870::Fig4b-marker05::scenario0",
+      "variant": "FixedNHReference",
+      "absolute_replay_error_dex": 3.552713678800501e-15,
+      "passed": true
+    },
+    {
+      "case_id": "10.1063/5.0027870::Fig4b-marker06::scenario0",
+      "variant": "FixedNHReference",
+      "absolute_replay_error_dex": 2.842170943040401e-14,
+      "passed": true
+    },
+    {
+      "case_id": "10.1063/5.0027870::Fig4b-marker07::scenario0",
+      "variant": "FixedNHReference",
+      "absolute_replay_error_dex": 1.0658141036401503e-14,
+      "passed": true
+    },
+    {
+      "case_id": "10.1063/5.0027870::Fig4b-marker08::scenario0",
+      "variant": "FixedNHReference",
+      "absolute_replay_error_dex": 4.618527782440651e-14,
+      "passed": true
+    },
+    {
+      "case_id": "10.1063/5.0027870::Fig4b-marker09::scenario0",
+      "variant": "FixedNHReference",
+      "absolute_replay_error_dex": 4.618527782440651e-14,
+      "passed": true
+    },
+    {
+      "case_id": "10.1063/5.0027870::Fig4b-marker10::scenario0",
+      "variant": "FixedNHReference",
+      "absolute_replay_error_dex": 4.973799150320701e-14,
+      "passed": true
+    },
+    {
+      "case_id": "10.1063/5.0027870::Fig4b-marker11::scenario0",
+      "variant": "FixedNHReference",
+      "absolute_replay_error_dex": 2.4868995751603507e-14,
+      "passed": true
+    },
+    {
+      "case_id": "10.1063/5.0101132::1::scenario0",
+      "variant": "FixedNHReference",
+      "absolute_replay_error_dex": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "10.1063/5.0101132::2::scenario0",
+      "variant": "FixedNHReference",
+      "absolute_replay_error_dex": 3.552713678800501e-14,
+      "passed": true
+    },
+    {
+      "case_id": "10.1063/5.0101132::3::scenario0",
+      "variant": "FixedNHReference",
+      "absolute_replay_error_dex": 2.4868995751603507e-14,
+      "passed": true
+    },
+    {
+      "case_id": "10.1063/1.5047214::target-0.01::scenario0",
+      "variant": "FixedNHReference",
+      "absolute_replay_error_dex": 4.263256414560601e-14,
+      "passed": true
+    },
+    {
+      "case_id": "10.1063/1.5047214::target-0.025::scenario0",
+      "variant": "FixedNHReference",
+      "absolute_replay_error_dex": 2.1316282072803006e-14,
+      "passed": true
+    },
+    {
+      "case_id": "10.1063/1.5047214::target-0.1::scenario0",
+      "variant": "FixedNHReference",
+      "absolute_replay_error_dex": 2.1316282072803006e-14,
+      "passed": true
+    },
+    {
+      "case_id": "10.1063/1.5047214::target-1::scenario0",
+      "variant": "FixedNHReference",
+      "absolute_replay_error_dex": 3.552713678800501e-15,
+      "passed": true
+    },
+    {
+      "case_id": "10.1007/s10853-015-9693-6::Fig5-marker01::scenario0",
+      "variant": "LearnedNHInventory",
+      "absolute_replay_error_dex": 7.105427357601002e-15,
+      "passed": true
+    },
+    {
+      "case_id": "10.1007/s10853-015-9693-6::Fig5-marker02::scenario0",
+      "variant": "LearnedNHInventory",
+      "absolute_replay_error_dex": 7.105427357601002e-15,
+      "passed": true
+    },
+    {
+      "case_id": "10.1007/s10853-015-9693-6::Fig5-marker03::scenario0",
+      "variant": "LearnedNHInventory",
+      "absolute_replay_error_dex": 1.4210854715202004e-14,
+      "passed": true
+    },
+    {
+      "case_id": "10.1007/s10853-015-9693-6::Fig5-marker04::scenario0",
+      "variant": "LearnedNHInventory",
+      "absolute_replay_error_dex": 1.0658141036401503e-14,
+      "passed": true
+    },
+    {
+      "case_id": "10.1007/s10853-015-9693-6::Fig5-marker05::scenario0",
+      "variant": "LearnedNHInventory",
+      "absolute_replay_error_dex": 1.4210854715202004e-14,
+      "passed": true
+    },
+    {
+      "case_id": "10.1007/s10853-015-9693-6::Fig5-marker06::scenario0",
+      "variant": "LearnedNHInventory",
+      "absolute_replay_error_dex": 3.907985046680551e-14,
+      "passed": true
+    },
+    {
+      "case_id": "10.1007/s10853-015-9693-6::Fig5-marker07::scenario0",
+      "variant": "LearnedNHInventory",
+      "absolute_replay_error_dex": 3.907985046680551e-14,
+      "passed": true
+    },
+    {
+      "case_id": "10.1007/s10853-015-9693-6::Fig5-marker08::scenario0",
+      "variant": "LearnedNHInventory",
+      "absolute_replay_error_dex": 4.973799150320701e-14,
+      "passed": true
+    },
+    {
+      "case_id": "10.1039/c5ce01106j::A::scenario0",
+      "variant": "LearnedNHInventory",
+      "absolute_replay_error_dex": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "10.1039/c5ce01106j::A::scenario1",
+      "variant": "LearnedNHInventory",
+      "absolute_replay_error_dex": 4.263256414560601e-14,
+      "passed": true
+    },
+    {
+      "case_id": "10.1039/c5ce01106j::A::scenario2",
+      "variant": "LearnedNHInventory",
+      "absolute_replay_error_dex": 1.4210854715202004e-14,
+      "passed": true
+    },
+    {
+      "case_id": "10.1039/c5ce01106j::A::scenario3",
+      "variant": "LearnedNHInventory",
+      "absolute_replay_error_dex": 2.842170943040401e-14,
+      "passed": true
+    },
+    {
+      "case_id": "10.1039/c5ce01106j::A::scenario4",
+      "variant": "LearnedNHInventory",
+      "absolute_replay_error_dex": 3.197442310920451e-14,
+      "passed": true
+    },
+    {
+      "case_id": "10.1039/c5ce01106j::A::scenario5",
+      "variant": "LearnedNHInventory",
+      "absolute_replay_error_dex": 2.842170943040401e-14,
+      "passed": true
+    },
+    {
+      "case_id": "10.1039/c5ce01106j::A::scenario6",
+      "variant": "LearnedNHInventory",
+      "absolute_replay_error_dex": 1.0658141036401503e-14,
+      "passed": true
+    },
+    {
+      "case_id": "10.1039/c5ce01106j::A::scenario7",
+      "variant": "LearnedNHInventory",
+      "absolute_replay_error_dex": 4.973799150320701e-14,
+      "passed": true
+    },
+    {
+      "case_id": "10.1039/c5ce01106j::B::scenario0",
+      "variant": "LearnedNHInventory",
+      "absolute_replay_error_dex": 4.263256414560601e-14,
+      "passed": true
+    },
+    {
+      "case_id": "10.1039/c5ce01106j::B::scenario1",
+      "variant": "LearnedNHInventory",
+      "absolute_replay_error_dex": 3.552713678800501e-15,
+      "passed": true
+    },
+    {
+      "case_id": "10.1039/c5ce01106j::B::scenario2",
+      "variant": "LearnedNHInventory",
+      "absolute_replay_error_dex": 3.552713678800501e-15,
+      "passed": true
+    },
+    {
+      "case_id": "10.1039/c5ce01106j::B::scenario3",
+      "variant": "LearnedNHInventory",
+      "absolute_replay_error_dex": 3.552713678800501e-15,
+      "passed": true
+    },
+    {
+      "case_id": "10.1039/c5ce01106j::B::scenario4",
+      "variant": "LearnedNHInventory",
+      "absolute_replay_error_dex": 4.263256414560601e-14,
+      "passed": true
+    },
+    {
+      "case_id": "10.1039/c5ce01106j::B::scenario5",
+      "variant": "LearnedNHInventory",
+      "absolute_replay_error_dex": 1.7763568394002505e-14,
+      "passed": true
+    },
+    {
+      "case_id": "10.1039/c5ce01106j::B::scenario6",
+      "variant": "LearnedNHInventory",
+      "absolute_replay_error_dex": 3.552713678800501e-15,
+      "passed": true
+    },
+    {
+      "case_id": "10.1039/c5ce01106j::B::scenario7",
+      "variant": "LearnedNHInventory",
+      "absolute_replay_error_dex": 1.7763568394002505e-14,
+      "passed": true
+    },
+    {
+      "case_id": "10.1002/aelm.202300679::TEOS-1::scenario0",
+      "variant": "LearnedNHInventory",
+      "absolute_replay_error_dex": 2.1316282072803006e-14,
+      "passed": true
+    },
+    {
+      "case_id": "10.1002/aelm.202300679::TEOS-2::scenario0",
+      "variant": "LearnedNHInventory",
+      "absolute_replay_error_dex": 3.197442310920451e-14,
+      "passed": true
+    },
+    {
+      "case_id": "10.1002/aelm.202300679::TEOS-3::scenario0",
+      "variant": "LearnedNHInventory",
+      "absolute_replay_error_dex": 3.552713678800501e-15,
+      "passed": true
+    },
+    {
+      "case_id": "10.1063/5.0101132::1::scenario0",
+      "variant": "LearnedNHInventory",
+      "absolute_replay_error_dex": 3.197442310920451e-14,
+      "passed": true
+    },
+    {
+      "case_id": "10.1063/5.0101132::2::scenario0",
+      "variant": "LearnedNHInventory",
+      "absolute_replay_error_dex": 4.973799150320701e-14,
+      "passed": true
+    },
+    {
+      "case_id": "10.1063/5.0101132::3::scenario0",
+      "variant": "LearnedNHInventory",
+      "absolute_replay_error_dex": 7.105427357601002e-15,
+      "passed": true
+    },
+    {
+      "case_id": "10.1063/1.5047214::target-0.01::scenario0",
+      "variant": "LearnedNHInventory",
+      "absolute_replay_error_dex": 7.105427357601002e-15,
+      "passed": true
+    },
+    {
+      "case_id": "10.1063/1.5047214::target-0.025::scenario0",
+      "variant": "LearnedNHInventory",
+      "absolute_replay_error_dex": 2.842170943040401e-14,
+      "passed": true
+    },
+    {
+      "case_id": "10.1063/1.5047214::target-0.1::scenario0",
+      "variant": "LearnedNHInventory",
+      "absolute_replay_error_dex": 2.1316282072803006e-14,
+      "passed": true
+    },
+    {
+      "case_id": "10.1063/1.5047214::target-1::scenario0",
+      "variant": "LearnedNHInventory",
+      "absolute_replay_error_dex": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "10.1007/s40843-022-2167-x::A::scenario0",
+      "variant": "LearnedNHInventory",
+      "absolute_replay_error_dex": 4.618527782440651e-14,
+      "passed": true
+    },
+    {
+      "case_id": "10.1007/s40843-022-2167-x::B::scenario0",
+      "variant": "LearnedNHInventory",
+      "absolute_replay_error_dex": 3.552713678800501e-15,
+      "passed": true
+    },
+    {
+      "case_id": "10.1007/s40843-022-2167-x::C::scenario0",
+      "variant": "LearnedNHInventory",
+      "absolute_replay_error_dex": 1.0658141036401503e-14,
+      "passed": true
+    },
+    {
+      "case_id": "10.1007/s40843-022-2167-x::D::scenario0",
+      "variant": "LearnedNHInventory",
+      "absolute_replay_error_dex": 3.552713678800501e-15,
+      "passed": true
+    },
+    {
+      "case_id": "10.1063/5.0027870::Fig4b-marker01::scenario0",
+      "variant": "LearnedNHInventory",
+      "absolute_replay_error_dex": 0.0,
+      "passed": true
+    },
+    {
+      "case_id": "10.1063/5.0027870::Fig4b-marker02::scenario0",
+      "variant": "LearnedNHInventory",
+      "absolute_replay_error_dex": 4.263256414560601e-14,
+      "passed": true
+    },
+    {
+      "case_id": "10.1063/5.0027870::Fig4b-marker03::scenario0",
+      "variant": "LearnedNHInventory",
+      "absolute_replay_error_dex": 3.907985046680551e-14,
+      "passed": true
+    },
+    {
+      "case_id": "10.1063/5.0027870::Fig4b-marker04::scenario0",
+      "variant": "LearnedNHInventory",
+      "absolute_replay_error_dex": 2.1316282072803006e-14,
+      "passed": true
+    },
+    {
+      "case_id": "10.1063/5.0027870::Fig4b-marker05::scenario0",
+      "variant": "LearnedNHInventory",
+      "absolute_replay_error_dex": 3.552713678800501e-15,
+      "passed": true
+    },
+    {
+      "case_id": "10.1063/5.0027870::Fig4b-marker06::scenario0",
+      "variant": "LearnedNHInventory",
+      "absolute_replay_error_dex": 1.7763568394002505e-14,
+      "passed": true
+    },
+    {
+      "case_id": "10.1063/5.0027870::Fig4b-marker07::scenario0",
+      "variant": "LearnedNHInventory",
+      "absolute_replay_error_dex": 1.7763568394002505e-14,
+      "passed": true
+    },
+    {
+      "case_id": "10.1063/5.0027870::Fig4b-marker08::scenario0",
+      "variant": "LearnedNHInventory",
+      "absolute_replay_error_dex": 1.0658141036401503e-14,
+      "passed": true
+    },
+    {
+      "case_id": "10.1063/5.0027870::Fig4b-marker09::scenario0",
+      "variant": "LearnedNHInventory",
+      "absolute_replay_error_dex": 1.4210854715202004e-14,
+      "passed": true
+    },
+    {
+      "case_id": "10.1063/5.0027870::Fig4b-marker10::scenario0",
+      "variant": "LearnedNHInventory",
+      "absolute_replay_error_dex": 1.4210854715202004e-14,
+      "passed": true
+    },
+    {
+      "case_id": "10.1063/5.0027870::Fig4b-marker11::scenario0",
+      "variant": "LearnedNHInventory",
+      "absolute_replay_error_dex": 1.7763568394002505e-14,
+      "passed": true
+    }
+  ]
+}

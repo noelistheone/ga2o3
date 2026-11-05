@@ -1,0 +1,33 @@
+{
+  "element": "Sn",
+  "model": "extra_trees",
+  "config": {
+    "max_depth": null,
+    "min_samples_leaf": 2
+  },
+  "budget": 2,
+  "design_T": [
+    850.0,
+    1325.0,
+    1700.0
+  ],
+  "design_C": [
+    1e+17,
+    1e+18,
+    1e+19,
+    1e+20
+  ],
+  "test_T": [
+    1100.0,
+    1500.0
+  ],
+  "test_C": [
+    3e+17,
+    3e+18,
+    3e+19,
+    3e+20
+  ],
+  "covariance": "tree ensemble covariance plus train-only leave-one-element-out mean squared discrepancy",
+  "labels": "retrospective masked published charge energy reveal, not newly calculated DFT",
+  "prior_config": "fixed demonstration configuration; historical selected configurations remain in archived results"
+}

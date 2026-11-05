@@ -1,0 +1,2 @@
+# Preserve the byte-level SHA-256 records of the CPC article snapshot on checkout.
+cpc/** -text

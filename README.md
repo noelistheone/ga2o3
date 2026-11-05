@@ -1,25 +1,30 @@
 # ga2o3
 
-## CPC code release
+## CPC code and reproducibility data
 
 The code for **A differentiable defect-thermodynamic sandbox for dopant activation
 prediction** is in **[cpc/](cpc/README.md)**. It includes the two-stage physical
 solver and implicit derivatives, source-group evaluation, property-directed
 energetic acquisition, and commands for fresh training and prediction. The CPC
-workflows run on a CPU. This code release excludes experimental tables, saved
-weights, manuscript files and generated results.
+workflows run on a CPU. The release includes the article's curated input and
+prediction tables, saved model parameters, atomic coordinates, and numerical
+verification records, so the Supplementary Material's reproduction commands
+can run directly from `cpc/`.
 
 ```bash
 cd cpc
 python -m venv .venv
 .venv/bin/python -m pip install -r requirements.txt
+.venv/bin/python scripts/verify_release.py
+.venv/bin/python scripts/verify_metrics.py
 .venv/bin/python scripts/prepare_kroger_input.py
-.venv/bin/python research/scripts/trainable_sandbox_20261017/phase15_build_fermi.py
 .venv/bin/python examples/predict_example.py
 ```
 
 See the [CPC README](cpc/README.md) for input preparation, training, label-free
-prediction, numerical verification, and figure regeneration.
+prediction, numerical verification, and figure regeneration. Third-party
+KROGER energetic records are fetched from their pinned upstream source by the
+preparation script; they are not redistributed here.
 The older `Ga2O3-Sandbox/` and `Ga2O3-Net/` trees below remain available as the
 earlier research release; use `cpc/` for the CPC article.
 

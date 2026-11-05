@@ -41,6 +41,7 @@ def table(name, caption, label, columns, rows):
 
 def main():
     V.mkdir(exist_ok=True)
+    TAB.mkdir(exist_ok=True)
     room=read('room_temperature_predictions')
     control=read('capacity_control_predictions').rename(columns={'target':'observed','method':'variant'})
     records=[]; source=[]

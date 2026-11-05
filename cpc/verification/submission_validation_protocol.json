@@ -1,0 +1,49 @@
+{
+  "version": "submission-revision-20261022",
+  "created_utc": "2026-10-22T23:19:57.238768+00:00",
+  "hashes": {
+    "scripts/validate_predictive_structure.py": "3175f33bff672a4bc43d0da668484f4e18a4245f030f244e2acaf8683017586c",
+    "source_data/validation_room_inputs.csv": "2d93b0850ee6d208e698f8f8bde4f2638ac3928c28a7395369a98d0f71b87316",
+    "source_data/validation_thermal_inputs.csv": "187d6580d3a0e618c389bef032d38dd07669ef5a39d6a0d02213a846dfb8302f"
+  },
+  "scope": "Retrospective fixed-protocol targeted controls; no fresh experimental source",
+  "room": {
+    "models": [
+      "ReducedInventory6",
+      "DirectQuadratic6"
+    ],
+    "parameters_each": 6,
+    "alphas": [
+      0.0,
+      0.001,
+      0.01,
+      0.1,
+      1.0,
+      10.0
+    ],
+    "split": "five related groups; inner leave-one-training-group-out selects alpha; original outer queries unchanged",
+    "features": "1,c,c^2,g,Sn; reduced model has logNb, direct model has log(1+H/C) as sixth coefficient",
+    "reduced_state": "Dplus=C*sigmoid(psi),Dneutral=C-Dplus;n=Nb+H+Dplus;Nq2=n;same FD Hall moments and mu0=205",
+    "physics_scope": "fully ionized dilute positive donors and inactive neutral pool; no atomistic complex/natives or oxygen response",
+    "loss": "same scenario/condition/publication/related-group weights; nested L2 on feature slopes; all outcomes retained"
+  },
+  "thermal": {
+    "bounds_logNb": [
+      12,
+      18
+    ],
+    "bounds_E0_eV": [
+      0.003,
+      0.3
+    ],
+    "other_bounds_unchanged": true,
+    "fits": "two whole-publication-excluded four-parameter fits, two fixed starts,160 evaluations; zero anchors",
+    "extra_hall_factors": [
+      1.0,
+      1.25,
+      1.5,
+      1.93
+    ],
+    "hall_scope": "frozen prediction sensitivity,not measured Hall factors or confidence intervals"
+  }
+}

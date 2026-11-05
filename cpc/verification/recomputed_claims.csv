@@ -1,0 +1,98 @@
+id,value,unit,source,selection
+room_FixedNHReference_common20,0.4147680810534015,dex,room_temperature_predictions.csv,FixedNHReference; common20; scenario->condition->DOI equal
+room_FixedNHReference_all_query,0.4465055570275099,dex,room_temperature_predictions.csv,FixedNHReference; all_query; scenario->condition->DOI equal
+room_LearnedNHInventory_common20,0.3377212625661638,dex,room_temperature_predictions.csv,LearnedNHInventory; common20; scenario->condition->DOI equal
+room_LearnedNHInventory_all_query,0.3477350326718911,dex,room_temperature_predictions.csv,LearnedNHInventory; all_query; scenario->condition->DOI equal
+external_LearnedNHInventory,0.3096593161519232,dex,external_predictions.csv,LearnedNHInventory; valid schema-only replay; scenario->condition->DOI equal
+external_FixedNHReference,0.28866274251582585,dex,external_predictions.csv,FixedNHReference; valid schema-only replay; scenario->condition->DOI equal
+energy_ET_diagonal_A_k2,0.25612182389576826,dex,energy_property_predictions.csv,ET_diagonal_A_k2;0 carrier anchors;29 queries;DOI macro
+energy_ET_diagonal_A_k4,0.2619546388113012,dex,energy_property_predictions.csv,ET_diagonal_A_k4;0 carrier anchors;29 queries;DOI macro
+energy_ET_diagonal_xi_k2,0.25612182389576826,dex,energy_property_predictions.csv,ET_diagonal_xi_k2;0 carrier anchors;29 queries;DOI macro
+energy_ET_diagonal_xi_k4,0.2603543112958596,dex,energy_property_predictions.csv,ET_diagonal_xi_k4;0 carrier anchors;29 queries;DOI macro
+energy_ET_goal_k2,0.25994594989318975,dex,energy_property_predictions.csv,ET_goal_k2;0 carrier anchors;29 queries;DOI macro
+energy_ET_goal_k4,0.26037976225034254,dex,energy_property_predictions.csv,ET_goal_k4;0 carrier anchors;29 queries;DOI macro
+energy_ET_random0_k2,0.3377412523884348,dex,energy_property_predictions.csv,ET_random0_k2;0 carrier anchors;29 queries;DOI macro
+energy_ET_random0_k4,0.3378545431147232,dex,energy_property_predictions.csv,ET_random0_k4;0 carrier anchors;29 queries;DOI macro
+energy_ET_random1_k2,0.32204059427411375,dex,energy_property_predictions.csv,ET_random1_k2;0 carrier anchors;29 queries;DOI macro
+energy_ET_random1_k4,0.30955055498897466,dex,energy_property_predictions.csv,ET_random1_k4;0 carrier anchors;29 queries;DOI macro
+energy_ET_variance_k2,0.3444471568826767,dex,energy_property_predictions.csv,ET_variance_k2;0 carrier anchors;29 queries;DOI macro
+energy_ET_variance_k4,0.3144274578193639,dex,energy_property_predictions.csv,ET_variance_k4;0 carrier anchors;29 queries;DOI macro
+energy_RBF_diagonal_xi_k2,0.28406077271543456,dex,energy_property_predictions.csv,RBF_diagonal_xi_k2;0 carrier anchors;29 queries;DOI macro
+energy_RBF_diagonal_xi_k4,0.2610168230960422,dex,energy_property_predictions.csv,RBF_diagonal_xi_k4;0 carrier anchors;29 queries;DOI macro
+energy_Ridge_diagonal_xi_k2,0.25910609417714353,dex,energy_property_predictions.csv,Ridge_diagonal_xi_k2;0 carrier anchors;29 queries;DOI macro
+energy_Ridge_diagonal_xi_k4,0.260333823438254,dex,energy_property_predictions.csv,Ridge_diagonal_xi_k4;0 carrier anchors;29 queries;DOI macro
+energy_charge_pair_mean,0.32438153035993317,dex,energy_property_predictions.csv,charge_pair_mean;0 carrier anchors;29 queries;DOI macro
+energy_extra_trees,0.3553683482439924,dex,energy_property_predictions.csv,extra_trees;0 carrier anchors;29 queries;DOI macro
+energy_global_mean,0.3240709459005936,dex,energy_property_predictions.csv,global_mean;0 carrier anchors;29 queries;DOI macro
+energy_mean_goal_k2,0.2594101974184909,dex,energy_property_predictions.csv,mean_goal_k2;0 carrier anchors;29 queries;DOI macro
+energy_mean_goal_k4,0.2590008636363622,dex,energy_property_predictions.csv,mean_goal_k4;0 carrier anchors;29 queries;DOI macro
+energy_oracle_full,0.26033388244633476,dex,energy_property_predictions.csv,oracle_full;0 carrier anchors;29 queries;DOI macro
+energy_rbf,0.41079782396133024,dex,energy_property_predictions.csv,rbf;0 carrier anchors;29 queries;DOI macro
+energy_ridge,0.32271254727185156,dex,energy_property_predictions.csv,ridge;0 carrier anchors;29 queries;DOI macro
+temperature_full_direct_joint_affine_k0,0.345304558237724,dex,temperature_predictions.csv,direct_joint_affine;k=0;142 full queries;read->specimen->DOI equal
+temperature_direct_joint_affine_k0,0.323379532062156,dex,temperature_predictions.csv,direct_joint_affine;k=0;80 common queries;read->specimen->DOI equal
+temperature_full_direct_joint_affine_k1,0.280788813241292,dex,temperature_predictions.csv,direct_joint_affine;k=1;138 full queries;read->specimen->DOI equal
+temperature_direct_joint_affine_k1,0.297092653587143,dex,temperature_predictions.csv,direct_joint_affine;k=1;80 common queries;read->specimen->DOI equal
+temperature_full_direct_joint_affine_k2,0.277918753477319,dex,temperature_predictions.csv,direct_joint_affine;k=2;131 full queries;read->specimen->DOI equal
+temperature_direct_joint_affine_k2,0.250945380643496,dex,temperature_predictions.csv,direct_joint_affine;k=2;80 common queries;read->specimen->DOI equal
+temperature_full_direct_joint_offset_k0,0.345304558237724,dex,temperature_predictions.csv,direct_joint_offset;k=0;142 full queries;read->specimen->DOI equal
+temperature_direct_joint_offset_k0,0.323379532062156,dex,temperature_predictions.csv,direct_joint_offset;k=0;80 common queries;read->specimen->DOI equal
+temperature_full_direct_joint_offset_k1,0.280788813241292,dex,temperature_predictions.csv,direct_joint_offset;k=1;138 full queries;read->specimen->DOI equal
+temperature_direct_joint_offset_k1,0.297092653587143,dex,temperature_predictions.csv,direct_joint_offset;k=1;80 common queries;read->specimen->DOI equal
+temperature_full_direct_joint_offset_k2,0.315282591122077,dex,temperature_predictions.csv,direct_joint_offset;k=2;131 full queries;read->specimen->DOI equal
+temperature_direct_joint_offset_k2,0.347996946705211,dex,temperature_predictions.csv,direct_joint_offset;k=2;80 common queries;read->specimen->DOI equal
+temperature_full_dose_line_offset_k0,0.904245180467954,dex,temperature_predictions.csv,dose_line_offset;k=0;142 full queries;read->specimen->DOI equal
+temperature_dose_line_offset_k0,1.10531360295356,dex,temperature_predictions.csv,dose_line_offset;k=0;80 common queries;read->specimen->DOI equal
+temperature_full_dose_line_offset_k1,0.76536692779679,dex,temperature_predictions.csv,dose_line_offset;k=1;138 full queries;read->specimen->DOI equal
+temperature_dose_line_offset_k1,0.988826478884517,dex,temperature_predictions.csv,dose_line_offset;k=1;80 common queries;read->specimen->DOI equal
+temperature_full_dose_line_offset_k2,0.704482389111182,dex,temperature_predictions.csv,dose_line_offset;k=2;131 full queries;read->specimen->DOI equal
+temperature_dose_line_offset_k2,0.869307765957015,dex,temperature_predictions.csv,dose_line_offset;k=2;80 common queries;read->specimen->DOI equal
+temperature_full_fixed_joint_Tf_E_k0,0.744443566880257,dex,temperature_predictions.csv,fixed_joint_Tf_E;k=0;142 full queries;read->specimen->DOI equal
+temperature_fixed_joint_Tf_E_k0,0.857479062046327,dex,temperature_predictions.csv,fixed_joint_Tf_E;k=0;80 common queries;read->specimen->DOI equal
+temperature_full_fixed_joint_Tf_E_k1,0.418402608706223,dex,temperature_predictions.csv,fixed_joint_Tf_E;k=1;138 full queries;read->specimen->DOI equal
+temperature_fixed_joint_Tf_E_k1,0.481922003286257,dex,temperature_predictions.csv,fixed_joint_Tf_E;k=1;80 common queries;read->specimen->DOI equal
+temperature_full_fixed_joint_Tf_E_k2,0.323260782127905,dex,temperature_predictions.csv,fixed_joint_Tf_E;k=2;131 full queries;read->specimen->DOI equal
+temperature_fixed_joint_Tf_E_k2,0.349724908714088,dex,temperature_predictions.csv,fixed_joint_Tf_E;k=2;80 common queries;read->specimen->DOI equal
+temperature_full_fixed_joint_offset_k0,0.744443566880257,dex,temperature_predictions.csv,fixed_joint_offset;k=0;142 full queries;read->specimen->DOI equal
+temperature_fixed_joint_offset_k0,0.857479062046327,dex,temperature_predictions.csv,fixed_joint_offset;k=0;80 common queries;read->specimen->DOI equal
+temperature_full_fixed_joint_offset_k1,0.649612004766371,dex,temperature_predictions.csv,fixed_joint_offset;k=1;138 full queries;read->specimen->DOI equal
+temperature_fixed_joint_offset_k1,0.743806468975451,dex,temperature_predictions.csv,fixed_joint_offset;k=1;80 common queries;read->specimen->DOI equal
+temperature_full_fixed_joint_offset_k2,0.595653805757374,dex,temperature_predictions.csv,fixed_joint_offset;k=2;131 full queries;read->specimen->DOI equal
+temperature_fixed_joint_offset_k2,0.652764488755219,dex,temperature_predictions.csv,fixed_joint_offset;k=2;80 common queries;read->specimen->DOI equal
+temperature_full_original_RT_Tf_k0,0.803755592512023,dex,temperature_predictions.csv,original_RT_Tf;k=0;142 full queries;read->specimen->DOI equal
+temperature_original_RT_Tf_k0,1.04371570969884,dex,temperature_predictions.csv,original_RT_Tf;k=0;80 common queries;read->specimen->DOI equal
+temperature_full_original_RT_Tf_k1,0.757486359550645,dex,temperature_predictions.csv,original_RT_Tf;k=1;138 full queries;read->specimen->DOI equal
+temperature_original_RT_Tf_k1,0.978969527417036,dex,temperature_predictions.csv,original_RT_Tf;k=1;80 common queries;read->specimen->DOI equal
+temperature_full_original_RT_Tf_k2,0.704649501063318,dex,temperature_predictions.csv,original_RT_Tf;k=2;131 full queries;read->specimen->DOI equal
+temperature_original_RT_Tf_k2,0.869673117367315,dex,temperature_predictions.csv,original_RT_Tf;k=2;80 common queries;read->specimen->DOI equal
+temperature_full_original_RT_offset_k0,0.803755592512023,dex,temperature_predictions.csv,original_RT_offset;k=0;142 full queries;read->specimen->DOI equal
+temperature_original_RT_offset_k0,1.04371570969884,dex,temperature_predictions.csv,original_RT_offset;k=0;80 common queries;read->specimen->DOI equal
+temperature_full_original_RT_offset_k1,0.829024140614128,dex,temperature_predictions.csv,original_RT_offset;k=1;138 full queries;read->specimen->DOI equal
+temperature_original_RT_offset_k1,1.05345821260041,dex,temperature_predictions.csv,original_RT_offset;k=1;80 common queries;read->specimen->DOI equal
+temperature_full_original_RT_offset_k2,0.704439293253341,dex,temperature_predictions.csv,original_RT_offset;k=2;131 full queries;read->specimen->DOI equal
+temperature_original_RT_offset_k2,0.869275049018194,dex,temperature_predictions.csv,original_RT_offset;k=2;80 common queries;read->specimen->DOI equal
+temperature_full_shared_joint_E_k0,0.264914520435228,dex,temperature_predictions.csv,shared_joint_E;k=0;142 full queries;read->specimen->DOI equal
+temperature_shared_joint_E_k0,0.297549431886537,dex,temperature_predictions.csv,shared_joint_E;k=0;80 common queries;read->specimen->DOI equal
+temperature_full_shared_joint_E_k1,0.239337912054988,dex,temperature_predictions.csv,shared_joint_E;k=1;138 full queries;read->specimen->DOI equal
+temperature_shared_joint_E_k1,0.274284636895631,dex,temperature_predictions.csv,shared_joint_E;k=1;80 common queries;read->specimen->DOI equal
+temperature_full_shared_joint_E_k2,0.202365850443961,dex,temperature_predictions.csv,shared_joint_E;k=2;131 full queries;read->specimen->DOI equal
+temperature_shared_joint_E_k2,0.215218690796774,dex,temperature_predictions.csv,shared_joint_E;k=2;80 common queries;read->specimen->DOI equal
+temperature_full_shared_joint_Tf_k0,0.264914520435228,dex,temperature_predictions.csv,shared_joint_Tf;k=0;142 full queries;read->specimen->DOI equal
+temperature_shared_joint_Tf_k0,0.297549431886537,dex,temperature_predictions.csv,shared_joint_Tf;k=0;80 common queries;read->specimen->DOI equal
+temperature_full_shared_joint_Tf_k1,0.267431290775737,dex,temperature_predictions.csv,shared_joint_Tf;k=1;138 full queries;read->specimen->DOI equal
+temperature_shared_joint_Tf_k1,0.296272846715499,dex,temperature_predictions.csv,shared_joint_Tf;k=1;80 common queries;read->specimen->DOI equal
+temperature_full_shared_joint_Tf_k2,0.273014415881979,dex,temperature_predictions.csv,shared_joint_Tf;k=2;131 full queries;read->specimen->DOI equal
+temperature_shared_joint_Tf_k2,0.296644175728015,dex,temperature_predictions.csv,shared_joint_Tf;k=2;80 common queries;read->specimen->DOI equal
+temperature_full_shared_joint_Tf_E_k0,0.264914520435228,dex,temperature_predictions.csv,shared_joint_Tf_E;k=0;142 full queries;read->specimen->DOI equal
+temperature_shared_joint_Tf_E_k0,0.297549431886537,dex,temperature_predictions.csv,shared_joint_Tf_E;k=0;80 common queries;read->specimen->DOI equal
+temperature_full_shared_joint_Tf_E_k1,0.264203359390229,dex,temperature_predictions.csv,shared_joint_Tf_E;k=1;138 full queries;read->specimen->DOI equal
+temperature_shared_joint_Tf_E_k1,0.305170110224055,dex,temperature_predictions.csv,shared_joint_Tf_E;k=1;80 common queries;read->specimen->DOI equal
+temperature_full_shared_joint_Tf_E_k2,0.195072206568305,dex,temperature_predictions.csv,shared_joint_Tf_E;k=2;131 full queries;read->specimen->DOI equal
+temperature_shared_joint_Tf_E_k2,0.206518223464083,dex,temperature_predictions.csv,shared_joint_Tf_E;k=2;80 common queries;read->specimen->DOI equal
+temperature_full_shared_joint_offset_k0,0.264914520435228,dex,temperature_predictions.csv,shared_joint_offset;k=0;142 full queries;read->specimen->DOI equal
+temperature_shared_joint_offset_k0,0.297549431886537,dex,temperature_predictions.csv,shared_joint_offset;k=0;80 common queries;read->specimen->DOI equal
+temperature_full_shared_joint_offset_k1,0.217976112827525,dex,temperature_predictions.csv,shared_joint_offset;k=1;138 full queries;read->specimen->DOI equal
+temperature_shared_joint_offset_k1,0.254443772831589,dex,temperature_predictions.csv,shared_joint_offset;k=1;80 common queries;read->specimen->DOI equal
+temperature_full_shared_joint_offset_k2,0.195513484996744,dex,temperature_predictions.csv,shared_joint_offset;k=2;131 full queries;read->specimen->DOI equal
+temperature_shared_joint_offset_k2,0.218580675229818,dex,temperature_predictions.csv,shared_joint_offset;k=2;80 common queries;read->specimen->DOI equal
+temperature_anchor_only_line_k2,0.23052007709711475,dex,temperature_simple_anchor_predictions.csv,two_anchor_line_p0.0;k=2;80 common queries

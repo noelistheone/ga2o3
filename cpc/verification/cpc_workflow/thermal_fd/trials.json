@@ -1,0 +1,34 @@
+[
+  {
+    "parameters": [
+      2.2291500505585913,
+      14.000000000000002,
+      -1.0659254469048076,
+      2.1086973273589185
+    ],
+    "loss": 25.046401183351172,
+    "success": true,
+    "message": "`ftol` termination condition is satisfied.",
+    "nfev": 9,
+    "njev": 9,
+    "seconds": 23.811210301937535,
+    "objective_evaluations": 84,
+    "physical_calls": 9240
+  },
+  {
+    "parameters": [
+      2.2291500365285426,
+      14.00000000000001,
+      -1.065928516485079,
+      2.1086868065519826
+    ],
+    "loss": 25.04640118325301,
+    "success": true,
+    "message": "`ftol` termination condition is satisfied.",
+    "nfev": 9,
+    "njev": 9,
+    "seconds": 23.4229619409889,
+    "objective_evaluations": 83,
+    "physical_calls": 9130
+  }
+]

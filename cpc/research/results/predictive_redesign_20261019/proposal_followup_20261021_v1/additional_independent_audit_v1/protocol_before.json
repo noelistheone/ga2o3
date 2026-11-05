@@ -1,0 +1,11 @@
+{
+  "created_utc": "2026-10-22T04:52:06.125883+00:00",
+  "code_hashes": {
+    "scripts/predictive_redesign_20261019/audit_followup_additions_v1.py": "6fe0e887eeed4d07255db9886fbc6fdcc4dce3aaf676e19ddf6ee63a71db9501"
+  },
+  "input_hashes": {
+    "results/predictive_redesign_20261019/proposal_followup_20261021_v1/constrained_block_refinement_v2/summary.csv": "0d4334bb95880d11d259ee39cae4fccb643633e44e452bf5089fd3221b2f1116",
+    "results/predictive_redesign_20261019/proposal_followup_20261021_v1/overlay_nH_controls_v1/summary.csv": "37e27c1d7ed9463257c91ea83daa918beccb6e632be7e6dae0efe303249fa623",
+    "results/predictive_redesign_20261019/proposal_followup_20261021_v1/overlay_nH_controls_v1/external_schema_replay_v2/summary.csv": "d8f6719d47d5768d34939d3607593e4d30081a14745bb384ed9c26f8b23d1e87"
+  }
+}

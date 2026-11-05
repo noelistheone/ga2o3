@@ -1,0 +1,5 @@
+element,incorporated_cm3,Tobs_K,growth_T_C,H_known,H_cm3,scenario_pO2_atm
+Si,1.93e+16,300.0,830.0,False,0.0,1e-05
+Si,9.5e+16,300.0,830.0,False,0.0,1e-05
+Si,5.4e+17,300.0,830.0,True,1.8e+17,1e-05
+Si,5.62e+17,300.0,830.0,True,8.83e+16,1e-05

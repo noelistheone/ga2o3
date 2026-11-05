@@ -1,0 +1,2542 @@
+{
+  "checks": 331,
+  "passed": 331,
+  "failed": [],
+  "items": [
+    {
+      "name": "room_condition_count",
+      "passed": true,
+      "variant": "FixedNHReference",
+      "scope": "common20"
+    },
+    {
+      "name": "room_prediction_coverage",
+      "passed": true,
+      "variant": "FixedNHReference",
+      "scope": "common20"
+    },
+    {
+      "name": "room_independent_macro",
+      "passed": true,
+      "actual": 0.4147680810534015,
+      "expected": 0.414768081053394,
+      "tolerance": 2e-10,
+      "variant": "FixedNHReference",
+      "scope": "common20"
+    },
+    {
+      "name": "room_condition_count",
+      "passed": true,
+      "variant": "FixedNHReference",
+      "scope": "all_query"
+    },
+    {
+      "name": "room_prediction_coverage",
+      "passed": true,
+      "variant": "FixedNHReference",
+      "scope": "all_query"
+    },
+    {
+      "name": "room_independent_macro",
+      "passed": true,
+      "actual": 0.4465055570275099,
+      "expected": 0.446505557027502,
+      "tolerance": 2e-10,
+      "variant": "FixedNHReference",
+      "scope": "all_query"
+    },
+    {
+      "name": "room_condition_count",
+      "passed": true,
+      "variant": "LearnedNHInventory",
+      "scope": "common20"
+    },
+    {
+      "name": "room_prediction_coverage",
+      "passed": true,
+      "variant": "LearnedNHInventory",
+      "scope": "common20"
+    },
+    {
+      "name": "room_independent_macro",
+      "passed": true,
+      "actual": 0.3377212625661638,
+      "expected": 0.337721262566161,
+      "tolerance": 2e-10,
+      "variant": "LearnedNHInventory",
+      "scope": "common20"
+    },
+    {
+      "name": "room_condition_count",
+      "passed": true,
+      "variant": "LearnedNHInventory",
+      "scope": "all_query"
+    },
+    {
+      "name": "room_prediction_coverage",
+      "passed": true,
+      "variant": "LearnedNHInventory",
+      "scope": "all_query"
+    },
+    {
+      "name": "room_independent_macro",
+      "passed": true,
+      "actual": 0.3477350326718911,
+      "expected": 0.347735032671891,
+      "tolerance": 2e-10,
+      "variant": "LearnedNHInventory",
+      "scope": "all_query"
+    },
+    {
+      "name": "room_publications",
+      "passed": true
+    },
+    {
+      "name": "source_gain_count",
+      "passed": true
+    },
+    {
+      "name": "external_three_conditions",
+      "passed": true
+    },
+    {
+      "name": "external_valid_coverage",
+      "passed": true
+    },
+    {
+      "name": "external_independent_macro",
+      "passed": true,
+      "actual": 0.3096593161519232,
+      "expected": 0.309659316151922,
+      "tolerance": 2e-10,
+      "variant": "LearnedNHInventory"
+    },
+    {
+      "name": "external_three_conditions",
+      "passed": true
+    },
+    {
+      "name": "external_valid_coverage",
+      "passed": true
+    },
+    {
+      "name": "external_independent_macro",
+      "passed": true,
+      "actual": 0.28866274251582585,
+      "expected": 0.288662742515821,
+      "tolerance": 2e-10,
+      "variant": "FixedNHReference"
+    },
+    {
+      "name": "energy_query_count",
+      "passed": true,
+      "method": "ET_diagonal_A_k2",
+      "budget": 0
+    },
+    {
+      "name": "energy_carrier_macro",
+      "passed": true,
+      "actual": 0.25612182389576826,
+      "expected": 0.25612182389576,
+      "tolerance": 2e-10,
+      "method": "ET_diagonal_A_k2",
+      "budget": 0
+    },
+    {
+      "name": "energy_query_count",
+      "passed": true,
+      "method": "ET_diagonal_A_k2",
+      "budget": 1
+    },
+    {
+      "name": "energy_carrier_macro",
+      "passed": true,
+      "actual": 0.2300321154420411,
+      "expected": 0.230032115442036,
+      "tolerance": 2e-10,
+      "method": "ET_diagonal_A_k2",
+      "budget": 1
+    },
+    {
+      "name": "energy_query_count",
+      "passed": true,
+      "method": "ET_diagonal_A_k2",
+      "budget": 2
+    },
+    {
+      "name": "energy_carrier_macro",
+      "passed": true,
+      "actual": 0.2383611963231651,
+      "expected": 0.238361196323147,
+      "tolerance": 2e-10,
+      "method": "ET_diagonal_A_k2",
+      "budget": 2
+    },
+    {
+      "name": "energy_query_count",
+      "passed": true,
+      "method": "ET_diagonal_A_k4",
+      "budget": 0
+    },
+    {
+      "name": "energy_carrier_macro",
+      "passed": true,
+      "actual": 0.2619546388113012,
+      "expected": 0.261954638811301,
+      "tolerance": 2e-10,
+      "method": "ET_diagonal_A_k4",
+      "budget": 0
+    },
+    {
+      "name": "energy_query_count",
+      "passed": true,
+      "method": "ET_diagonal_A_k4",
+      "budget": 1
+    },
+    {
+      "name": "energy_carrier_macro",
+      "passed": true,
+      "actual": 0.24564726798005604,
+      "expected": 0.245647267980045,
+      "tolerance": 2e-10,
+      "method": "ET_diagonal_A_k4",
+      "budget": 1
+    },
+    {
+      "name": "energy_query_count",
+      "passed": true,
+      "method": "ET_diagonal_A_k4",
+      "budget": 2
+    },
+    {
+      "name": "energy_carrier_macro",
+      "passed": true,
+      "actual": 0.24993031881175626,
+      "expected": 0.249930318811736,
+      "tolerance": 2e-10,
+      "method": "ET_diagonal_A_k4",
+      "budget": 2
+    },
+    {
+      "name": "energy_query_count",
+      "passed": true,
+      "method": "ET_diagonal_xi_k2",
+      "budget": 0
+    },
+    {
+      "name": "energy_carrier_macro",
+      "passed": true,
+      "actual": 0.25612182389576826,
+      "expected": 0.25612182389576,
+      "tolerance": 2e-10,
+      "method": "ET_diagonal_xi_k2",
+      "budget": 0
+    },
+    {
+      "name": "energy_query_count",
+      "passed": true,
+      "method": "ET_diagonal_xi_k2",
+      "budget": 1
+    },
+    {
+      "name": "energy_carrier_macro",
+      "passed": true,
+      "actual": 0.2300321154420411,
+      "expected": 0.230032115442036,
+      "tolerance": 2e-10,
+      "method": "ET_diagonal_xi_k2",
+      "budget": 1
+    },
+    {
+      "name": "energy_query_count",
+      "passed": true,
+      "method": "ET_diagonal_xi_k2",
+      "budget": 2
+    },
+    {
+      "name": "energy_carrier_macro",
+      "passed": true,
+      "actual": 0.2383611963231651,
+      "expected": 0.238361196323147,
+      "tolerance": 2e-10,
+      "method": "ET_diagonal_xi_k2",
+      "budget": 2
+    },
+    {
+      "name": "energy_query_count",
+      "passed": true,
+      "method": "ET_diagonal_xi_k4",
+      "budget": 0
+    },
+    {
+      "name": "energy_carrier_macro",
+      "passed": true,
+      "actual": 0.2603543112958596,
+      "expected": 0.260354311295859,
+      "tolerance": 2e-10,
+      "method": "ET_diagonal_xi_k4",
+      "budget": 0
+    },
+    {
+      "name": "energy_query_count",
+      "passed": true,
+      "method": "ET_diagonal_xi_k4",
+      "budget": 1
+    },
+    {
+      "name": "energy_carrier_macro",
+      "passed": true,
+      "actual": 0.24170576209818595,
+      "expected": 0.241705762098177,
+      "tolerance": 2e-10,
+      "method": "ET_diagonal_xi_k4",
+      "budget": 1
+    },
+    {
+      "name": "energy_query_count",
+      "passed": true,
+      "method": "ET_diagonal_xi_k4",
+      "budget": 2
+    },
+    {
+      "name": "energy_carrier_macro",
+      "passed": true,
+      "actual": 0.24666519387316557,
+      "expected": 0.246665193873154,
+      "tolerance": 2e-10,
+      "method": "ET_diagonal_xi_k4",
+      "budget": 2
+    },
+    {
+      "name": "energy_query_count",
+      "passed": true,
+      "method": "ET_goal_k2",
+      "budget": 0
+    },
+    {
+      "name": "energy_carrier_macro",
+      "passed": true,
+      "actual": 0.25994594989318975,
+      "expected": 0.259945949893176,
+      "tolerance": 2e-10,
+      "method": "ET_goal_k2",
+      "budget": 0
+    },
+    {
+      "name": "energy_query_count",
+      "passed": true,
+      "method": "ET_goal_k2",
+      "budget": 1
+    },
+    {
+      "name": "energy_carrier_macro",
+      "passed": true,
+      "actual": 0.2288172423732798,
+      "expected": 0.228817242373271,
+      "tolerance": 2e-10,
+      "method": "ET_goal_k2",
+      "budget": 1
+    },
+    {
+      "name": "energy_query_count",
+      "passed": true,
+      "method": "ET_goal_k2",
+      "budget": 2
+    },
+    {
+      "name": "energy_carrier_macro",
+      "passed": true,
+      "actual": 0.21924783370487724,
+      "expected": 0.219247833704875,
+      "tolerance": 2e-10,
+      "method": "ET_goal_k2",
+      "budget": 2
+    },
+    {
+      "name": "energy_query_count",
+      "passed": true,
+      "method": "ET_goal_k4",
+      "budget": 0
+    },
+    {
+      "name": "energy_carrier_macro",
+      "passed": true,
+      "actual": 0.26037976225034254,
+      "expected": 0.260379762250337,
+      "tolerance": 2e-10,
+      "method": "ET_goal_k4",
+      "budget": 0
+    },
+    {
+      "name": "energy_query_count",
+      "passed": true,
+      "method": "ET_goal_k4",
+      "budget": 1
+    },
+    {
+      "name": "energy_carrier_macro",
+      "passed": true,
+      "actual": 0.24176891358115898,
+      "expected": 0.241768913581145,
+      "tolerance": 2e-10,
+      "method": "ET_goal_k4",
+      "budget": 1
+    },
+    {
+      "name": "energy_query_count",
+      "passed": true,
+      "method": "ET_goal_k4",
+      "budget": 2
+    },
+    {
+      "name": "energy_carrier_macro",
+      "passed": true,
+      "actual": 0.24671701655816033,
+      "expected": 0.246717016558143,
+      "tolerance": 2e-10,
+      "method": "ET_goal_k4",
+      "budget": 2
+    },
+    {
+      "name": "energy_query_count",
+      "passed": true,
+      "method": "ET_random0_k2",
+      "budget": 0
+    },
+    {
+      "name": "energy_carrier_macro",
+      "passed": true,
+      "actual": 0.3377412523884348,
+      "expected": 0.337741252388415,
+      "tolerance": 2e-10,
+      "method": "ET_random0_k2",
+      "budget": 0
+    },
+    {
+      "name": "energy_query_count",
+      "passed": true,
+      "method": "ET_random0_k2",
+      "budget": 1
+    },
+    {
+      "name": "energy_carrier_macro",
+      "passed": true,
+      "actual": 0.3523465480984169,
+      "expected": 0.352346548098403,
+      "tolerance": 2e-10,
+      "method": "ET_random0_k2",
+      "budget": 1
+    },
+    {
+      "name": "energy_query_count",
+      "passed": true,
+      "method": "ET_random0_k2",
+      "budget": 2
+    },
+    {
+      "name": "energy_carrier_macro",
+      "passed": true,
+      "actual": 0.30687114581665587,
+      "expected": 0.306871145816622,
+      "tolerance": 2e-10,
+      "method": "ET_random0_k2",
+      "budget": 2
+    },
+    {
+      "name": "energy_query_count",
+      "passed": true,
+      "method": "ET_random0_k4",
+      "budget": 0
+    },
+    {
+      "name": "energy_carrier_macro",
+      "passed": true,
+      "actual": 0.3378545431147232,
+      "expected": 0.337854543114719,
+      "tolerance": 2e-10,
+      "method": "ET_random0_k4",
+      "budget": 0
+    },
+    {
+      "name": "energy_query_count",
+      "passed": true,
+      "method": "ET_random0_k4",
+      "budget": 1
+    },
+    {
+      "name": "energy_carrier_macro",
+      "passed": true,
+      "actual": 0.35277247648450283,
+      "expected": 0.352772476484494,
+      "tolerance": 2e-10,
+      "method": "ET_random0_k4",
+      "budget": 1
+    },
+    {
+      "name": "energy_query_count",
+      "passed": true,
+      "method": "ET_random0_k4",
+      "budget": 2
+    },
+    {
+      "name": "energy_carrier_macro",
+      "passed": true,
+      "actual": 0.30767678440131857,
+      "expected": 0.307676784401288,
+      "tolerance": 2e-10,
+      "method": "ET_random0_k4",
+      "budget": 2
+    },
+    {
+      "name": "energy_query_count",
+      "passed": true,
+      "method": "ET_random1_k2",
+      "budget": 0
+    },
+    {
+      "name": "energy_carrier_macro",
+      "passed": true,
+      "actual": 0.32204059427411375,
+      "expected": 0.322040594274125,
+      "tolerance": 2e-10,
+      "method": "ET_random1_k2",
+      "budget": 0
+    },
+    {
+      "name": "energy_query_count",
+      "passed": true,
+      "method": "ET_random1_k2",
+      "budget": 1
+    },
+    {
+      "name": "energy_carrier_macro",
+      "passed": true,
+      "actual": 0.36332674827659006,
+      "expected": 0.363326748276587,
+      "tolerance": 2e-10,
+      "method": "ET_random1_k2",
+      "budget": 1
+    },
+    {
+      "name": "energy_query_count",
+      "passed": true,
+      "method": "ET_random1_k2",
+      "budget": 2
+    },
+    {
+      "name": "energy_carrier_macro",
+      "passed": true,
+      "actual": 0.3472997277935186,
+      "expected": 0.347299727793503,
+      "tolerance": 2e-10,
+      "method": "ET_random1_k2",
+      "budget": 2
+    },
+    {
+      "name": "energy_query_count",
+      "passed": true,
+      "method": "ET_random1_k4",
+      "budget": 0
+    },
+    {
+      "name": "energy_carrier_macro",
+      "passed": true,
+      "actual": 0.30955055498897466,
+      "expected": 0.309550554988964,
+      "tolerance": 2e-10,
+      "method": "ET_random1_k4",
+      "budget": 0
+    },
+    {
+      "name": "energy_query_count",
+      "passed": true,
+      "method": "ET_random1_k4",
+      "budget": 1
+    },
+    {
+      "name": "energy_carrier_macro",
+      "passed": true,
+      "actual": 0.3363151411477225,
+      "expected": 0.336315141147714,
+      "tolerance": 2e-10,
+      "method": "ET_random1_k4",
+      "budget": 1
+    },
+    {
+      "name": "energy_query_count",
+      "passed": true,
+      "method": "ET_random1_k4",
+      "budget": 2
+    },
+    {
+      "name": "energy_carrier_macro",
+      "passed": true,
+      "actual": 0.34629227659391654,
+      "expected": 0.346292276593903,
+      "tolerance": 2e-10,
+      "method": "ET_random1_k4",
+      "budget": 2
+    },
+    {
+      "name": "energy_query_count",
+      "passed": true,
+      "method": "ET_variance_k2",
+      "budget": 0
+    },
+    {
+      "name": "energy_carrier_macro",
+      "passed": true,
+      "actual": 0.3444471568826767,
+      "expected": 0.344447156882672,
+      "tolerance": 2e-10,
+      "method": "ET_variance_k2",
+      "budget": 0
+    },
+    {
+      "name": "energy_query_count",
+      "passed": true,
+      "method": "ET_variance_k2",
+      "budget": 1
+    },
+    {
+      "name": "energy_carrier_macro",
+      "passed": true,
+      "actual": 0.41663610050389155,
+      "expected": 0.416636100503884,
+      "tolerance": 2e-10,
+      "method": "ET_variance_k2",
+      "budget": 1
+    },
+    {
+      "name": "energy_query_count",
+      "passed": true,
+      "method": "ET_variance_k2",
+      "budget": 2
+    },
+    {
+      "name": "energy_carrier_macro",
+      "passed": true,
+      "actual": 0.4131319496566559,
+      "expected": 0.413131949656649,
+      "tolerance": 2e-10,
+      "method": "ET_variance_k2",
+      "budget": 2
+    },
+    {
+      "name": "energy_query_count",
+      "passed": true,
+      "method": "ET_variance_k4",
+      "budget": 0
+    },
+    {
+      "name": "energy_carrier_macro",
+      "passed": true,
+      "actual": 0.3144274578193639,
+      "expected": 0.314427457819361,
+      "tolerance": 2e-10,
+      "method": "ET_variance_k4",
+      "budget": 0
+    },
+    {
+      "name": "energy_query_count",
+      "passed": true,
+      "method": "ET_variance_k4",
+      "budget": 1
+    },
+    {
+      "name": "energy_carrier_macro",
+      "passed": true,
+      "actual": 0.3494780556754098,
+      "expected": 0.349478055675413,
+      "tolerance": 2e-10,
+      "method": "ET_variance_k4",
+      "budget": 1
+    },
+    {
+      "name": "energy_query_count",
+      "passed": true,
+      "method": "ET_variance_k4",
+      "budget": 2
+    },
+    {
+      "name": "energy_carrier_macro",
+      "passed": true,
+      "actual": 0.36191593811240297,
+      "expected": 0.36191593811239,
+      "tolerance": 2e-10,
+      "method": "ET_variance_k4",
+      "budget": 2
+    },
+    {
+      "name": "energy_query_count",
+      "passed": true,
+      "method": "RBF_diagonal_xi_k2",
+      "budget": 0
+    },
+    {
+      "name": "energy_carrier_macro",
+      "passed": true,
+      "actual": 0.28406077271543456,
+      "expected": 0.284060772715425,
+      "tolerance": 2e-10,
+      "method": "RBF_diagonal_xi_k2",
+      "budget": 0
+    },
+    {
+      "name": "energy_query_count",
+      "passed": true,
+      "method": "RBF_diagonal_xi_k2",
+      "budget": 1
+    },
+    {
+      "name": "energy_carrier_macro",
+      "passed": true,
+      "actual": 0.30449159787607616,
+      "expected": 0.304491597876063,
+      "tolerance": 2e-10,
+      "method": "RBF_diagonal_xi_k2",
+      "budget": 1
+    },
+    {
+      "name": "energy_query_count",
+      "passed": true,
+      "method": "RBF_diagonal_xi_k2",
+      "budget": 2
+    },
+    {
+      "name": "energy_carrier_macro",
+      "passed": true,
+      "actual": 0.3057555966254518,
+      "expected": 0.305755596625432,
+      "tolerance": 2e-10,
+      "method": "RBF_diagonal_xi_k2",
+      "budget": 2
+    },
+    {
+      "name": "energy_query_count",
+      "passed": true,
+      "method": "RBF_diagonal_xi_k4",
+      "budget": 0
+    },
+    {
+      "name": "energy_carrier_macro",
+      "passed": true,
+      "actual": 0.2610168230960422,
+      "expected": 0.26101682309602,
+      "tolerance": 2e-10,
+      "method": "RBF_diagonal_xi_k4",
+      "budget": 0
+    },
+    {
+      "name": "energy_query_count",
+      "passed": true,
+      "method": "RBF_diagonal_xi_k4",
+      "budget": 1
+    },
+    {
+      "name": "energy_carrier_macro",
+      "passed": true,
+      "actual": 0.23000626179403788,
+      "expected": 0.230006261794024,
+      "tolerance": 2e-10,
+      "method": "RBF_diagonal_xi_k4",
+      "budget": 1
+    },
+    {
+      "name": "energy_query_count",
+      "passed": true,
+      "method": "RBF_diagonal_xi_k4",
+      "budget": 2
+    },
+    {
+      "name": "energy_carrier_macro",
+      "passed": true,
+      "actual": 0.21787014261347223,
+      "expected": 0.21787014261344,
+      "tolerance": 2e-10,
+      "method": "RBF_diagonal_xi_k4",
+      "budget": 2
+    },
+    {
+      "name": "energy_query_count",
+      "passed": true,
+      "method": "Ridge_diagonal_xi_k2",
+      "budget": 0
+    },
+    {
+      "name": "energy_carrier_macro",
+      "passed": true,
+      "actual": 0.25910609417714353,
+      "expected": 0.259106094177122,
+      "tolerance": 2e-10,
+      "method": "Ridge_diagonal_xi_k2",
+      "budget": 0
+    },
+    {
+      "name": "energy_query_count",
+      "passed": true,
+      "method": "Ridge_diagonal_xi_k2",
+      "budget": 1
+    },
+    {
+      "name": "energy_carrier_macro",
+      "passed": true,
+      "actual": 0.228140157941424,
+      "expected": 0.228140157941404,
+      "tolerance": 2e-10,
+      "method": "Ridge_diagonal_xi_k2",
+      "budget": 1
+    },
+    {
+      "name": "energy_query_count",
+      "passed": true,
+      "method": "Ridge_diagonal_xi_k2",
+      "budget": 2
+    },
+    {
+      "name": "energy_carrier_macro",
+      "passed": true,
+      "actual": 0.2124312191809279,
+      "expected": 0.212431219180902,
+      "tolerance": 2e-10,
+      "method": "Ridge_diagonal_xi_k2",
+      "budget": 2
+    },
+    {
+      "name": "energy_query_count",
+      "passed": true,
+      "method": "Ridge_diagonal_xi_k4",
+      "budget": 0
+    },
+    {
+      "name": "energy_carrier_macro",
+      "passed": true,
+      "actual": 0.260333823438254,
+      "expected": 0.260333823438244,
+      "tolerance": 2e-10,
+      "method": "Ridge_diagonal_xi_k4",
+      "budget": 0
+    },
+    {
+      "name": "energy_query_count",
+      "passed": true,
+      "method": "Ridge_diagonal_xi_k4",
+      "budget": 1
+    },
+    {
+      "name": "energy_carrier_macro",
+      "passed": true,
+      "actual": 0.2416567706093878,
+      "expected": 0.241656770609377,
+      "tolerance": 2e-10,
+      "method": "Ridge_diagonal_xi_k4",
+      "budget": 1
+    },
+    {
+      "name": "energy_query_count",
+      "passed": true,
+      "method": "Ridge_diagonal_xi_k4",
+      "budget": 2
+    },
+    {
+      "name": "energy_carrier_macro",
+      "passed": true,
+      "actual": 0.24662495026909942,
+      "expected": 0.246624950269082,
+      "tolerance": 2e-10,
+      "method": "Ridge_diagonal_xi_k4",
+      "budget": 2
+    },
+    {
+      "name": "energy_query_count",
+      "passed": true,
+      "method": "charge_pair_mean",
+      "budget": 0
+    },
+    {
+      "name": "energy_carrier_macro",
+      "passed": true,
+      "actual": 0.32438153035993317,
+      "expected": 0.324381530359932,
+      "tolerance": 2e-10,
+      "method": "charge_pair_mean",
+      "budget": 0
+    },
+    {
+      "name": "energy_query_count",
+      "passed": true,
+      "method": "charge_pair_mean",
+      "budget": 1
+    },
+    {
+      "name": "energy_carrier_macro",
+      "passed": true,
+      "actual": 0.3024185939549792,
+      "expected": 0.302418593954972,
+      "tolerance": 2e-10,
+      "method": "charge_pair_mean",
+      "budget": 1
+    },
+    {
+      "name": "energy_query_count",
+      "passed": true,
+      "method": "charge_pair_mean",
+      "budget": 2
+    },
+    {
+      "name": "energy_carrier_macro",
+      "passed": true,
+      "actual": 0.27303336965091607,
+      "expected": 0.273033369650898,
+      "tolerance": 2e-10,
+      "method": "charge_pair_mean",
+      "budget": 2
+    },
+    {
+      "name": "energy_query_count",
+      "passed": true,
+      "method": "extra_trees",
+      "budget": 0
+    },
+    {
+      "name": "energy_carrier_macro",
+      "passed": true,
+      "actual": 0.3553683482439924,
+      "expected": 0.355368348243984,
+      "tolerance": 2e-10,
+      "method": "extra_trees",
+      "budget": 0
+    },
+    {
+      "name": "energy_query_count",
+      "passed": true,
+      "method": "extra_trees",
+      "budget": 1
+    },
+    {
+      "name": "energy_carrier_macro",
+      "passed": true,
+      "actual": 0.4497249082601473,
+      "expected": 0.449724908260138,
+      "tolerance": 2e-10,
+      "method": "extra_trees",
+      "budget": 1
+    },
+    {
+      "name": "energy_query_count",
+      "passed": true,
+      "method": "extra_trees",
+      "budget": 2
+    },
+    {
+      "name": "energy_carrier_macro",
+      "passed": true,
+      "actual": 0.44510025740087367,
+      "expected": 0.445100257400862,
+      "tolerance": 2e-10,
+      "method": "extra_trees",
+      "budget": 2
+    },
+    {
+      "name": "energy_query_count",
+      "passed": true,
+      "method": "global_mean",
+      "budget": 0
+    },
+    {
+      "name": "energy_carrier_macro",
+      "passed": true,
+      "actual": 0.3240709459005936,
+      "expected": 0.324070945900596,
+      "tolerance": 2e-10,
+      "method": "global_mean",
+      "budget": 0
+    },
+    {
+      "name": "energy_query_count",
+      "passed": true,
+      "method": "global_mean",
+      "budget": 1
+    },
+    {
+      "name": "energy_carrier_macro",
+      "passed": true,
+      "actual": 0.3020483661027137,
+      "expected": 0.302048366102711,
+      "tolerance": 2e-10,
+      "method": "global_mean",
+      "budget": 1
+    },
+    {
+      "name": "energy_query_count",
+      "passed": true,
+      "method": "global_mean",
+      "budget": 2
+    },
+    {
+      "name": "energy_carrier_macro",
+      "passed": true,
+      "actual": 0.27264080565956395,
+      "expected": 0.272640805659547,
+      "tolerance": 2e-10,
+      "method": "global_mean",
+      "budget": 2
+    },
+    {
+      "name": "energy_query_count",
+      "passed": true,
+      "method": "mean_goal_k2",
+      "budget": 0
+    },
+    {
+      "name": "energy_carrier_macro",
+      "passed": true,
+      "actual": 0.2594101974184909,
+      "expected": 0.25941019741848,
+      "tolerance": 2e-10,
+      "method": "mean_goal_k2",
+      "budget": 0
+    },
+    {
+      "name": "energy_query_count",
+      "passed": true,
+      "method": "mean_goal_k2",
+      "budget": 1
+    },
+    {
+      "name": "energy_carrier_macro",
+      "passed": true,
+      "actual": 0.22867674290382284,
+      "expected": 0.228676742903809,
+      "tolerance": 2e-10,
+      "method": "mean_goal_k2",
+      "budget": 1
+    },
+    {
+      "name": "energy_query_count",
+      "passed": true,
+      "method": "mean_goal_k2",
+      "budget": 2
+    },
+    {
+      "name": "energy_carrier_macro",
+      "passed": true,
+      "actual": 0.21268253431354753,
+      "expected": 0.212682534313562,
+      "tolerance": 2e-10,
+      "method": "mean_goal_k2",
+      "budget": 2
+    },
+    {
+      "name": "energy_query_count",
+      "passed": true,
+      "method": "mean_goal_k4",
+      "budget": 0
+    },
+    {
+      "name": "energy_carrier_macro",
+      "passed": true,
+      "actual": 0.2590008636363622,
+      "expected": 0.259000863636361,
+      "tolerance": 2e-10,
+      "method": "mean_goal_k4",
+      "budget": 0
+    },
+    {
+      "name": "energy_query_count",
+      "passed": true,
+      "method": "mean_goal_k4",
+      "budget": 1
+    },
+    {
+      "name": "energy_carrier_macro",
+      "passed": true,
+      "actual": 0.22802242110798482,
+      "expected": 0.228022421107969,
+      "tolerance": 2e-10,
+      "method": "mean_goal_k4",
+      "budget": 1
+    },
+    {
+      "name": "energy_query_count",
+      "passed": true,
+      "method": "mean_goal_k4",
+      "budget": 2
+    },
+    {
+      "name": "energy_carrier_macro",
+      "passed": true,
+      "actual": 0.212525585952034,
+      "expected": 0.212525585952035,
+      "tolerance": 2e-10,
+      "method": "mean_goal_k4",
+      "budget": 2
+    },
+    {
+      "name": "energy_query_count",
+      "passed": true,
+      "method": "oracle_full",
+      "budget": 0
+    },
+    {
+      "name": "energy_carrier_macro",
+      "passed": true,
+      "actual": 0.26033388244633476,
+      "expected": 0.260333882446337,
+      "tolerance": 2e-10,
+      "method": "oracle_full",
+      "budget": 0
+    },
+    {
+      "name": "energy_query_count",
+      "passed": true,
+      "method": "oracle_full",
+      "budget": 1
+    },
+    {
+      "name": "energy_carrier_macro",
+      "passed": true,
+      "actual": 0.24165686153630653,
+      "expected": 0.241656861536306,
+      "tolerance": 2e-10,
+      "method": "oracle_full",
+      "budget": 1
+    },
+    {
+      "name": "energy_query_count",
+      "passed": true,
+      "method": "oracle_full",
+      "budget": 2
+    },
+    {
+      "name": "energy_carrier_macro",
+      "passed": true,
+      "actual": 0.24662502606578068,
+      "expected": 0.246625026065784,
+      "tolerance": 2e-10,
+      "method": "oracle_full",
+      "budget": 2
+    },
+    {
+      "name": "energy_query_count",
+      "passed": true,
+      "method": "rbf",
+      "budget": 0
+    },
+    {
+      "name": "energy_carrier_macro",
+      "passed": true,
+      "actual": 0.41079782396133024,
+      "expected": 0.410797823961321,
+      "tolerance": 2e-10,
+      "method": "rbf",
+      "budget": 0
+    },
+    {
+      "name": "energy_query_count",
+      "passed": true,
+      "method": "rbf",
+      "budget": 1
+    },
+    {
+      "name": "energy_carrier_macro",
+      "passed": true,
+      "actual": 0.4718111651796729,
+      "expected": 0.471811165179646,
+      "tolerance": 2e-10,
+      "method": "rbf",
+      "budget": 1
+    },
+    {
+      "name": "energy_query_count",
+      "passed": true,
+      "method": "rbf",
+      "budget": 2
+    },
+    {
+      "name": "energy_carrier_macro",
+      "passed": true,
+      "actual": 0.4388223009148652,
+      "expected": 0.43882230091485,
+      "tolerance": 2e-10,
+      "method": "rbf",
+      "budget": 2
+    },
+    {
+      "name": "energy_query_count",
+      "passed": true,
+      "method": "ridge",
+      "budget": 0
+    },
+    {
+      "name": "energy_carrier_macro",
+      "passed": true,
+      "actual": 0.32271254727185156,
+      "expected": 0.322712547271831,
+      "tolerance": 2e-10,
+      "method": "ridge",
+      "budget": 0
+    },
+    {
+      "name": "energy_query_count",
+      "passed": true,
+      "method": "ridge",
+      "budget": 1
+    },
+    {
+      "name": "energy_carrier_macro",
+      "passed": true,
+      "actual": 0.30043667529525364,
+      "expected": 0.300436675295229,
+      "tolerance": 2e-10,
+      "method": "ridge",
+      "budget": 1
+    },
+    {
+      "name": "energy_query_count",
+      "passed": true,
+      "method": "ridge",
+      "budget": 2
+    },
+    {
+      "name": "energy_carrier_macro",
+      "passed": true,
+      "actual": 0.2709472005795364,
+      "expected": 0.270947200579515,
+      "tolerance": 2e-10,
+      "method": "ridge",
+      "budget": 2
+    },
+    {
+      "name": "temperature_query_count",
+      "passed": true,
+      "method": "direct_joint_affine",
+      "budget": 0,
+      "scope": "all_query"
+    },
+    {
+      "name": "temperature_independent_macro",
+      "passed": true,
+      "actual": 0.3453045582377259,
+      "expected": 0.345304558237724,
+      "tolerance": 2e-10,
+      "method": "direct_joint_affine",
+      "budget": 0,
+      "scope": "all_query"
+    },
+    {
+      "name": "temperature_query_count",
+      "passed": true,
+      "method": "direct_joint_affine",
+      "budget": 0,
+      "scope": "common40_125"
+    },
+    {
+      "name": "temperature_independent_macro",
+      "passed": true,
+      "actual": 0.32337953206215975,
+      "expected": 0.323379532062156,
+      "tolerance": 2e-10,
+      "method": "direct_joint_affine",
+      "budget": 0,
+      "scope": "common40_125"
+    },
+    {
+      "name": "temperature_query_count",
+      "passed": true,
+      "method": "direct_joint_affine",
+      "budget": 1,
+      "scope": "all_query"
+    },
+    {
+      "name": "temperature_independent_macro",
+      "passed": true,
+      "actual": 0.2807888132412937,
+      "expected": 0.280788813241292,
+      "tolerance": 2e-10,
+      "method": "direct_joint_affine",
+      "budget": 1,
+      "scope": "all_query"
+    },
+    {
+      "name": "temperature_query_count",
+      "passed": true,
+      "method": "direct_joint_affine",
+      "budget": 1,
+      "scope": "common40_125"
+    },
+    {
+      "name": "temperature_independent_macro",
+      "passed": true,
+      "actual": 0.29709265358713977,
+      "expected": 0.297092653587143,
+      "tolerance": 2e-10,
+      "method": "direct_joint_affine",
+      "budget": 1,
+      "scope": "common40_125"
+    },
+    {
+      "name": "temperature_query_count",
+      "passed": true,
+      "method": "direct_joint_affine",
+      "budget": 2,
+      "scope": "all_query"
+    },
+    {
+      "name": "temperature_independent_macro",
+      "passed": true,
+      "actual": 0.27791875347731776,
+      "expected": 0.277918753477319,
+      "tolerance": 2e-10,
+      "method": "direct_joint_affine",
+      "budget": 2,
+      "scope": "all_query"
+    },
+    {
+      "name": "temperature_query_count",
+      "passed": true,
+      "method": "direct_joint_affine",
+      "budget": 2,
+      "scope": "common40_125"
+    },
+    {
+      "name": "temperature_independent_macro",
+      "passed": true,
+      "actual": 0.2509453806434956,
+      "expected": 0.250945380643496,
+      "tolerance": 2e-10,
+      "method": "direct_joint_affine",
+      "budget": 2,
+      "scope": "common40_125"
+    },
+    {
+      "name": "temperature_query_count",
+      "passed": true,
+      "method": "direct_joint_offset",
+      "budget": 0,
+      "scope": "all_query"
+    },
+    {
+      "name": "temperature_independent_macro",
+      "passed": true,
+      "actual": 0.3453045582377259,
+      "expected": 0.345304558237724,
+      "tolerance": 2e-10,
+      "method": "direct_joint_offset",
+      "budget": 0,
+      "scope": "all_query"
+    },
+    {
+      "name": "temperature_query_count",
+      "passed": true,
+      "method": "direct_joint_offset",
+      "budget": 0,
+      "scope": "common40_125"
+    },
+    {
+      "name": "temperature_independent_macro",
+      "passed": true,
+      "actual": 0.32337953206215975,
+      "expected": 0.323379532062156,
+      "tolerance": 2e-10,
+      "method": "direct_joint_offset",
+      "budget": 0,
+      "scope": "common40_125"
+    },
+    {
+      "name": "temperature_query_count",
+      "passed": true,
+      "method": "direct_joint_offset",
+      "budget": 1,
+      "scope": "all_query"
+    },
+    {
+      "name": "temperature_independent_macro",
+      "passed": true,
+      "actual": 0.2807888132412937,
+      "expected": 0.280788813241292,
+      "tolerance": 2e-10,
+      "method": "direct_joint_offset",
+      "budget": 1,
+      "scope": "all_query"
+    },
+    {
+      "name": "temperature_query_count",
+      "passed": true,
+      "method": "direct_joint_offset",
+      "budget": 1,
+      "scope": "common40_125"
+    },
+    {
+      "name": "temperature_independent_macro",
+      "passed": true,
+      "actual": 0.29709265358713977,
+      "expected": 0.297092653587143,
+      "tolerance": 2e-10,
+      "method": "direct_joint_offset",
+      "budget": 1,
+      "scope": "common40_125"
+    },
+    {
+      "name": "temperature_query_count",
+      "passed": true,
+      "method": "direct_joint_offset",
+      "budget": 2,
+      "scope": "all_query"
+    },
+    {
+      "name": "temperature_independent_macro",
+      "passed": true,
+      "actual": 0.31528259112207974,
+      "expected": 0.315282591122077,
+      "tolerance": 2e-10,
+      "method": "direct_joint_offset",
+      "budget": 2,
+      "scope": "all_query"
+    },
+    {
+      "name": "temperature_query_count",
+      "passed": true,
+      "method": "direct_joint_offset",
+      "budget": 2,
+      "scope": "common40_125"
+    },
+    {
+      "name": "temperature_independent_macro",
+      "passed": true,
+      "actual": 0.3479969467052107,
+      "expected": 0.347996946705211,
+      "tolerance": 2e-10,
+      "method": "direct_joint_offset",
+      "budget": 2,
+      "scope": "common40_125"
+    },
+    {
+      "name": "temperature_query_count",
+      "passed": true,
+      "method": "dose_line_offset",
+      "budget": 0,
+      "scope": "all_query"
+    },
+    {
+      "name": "temperature_independent_macro",
+      "passed": true,
+      "actual": 0.9042451804679654,
+      "expected": 0.904245180467954,
+      "tolerance": 2e-10,
+      "method": "dose_line_offset",
+      "budget": 0,
+      "scope": "all_query"
+    },
+    {
+      "name": "temperature_query_count",
+      "passed": true,
+      "method": "dose_line_offset",
+      "budget": 0,
+      "scope": "common40_125"
+    },
+    {
+      "name": "temperature_independent_macro",
+      "passed": true,
+      "actual": 1.105313602953573,
+      "expected": 1.10531360295356,
+      "tolerance": 2e-10,
+      "method": "dose_line_offset",
+      "budget": 0,
+      "scope": "common40_125"
+    },
+    {
+      "name": "temperature_query_count",
+      "passed": true,
+      "method": "dose_line_offset",
+      "budget": 1,
+      "scope": "all_query"
+    },
+    {
+      "name": "temperature_independent_macro",
+      "passed": true,
+      "actual": 0.7653669277967755,
+      "expected": 0.76536692779679,
+      "tolerance": 2e-10,
+      "method": "dose_line_offset",
+      "budget": 1,
+      "scope": "all_query"
+    },
+    {
+      "name": "temperature_query_count",
+      "passed": true,
+      "method": "dose_line_offset",
+      "budget": 1,
+      "scope": "common40_125"
+    },
+    {
+      "name": "temperature_independent_macro",
+      "passed": true,
+      "actual": 0.9888264788845054,
+      "expected": 0.988826478884517,
+      "tolerance": 2e-10,
+      "method": "dose_line_offset",
+      "budget": 1,
+      "scope": "common40_125"
+    },
+    {
+      "name": "temperature_query_count",
+      "passed": true,
+      "method": "dose_line_offset",
+      "budget": 2,
+      "scope": "all_query"
+    },
+    {
+      "name": "temperature_independent_macro",
+      "passed": true,
+      "actual": 0.7044823891111813,
+      "expected": 0.704482389111182,
+      "tolerance": 2e-10,
+      "method": "dose_line_offset",
+      "budget": 2,
+      "scope": "all_query"
+    },
+    {
+      "name": "temperature_query_count",
+      "passed": true,
+      "method": "dose_line_offset",
+      "budget": 2,
+      "scope": "common40_125"
+    },
+    {
+      "name": "temperature_independent_macro",
+      "passed": true,
+      "actual": 0.8693077659570143,
+      "expected": 0.869307765957015,
+      "tolerance": 2e-10,
+      "method": "dose_line_offset",
+      "budget": 2,
+      "scope": "common40_125"
+    },
+    {
+      "name": "temperature_query_count",
+      "passed": true,
+      "method": "fixed_joint_Tf_E",
+      "budget": 0,
+      "scope": "all_query"
+    },
+    {
+      "name": "temperature_independent_macro",
+      "passed": true,
+      "actual": 0.7444435668802556,
+      "expected": 0.744443566880257,
+      "tolerance": 2e-10,
+      "method": "fixed_joint_Tf_E",
+      "budget": 0,
+      "scope": "all_query"
+    },
+    {
+      "name": "temperature_query_count",
+      "passed": true,
+      "method": "fixed_joint_Tf_E",
+      "budget": 0,
+      "scope": "common40_125"
+    },
+    {
+      "name": "temperature_independent_macro",
+      "passed": true,
+      "actual": 0.8574790620463257,
+      "expected": 0.857479062046327,
+      "tolerance": 2e-10,
+      "method": "fixed_joint_Tf_E",
+      "budget": 0,
+      "scope": "common40_125"
+    },
+    {
+      "name": "temperature_query_count",
+      "passed": true,
+      "method": "fixed_joint_Tf_E",
+      "budget": 1,
+      "scope": "all_query"
+    },
+    {
+      "name": "temperature_independent_macro",
+      "passed": true,
+      "actual": 0.41840260870622825,
+      "expected": 0.418402608706223,
+      "tolerance": 2e-10,
+      "method": "fixed_joint_Tf_E",
+      "budget": 1,
+      "scope": "all_query"
+    },
+    {
+      "name": "temperature_query_count",
+      "passed": true,
+      "method": "fixed_joint_Tf_E",
+      "budget": 1,
+      "scope": "common40_125"
+    },
+    {
+      "name": "temperature_independent_macro",
+      "passed": true,
+      "actual": 0.48192200328625945,
+      "expected": 0.481922003286257,
+      "tolerance": 2e-10,
+      "method": "fixed_joint_Tf_E",
+      "budget": 1,
+      "scope": "common40_125"
+    },
+    {
+      "name": "temperature_query_count",
+      "passed": true,
+      "method": "fixed_joint_Tf_E",
+      "budget": 2,
+      "scope": "all_query"
+    },
+    {
+      "name": "temperature_independent_macro",
+      "passed": true,
+      "actual": 0.3232607821279068,
+      "expected": 0.323260782127905,
+      "tolerance": 2e-10,
+      "method": "fixed_joint_Tf_E",
+      "budget": 2,
+      "scope": "all_query"
+    },
+    {
+      "name": "temperature_query_count",
+      "passed": true,
+      "method": "fixed_joint_Tf_E",
+      "budget": 2,
+      "scope": "common40_125"
+    },
+    {
+      "name": "temperature_independent_macro",
+      "passed": true,
+      "actual": 0.3497249087140895,
+      "expected": 0.349724908714088,
+      "tolerance": 2e-10,
+      "method": "fixed_joint_Tf_E",
+      "budget": 2,
+      "scope": "common40_125"
+    },
+    {
+      "name": "temperature_query_count",
+      "passed": true,
+      "method": "fixed_joint_offset",
+      "budget": 0,
+      "scope": "all_query"
+    },
+    {
+      "name": "temperature_independent_macro",
+      "passed": true,
+      "actual": 0.7444435668802556,
+      "expected": 0.744443566880257,
+      "tolerance": 2e-10,
+      "method": "fixed_joint_offset",
+      "budget": 0,
+      "scope": "all_query"
+    },
+    {
+      "name": "temperature_query_count",
+      "passed": true,
+      "method": "fixed_joint_offset",
+      "budget": 0,
+      "scope": "common40_125"
+    },
+    {
+      "name": "temperature_independent_macro",
+      "passed": true,
+      "actual": 0.8574790620463257,
+      "expected": 0.857479062046327,
+      "tolerance": 2e-10,
+      "method": "fixed_joint_offset",
+      "budget": 0,
+      "scope": "common40_125"
+    },
+    {
+      "name": "temperature_query_count",
+      "passed": true,
+      "method": "fixed_joint_offset",
+      "budget": 1,
+      "scope": "all_query"
+    },
+    {
+      "name": "temperature_independent_macro",
+      "passed": true,
+      "actual": 0.649612004766373,
+      "expected": 0.649612004766371,
+      "tolerance": 2e-10,
+      "method": "fixed_joint_offset",
+      "budget": 1,
+      "scope": "all_query"
+    },
+    {
+      "name": "temperature_query_count",
+      "passed": true,
+      "method": "fixed_joint_offset",
+      "budget": 1,
+      "scope": "common40_125"
+    },
+    {
+      "name": "temperature_independent_macro",
+      "passed": true,
+      "actual": 0.7438064689754547,
+      "expected": 0.743806468975451,
+      "tolerance": 2e-10,
+      "method": "fixed_joint_offset",
+      "budget": 1,
+      "scope": "common40_125"
+    },
+    {
+      "name": "temperature_query_count",
+      "passed": true,
+      "method": "fixed_joint_offset",
+      "budget": 2,
+      "scope": "all_query"
+    },
+    {
+      "name": "temperature_independent_macro",
+      "passed": true,
+      "actual": 0.5956538057573769,
+      "expected": 0.595653805757374,
+      "tolerance": 2e-10,
+      "method": "fixed_joint_offset",
+      "budget": 2,
+      "scope": "all_query"
+    },
+    {
+      "name": "temperature_query_count",
+      "passed": true,
+      "method": "fixed_joint_offset",
+      "budget": 2,
+      "scope": "common40_125"
+    },
+    {
+      "name": "temperature_independent_macro",
+      "passed": true,
+      "actual": 0.6527644887552158,
+      "expected": 0.652764488755219,
+      "tolerance": 2e-10,
+      "method": "fixed_joint_offset",
+      "budget": 2,
+      "scope": "common40_125"
+    },
+    {
+      "name": "temperature_query_count",
+      "passed": true,
+      "method": "original_RT_Tf",
+      "budget": 0,
+      "scope": "all_query"
+    },
+    {
+      "name": "temperature_independent_macro",
+      "passed": true,
+      "actual": 0.8037555925120239,
+      "expected": 0.803755592512023,
+      "tolerance": 2e-10,
+      "method": "original_RT_Tf",
+      "budget": 0,
+      "scope": "all_query"
+    },
+    {
+      "name": "temperature_query_count",
+      "passed": true,
+      "method": "original_RT_Tf",
+      "budget": 0,
+      "scope": "common40_125"
+    },
+    {
+      "name": "temperature_independent_macro",
+      "passed": true,
+      "actual": 1.0437157096988527,
+      "expected": 1.04371570969884,
+      "tolerance": 2e-10,
+      "method": "original_RT_Tf",
+      "budget": 0,
+      "scope": "common40_125"
+    },
+    {
+      "name": "temperature_query_count",
+      "passed": true,
+      "method": "original_RT_Tf",
+      "budget": 1,
+      "scope": "all_query"
+    },
+    {
+      "name": "temperature_independent_macro",
+      "passed": true,
+      "actual": 0.7574863595506429,
+      "expected": 0.757486359550645,
+      "tolerance": 2e-10,
+      "method": "original_RT_Tf",
+      "budget": 1,
+      "scope": "all_query"
+    },
+    {
+      "name": "temperature_query_count",
+      "passed": true,
+      "method": "original_RT_Tf",
+      "budget": 1,
+      "scope": "common40_125"
+    },
+    {
+      "name": "temperature_independent_macro",
+      "passed": true,
+      "actual": 0.9789695274170355,
+      "expected": 0.978969527417036,
+      "tolerance": 2e-10,
+      "method": "original_RT_Tf",
+      "budget": 1,
+      "scope": "common40_125"
+    },
+    {
+      "name": "temperature_query_count",
+      "passed": true,
+      "method": "original_RT_Tf",
+      "budget": 2,
+      "scope": "all_query"
+    },
+    {
+      "name": "temperature_independent_macro",
+      "passed": true,
+      "actual": 0.7046495010633151,
+      "expected": 0.704649501063318,
+      "tolerance": 2e-10,
+      "method": "original_RT_Tf",
+      "budget": 2,
+      "scope": "all_query"
+    },
+    {
+      "name": "temperature_query_count",
+      "passed": true,
+      "method": "original_RT_Tf",
+      "budget": 2,
+      "scope": "common40_125"
+    },
+    {
+      "name": "temperature_independent_macro",
+      "passed": true,
+      "actual": 0.8696731173673127,
+      "expected": 0.869673117367315,
+      "tolerance": 2e-10,
+      "method": "original_RT_Tf",
+      "budget": 2,
+      "scope": "common40_125"
+    },
+    {
+      "name": "temperature_query_count",
+      "passed": true,
+      "method": "original_RT_offset",
+      "budget": 0,
+      "scope": "all_query"
+    },
+    {
+      "name": "temperature_independent_macro",
+      "passed": true,
+      "actual": 0.8037555925120239,
+      "expected": 0.803755592512023,
+      "tolerance": 2e-10,
+      "method": "original_RT_offset",
+      "budget": 0,
+      "scope": "all_query"
+    },
+    {
+      "name": "temperature_query_count",
+      "passed": true,
+      "method": "original_RT_offset",
+      "budget": 0,
+      "scope": "common40_125"
+    },
+    {
+      "name": "temperature_independent_macro",
+      "passed": true,
+      "actual": 1.0437157096988527,
+      "expected": 1.04371570969884,
+      "tolerance": 2e-10,
+      "method": "original_RT_offset",
+      "budget": 0,
+      "scope": "common40_125"
+    },
+    {
+      "name": "temperature_query_count",
+      "passed": true,
+      "method": "original_RT_offset",
+      "budget": 1,
+      "scope": "all_query"
+    },
+    {
+      "name": "temperature_independent_macro",
+      "passed": true,
+      "actual": 0.8290241406141274,
+      "expected": 0.829024140614128,
+      "tolerance": 2e-10,
+      "method": "original_RT_offset",
+      "budget": 1,
+      "scope": "all_query"
+    },
+    {
+      "name": "temperature_query_count",
+      "passed": true,
+      "method": "original_RT_offset",
+      "budget": 1,
+      "scope": "common40_125"
+    },
+    {
+      "name": "temperature_independent_macro",
+      "passed": true,
+      "actual": 1.053458212600418,
+      "expected": 1.05345821260041,
+      "tolerance": 2e-10,
+      "method": "original_RT_offset",
+      "budget": 1,
+      "scope": "common40_125"
+    },
+    {
+      "name": "temperature_query_count",
+      "passed": true,
+      "method": "original_RT_offset",
+      "budget": 2,
+      "scope": "all_query"
+    },
+    {
+      "name": "temperature_independent_macro",
+      "passed": true,
+      "actual": 0.704439293253341,
+      "expected": 0.704439293253341,
+      "tolerance": 2e-10,
+      "method": "original_RT_offset",
+      "budget": 2,
+      "scope": "all_query"
+    },
+    {
+      "name": "temperature_query_count",
+      "passed": true,
+      "method": "original_RT_offset",
+      "budget": 2,
+      "scope": "common40_125"
+    },
+    {
+      "name": "temperature_independent_macro",
+      "passed": true,
+      "actual": 0.8692750490182024,
+      "expected": 0.869275049018194,
+      "tolerance": 2e-10,
+      "method": "original_RT_offset",
+      "budget": 2,
+      "scope": "common40_125"
+    },
+    {
+      "name": "temperature_query_count",
+      "passed": true,
+      "method": "shared_joint_E",
+      "budget": 0,
+      "scope": "all_query"
+    },
+    {
+      "name": "temperature_independent_macro",
+      "passed": true,
+      "actual": 0.26491452043522856,
+      "expected": 0.264914520435228,
+      "tolerance": 2e-10,
+      "method": "shared_joint_E",
+      "budget": 0,
+      "scope": "all_query"
+    },
+    {
+      "name": "temperature_query_count",
+      "passed": true,
+      "method": "shared_joint_E",
+      "budget": 0,
+      "scope": "common40_125"
+    },
+    {
+      "name": "temperature_independent_macro",
+      "passed": true,
+      "actual": 0.2975494318865384,
+      "expected": 0.297549431886537,
+      "tolerance": 2e-10,
+      "method": "shared_joint_E",
+      "budget": 0,
+      "scope": "common40_125"
+    },
+    {
+      "name": "temperature_query_count",
+      "passed": true,
+      "method": "shared_joint_E",
+      "budget": 1,
+      "scope": "all_query"
+    },
+    {
+      "name": "temperature_independent_macro",
+      "passed": true,
+      "actual": 0.23933791205499133,
+      "expected": 0.239337912054988,
+      "tolerance": 2e-10,
+      "method": "shared_joint_E",
+      "budget": 1,
+      "scope": "all_query"
+    },
+    {
+      "name": "temperature_query_count",
+      "passed": true,
+      "method": "shared_joint_E",
+      "budget": 1,
+      "scope": "common40_125"
+    },
+    {
+      "name": "temperature_independent_macro",
+      "passed": true,
+      "actual": 0.2742846368956391,
+      "expected": 0.274284636895631,
+      "tolerance": 2e-10,
+      "method": "shared_joint_E",
+      "budget": 1,
+      "scope": "common40_125"
+    },
+    {
+      "name": "temperature_query_count",
+      "passed": true,
+      "method": "shared_joint_E",
+      "budget": 2,
+      "scope": "all_query"
+    },
+    {
+      "name": "temperature_independent_macro",
+      "passed": true,
+      "actual": 0.20236585044396338,
+      "expected": 0.202365850443961,
+      "tolerance": 2e-10,
+      "method": "shared_joint_E",
+      "budget": 2,
+      "scope": "all_query"
+    },
+    {
+      "name": "temperature_query_count",
+      "passed": true,
+      "method": "shared_joint_E",
+      "budget": 2,
+      "scope": "common40_125"
+    },
+    {
+      "name": "temperature_independent_macro",
+      "passed": true,
+      "actual": 0.21521869079677977,
+      "expected": 0.215218690796774,
+      "tolerance": 2e-10,
+      "method": "shared_joint_E",
+      "budget": 2,
+      "scope": "common40_125"
+    },
+    {
+      "name": "temperature_query_count",
+      "passed": true,
+      "method": "shared_joint_Tf",
+      "budget": 0,
+      "scope": "all_query"
+    },
+    {
+      "name": "temperature_independent_macro",
+      "passed": true,
+      "actual": 0.26491452043522856,
+      "expected": 0.264914520435228,
+      "tolerance": 2e-10,
+      "method": "shared_joint_Tf",
+      "budget": 0,
+      "scope": "all_query"
+    },
+    {
+      "name": "temperature_query_count",
+      "passed": true,
+      "method": "shared_joint_Tf",
+      "budget": 0,
+      "scope": "common40_125"
+    },
+    {
+      "name": "temperature_independent_macro",
+      "passed": true,
+      "actual": 0.2975494318865384,
+      "expected": 0.297549431886537,
+      "tolerance": 2e-10,
+      "method": "shared_joint_Tf",
+      "budget": 0,
+      "scope": "common40_125"
+    },
+    {
+      "name": "temperature_query_count",
+      "passed": true,
+      "method": "shared_joint_Tf",
+      "budget": 1,
+      "scope": "all_query"
+    },
+    {
+      "name": "temperature_independent_macro",
+      "passed": true,
+      "actual": 0.2674312907757379,
+      "expected": 0.267431290775737,
+      "tolerance": 2e-10,
+      "method": "shared_joint_Tf",
+      "budget": 1,
+      "scope": "all_query"
+    },
+    {
+      "name": "temperature_query_count",
+      "passed": true,
+      "method": "shared_joint_Tf",
+      "budget": 1,
+      "scope": "common40_125"
+    },
+    {
+      "name": "temperature_independent_macro",
+      "passed": true,
+      "actual": 0.29627284671550413,
+      "expected": 0.296272846715499,
+      "tolerance": 2e-10,
+      "method": "shared_joint_Tf",
+      "budget": 1,
+      "scope": "common40_125"
+    },
+    {
+      "name": "temperature_query_count",
+      "passed": true,
+      "method": "shared_joint_Tf",
+      "budget": 2,
+      "scope": "all_query"
+    },
+    {
+      "name": "temperature_independent_macro",
+      "passed": true,
+      "actual": 0.27301441588197695,
+      "expected": 0.273014415881979,
+      "tolerance": 2e-10,
+      "method": "shared_joint_Tf",
+      "budget": 2,
+      "scope": "all_query"
+    },
+    {
+      "name": "temperature_query_count",
+      "passed": true,
+      "method": "shared_joint_Tf",
+      "budget": 2,
+      "scope": "common40_125"
+    },
+    {
+      "name": "temperature_independent_macro",
+      "passed": true,
+      "actual": 0.29664417572800916,
+      "expected": 0.296644175728015,
+      "tolerance": 2e-10,
+      "method": "shared_joint_Tf",
+      "budget": 2,
+      "scope": "common40_125"
+    },
+    {
+      "name": "temperature_query_count",
+      "passed": true,
+      "method": "shared_joint_Tf_E",
+      "budget": 0,
+      "scope": "all_query"
+    },
+    {
+      "name": "temperature_independent_macro",
+      "passed": true,
+      "actual": 0.26491452043522856,
+      "expected": 0.264914520435228,
+      "tolerance": 2e-10,
+      "method": "shared_joint_Tf_E",
+      "budget": 0,
+      "scope": "all_query"
+    },
+    {
+      "name": "temperature_query_count",
+      "passed": true,
+      "method": "shared_joint_Tf_E",
+      "budget": 0,
+      "scope": "common40_125"
+    },
+    {
+      "name": "temperature_independent_macro",
+      "passed": true,
+      "actual": 0.2975494318865384,
+      "expected": 0.297549431886537,
+      "tolerance": 2e-10,
+      "method": "shared_joint_Tf_E",
+      "budget": 0,
+      "scope": "common40_125"
+    },
+    {
+      "name": "temperature_query_count",
+      "passed": true,
+      "method": "shared_joint_Tf_E",
+      "budget": 1,
+      "scope": "all_query"
+    },
+    {
+      "name": "temperature_independent_macro",
+      "passed": true,
+      "actual": 0.26420335939022666,
+      "expected": 0.264203359390229,
+      "tolerance": 2e-10,
+      "method": "shared_joint_Tf_E",
+      "budget": 1,
+      "scope": "all_query"
+    },
+    {
+      "name": "temperature_query_count",
+      "passed": true,
+      "method": "shared_joint_Tf_E",
+      "budget": 1,
+      "scope": "common40_125"
+    },
+    {
+      "name": "temperature_independent_macro",
+      "passed": true,
+      "actual": 0.30517011022405527,
+      "expected": 0.305170110224055,
+      "tolerance": 2e-10,
+      "method": "shared_joint_Tf_E",
+      "budget": 1,
+      "scope": "common40_125"
+    },
+    {
+      "name": "temperature_query_count",
+      "passed": true,
+      "method": "shared_joint_Tf_E",
+      "budget": 2,
+      "scope": "all_query"
+    },
+    {
+      "name": "temperature_independent_macro",
+      "passed": true,
+      "actual": 0.19507220656830487,
+      "expected": 0.195072206568305,
+      "tolerance": 2e-10,
+      "method": "shared_joint_Tf_E",
+      "budget": 2,
+      "scope": "all_query"
+    },
+    {
+      "name": "temperature_query_count",
+      "passed": true,
+      "method": "shared_joint_Tf_E",
+      "budget": 2,
+      "scope": "common40_125"
+    },
+    {
+      "name": "temperature_independent_macro",
+      "passed": true,
+      "actual": 0.2065182234640855,
+      "expected": 0.206518223464083,
+      "tolerance": 2e-10,
+      "method": "shared_joint_Tf_E",
+      "budget": 2,
+      "scope": "common40_125"
+    },
+    {
+      "name": "temperature_query_count",
+      "passed": true,
+      "method": "shared_joint_offset",
+      "budget": 0,
+      "scope": "all_query"
+    },
+    {
+      "name": "temperature_independent_macro",
+      "passed": true,
+      "actual": 0.26491452043522856,
+      "expected": 0.264914520435228,
+      "tolerance": 2e-10,
+      "method": "shared_joint_offset",
+      "budget": 0,
+      "scope": "all_query"
+    },
+    {
+      "name": "temperature_query_count",
+      "passed": true,
+      "method": "shared_joint_offset",
+      "budget": 0,
+      "scope": "common40_125"
+    },
+    {
+      "name": "temperature_independent_macro",
+      "passed": true,
+      "actual": 0.2975494318865384,
+      "expected": 0.297549431886537,
+      "tolerance": 2e-10,
+      "method": "shared_joint_offset",
+      "budget": 0,
+      "scope": "common40_125"
+    },
+    {
+      "name": "temperature_query_count",
+      "passed": true,
+      "method": "shared_joint_offset",
+      "budget": 1,
+      "scope": "all_query"
+    },
+    {
+      "name": "temperature_independent_macro",
+      "passed": true,
+      "actual": 0.21797611282753082,
+      "expected": 0.217976112827525,
+      "tolerance": 2e-10,
+      "method": "shared_joint_offset",
+      "budget": 1,
+      "scope": "all_query"
+    },
+    {
+      "name": "temperature_query_count",
+      "passed": true,
+      "method": "shared_joint_offset",
+      "budget": 1,
+      "scope": "common40_125"
+    },
+    {
+      "name": "temperature_independent_macro",
+      "passed": true,
+      "actual": 0.2544437728315953,
+      "expected": 0.254443772831589,
+      "tolerance": 2e-10,
+      "method": "shared_joint_offset",
+      "budget": 1,
+      "scope": "common40_125"
+    },
+    {
+      "name": "temperature_query_count",
+      "passed": true,
+      "method": "shared_joint_offset",
+      "budget": 2,
+      "scope": "all_query"
+    },
+    {
+      "name": "temperature_independent_macro",
+      "passed": true,
+      "actual": 0.1955134849967471,
+      "expected": 0.195513484996744,
+      "tolerance": 2e-10,
+      "method": "shared_joint_offset",
+      "budget": 2,
+      "scope": "all_query"
+    },
+    {
+      "name": "temperature_query_count",
+      "passed": true,
+      "method": "shared_joint_offset",
+      "budget": 2,
+      "scope": "common40_125"
+    },
+    {
+      "name": "temperature_independent_macro",
+      "passed": true,
+      "actual": 0.21858067522982116,
+      "expected": 0.218580675229818,
+      "tolerance": 2e-10,
+      "method": "shared_joint_offset",
+      "budget": 2,
+      "scope": "common40_125"
+    },
+    {
+      "name": "identical_80_temperature_queries",
+      "passed": true,
+      "method": "direct_joint_affine",
+      "budget": 0
+    },
+    {
+      "name": "identical_80_temperature_queries",
+      "passed": true,
+      "method": "direct_joint_affine",
+      "budget": 1
+    },
+    {
+      "name": "identical_80_temperature_queries",
+      "passed": true,
+      "method": "direct_joint_affine",
+      "budget": 2
+    },
+    {
+      "name": "identical_80_temperature_queries",
+      "passed": true,
+      "method": "direct_joint_offset",
+      "budget": 0
+    },
+    {
+      "name": "identical_80_temperature_queries",
+      "passed": true,
+      "method": "direct_joint_offset",
+      "budget": 1
+    },
+    {
+      "name": "identical_80_temperature_queries",
+      "passed": true,
+      "method": "direct_joint_offset",
+      "budget": 2
+    },
+    {
+      "name": "identical_80_temperature_queries",
+      "passed": true,
+      "method": "dose_line_offset",
+      "budget": 0
+    },
+    {
+      "name": "identical_80_temperature_queries",
+      "passed": true,
+      "method": "dose_line_offset",
+      "budget": 1
+    },
+    {
+      "name": "identical_80_temperature_queries",
+      "passed": true,
+      "method": "dose_line_offset",
+      "budget": 2
+    },
+    {
+      "name": "identical_80_temperature_queries",
+      "passed": true,
+      "method": "fixed_joint_Tf_E",
+      "budget": 0
+    },
+    {
+      "name": "identical_80_temperature_queries",
+      "passed": true,
+      "method": "fixed_joint_Tf_E",
+      "budget": 1
+    },
+    {
+      "name": "identical_80_temperature_queries",
+      "passed": true,
+      "method": "fixed_joint_Tf_E",
+      "budget": 2
+    },
+    {
+      "name": "identical_80_temperature_queries",
+      "passed": true,
+      "method": "fixed_joint_offset",
+      "budget": 0
+    },
+    {
+      "name": "identical_80_temperature_queries",
+      "passed": true,
+      "method": "fixed_joint_offset",
+      "budget": 1
+    },
+    {
+      "name": "identical_80_temperature_queries",
+      "passed": true,
+      "method": "fixed_joint_offset",
+      "budget": 2
+    },
+    {
+      "name": "identical_80_temperature_queries",
+      "passed": true,
+      "method": "original_RT_Tf",
+      "budget": 0
+    },
+    {
+      "name": "identical_80_temperature_queries",
+      "passed": true,
+      "method": "original_RT_Tf",
+      "budget": 1
+    },
+    {
+      "name": "identical_80_temperature_queries",
+      "passed": true,
+      "method": "original_RT_Tf",
+      "budget": 2
+    },
+    {
+      "name": "identical_80_temperature_queries",
+      "passed": true,
+      "method": "original_RT_offset",
+      "budget": 0
+    },
+    {
+      "name": "identical_80_temperature_queries",
+      "passed": true,
+      "method": "original_RT_offset",
+      "budget": 1
+    },
+    {
+      "name": "identical_80_temperature_queries",
+      "passed": true,
+      "method": "original_RT_offset",
+      "budget": 2
+    },
+    {
+      "name": "identical_80_temperature_queries",
+      "passed": true,
+      "method": "shared_joint_E",
+      "budget": 0
+    },
+    {
+      "name": "identical_80_temperature_queries",
+      "passed": true,
+      "method": "shared_joint_E",
+      "budget": 1
+    },
+    {
+      "name": "identical_80_temperature_queries",
+      "passed": true,
+      "method": "shared_joint_E",
+      "budget": 2
+    },
+    {
+      "name": "identical_80_temperature_queries",
+      "passed": true,
+      "method": "shared_joint_Tf",
+      "budget": 0
+    },
+    {
+      "name": "identical_80_temperature_queries",
+      "passed": true,
+      "method": "shared_joint_Tf",
+      "budget": 1
+    },
+    {
+      "name": "identical_80_temperature_queries",
+      "passed": true,
+      "method": "shared_joint_Tf",
+      "budget": 2
+    },
+    {
+      "name": "identical_80_temperature_queries",
+      "passed": true,
+      "method": "shared_joint_Tf_E",
+      "budget": 0
+    },
+    {
+      "name": "identical_80_temperature_queries",
+      "passed": true,
+      "method": "shared_joint_Tf_E",
+      "budget": 1
+    },
+    {
+      "name": "identical_80_temperature_queries",
+      "passed": true,
+      "method": "shared_joint_Tf_E",
+      "budget": 2
+    },
+    {
+      "name": "identical_80_temperature_queries",
+      "passed": true,
+      "method": "shared_joint_offset",
+      "budget": 0
+    },
+    {
+      "name": "identical_80_temperature_queries",
+      "passed": true,
+      "method": "shared_joint_offset",
+      "budget": 1
+    },
+    {
+      "name": "identical_80_temperature_queries",
+      "passed": true,
+      "method": "shared_joint_offset",
+      "budget": 2
+    },
+    {
+      "name": "anchor_only_common_query_ids",
+      "passed": true
+    },
+    {
+      "name": "anchor_only_inverse_T_score",
+      "passed": true,
+      "actual": 0.23052007709711475,
+      "expected": 0.2305200770971113,
+      "tolerance": 2e-10
+    }
+  ]
+}

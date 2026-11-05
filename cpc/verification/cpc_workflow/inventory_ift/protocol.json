@@ -1,0 +1,55 @@
+{
+  "kind": "inventory",
+  "held": "10.1007/s40843-022-2167-x",
+  "train_units": [
+    "10.1002/aelm.202300679",
+    "10.1007/s10853-015-9693-6",
+    "10.1063/5.0027870",
+    "related_AFRL_Cornell_Wright"
+  ],
+  "input_sha256": "2d93b0850ee6d208e698f8f8bde4f2638ac3928c28a7395369a98d0f71b87316",
+  "alpha": 0.1,
+  "starts": [
+    [
+      0.0,
+      16.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      1.0,
+      15.5,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "bounds": [
+    [
+      -6.0,
+      14.0,
+      -12.0,
+      -12.0,
+      -12.0,
+      -12.0
+    ],
+    [
+      6.0,
+      18.0,
+      12.0,
+      12.0,
+      12.0,
+      12.0
+    ]
+  ],
+  "max_nfev": 160,
+  "derivative": "IFT",
+  "tolerances": 1e-07,
+  "fd_step": 1e-05,
+  "weighting": "equal source, specimen, observation; inventory additionally equal related groups and conditional scenarios",
+  "purpose": "fresh portable fit; does not replace archived headline fits",
+  "no_query_labels_used_in_optimization": true
+}

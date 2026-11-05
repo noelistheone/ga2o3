@@ -1,0 +1,13 @@
+variant,budget,scope,conditions,nH_MAE
+BudgetSwitch_baseline,0,all_query,35,0.348942678702956
+BudgetSwitch_baseline,0,common20,20,0.347904154200242
+BudgetSwitch_baseline,1,all_query,27,0.337552384581965
+BudgetSwitch_baseline,1,common20,20,0.316187264732596
+BudgetSwitch_baseline,2,all_query,20,0.267284662470186
+BudgetSwitch_baseline,2,common20,20,0.267284662470186
+UnitDoseUnshrunk_baseline,0,all_query,35,0.688541305898972
+UnitDoseUnshrunk_baseline,0,common20,20,0.661333899589446
+UnitDoseUnshrunk_baseline,1,all_query,27,0.337552384581965
+UnitDoseUnshrunk_baseline,1,common20,20,0.316187264732596
+UnitDoseUnshrunk_baseline,2,all_query,20,0.267284662470186
+UnitDoseUnshrunk_baseline,2,common20,20,0.267284662470186

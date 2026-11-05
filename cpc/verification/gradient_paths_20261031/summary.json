@@ -1,0 +1,12 @@
+{
+  "settings": 8,
+  "energetic_coordinates": 208,
+  "derivative_comparisons": 832,
+  "max_full_gradient_error": 5.019035057612011e-07,
+  "max_frozen_gradient_error": 5.8797411384148284e-08,
+  "max_additive_error": 1.4481749133210542e-12,
+  "max_baseline_value_error": 3.552713678800501e-15,
+  "omitted_relative_min": 0.7508574276871021,
+  "omitted_relative_max": 1.000000000005734,
+  "passed": true
+}

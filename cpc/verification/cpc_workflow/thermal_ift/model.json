@@ -1,0 +1,64 @@
+{
+  "kind": "thermal",
+  "parameters": [
+    2.2291500369458603,
+    14.00000000000001,
+    -1.0659285158226917,
+    2.1086868094236317
+  ],
+  "held": "10.1063/5.0101132",
+  "training_seconds": 5.8527228478342295,
+  "training_calls": 1980,
+  "trials": [
+    {
+      "parameters": [
+        2.229150050704497,
+        14.000000000000002,
+        -1.0659254477561526,
+        2.108697323611774
+      ],
+      "loss": 25.0464011833512,
+      "success": true,
+      "message": "`ftol` termination condition is satisfied.",
+      "nfev": 9,
+      "njev": 9,
+      "seconds": 2.912131910212338,
+      "objective_evaluations": 9,
+      "physical_calls": 990
+    },
+    {
+      "parameters": [
+        2.2291500369458603,
+        14.00000000000001,
+        -1.0659285158226917,
+        2.1086868094236317
+      ],
+      "loss": 25.04640118325308,
+      "success": true,
+      "message": "`ftol` termination condition is satisfied.",
+      "nfev": 9,
+      "njev": 9,
+      "seconds": 2.939908867003396,
+      "objective_evaluations": 9,
+      "physical_calls": 990
+    }
+  ],
+  "selected_loss": 25.04640118325308,
+  "query_observation_valid": true,
+  "input_fields": [
+    "element",
+    "incorporated_cm3",
+    "Tobs_K",
+    "growth_T_C",
+    "H_known",
+    "H_cm3",
+    "scenario_pO2_atm"
+  ],
+  "model_scope": "Si/Sn incorporated chemistry with explicit input scenarios",
+  "parameter_names": [
+    "logit_Tf",
+    "log10_background",
+    "log10_E0_eV",
+    "screen_s"
+  ]
+}

@@ -1,0 +1,448 @@
+{
+  "checks": 74,
+  "passed": 74,
+  "failed": [],
+  "items": [
+    {
+      "name": "room_query_coverage",
+      "passed": true,
+      "method": "FixedNHReference",
+      "scope": "common20"
+    },
+    {
+      "name": "room_query_coverage",
+      "passed": true,
+      "method": "FixedNHReference",
+      "scope": "all35"
+    },
+    {
+      "name": "room_query_coverage",
+      "passed": true,
+      "method": "LearnedNHInventory",
+      "scope": "common20"
+    },
+    {
+      "name": "room_query_coverage",
+      "passed": true,
+      "method": "LearnedNHInventory",
+      "scope": "all35"
+    },
+    {
+      "name": "room_query_coverage",
+      "passed": true,
+      "method": "DirectQuadratic6",
+      "scope": "common20"
+    },
+    {
+      "name": "room_query_coverage",
+      "passed": true,
+      "method": "DirectQuadratic6",
+      "scope": "all35"
+    },
+    {
+      "name": "room_query_coverage",
+      "passed": true,
+      "method": "ReducedInventory6",
+      "scope": "common20"
+    },
+    {
+      "name": "room_query_coverage",
+      "passed": true,
+      "method": "ReducedInventory6",
+      "scope": "all35"
+    },
+    {
+      "name": "thermal_142_ids",
+      "passed": true,
+      "method": "fixed_joint_offset"
+    },
+    {
+      "name": "thermal_142_ids",
+      "passed": true,
+      "method": "shared_joint_offset"
+    },
+    {
+      "name": "thermal_142_ids",
+      "passed": true,
+      "method": "direct_joint_offset"
+    },
+    {
+      "name": "thermal_142_ids",
+      "passed": true,
+      "method": "ExpandedBounds"
+    },
+    {
+      "name": "paired_same_observations",
+      "passed": true,
+      "budget": 0,
+      "comparison": "Learned $-$ Ridge, zero anchors"
+    },
+    {
+      "name": "observations_inside_digitization_box",
+      "passed": true,
+      "budget": 0
+    },
+    {
+      "name": "paired_interval_contains_nominal",
+      "passed": true,
+      "comparison": "Learned $-$ Ridge, zero anchors",
+      "scope": "all_query"
+    },
+    {
+      "name": "paired_interval_contains_nominal",
+      "passed": true,
+      "comparison": "Learned $-$ Ridge, zero anchors",
+      "scope": "common80"
+    },
+    {
+      "name": "paired_same_observations",
+      "passed": true,
+      "budget": 2,
+      "comparison": "Internal $-$ shift, two anchors"
+    },
+    {
+      "name": "observations_inside_digitization_box",
+      "passed": true,
+      "budget": 2
+    },
+    {
+      "name": "paired_interval_contains_nominal",
+      "passed": true,
+      "comparison": "Internal $-$ shift, two anchors",
+      "scope": "all_query"
+    },
+    {
+      "name": "paired_interval_contains_nominal",
+      "passed": true,
+      "comparison": "Internal $-$ shift, two anchors",
+      "scope": "common80"
+    },
+    {
+      "name": "paired_same_observations",
+      "passed": true,
+      "budget": 2,
+      "comparison": "Internal $-$ Ridge, two anchors"
+    },
+    {
+      "name": "observations_inside_digitization_box",
+      "passed": true,
+      "budget": 2
+    },
+    {
+      "name": "paired_interval_contains_nominal",
+      "passed": true,
+      "comparison": "Internal $-$ Ridge, two anchors",
+      "scope": "all_query"
+    },
+    {
+      "name": "paired_interval_contains_nominal",
+      "passed": true,
+      "comparison": "Internal $-$ Ridge, two anchors",
+      "scope": "common80"
+    },
+    {
+      "name": "acquisition_full_coverage",
+      "passed": true
+    },
+    {
+      "name": "acquisition_physical_coverage",
+      "passed": true
+    },
+    {
+      "name": "acquisition_recomputed_mean",
+      "passed": true,
+      "element": "Si",
+      "policy": "energy_variance",
+      "budget": 0
+    },
+    {
+      "name": "acquisition_recomputed_mean",
+      "passed": true,
+      "element": "Si",
+      "policy": "energy_variance",
+      "budget": 1
+    },
+    {
+      "name": "acquisition_recomputed_mean",
+      "passed": true,
+      "element": "Si",
+      "policy": "energy_variance",
+      "budget": 2
+    },
+    {
+      "name": "acquisition_recomputed_mean",
+      "passed": true,
+      "element": "Si",
+      "policy": "energy_variance",
+      "budget": 3
+    },
+    {
+      "name": "acquisition_recomputed_mean",
+      "passed": true,
+      "element": "Si",
+      "policy": "energy_variance",
+      "budget": 4
+    },
+    {
+      "name": "acquisition_recomputed_mean",
+      "passed": true,
+      "element": "Si",
+      "policy": "goal",
+      "budget": 0
+    },
+    {
+      "name": "acquisition_recomputed_mean",
+      "passed": true,
+      "element": "Si",
+      "policy": "goal",
+      "budget": 1
+    },
+    {
+      "name": "acquisition_recomputed_mean",
+      "passed": true,
+      "element": "Si",
+      "policy": "goal",
+      "budget": 2
+    },
+    {
+      "name": "acquisition_recomputed_mean",
+      "passed": true,
+      "element": "Si",
+      "policy": "goal",
+      "budget": 3
+    },
+    {
+      "name": "acquisition_recomputed_mean",
+      "passed": true,
+      "element": "Si",
+      "policy": "goal",
+      "budget": 4
+    },
+    {
+      "name": "acquisition_recomputed_mean",
+      "passed": true,
+      "element": "Sn",
+      "policy": "energy_variance",
+      "budget": 0
+    },
+    {
+      "name": "acquisition_recomputed_mean",
+      "passed": true,
+      "element": "Sn",
+      "policy": "energy_variance",
+      "budget": 1
+    },
+    {
+      "name": "acquisition_recomputed_mean",
+      "passed": true,
+      "element": "Sn",
+      "policy": "energy_variance",
+      "budget": 2
+    },
+    {
+      "name": "acquisition_recomputed_mean",
+      "passed": true,
+      "element": "Sn",
+      "policy": "energy_variance",
+      "budget": 3
+    },
+    {
+      "name": "acquisition_recomputed_mean",
+      "passed": true,
+      "element": "Sn",
+      "policy": "energy_variance",
+      "budget": 4
+    },
+    {
+      "name": "acquisition_recomputed_mean",
+      "passed": true,
+      "element": "Sn",
+      "policy": "goal",
+      "budget": 0
+    },
+    {
+      "name": "acquisition_recomputed_mean",
+      "passed": true,
+      "element": "Sn",
+      "policy": "goal",
+      "budget": 1
+    },
+    {
+      "name": "acquisition_recomputed_mean",
+      "passed": true,
+      "element": "Sn",
+      "policy": "goal",
+      "budget": 2
+    },
+    {
+      "name": "acquisition_recomputed_mean",
+      "passed": true,
+      "element": "Sn",
+      "policy": "goal",
+      "budget": 3
+    },
+    {
+      "name": "acquisition_recomputed_mean",
+      "passed": true,
+      "element": "Sn",
+      "policy": "goal",
+      "budget": 4
+    },
+    {
+      "name": "capacity_130_fits",
+      "passed": true
+    },
+    {
+      "name": "capacity_derivative",
+      "passed": true
+    },
+    {
+      "name": "capacity_Hall_interpolation",
+      "passed": true
+    },
+    {
+      "name": "ten_outer_selections",
+      "passed": true
+    },
+    {
+      "name": "nested_training_score_minimized",
+      "passed": true,
+      "held": "10.1002/aelm.202300679",
+      "method": "ReducedInventory6"
+    },
+    {
+      "name": "selected_outer_fit_excludes_test_group",
+      "passed": true,
+      "held": "10.1002/aelm.202300679",
+      "method": "ReducedInventory6"
+    },
+    {
+      "name": "nested_training_score_minimized",
+      "passed": true,
+      "held": "10.1002/aelm.202300679",
+      "method": "DirectQuadratic6"
+    },
+    {
+      "name": "selected_outer_fit_excludes_test_group",
+      "passed": true,
+      "held": "10.1002/aelm.202300679",
+      "method": "DirectQuadratic6"
+    },
+    {
+      "name": "nested_training_score_minimized",
+      "passed": true,
+      "held": "10.1007/s10853-015-9693-6",
+      "method": "ReducedInventory6"
+    },
+    {
+      "name": "selected_outer_fit_excludes_test_group",
+      "passed": true,
+      "held": "10.1007/s10853-015-9693-6",
+      "method": "ReducedInventory6"
+    },
+    {
+      "name": "nested_training_score_minimized",
+      "passed": true,
+      "held": "10.1007/s10853-015-9693-6",
+      "method": "DirectQuadratic6"
+    },
+    {
+      "name": "selected_outer_fit_excludes_test_group",
+      "passed": true,
+      "held": "10.1007/s10853-015-9693-6",
+      "method": "DirectQuadratic6"
+    },
+    {
+      "name": "nested_training_score_minimized",
+      "passed": true,
+      "held": "10.1007/s40843-022-2167-x",
+      "method": "ReducedInventory6"
+    },
+    {
+      "name": "selected_outer_fit_excludes_test_group",
+      "passed": true,
+      "held": "10.1007/s40843-022-2167-x",
+      "method": "ReducedInventory6"
+    },
+    {
+      "name": "nested_training_score_minimized",
+      "passed": true,
+      "held": "10.1007/s40843-022-2167-x",
+      "method": "DirectQuadratic6"
+    },
+    {
+      "name": "selected_outer_fit_excludes_test_group",
+      "passed": true,
+      "held": "10.1007/s40843-022-2167-x",
+      "method": "DirectQuadratic6"
+    },
+    {
+      "name": "nested_training_score_minimized",
+      "passed": true,
+      "held": "10.1063/5.0027870",
+      "method": "ReducedInventory6"
+    },
+    {
+      "name": "selected_outer_fit_excludes_test_group",
+      "passed": true,
+      "held": "10.1063/5.0027870",
+      "method": "ReducedInventory6"
+    },
+    {
+      "name": "nested_training_score_minimized",
+      "passed": true,
+      "held": "10.1063/5.0027870",
+      "method": "DirectQuadratic6"
+    },
+    {
+      "name": "selected_outer_fit_excludes_test_group",
+      "passed": true,
+      "held": "10.1063/5.0027870",
+      "method": "DirectQuadratic6"
+    },
+    {
+      "name": "nested_training_score_minimized",
+      "passed": true,
+      "held": "related_AFRL_Cornell_Wright",
+      "method": "ReducedInventory6"
+    },
+    {
+      "name": "selected_outer_fit_excludes_test_group",
+      "passed": true,
+      "held": "related_AFRL_Cornell_Wright",
+      "method": "ReducedInventory6"
+    },
+    {
+      "name": "nested_training_score_minimized",
+      "passed": true,
+      "held": "related_AFRL_Cornell_Wright",
+      "method": "DirectQuadratic6"
+    },
+    {
+      "name": "selected_outer_fit_excludes_test_group",
+      "passed": true,
+      "held": "related_AFRL_Cornell_Wright",
+      "method": "DirectQuadratic6"
+    },
+    {
+      "name": "expanded_thermal_whole_source_exclusion",
+      "passed": true,
+      "held": "10.1007/s40843-022-2167-x"
+    },
+    {
+      "name": "expanded_thermal_two_converged_starts",
+      "passed": true,
+      "held": "10.1007/s40843-022-2167-x"
+    },
+    {
+      "name": "expanded_thermal_whole_source_exclusion",
+      "passed": true,
+      "held": "10.1063/5.0101132"
+    },
+    {
+      "name": "expanded_thermal_two_converged_starts",
+      "passed": true,
+      "held": "10.1063/5.0101132"
+    }
+  ]
+}

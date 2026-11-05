@@ -44,12 +44,23 @@ cpc/runs/
 cpc/replay_runs/
 cpc/**/external/KROGER/
 cpc/**/kroger_ga2o3_092724*.npz
-# The CPC release tracks source code and README only, with dependency files.
-cpc/source_data/
-cpc/verification/
+# Article inputs and saved verification records are tracked; regenerated artwork
+# and local caches remain excluded. Only the selected replay dependencies below
+# are released from the much larger historical research results tree.
 cpc/figures/
 cpc/tables/
-cpc/research/data/
-cpc/research/results/
+cpc/audit/
+cpc/research/data/**
+!cpc/research/data/physics_reference/
+!cpc/research/data/physics_reference/fermi_half_v1.npz
+cpc/research/results/**
+!cpc/research/results/**/
+!cpc/research/results/trainable_sandbox_20261017/phase29_joint_scattering/data/scenarios49.csv
+!cpc/research/results/predictive_redesign_20261019/proposal_followup_20261021_v1/overlay_nH_controls_v1/fits/*.json
+!cpc/research/results/predictive_redesign_20261019/proposal_followup_20261021_v1/constrained_block_v1/primary_fits/*.json
+!cpc/research/results/predictive_redesign_20261019/proposal_followup_20261021_v1/independent_audit_v1/*.json
+!cpc/research/results/predictive_redesign_20261019/proposal_followup_20261021_v1/independent_audit_v1/*.csv
+!cpc/research/results/predictive_redesign_20261019/proposal_followup_20261021_v1/additional_independent_audit_v1/*.json
+!cpc/research/results/predictive_redesign_20261019/targeted_closure_20261021_v1/independent_audit_v1/*.json
 cpc/**/AGENTS.md
 cpc/**/agent.md

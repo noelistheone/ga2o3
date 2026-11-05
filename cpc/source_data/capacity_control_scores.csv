@@ -1,0 +1,5 @@
+method,scope,MAE,conditions,sources,parameters
+DirectQuadratic6,all35,0.67609504985146,35,7,6
+DirectQuadratic6,common20,0.6429218459497575,20,6,6
+ReducedInventory6,all35,0.6362864084704588,35,7,6
+ReducedInventory6,common20,0.6339812725035351,20,6,6

@@ -1,0 +1,13 @@
+cohort,variant,scope,rows,conditions,paired_conditions,complete,numeric,valid,nH_MAE,mu_MAE,rho_MAE
+external3_conditional,FrozenPrimary,query,24,3,3,True,24,24,0.309659308909818,0.206783257644296,0.271834317566059
+external3_conditional,RateConstantMean,query,24,3,3,True,24,24,0.309659308909818,0.740794929734873,0.711936128215743
+external3_conditional,RateConstantMedian,query,24,3,3,True,24,24,0.309659308909818,0.607324405240992,0.578465603721862
+external3_conditional,RateFeatureRidge,query,24,3,3,True,24,24,0.309659308909818,0.740794945808841,0.711936144289711
+old_cohort_heldout,FrozenPrimary,all_query,49,35,11,True,49,49,0.34773502842024,0.824867700823475,1.06794652794895
+old_cohort_heldout,FrozenPrimary,common20,20,20,4,True,20,20,0.337721247187274,0.77784896716521,1.03735710103284
+old_cohort_heldout,RateConstantMean,all_query,49,35,11,True,49,49,0.34773502842024,1.03769387340581,1.22428428755622
+old_cohort_heldout,RateConstantMean,common20,20,20,4,True,20,20,0.337721247187274,1.26778238595184,1.52857461404905
+old_cohort_heldout,RateConstantMedian,all_query,49,35,11,True,49,49,0.34773502842024,0.918586593858177,1.08416262952114
+old_cohort_heldout,RateConstantMedian,common20,20,20,4,True,20,20,0.337721247187274,0.908365981251008,1.16915820934821
+old_cohort_heldout,RateFeatureRidge,all_query,49,35,11,True,49,49,0.34773502842024,1.19585623507965,1.36143227074262
+old_cohort_heldout,RateFeatureRidge,common20,20,20,4,True,20,20,0.337721247187274,1.34791759565064,1.60870982374784

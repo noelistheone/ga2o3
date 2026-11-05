@@ -1,0 +1,14 @@
+{
+  "created_utc": "2026-10-22T06:18:26.189535+00:00",
+  "code_hashes": {
+    "scripts/predictive_redesign_20261019/targeted_closure_audit_v1.py": "fc29139050a8eda62ed332d7e8b0bdc56ad681f69e6d14e26bf6378b38acb214",
+    "scripts/predictive_redesign_20261019/phase30_core.py": "b3b8713f6ebc27b28ede4a9628f160f74eac3f3fbdd899fde1af28d722b1ceab"
+  },
+  "input_hashes": {
+    "results/predictive_redesign_20261019/targeted_closure_20261021_v1/inventory_training_v1/predictions.csv": "bd0c74d9784e3eaf7cfaecba8e91b246312df3dba69d1d1132b9a322c1deb567",
+    "results/predictive_redesign_20261019/targeted_closure_20261021_v1/inventory_training_v1/summary.csv": "4eb552b2e9aa548f3a9624f517bf259c09a9addbc012b15932bfce367ce4371e",
+    "results/predictive_redesign_20261019/targeted_closure_20261021_v1/rate_scale_v1/predictions.csv": "57c71e769d14590abd3f64e4130555a31e660dfcd221dceee18719c85536e78e",
+    "results/predictive_redesign_20261019/targeted_closure_20261021_v1/rate_scale_v1/summary.csv": "39fa3ef19e90a78ec34d903d74c7fcfeb32d6e502b360d92b9e8768de07dba66"
+  },
+  "scope": "independent score/regression/selection/exclusion reconstruction,not material accuracy certification"
+}

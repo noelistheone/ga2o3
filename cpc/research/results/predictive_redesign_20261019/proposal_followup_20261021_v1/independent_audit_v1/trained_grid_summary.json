@@ -1,0 +1,8 @@
+{
+  "created_utc": "2026-10-22T04:36:21.149713+00:00",
+  "cases": 147,
+  "max_error_dex": 0.00010599955816459339,
+  "failed": 0,
+  "not_an_accuracy_or_Born_gate": true,
+  "full_grid_errors_reported_not_used_for_retrospective_model_selection": true
+}

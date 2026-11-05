@@ -6,6 +6,7 @@ import pandas as pd
 
 BASE = Path(__file__).resolve().parents[1]
 V = BASE/'verification/gradient_paths_20261031'
+(BASE/'tables').mkdir(exist_ok=True)
 records = pd.read_csv(V/'coordinates.csv')
 stored = pd.read_csv(V/'settings.csv')
 fd = pd.read_csv(V/'finite_differences.csv')

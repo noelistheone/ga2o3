@@ -1,0 +1,69 @@
+{
+  "held": "10.1063/5.0027870",
+  "train_units": [
+    "10.1002/aelm.202300679",
+    "10.1007/s10853-015-9693-6",
+    "10.1007/s40843-022-2167-x",
+    "related_AFRL_Cornell_Wright"
+  ],
+  "initializer": {
+    "path": "results/trainable_sandbox_20261017/phase29_joint_scattering/fits/d05f15c30e3d21a5d924e768.json",
+    "sha256": "cfd74664f98d9d193f6e8a0ee37546249fb3dfb646ba2e20d075cb61b1aeb5c8",
+    "fit_key": "d05f15c30e3d21a5d924e768",
+    "actual_initializer_config": {
+      "gamma": 0.0,
+      "alpha": 0.1
+    },
+    "same_training_groups": true,
+    "inherited_optimization_cost_not_claimed_zero": true
+  },
+  "config": {
+    "gamma": 0.0,
+    "alpha": 0.1
+  },
+  "trials": [
+    {
+      "parameters": [
+        1.5871783995275397,
+        14.000000000000002,
+        1.8394787661152805,
+        -3.7330036231799864,
+        -3.540670404502724,
+        0.1812836343290787
+      ],
+      "loss": 0.06792589344023603,
+      "success": true,
+      "nfev": 5,
+      "cap": 80,
+      "message": "`ftol` termination condition is satisfied."
+    },
+    {
+      "parameters": [
+        1.5872122847963246,
+        14.000000000000002,
+        1.8385305772932352,
+        -3.732091316946113,
+        -3.540596901666096,
+        0.18180445348506857
+      ],
+      "loss": 0.06792589263862145,
+      "success": true,
+      "nfev": 10,
+      "cap": 80,
+      "message": "`ftol` termination condition is satisfied."
+    }
+  ],
+  "failures": [],
+  "parameters": [
+    1.5872122847963246,
+    14.000000000000002,
+    1.8385305772932352,
+    -3.732091316946113,
+    -3.540596901666096,
+    0.18180445348506857
+  ],
+  "selected_success": true,
+  "training_valid": true,
+  "seconds": 17.630114504951052,
+  "objective_calls": 15
+}

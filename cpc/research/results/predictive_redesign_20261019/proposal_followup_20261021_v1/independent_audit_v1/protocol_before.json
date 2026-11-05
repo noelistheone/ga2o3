@@ -1,0 +1,15 @@
+{
+  "created_utc": "2026-10-22T04:36:03.910354+00:00",
+  "purpose": "independent aggregation,role/fit audits and grid refinement",
+  "code_hashes": {
+    "scripts/predictive_redesign_20261019/audit_proposal_followup_v1.py": "6c3f4225c9cca02b1db2614cf79584f96ddda8eeb9c438e7f583a4178e2efc00",
+    "scripts/predictive_redesign_20261019/phase30_core.py": "b3b8713f6ebc27b28ede4a9628f160f74eac3f3fbdd899fde1af28d722b1ceab"
+  },
+  "input_hashes": {
+    "results/predictive_redesign_20261019/phase35_association_spatial/related_group_heldout_v1/predictions.csv": "a1ab9ac66fe3eecb8d6333ef7f74d8e7697284f8ad61302f22d5bdb4c12d4b0e",
+    "results/predictive_redesign_20261019/phase35_association_spatial/related_group_heldout_v1/summary.csv": "fca5473a1f30f4e0859be1074098c4d22bef8a63f5cf7f05f74f5ba3ee8afa6b",
+    "results/predictive_redesign_20261019/proposal_followup_20261021_v1/constrained_block_v1/predictions.csv": "222dfd93821695f9ee45d511df67030d5fc866fc09ef0cb6cd788483637a6c63",
+    "results/predictive_redesign_20261019/proposal_followup_20261021_v1/constrained_block_v1/summary.csv": "c3a2ae68a902b5436c9ac796f0eac496c0654be6b1fc5182dcfca4ad7c10984c",
+    "results/predictive_redesign_20261019/proposal_followup_20261021_v1/profiled_adaptation_v2/predictions.csv": "433a4fa6da3ff755bb26ea2337739d4f02c6d1e0be85a78360fbbf38f9da83a5"
+  }
+}

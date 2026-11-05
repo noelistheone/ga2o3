@@ -1,0 +1,13 @@
+{
+  "room_temperature_matched_reference_common20_dex": 0.41476808105339447,
+  "room_temperature_learned_common20_dex": 0.3377212625661608,
+  "room_temperature_relative_MAE_reduction": 0.18575879390611827,
+  "temperature_fixed_common80_zero_anchor_dex": 0.8574790620463271,
+  "temperature_shared_common80_zero_anchor_dex": 0.2975494318865371,
+  "temperature_direct_ridge_common80_zero_anchor_dex": 0.32337953206215564,
+  "temperature_shared_full142_zero_anchor_dex": 0.2649145204352281,
+  "temperature_direct_ridge_full142_zero_anchor_dex": 0.3453045582377242,
+  "temperature_two_anchor_internal_common80_dex": 0.206518223464083,
+  "temperature_two_anchor_line_common80_dex": 0.2305200770971113,
+  "metrics_note": "Use exact CSV tables for final printed rounding; all scores are retrospective."
+}
